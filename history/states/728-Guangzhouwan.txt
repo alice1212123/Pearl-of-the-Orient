@@ -1,26 +1,28 @@
-state={
-	id=728
-	name="STATE_728"
-	manpower = 200000
+state = {
+	id = 728
+	name = "STATE_728"
+	manpower = 209000
 
-	state_category = enclave
+	state_category = zero
 
-	history={
-	owner = VIN
-	add_core_of = SMC
-	add_core_of = CHI
-	add_core_of = PRC
-	add_core_of = BEI
-	add_core_of = GUC
+	history = {
+		owner = GEA
+		add_core_of = GEA
+		add_claim_by = QIE
+		add_claim_by = FNG
 		buildings = {
 			infrastructure = 1
 			11981 = {
 				naval_base = 1
 			}
 		}
+		victory_points = {
+			11981 1
+		}
 	}
 
-	provinces={
+	provinces = {
 		11981
 	}
 }
+

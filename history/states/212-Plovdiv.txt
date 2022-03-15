@@ -1,29 +1,26 @@
+state = {
+	id = 212
+	name = "STATE_212"
+	manpower = 790300
+	state_category = five
+	local_supplies = 5.0
 
-state={
-	id=212
-	name="STATE_212"
-
-
-	history={
+	history = {
 		owner = BUL
+		add_core_of = BUL
 		victory_points = {
-			6923 5 
+			6923 5
 		}
 		buildings = {
-			infrastructure = 3
-			arms_factory = 3
-			industrial_complex = 2
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
 			air_base = 2
-
 		}
-		add_core_of = BUL
-
 	}
 
-	provinces={
-		878 893 3937 6857 6923 9818 9862 11813 
+	provinces = {
+		3937 6857 6923 6952 6982 9818 11813
 	}
-	manpower=1305550
-	buildings_max_level_factor=1.000
-	state_category=city
 }
+

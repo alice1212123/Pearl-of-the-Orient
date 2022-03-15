@@ -1,33 +1,28 @@
+state = {
+	id = 495
+	name = "STATE_495"
+	manpower = 408400
+	state_category = one
 
-state={
-	id=495
-	name="STATE_495"
-	resources={
-		aluminium=4.000
+	resources = {
+		aluminium = 4
 	}
 
-	history={
-		owner = FLF
+	history = {
+		owner = BRA
 		buildings = {
-			infrastructure = 0
-
+			infrastructure = 1
+			industrial_complex = 1
 		}
 		add_core_of = BRA
-		add_core_of = BMJ
-		add_core_of = UBR
-		add_core_of = SRB
-		add_core_of = BRE
-		add_core_of = BRS
-		add_core_of = FLF
-		add_core_of = GEF
 
+		victory_points = {
+			10934 10
+		}
 	}
 
-	provinces={
-		12919 14235 14242 14264 
+	provinces = {
+		1979 10934 12919 13083 13319 13325 13329 13330 13338 13339 13340 13341 13351 13353 13355 13358 13359 13363 13366 13525 13527 13535
 	}
-	manpower=26900
-	buildings_max_level_factor=1.000
-	state_category=wasteland
-	impassable = yes
 }
+

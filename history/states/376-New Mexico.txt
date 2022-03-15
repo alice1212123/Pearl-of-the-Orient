@@ -1,30 +1,27 @@
+state = {
+	id = 376
+	name = "STATE_376"
+	manpower = 485000
+	state_category = two
 
-state={
-	id=376
-	name="STATE_376"
-	resources={
-		oil=14.000
-		aluminium=30.000
+	resources = {
+		oil = 23
+		aluminium = 43
 	}
 
-	history={
+	history = {
 		owner = USA
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-
-		}
 		add_core_of = USA
 		victory_points = {
-			4975 1 
+			4975 2
 		}
-
+		buildings = {
+			infrastructure = 2
+		}
 	}
 
-	provinces={
-		1972 5044 10645 10914 12552 
+	provinces = {
+		1972 2102 3867 3883 4975 5044 8070 10642 10645 10867 10914 12552 12684 12720 12791
 	}
-	manpower=223316
-	buildings_max_level_factor=1.000
-	state_category=rural
 }
+

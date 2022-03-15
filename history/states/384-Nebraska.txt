@@ -1,12 +1,11 @@
+state = {
+	id = 384
+	name = "STATE_384"
+	manpower = 1358000
 
-state={
-	id=384
-	name="STATE_384"
-	manpower = 1377962
-	
-	state_category = large_town
+	state_category = four
 
-	history={
+	history = {
 		owner = USA
 		buildings = {
 			infrastructure = 2
@@ -14,15 +13,15 @@ state={
 		}
 		add_core_of = USA
 		victory_points = {
-			12586 2 
+			12586 1
 		}
 		victory_points = {
-			3708 1
+			10676 2
 		}
-
 	}
 
-	provinces={
-		1683 3613 3708 3855 4749 4760 4830 7840 7852 10606 10676 12516 12586 
+	provinces = {
+		1683 3613 3708 3855 4749 4760 4830 7840 7852 10606 10676 12516 12586
 	}
 }
+

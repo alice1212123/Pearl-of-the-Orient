@@ -1,28 +1,26 @@
-state=
-{
-	id=638
-	name="STATE_638"
-	state_category = small_island
-	manpower=75153
-	history=
-	{
-		owner = ANC
-		add_core_of = GUM
-		add_core_of = ANC
-		buildings = {
-			arms_factory = 1
-			infrastructure = 3
-			12140 = {
-				naval_base = 2
-				coastal_bunker = 1
-			}
-		}
+state = {
+	id = 638
+	name = "STATE_638"
+	state_category = one_island
+	manpower = 20900
+
+	history = {
+		owner = USA
+		add_core_of = USA
+		add_claim_by = JAP
 		victory_points = {
 			12140 1
-		 }
-
+		}
+		buildings = {
+			infrastructure = 2
+			12140 = {
+				naval_base = 1
+			}
+		}
 	}
-	provinces={
+
+	provinces = {
 		12140
 	}
 }
+

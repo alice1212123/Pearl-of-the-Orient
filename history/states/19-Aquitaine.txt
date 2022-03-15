@@ -1,41 +1,42 @@
+state = {
+	id = 19
+	name = "STATE_19"
+	manpower = 1643215
+	state_category = nine
 
-state={
-	id=19
-	name="STATE_19"
-	manpower = 1340400
-	resources={
-		steel=25 # was: 40
-		aluminium=11 # was: 18
+	resources = {
+		steel = 30
+		aluminium = 13
 	}
-	
-	state_category = city
 
-	history={
+	history = {
 		owner = FRA
+		add_core_of = FRA
+		add_claim_by = NFA
 		victory_points = {
-			9737 12
+			9737 20 #Bordeaux
 		}
 		victory_points = {
-			11565 1
-		}
-		victory_points = {
-			743 2
+			743 3 #Bayonne
 		}
 		buildings = {
 			infrastructure = 3
-			arms_factory = 1
-			dockyard = 1
+			arms_factory = 2
+			industrial_complex = 3
 			air_base = 3
 			9737 = {
-				naval_base = 3
+				naval_base = 2
+				coastal_bunker = 1
+			}
+			743 = {
+				naval_base = 2
 				coastal_bunker = 1
 			}
 		}
-		add_core_of = OCC
-		add_core_of = FRA
 	}
 
-	provinces={
-		743 6621 6762 6777 9710 9737 11565 
+	provinces = {
+		743 929 3740 6621 6759 6762 6775 6777 9710 9717 9737 11565 11720
 	}
 }
+

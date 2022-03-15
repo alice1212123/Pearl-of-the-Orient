@@ -1,29 +1,29 @@
+state = {
+	id = 379
+	name = "STATE_379"
+	manpower = 101000
+	state_category = one
 
-state={
-	id=379
-	name="STATE_379"
-	manpower = 91057
-	
-	state_category = rural
-	
-	resources={
-		steel=70 # was: 136
-		tungsten=32 # was: 62
-		aluminium=25 # was: 44
+	resources = {
+		steel = 113
+		tungsten = 52
+		aluminium = 37
 	}
 
-	history={
+	history = {
 		owner = USA
 		buildings = {
 			infrastructure = 2
 		}
 		add_core_of = USA
+
 		victory_points = {
-			4607 1
+			4607 2
 		}
 	}
 
-	provinces={
-		1862 4521 4607 4736 4799 4816 7756 7827 7879 10422 10591 10747 12134 12399 12425 
+	provinces = {
+		1862 4521 4607 4736 4799 4816 7756 7827 7879 10422 10591 12134 12399 12425
 	}
 }
+

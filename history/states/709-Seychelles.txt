@@ -1,25 +1,23 @@
+state = {
+	id = 709
+	name = "STATE_709"
+	manpower = 126703
 
-state={
-	id=709
-	name="STATE_709"
+	state_category = one_island
 
-	history={
-		owner = ENG
+	history = {
+		owner = GER
+
 		buildings = {
 			infrastructure = 1
 			2188 = {
 				naval_base = 1
-
 			}
-
 		}
-
 	}
 
-	provinces={
-		2188 8000 
+	provinces = {
+		2188
 	}
-	manpower=126703
-	buildings_max_level_factor=1.000
-	state_category=small_island
 }
+

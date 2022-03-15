@@ -1,33 +1,25 @@
+state = {
+	id = 153
+	name = "STATE_153"
+	manpower = 348985
+	state_category = three
+	local_supplies = 12.0
 
-state={
-	id=153
-	name="STATE_153"
-
-	history={
+	history = {
 		owner = AUS
+		add_core_of = AUS
 		victory_points = {
-			673 8 
+			11618 2
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			industrial_complex = 1
-			air_base = 2
-
+			air_base = 3
 		}
-		add_core_of = AUS
-		1938.3.12 = {
-			owner = GER
-			controller = GER
-			add_core_of = GER
-
-		}
-
 	}
 
-	provinces={
-		673 6678 6680 9633 9636 11618 11634 
+	provinces = {
+		673 6678 9633 9636 11618 11634
 	}
-	manpower=311945
-	buildings_max_level_factor=1.000
-	state_category=town
 }
+

@@ -1,43 +1,35 @@
+state = {
+	id = 231
+	name = "STATE_231"
+	manpower = 2675000
+	state_category = six
 
-state={
-	id=231
-	name="STATE_231"
-
-	history={
-		owner = SOV
+	history = {
+		owner = GEO
+		add_core_of = GEO
 		victory_points = {
-			1599 5 
+			1599 10
 		}
 		victory_points = {
-			3653 3 
+			11599 2
+		}
+		victory_points = {
+			654 1
 		}
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
+			infrastructure = 1
+			industrial_complex = 4
+			arms_factory = 2
 			air_base = 3
-			3653 = {
+			11599 = {
 				naval_base = 2
 				coastal_bunker = 1
-
 			}
-
 		}
-		add_core_of = SOV
-		add_core_of = GEO
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 3
-
-			}
-
-		}
-
 	}
 
-	provinces={
-		654 672 772 1530 1599 3653 3656 3658 4534 4605 6436 6669 6671 7454 9626 9663 9702 10403 11599 11617 11647 12309 14539 
+	provinces = {
+		654 672 772 1530 1599 3656 3658 4534 4605 6436 6669 6671 9626 9702 11599 12309
 	}
-	manpower=2949413
-	buildings_max_level_factor=1.000
-	state_category=town
 }
+

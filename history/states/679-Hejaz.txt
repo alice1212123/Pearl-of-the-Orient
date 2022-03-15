@@ -1,33 +1,30 @@
+state = {
+	id = 679
+	name = "STATE_679"
 
-state={
-	id=679
-	name="STATE_679"
-
-	history={
-		owner = HEJ
+	history = {
+		owner = TUR
 		add_core_of = HEJ
+		add_core_of = TUR
 		victory_points = {
-			12883 3
+			12883 1
 		}
 		victory_points = {
-			5037 10 
+			5037 5
 		}
 		buildings = {
 			infrastructure = 1
+			industrial_complex = 1
 			12883 = {
-				naval_base = 5
-
+				naval_base = 2
 			}
-
 		}
-		add_core_of = SAU
-
 	}
 
-	provinces={
-		1923 5006 5037 8073 12883 
+	provinces = {
+		4981 5037 12883
 	}
-	manpower=931000
-	buildings_max_level_factor=1.000
-	state_category=town
+	manpower = 754141
+	state_category = four
 }
+

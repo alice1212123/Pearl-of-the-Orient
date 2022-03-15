@@ -1,29 +1,45 @@
+state = {
+	id = 340
+	name = "STATE_340"
+	manpower = 1587998
+	state_category = four
 
-state={
-	id=340
-	name="STATE_340"
-	resources={
-		chromium=39.000
+	resources = {
+		chromium = 58
 	}
 
-	history={
+	history = {
 		owner = TUR
+		add_core_of = TUR
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-
+			arms_factory = 1
+			904 = {
+				naval_base = 1
+			}
+			9887 = {
+				coastal_bunker = 4
+				bunker = 2
+			}
+			6864 = {
+				coastal_bunker = 4
+				bunker = 2
+			}
+			11829 = {
+				bunker = 2
+			}
+			947 = {
+				bunker = 1
+			}
 		}
 		victory_points = {
-			947 1 
+			947 10
 		}
-		add_core_of = TUR
-		set_demilitarized_zone = yes
 	}
 
-	provinces={
-		785 947 3786 3851 11867 
+	provinces = {
+		785 890 904 947 3786 3851 6864 6871 6912 9799 9887 11778 11811 11829 11867
 	}
-	manpower=1026527
-	buildings_max_level_factor=1.000
-	state_category=town
 }
+

@@ -1,33 +1,28 @@
+state = {
+	id = 18
+	name = "STATE_18"
+	manpower = 840086
+	state_category = five
 
-state={
-	id=18
-	name="STATE_18"
-
-	history={
+	history = {
 		owner = FRA
+		add_core_of = FRA
+		add_claim_by = NFA
 		victory_points = {
-			9490 3
+			13011 3 #Reims
 		}
 		victory_points = {
-			13011 5 
-		}
-		victory_points = {
-			6545 1 
+			9490 1 #Troyes
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
+			air_base = 8
 			industrial_complex = 1
-			air_base = 10
-
 		}
-		add_core_of = FRA
-
 	}
 
-	provinces={
-		551 3533 3546 6531 6545 9472 9490 9505 11732 13011 
+	provinces = {
+		551 680 3533 6531 9490 9505 11732 13011 13665
 	}
-	manpower=1000000
-	buildings_max_level_factor=1.000
-	state_category=city
 }
+

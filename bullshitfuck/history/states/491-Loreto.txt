@@ -1,0 +1,27 @@
+
+state={
+	id=491
+	name="STATE_491"
+	resources={
+		rubber=15.000
+	}
+
+	history={
+		owner = PBC
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = PBC
+		add_core_of = PRU
+
+	}
+
+	provinces={
+		13896 
+	}
+	manpower=87743
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+}

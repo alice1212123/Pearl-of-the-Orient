@@ -1,43 +1,36 @@
+state = {
+	id = 592
+	name = "STATE_592"
+	manpower = 1074000
+	state_category = six
 
-state={
-	id=592
-	name="STATE_592"
-	resources={
-		tungsten=8.000
-		steel=15.000
-		chromium=3.000
+	resources = {
+		steel = 5
 	}
 
-	history={
-		owner = YUN
-		add_core_of = CHI
-		add_core_of = PRC
-		add_core_of = BEI
-		add_core_of = YUN
+	history = {
+		owner = LEP
+		add_core_of = GXC
+		add_claim_by = LEP
+		add_claim_by = QIE
+		add_claim_by = FNG
 		buildings = {
 			infrastructure = 2
-			arms_factory = 2
-			industrial_complex = 2
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
 			air_base = 3
 			1047 = {
 				naval_base = 5
-				coastal_bunker = 1
-				bunker = 1
-
 			}
-
 		}
 		victory_points = {
-			1047 20 
+			1047 10
 		}
-		
-
 	}
 
-	provinces={
-		1047 1087 1131 1187 4092 7039 7152 9963 10121 11938 11941 12077 
+	provinces = {
+		1047
 	}
-	manpower=17835200
-	buildings_max_level_factor=1.000
-	state_category=city
 }
+
