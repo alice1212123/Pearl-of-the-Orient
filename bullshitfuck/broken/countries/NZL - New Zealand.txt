@@ -1,0 +1,64 @@
+﻿capital = 284
+set_research_slots = 3
+
+set_politics = {
+	ruling_party = social_democrat
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalist = 3
+	radical_socialist = 10
+	syndicalist = 15
+	social_democrat = 47
+	social_liberal = 11
+	market_liberal = 6
+	social_conservative = 5
+	authoritarian_democrat = 2
+	paternal_autocrat = 1
+	national_populist = 0
+}
+
+add_ideas = {
+	NZL_Peter_Fraser_hog_sde
+	NZL_Frank_Langstone_for_sde
+	NZL_Arnold_H_Nordmeyer_eco_sde
+	NZL_Henry_G_R_Mason_sec_sde
+}
+
+### Country Leaders ###
+recruit_character = NZL_george_monckton_arundell
+
+recruit_character = NZL_alexander_galbraith
+recruit_character = NZL_john_a_lee
+recruit_character = NZL_fintan_p_walsh
+recruit_character = NZL_michael_joseph_savage
+#NZL_peter_fraser starts in AST
+recruit_character = NZL_eruera_tirikatene
+recruit_character = NZL_albert_ernest_davy
+recruit_character = NZL_adam_hamilton
+#NZL_sidney_holland starts in AST
+recruit_character = NZL_robert_campbell_begg
+
+### Field Marshals ###
+recruit_character = NZL_john_evelyn_duigan
+
+### Generals ###
+#NZL_bernard_freyberg starts in AST
+#NZL_william_george_stevens starts in AST
+recruit_character = NZL_george_herbert_clifton
+recruit_character = NZL_william_gentry
+recruit_character = NZL_james_hargest
+recruit_character = NZL_edward_puttick
+recruit_character = NZL_andrew_hamilton_russell
+recruit_character = NZL_harold_eric_barrowclough
+
+### Admirals ###
+recruit_character = NZL_james_william_rivett_carnac
+recruit_character = NZL_peter_phipps
+recruit_character = NZL_william_edward_parry
+recruit_character = NZL_george_haines_faulkner
+
+### Event Targets ###

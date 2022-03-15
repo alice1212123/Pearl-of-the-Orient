@@ -1,0 +1,98 @@
+﻿capital = 686
+set_research_slots = 2
+set_naval_oob = "PUE_naval"
+set_convoys = 5
+
+set_technology = {
+	### Tanks ###
+	### Infantry ###
+	infantry_weapons = 1
+	gw_artillery = 1
+	marines = 1
+	### Air ###
+	early_fighter = 1
+}
+
+### Navy - MtG ###
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_naval_mines = 1
+		early_ship_hull_cruiser = 1
+
+		## Modules##
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		basic_battery = 1
+		basic_secondary_battery = 1
+	}
+}
+
+### Navy - Non MtG ###
+
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		early_destroyer = 1
+		early_light_cruiser = 1
+	}
+}
+
+add_ideas = {
+	PUE_economic_disaster
+	PUE_Blanton_C_Winship_hog_pau
+	PUE_Santiago_Iglesias_Pantin_sec_sde
+	PUE_Antonio_Rafael_Barcelo_sec_sli
+	PUE_Pedro_Albizu_Campos_sec_npo
+}
+
+
+set_politics = {
+	ruling_party = social_liberal
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalist = 2
+	radical_socialist = 3
+	syndicalist = 5
+	social_democrat = 13
+	social_liberal = 41
+	market_liberal = 21
+	social_conservative = 10
+	authoritarian_democrat = 3
+	paternal_autocrat = 2
+	national_populist = 0
+}
+
+### Country Leaders ###
+recruit_character = PUE_santiago_iglesias_pantin
+recruit_character = PUE_cesar_andreu_iglesias
+recruit_character = PUE_bolivar_pagan_lucca
+recruit_character = PUE_antonio_rafael_barcelo
+recruit_character = PUE_ernesto_ramos_antonini
+recruit_character = PUE_luis_munoz_marin
+recruit_character = PUE_gobierno_de_la_fortaleza
+recruit_character = PUE_jose_coll_y_cuchi
+recruit_character = PUE_blanton_winship
+recruit_character = PUE_pedro_albizu_campos
+
+### Field Marshals ###
+recruit_character = PUE_luis_raul_esteves
+
+### Corps Commanders ###
+recruit_character = PUE_salvador_teodoro_roig_marietti
+recruit_character = PUE_carlos_betances_ramirez
+
+### Character Flags ###
+every_unit_leader = { set_character_flag = PUE_leader }

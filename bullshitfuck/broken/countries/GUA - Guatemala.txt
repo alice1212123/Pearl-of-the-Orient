@@ -1,0 +1,121 @@
+﻿capital = 313
+oob = "GUA"
+set_research_slots = 2
+set_stability = 0.47
+set_war_support = 0.35
+
+set_technology = {
+	### Infantry ###
+	infantry_weapons = 1
+	gw_artillery = 1
+
+	### Air ###
+	early_fighter = 1
+}
+
+### Navy - MtG ###
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_naval_mines = 1
+		early_ship_hull_cruiser = 1
+
+		## Modules##
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_secondary_battery = 1
+
+		### Transport ###
+		mtg_transport = 1
+	}
+}
+
+### Navy - Non MtG ###
+
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		early_destroyer = 1
+		early_light_cruiser = 1
+
+		### Transport ###
+		transport = 1
+	}
+}
+
+activate_targeted_decision = { decision = CEN_unite_central_america target = THIS }
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalist = 1
+	syndicalist = 3
+	radical_socialist = 15
+	social_democrat = 12
+	social_liberal = 1
+	market_liberal = 1
+	social_conservative = 18
+	authoritarian_democrat = 30
+	paternal_autocrat = 19
+	national_populist = 0
+}
+
+set_convoys = 20
+
+add_ideas = {
+	CEN_monroe_doctrine
+	GUA_socialist_compensation
+	GUA_united_fruit
+	limited_conscription
+	GUA_illiteracy
+
+	GUA_Jorge_Ubico_hog_pau
+	GUA_Jose_Maria_Reina_for_ade
+	GUA_R_Felipe_Solares_eco_ade
+	GUA_Manuel_Maria_Orellana_Contreras_sec_ade
+}
+
+country_event = { id = guatemala.1 days = 1 }
+set_variable = { var = UFC_power value = 50 }
+CA_SET_UFC_VAR = yes
+add_dynamic_modifier = {
+	modifier = CEN_united_fruit_land
+}
+
+set_country_flag = Juan_Jose_Arevalo_dead
+
+recruit_character = GUA_silverio_ortiz
+recruit_character = GUA_juan_jose_arevalo_bermejo
+recruit_character = GUA_lazaro_chacon_gonzalez
+recruit_character = GUA_jose_azmitia_gonzalez
+recruit_character = GUA_julio_domingo_bianchi_smout
+recruit_character = GUA_jose_maria_orellana
+recruit_character = GUA_jorge_ubico_castaneda
+recruit_character = GUA_jacobo_arbenz
+
+GUA_silverio_ortiz = { set_character_flag = GUA_leader }
+GUA_juan_jose_arevalo_bermejo = { set_character_flag = GUA_leader }
+GUA_lazaro_chacon_gonzalez = { set_character_flag = GUA_leader }
+GUA_jose_azmitia_gonzalez = { set_character_flag = GUA_leader }
+GUA_julio_domingo_bianchi_smout = { set_character_flag = GUA_leader }
+GUA_jose_maria_orellana = { set_character_flag = GUA_leader }
+GUA_jorge_ubico_castaneda = { set_character_flag = GUA_leader }
+
+random_character = {
+	limit = { is_character = GUA_jacobo_arbenz }
+	save_global_event_target_as = GUA_jacobo_arbenz_target
+	set_nationality = XXA
+}

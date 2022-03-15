@@ -1,0 +1,395 @@
+﻿capital = 289
+oob = "SIA"
+set_naval_oob = "SIA_naval"
+
+# Kaiserreich Siam
+
+set_technology = {
+	### Infantry ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_engineers = 1
+	motorised_infantry = 1
+	marines = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+
+	### Air ###
+	early_fighter = 1 #Prajadhipok
+	early_bomber = 1 #Boripatr
+	CAS1 = 1
+
+	### Trains ###
+	basic_train = 1
+}
+
+### Tanks - NSB ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+	}
+}
+
+### Tanks - non NSB ###
+if = {
+	limit = { NOT = { has_dlc = "No Step Back" } }
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+	}
+}
+
+### Navy - MtG ###
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+
+		## Modules##
+		basic_torpedo = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_secondary_battery = 1
+		improved_secondary_battery = 1
+		basic_medium_battery = 1
+		smoke_generator = 1
+		basic_depth_charges = 1
+		basic_naval_mines = 1
+		basic_cruiser_armor_scheme = 1
+
+		### Transport ###
+		mtg_transport = 1
+	}
+}
+
+### Navy - Non MtG ###
+
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		early_destroyer = 1
+		basic_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+		early_submarine = 1
+		basic_submarine = 1
+
+		### Transport ###
+		transport = 1
+	}
+}
+
+set_stability = 0.55
+set_war_support = 0.60
+
+set_research_slots = 3
+set_convoys = 50
+
+BRM = { embargo_ROOT = yes }
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1868.10.1" # Rama V Coronation date here
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalist = 3
+	radical_socialist = 12
+	syndicalist = 6
+	social_democrat = 4
+	social_liberal = 5
+	market_liberal = 0
+	social_conservative = 3
+	authoritarian_democrat = 47
+	paternal_autocrat = 11
+	national_populist = 9
+}
+
+add_ideas = {
+	# Ministers + ideas
+	SIA_King_Prajadhipok_hog_ade
+	SIA_Traitotphrapan_Tevakul_for_ade
+	SIA_Narisara_Nuwattiwong_eco_ade
+	SIA_Paribatra_Sukhumbhand_sec_ade
+	limited_conscription
+
+	SIA_bloated_bureaucracy
+}
+
+### Country events
+# Preexisting Content Trigger
+country_event = { id = siam.1 hours = 2 }	#1936 Situation
+country_event = { id = siam.9 days = 153 random = 648 } # Khana Ratsadon Coup?
+country_event = { id = siam.12 days = 203 random = 216 } # Pridi and his Yellow Cover Book
+country_event = { id = siam.61 days = 523 } # "Behind the Painting" Novel
+country_event = { id = siam.65 days = 1187 } # Sor Setthabut's New EN-TH Dict
+country_event = { id = siam.64 days = 5523 } # "Sunset over Chao Phraya" Novel
+country_event = { id = siam.52 days = 6884 } # Phibunsongkhram dead
+
+# Legacy Content Trigger
+country_event = { id = siam.6013 days = 1948 } # Death of Rama VII
+country_event = { id = siam.6014 days = 1993 } # Paribatra Sukhumbhand reacts
+country_event = { id = siam.6033 days = 3018 } # Death of Paribatra Sukhumbhand
+country_event = { id = siam.6015 days = 3798 } # Death of Rama VIII
+country_event = { id = siam.6034 days = 8649 } # Death of Chumbhotbongs Paribatra
+
+### Country Leaders ###
+recruit_character = SIA_prajadhipok
+recruit_character = SIA_ananda_mahidol
+recruit_character = SIA_bhumibol_adulyadej
+recruit_character = SIA_chula_chakrabongse
+recruit_character = SIA_paribatra_sukhumbhand
+recruit_character = SIA_chumbhotbongs_paribatra
+recruit_character = SIA_sukhumabhinanda
+
+recruit_character = SIA_supha_sirimanon
+recruit_character = SIA_pridi_phanomyong
+recruit_character = SIA_thawan_thamrongnawasawat
+recruit_character = SIA_pote_sarasin
+recruit_character = SIA_seni_pramoj
+recruit_character = SIA_plaek_phibunsongkhram
+recruit_character = SIA_phao_sriyanond
+recruit_character = SIA_sarit_thanarat
+
+### Field Marshals ###
+#SIA_plaek_phibunsongkhram defined above
+recruit_character = SIA_prince_boworadet
+recruit_character = SIA_jarun_seriroengrit
+
+### Generals ###
+recruit_character = SIA_phot_phahonyothin
+recruit_character = SIA_din_tharab
+recruit_character = SIA_sala_emasiri
+recruit_character = SIA_wan_chuthin
+recruit_character = SIA_phin_choonhavan
+recruit_character = SIA_thep_panthumasaen
+recruit_character = SIA_adul_adulyadejchrat
+recruit_character = SIA_pichit_kriengsakpichit
+recruit_character = SIA_karj_karjsongkhram
+recruit_character = SIA_mangkorn_promyothee
+
+### Admirals ###
+#SIA_thawan_thamrongnawasawat defined above
+recruit_character = SIA_sindhu_kamolnawin
+recruit_character = SIA_thongdee_suwanprueng
+recruit_character = SIA_bunchai_sawathasuk
+recruit_character = SIA_mongkol_mongkolnawin
+
+### Event Targets ###
+
+# Country Leaders
+random_character = {
+	limit = { is_character = SIA_prajadhipok }
+	save_global_event_target_as = SIA_prajadhipok_target
+}
+random_character = {
+	limit = { is_character = SIA_ananda_mahidol }
+	save_global_event_target_as = SIA_ananda_mahidol_target
+}
+random_character = {
+	limit = { is_character = SIA_bhumibol_adulyadej }
+	save_global_event_target_as = SIA_bhumibol_adulyadej_target
+}
+random_character = {
+	limit = { is_character = SIA_chula_chakrabongse }
+	save_global_event_target_as = SIA_chula_chakrabongse_target
+}
+random_character = {
+	limit = { is_character = SIA_paribatra_sukhumbhand }
+	save_global_event_target_as = SIA_paribatra_sukhumbhand_target
+}
+random_character = {
+	limit = { is_character = SIA_chumbhotbongs_paribatra }
+	save_global_event_target_as = SIA_chumbhotbongs_paribatra_target
+}
+random_character = {
+	limit = { is_character = SIA_sukhumabhinanda }
+	save_global_event_target_as = SIA_sukhumabhinanda_target
+}
+random_character = {
+	limit = { is_character = SIA_supha_sirimanon }
+	save_global_event_target_as = SIA_supha_sirimanon_target
+}
+random_character = {
+	limit = { is_character = SIA_pridi_phanomyong }
+	save_global_event_target_as = SIA_pridi_phanomyong_target
+}
+random_character = {
+	limit = { is_character = SIA_thawan_thamrongnawasawat }
+	set_character_flag = SIA_parliamentarian
+	save_global_event_target_as = SIA_thawan_thamrongnawasawat_target
+}
+random_character = {
+	limit = { is_character = SIA_pote_sarasin }
+	save_global_event_target_as = SIA_pote_sarasin_target
+}
+random_character = {
+	limit = { is_character = SIA_seni_pramoj }
+	save_global_event_target_as = SIA_seni_pramoj_target
+}
+random_character = {
+	limit = { is_character = SIA_plaek_phibunsongkhram }
+	set_character_flag = SIA_government
+	save_global_event_target_as = SIA_plaek_phibunsongkhram_target
+}
+random_character = {
+	limit = { is_character = SIA_phao_sriyanond }
+	save_global_event_target_as = SIA_phao_sriyanond_target
+}
+random_character = {
+	limit = { is_character = SIA_sarit_thanarat }
+	save_global_event_target_as = SIA_sarit_thanarat_target
+}
+
+# Government Generals
+#Phibun defined above
+random_unit_leader = {
+	limit = { is_character = SIA_phin_choonhavan }
+	set_character_flag = SIA_government
+	save_global_event_target_as = SIA_phin_choonhavan_target
+}
+random_unit_leader = {
+	limit = { is_character = SIA_phot_phahonyothin }
+	set_character_flag = SIA_government
+	save_global_event_target_as = SIA_phot_phahonyothin_target
+}
+
+# Parliamentarian Generals
+random_unit_leader = {
+	limit = { is_character = SIA_thep_panthumasaen }
+	set_character_flag = SIA_parliamentarian
+	save_global_event_target_as = SIA_thep_panthumasaen_target
+}
+random_unit_leader = {
+	limit = { is_character = SIA_adul_adulyadejchrat }
+	set_character_flag = SIA_parliamentarian
+	save_global_event_target_as = SIA_adul_adulyadejchrat_target
+}
+random_unit_leader = {
+	limit = { is_character = SIA_karj_karjsongkhram }
+	set_character_flag = SIA_parliamentarian
+	save_global_event_target_as = SIA_karj_karjsongkhram_target
+}
+random_unit_leader = {
+	limit = { is_character = SIA_wan_chuthin }
+	set_character_flag = SIA_parliamentarian
+	save_global_event_target_as = SIA_wan_chuthin_target
+}
+
+# Neutral Generals
+random_unit_leader = {
+	limit = { is_character = SIA_jarun_seriroengrit }
+	set_character_flag = SIA_neutral
+	save_global_event_target_as = SIA_jarun_seriroengrit_target
+}
+random_unit_leader = {
+	limit = { is_character = SIA_pichit_kriengsakpichit }
+	set_character_flag = SIA_neutral
+	save_global_event_target_as = SIA_pichit_kriengsakpichit_target
+}
+random_unit_leader = {
+	limit = { is_character = SIA_mangkorn_promyothee }
+	set_character_flag = SIA_neutral
+	save_global_event_target_as = SIA_mangkorn_promyothee_target
+}
+
+# Royalist Generals
+random_unit_leader = {
+	limit = { is_character = SIA_din_tharab }
+	set_character_flag = SIA_royalist
+	save_global_event_target_as = SIA_din_tharab_target
+}
+random_unit_leader = {
+	limit = { is_character = SIA_prince_boworadet }
+	set_character_flag = SIA_royalist
+	save_global_event_target_as = SIA_prince_boworadet_target
+}
+random_unit_leader = {
+	limit = { is_character = SIA_sala_emasiri }
+	set_character_flag = SIA_royalist
+	save_global_event_target_as = SIA_sala_emasiri_target
+}
+
+# Government Admirals
+random_unit_leader = {
+	limit = { is_character = SIA_sindhu_kamolnawin }
+	set_character_flag = SIA_government
+	save_global_event_target_as = SIA_sindhu_kamolnawin_target
+}
+
+# Parliamentarian Admirals
+# Thawan defined above
+random_navy_leader = {
+	limit = { is_character = SIA_mongkol_mongkolnawin }
+	set_character_flag = SIA_parliamentarian
+	save_global_event_target_as = SIA_mongkol_mongkolnawin_target
+}
+
+# Royalist Admirals
+random_navy_leader = {
+	limit = { is_character = SIA_thongdee_suwanprueng }
+	set_character_flag = SIA_royalist
+	save_global_event_target_as = SIA_thongdee_suwanprueng_target
+}
+random_navy_leader = {
+	limit = { is_character = SIA_bunchai_sawathasuk }
+	set_character_flag = SIA_royalist
+	save_global_event_target_as = SIA_bunchai_sawathasuk_target
+}
+
+### Operatives ###
+if = {
+	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = "Jumkad Plangkoon"
+		GFX = GFX_portrait_kr_jumkad_plangkoon
+		traits = {
+			operative_well_groomed
+		}
+		bypass_recruitment = yes
+		available_to_spy_master = yes
+		nationalities = { SIA }
+	}
+	create_operative_leader = {
+		name = "Puey Ungphakorn"
+		GFX = GFX_portrait_kr_puey_ungphakorn
+		traits = {
+			operative_linguist
+		}
+		bypass_recruitment = yes
+		available_to_spy_master = yes
+		nationalities = { SIA }
+	}
+}
+
+### Imports ###
+create_import = {
+	resource = aluminium
+	amount = 8
+	exporter = DEI
+}
+create_import = {
+	resource = oil
+	amount = 8
+	exporter = DEI
+}
+

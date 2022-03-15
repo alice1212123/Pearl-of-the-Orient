@@ -1,0 +1,25 @@
+﻿capital = 427
+set_war_support = 0.20
+set_stability = 0.40
+
+set_politics = {
+	ruling_party = paternal_autocrat
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalist = 2
+	radical_socialist = 15
+	syndicalist = 0
+	social_democrat = 10
+	social_liberal = 10
+	market_liberal = 3
+	social_conservative = 12
+	authoritarian_democrat = 10
+	paternal_autocrat = 30
+	national_populist = 8
+}
+
+# All characters are transferred into HYD from PRF in the on_annex action in the India file

@@ -1,0 +1,99 @@
+﻿capital = 602
+
+oob = "HNN_Collapse"
+
+set_technology = {
+	### Infantry ###
+	infantry_weapons = 1
+	tech_support = 1
+	tech_engineers = 1
+	gw_artillery = 1
+	### Air ###
+	early_fighter = 1
+	early_bomber = 1
+}
+
+### Tanks - NSB ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+	set_technology = {
+		gwtank_chassis = 1
+	}
+}
+
+### Tanks - non NSB ###
+if = {
+	limit = { NOT = { has_dlc = "No Step Back" } }
+	set_technology = {
+		gwtank = 1
+	}
+}
+
+add_offsite_building = {
+	type = industrial_complex
+	level = 2
+}
+
+add_opinion_modifier = { target = JAP modifier = embargo }
+add_opinion_modifier = { target = FNG modifier = embargo }
+
+set_research_slots = 2
+set_convoys = 10
+
+set_politics = {
+	ruling_party = social_conservative
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalist = 0
+	radical_socialist = 1
+	syndicalist = 0
+	social_democrat = 25
+	social_liberal = 16
+	market_liberal = 3
+	social_conservative = 42
+	authoritarian_democrat = 11
+	paternal_autocrat = 0
+	national_populist = 2
+}
+
+add_ideas = {
+	HNN_economic_downturn1
+	HNN_weak_military
+	HNN_a_democratic_province
+
+	HNN_Zhao_Hengti_hog_sco
+	HNN_Huang_Shiheng_for_sco
+	HNN_Hu_Shuhua_eco_sco
+	HNN_Yi_Peiji_sec_sco
+}
+
+### Country Leaders ###
+recruit_character = HNN_tang_shengzhi
+recruit_character = HNN_zhao_hengti
+
+CHI = {
+	recruit_character = HNN_cheng_qian
+	random_character = {
+		limit = { is_character = HNN_cheng_qian }
+		save_global_event_target_as = HNN_cheng_qian_target
+	}
+}
+
+### Generals ###
+recruit_character = HNN_tang_shengming
+recruit_character = HNN_he_yaozu
+recruit_character = HNN_peng_dehuai
+recruit_character = HNN_he_jian
+recruit_character = HNN_song_xilian
+recruit_character = HNN_he_long
+recruit_character = HNN_teng_daiyuan
+
+### Event Targets ###
+random_character = {
+	limit = { is_character = HNN_zhao_hengti }
+	save_global_event_target_as = HNN_zhao_hengti_target
+}

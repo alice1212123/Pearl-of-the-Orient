@@ -1,0 +1,30 @@
+﻿capital = 505
+set_research_slots = 2
+
+set_politics = {
+	ruling_party = social_liberal
+	last_election = "1836.6.15"
+	election_frequency = 100
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalist = 0
+	radical_socialist = 10
+	syndicalist = 5
+	social_democrat = 9
+	social_liberal = 45
+	market_liberal = 2
+	social_conservative = 9
+	authoritarian_democrat = 8
+	paternal_autocrat = 5
+	national_populist = 7
+}
+
+recruit_character = GOY_heitor_ferreira_lima
+recruit_character = GOY_joao_ponce_de_arruda
+recruit_character = GOY_dom_francisco_de_aquino_correia
+recruit_character = GOY_antonio_ramos_caiado
+recruit_character = GOY_ramiro_noronha
+recruit_character = GOY_leonidas_de_antero_matos
+recruit_character = GOY_jari_gomes

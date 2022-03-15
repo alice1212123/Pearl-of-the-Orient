@@ -1,0 +1,69 @@
+﻿capital = 292
+oob = "SAU"
+set_convoys = 20
+set_research_slots = 2
+set_technology = {
+	### Infantry ###
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	camelry = 1
+	### Air ###
+	early_fighter = 1
+}
+
+country_event = { id = saud.1 days = 1 } #Intro event
+
+set_war_support = 0.6
+
+set_politics = {
+	ruling_party = paternal_autocrat
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalist = 0
+	radical_socialist = 2
+	syndicalist = 0
+	social_democrat = 4
+	social_liberal = 6
+	market_liberal = 3
+	social_conservative = 4
+	authoritarian_democrat = 18
+	paternal_autocrat = 55
+	national_populist = 8
+}
+
+add_ideas = {
+	SAU_backwards_economy
+	SAU_illiterate_populace
+	extensive_conscription
+	war_economy
+	SAU_Prince_Abdul_Aziz_bin_Musaed_Bin_Jalawi_bin_Turki_bin_Abdullah_Al_Saud_hog_pau
+	SAU_Faisal_bin_Abdulaziz_for_pau
+	SAU_Muhammad_bin_Abdulaziz_Al_Saud_eco_pau
+	SAU_Bandar_bin_Abdulaziz_Al_Saud_sec_pau
+}
+
+recruit_character = SAU_abdulaziz_ibn_saud
+
+recruit_character = SAU_saud_bin_abdulaziz_al_saud
+
+recruit_character = SAU_abdallah_bin_abdul_rahman_al_saud
+recruit_character = SAU_rashid_bin_abdul_aziz_bin_saud_bin_mohammed_al_saud
+recruit_character = SAU_saad_bin_abdulaziz_al_saud
+recruit_character = SAU_khalid_bin_abdulaziz_al_Saud
+
+recruit_character = SAU_sheikh_ghadban
+
+### Characters Recruited by Effect ###
+SAU_sheikh_ghadban = { set_nationality = XXA }
+
+recruit_character = IKH_faisal_al_duwaish
+
+random_character = {
+	limit = { is_character = IKH_faisal_al_duwaish }
+	save_global_event_target_as = IKH_faisal_al_duwaish_target
+}

@@ -1,0 +1,41 @@
+﻿capital = 165
+set_research_slots = 3
+set_cosmetic_tag = CNT_FAI
+
+set_politics = {
+	ruling_party = radical_socialist
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalist = 8
+	radical_socialist = 55
+	syndicalist = 12
+	social_democrat = 3
+	social_liberal = 3
+	market_liberal = 7
+	social_conservative = 0
+	authoritarian_democrat = 10
+	paternal_autocrat = 0
+	national_populist = 2
+}
+
+recruit_character = SWF_francesc_sureda_i_blanes
+recruit_character = SWF_juan_iii
+recruit_character = SWF_niceto_alcala_zamora
+recruit_character = SWF_josep_tarradellas
+recruit_character = SWF_manuel_azana_diaz
+recruit_character = SWF_augusto_barcia_trelles
+recruit_character = SWF_comite_central_de_la_cnt_fai
+recruit_character = SWF_julian_besteiro_fernandez
+recruit_character = SWF_diaz_ramos
+recruit_character = SWF_dolores_ibarruri_gomez
+
+recruit_character = SWF_fernandez_osorio_y_tafall
+recruit_character = SWF_domenec_batet
+recruit_character = SWF_buenaventura_durruti
+recruit_character = SWF_jose_riquelme_y_lopez_bago
+recruit_character = SWF_emilio_herrera_linares
+recruit_character = SWF_vicente_rojo_lluch

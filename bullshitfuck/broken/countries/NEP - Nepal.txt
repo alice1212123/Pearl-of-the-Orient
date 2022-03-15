@@ -1,0 +1,57 @@
+﻿capital = 323
+oob = "NEP"
+set_research_slots = 2
+set_technology = {
+	### Infantry ###
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+
+set_war_support = 0.25
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalist = 0
+	radical_socialist = 0
+	syndicalist = 2
+	social_democrat = 4
+	social_liberal = 6
+	market_liberal = 8
+	social_conservative = 12
+	authoritarian_democrat = 41
+	paternal_autocrat = 19
+	national_populist = 8
+}
+
+add_ideas = {
+	NEP_Dhammalok_Mahasthavir_hog_ade
+	NEP_Dharmaditya_Dharmacharya_for_ade
+	NEP_Triratna_Man_Tuladhar_eco_ade
+	NEP_Jagat_Sundar_Malla_sec_ade
+
+	isolation
+	limited_exports
+}
+
+country_event = { id = delhi.200 days = 639 random_days = 30 } # Long Night of the Festival of Lights
+
+# Country Leader #
+recruit_character = NEP_dhammalok_mahasthavir
+recruit_character = NEP_tribhuvan
+recruit_character = NEP_subarna_shamsher_rana
+recruit_character = NEP_matrika_prasad_koirala
+recruit_character = NEP_tanka_prasad_acharya
+recruit_character = NEP_bishweshwar_prasad_koirala
+recruit_character = NEP_kunwar_inderjit_singh
+# Field Marshal #
+recruit_character = NEP_juddha_shumsher_jang_bahadur_rana
+# Corp Commander #
+recruit_character = NEP_kaiser_shumsher_jang_bahadur_rana
+recruit_character = NEP_mutilal_gurung
+

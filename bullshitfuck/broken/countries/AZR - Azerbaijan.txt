@@ -1,0 +1,60 @@
+﻿capital = 229
+oob = "AZR"
+set_research_slots = 3
+set_war_support = 0.2
+
+set_technology = {
+	### Infantry ###
+	infantry_weapons = 1
+	tech_support = 1
+	tech_mountaineers = 1
+	tech_engineers = 1
+}
+
+add_ideas = {
+	AZR_Nasib_Yusifbeyli_hog_sco
+	AZR_Mammad_Yusif_Jafarov_for_sco
+	AZR_Abdulali_bey_Amirjanov_eco_sco
+	AZR_Behbud_Khan_Javanshir_sec_sco
+}
+
+set_politics = {
+	ruling_party = social_conservative
+	last_election = "1933.11.16"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	totalist = 1
+	syndicalist = 0
+	radical_socialist = 7
+	social_democrat = 20
+	social_liberal = 16
+	market_liberal = 5
+	social_conservative = 32
+	authoritarian_democrat = 15
+	paternal_autocrat = 4
+	national_populist = 0
+}
+
+### Relations ###
+GER = { give_guarantee = AZR }
+add_to_array = { AZR.guarantor_array = GER }
+give_military_access = GER
+
+### Country Leaders ###
+recruit_character = AZR_mir_jafar_baghirov
+recruit_character = AZR_aliheydar_garayev
+recruit_character = AZR_alsan_bey_sefikurdski
+recruit_character = AZR_javad_bey_malikyaganov
+recruit_character = AZR_yevsey_gindes
+recruit_character = AZR_behbud_khan_javanshir
+recruit_character = AZR_mammad_yusif_jafarov
+recruit_character = AZR_aliagha_shikhlinski
+recruit_character = AZR_eldar_salmanov
+
+### Generals ###
+recruit_character = AZR_qara_qarabeyov
+recruit_character = AZR_habib_bey_salimov
+recruit_character = AZR_jamshid_nakhchivanski
+

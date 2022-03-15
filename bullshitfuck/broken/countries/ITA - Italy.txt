@@ -1,0 +1,207 @@
+﻿capital = 159
+oob = "ITA"
+set_naval_oob = "ITA_naval"
+set_research_slots = 3
+set_convoys = 60
+set_stability = 0.55
+set_war_support = 0.20
+starting_train_buffer = 1
+
+set_country_flag = Italo_Balbo_dead
+
+### Starting Technologies ###
+set_technology = {
+	### Infantry ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+	naval_bomber1 = 1
+	CAS1 = 1
+
+	### Trains ###
+	basic_train = 1
+}
+
+### Tanks - NSB ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+	}
+}
+
+### Tanks - non NSB ###
+if = {
+	limit = { NOT = { has_dlc = "No Step Back" } }
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+	}
+}
+
+### Navy - MtG ###
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_naval_mines = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+
+		## Modules##
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_secondary_battery = 1
+		improved_ship_torpedo_launcher = 1
+		basic_cruiser_armor_scheme = 1
+		submarine_mine_laying = 1
+
+		### Transport ###
+		mtg_transport = 1
+	}
+}
+
+### Navy - Non MtG ###
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		early_destroyer = 1
+		basic_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_submarine = 1
+		basic_submarine = 1
+		early_heavy_cruiser = 1
+		basic_heavy_cruiser = 1
+		early_battleship = 1
+		basic_battleship = 1
+
+		### Transport ###
+		transport = 1
+	}
+}
+
+country_event = { id = ita.1 days = 1 }
+country_event = { id = ita.103 days = 481 }
+country_event = { id = ita.104 days = 158 }
+country_event = { id = ita.108 days = 103 }
+country_event = { id = ita.109 days = 141 }
+country_event = { id = ita.16 days = 2617 random_days = 35 } #Partito Liberale Democratico Leadership Conference
+country_event = { id = ita.17 days = 2677 random_days = 35 } #Partito Repubblicano Italiano Leadership Conference
+country_event = { id = ita.106 days = 4243 random_days = 5 } #Anniversary of the Golden Ambrosian Republic
+
+759 = {
+	state_event = { id = ita.105 days = 290 trigger_for = owner }
+}
+
+VNC = {
+	country_event = { id = venice.37 days = 476 random_days = 80 } #Sebastiano Venier Naval Military School
+	country_event = { id = venice.36 days = 841 random_days = 90 } #Ponte della Liberta
+}
+
+set_politics = {
+	ruling_party = social_liberal
+	last_election = "1932.05.01"
+	election_frequency = 60
+	elections_allowed = yes
+}
+
+set_popularities = {
+	totalist = 0
+	radical_socialist = 0
+	syndicalist = 2
+	social_democrat = 4
+	social_liberal = 31
+	market_liberal = 11
+	social_conservative = 18
+	authoritarian_democrat = 13
+	paternal_autocrat = 3
+	national_populist = 18
+}
+
+add_ideas = {
+	ITA_republic_federation
+	ITA_Carlo_Rosselli_hog_sde
+	ITA_Aldo_Garosci_for_sli
+	ITA_Mario_Bracci_eco_sli
+	ITA_Enrico_Martino_sec_sli
+}
+
+# Country Leaders
+recruit_character = ITA_italo_balbo
+recruit_character = ITA_pietro_ferdinando
+recruit_character = ITA_adriano_visconti
+recruit_character = ITA_emilio_de_bono
+recruit_character = ITA_giovanni_gronchi
+recruit_character = ITA_luigi_einaudi
+recruit_character = ITA_marcello_soleri
+recruit_character = ITA_ivanoe_bonomi
+recruit_character = ITA_ferruccio_parri
+recruit_character = ITA_carlo_rosselli
+# Army Officers
+recruit_character = ITA_rodolfo_graziani
+recruit_character = ITA_ettore_bastico
+recruit_character = ITA_annibale_bergonzoli
+recruit_character = ITA_alberto_pariani
+recruit_character = ITA_sebastiano_visconti_prasca
+recruit_character = ITA_arnaldo_azzi
+recruit_character = ITA_enrico_riccardi
+recruit_character = ITA_gabriele_nasci
+recruit_character = ITA_italo_gariboldi
+recruit_character = ITA_venanzio_gabrotti
+recruit_character = ITA_fedele_de_giorgis
+# Navy Officers
+recruit_character = ITA_alberto_da_zara
+recruit_character = ITA_gino_pavesi
+recruit_character = ITA_raffaele_de_courten
+recruit_character = ITA_carlo_bergamini
+recruit_character = ITA_costanzo_ciano
+recruit_character = ITA_giovanni_galati
+
+random_character = {
+	limit = { is_character = ITA_carlo_bergamini }
+	save_global_event_target_as = ITA_carlo_bergamini_target
+}
+
+random_character = {
+	limit = { is_character = ITA_pietro_ferdinando }
+	save_global_event_target_as = ITA_pietro_ferdinando_target
+}
+
+random_character = {
+	limit = { is_character = ITA_adriano_visconti }
+	save_global_event_target_as = ITA_adriano_visconti_target
+}
+
+ITA_sebastiano_visconti_prasca = { set_character_flag = ITA_lombard_leader }
+ITA_luigi_einaudi = { set_character_flag = ITA_lombard_leader }
+ITA_ivanoe_bonomi = { set_character_flag = ITA_lombard_leader }
+ITA_emilio_de_bono = { set_character_flag = ITA_lombard_leader }
+ITA_alberto_pariani = { set_character_flag = ITA_lombard_leader }
+ITA_italo_gariboldi = { set_character_flag = ITA_lombard_leader }
+ITA_fedele_de_giorgis = { set_character_flag = ITA_lombard_leader }
+ITA_raffaele_de_courten = { set_character_flag = ITA_lombard_leader }
+
+ITA_alberto_da_zara = { set_character_flag = ITA_venetian_admiral }
+ITA_gino_pavesi = { set_character_flag = ITA_venetian_admiral }

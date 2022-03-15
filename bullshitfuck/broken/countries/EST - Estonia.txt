@@ -1,0 +1,56 @@
+﻿capital = 13
+set_research_slots = 3
+
+set_politics = {
+	ruling_party = paternal_autocrat
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalist = 0
+	radical_socialist = 2
+	syndicalist = 0
+	social_democrat = 11
+	social_liberal = 4
+	market_liberal = 6
+	social_conservative = 17
+	authoritarian_democrat = 21
+	paternal_autocrat = 38
+	national_populist = 1
+}
+
+add_ideas = {
+	LAT_EST_roads_to_riga_1
+	EST_agrarian_issue_1
+
+	limited_conscription
+	EST_Konstantin_Paets_hog_ade
+	EST_Hjalmar_Maee_for_npo
+	EST_Karl_Selter_eco_ade
+	EST_Julius_Seljamaa_sec_ade
+}
+
+country_event = { id = KREST.1 days = 2 } #Welcome to Estonia
+
+### Country Leaders ###
+recruit_character = EST_jaan_anvelt
+recruit_character = EST_arnold_sommerling
+recruit_character = EST_august_rei
+recruit_character = EST_otto_strandman
+recruit_character = EST_jaan_tonisson
+recruit_character = EST_juri_uluots
+recruit_character = EST_artur_sirk
+recruit_character = EST_andres_larka
+recruit_character = EST_hengo_tulnola
+
+### Field Marshals ###
+recruit_character = EST_aleksander_tonisson
+
+### Generals ###
+recruit_character = EST_jaan_kruus
+recruit_character = EST_johan_laidoner
+
+### Admirals ###
+#EST_johan_pitka starts in BAT
