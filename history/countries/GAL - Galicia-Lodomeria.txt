@@ -1,0 +1,86 @@
+﻿capital = 91
+oob = "GAL"
+set_research_slots = 3
+set_stability = 0.60
+set_war_support = 0.1
+
+set_technology = {
+	### Infantry ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	motorised_infantry = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+
+	### Air ###
+	early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+
+	### Trains ###
+	basic_train = 1
+}
+
+### Tanks - NSB ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+	}
+}
+
+### Tanks - non NSB ###
+if = {
+	limit = { NOT = { has_dlc = "No Step Back" } }
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+	}
+}
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalist = 0
+	radical_socialist = 0
+	syndicalist = 0
+	social_democrat = 2
+	social_liberal = 6
+	market_liberal = 6
+	social_conservative = 19
+	authoritarian_democrat = 54
+	paternal_autocrat = 12
+	national_populist = 1
+}
+
+add_ideas = {
+	GAL_Alfred_Potocki_hog_ade
+	GAL_Jerzy_Potocki_for_ade
+	GAL_Eugeniusz_Kwiatkowski_eco_ade
+	GAL_Kazimierz_Kumaniecki_sec_sco
+}
+
+### Country Leaders ###
+recruit_character = AUS_karl_albrecht_von_habsburg
+
+### Generals ###
+recruit_character = GAL_stanislaw_szeptycki
+recruit_character = GAL_franciszek_kleeberg
+recruit_character = GAL_tadeusz_kutrzeba
+recruit_character = GAL_wladyslaw_sikorski
+recruit_character = GAL_dmytro_vitovsky
+
+### Event Targets ###
+random_character = {
+	limit = { is_character = AUS_karl_albrecht_von_habsburg }
+	set_character_flag = AUS_habsburg
+	save_global_event_target_as = AUS_karl_albrecht_von_habsburg_target
+}

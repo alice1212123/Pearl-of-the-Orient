@@ -1,0 +1,31 @@
+﻿capital = 425
+set_research_slots = 2
+set_convoys = 30
+
+set_politics = {
+	ruling_party = social_conservative
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalist = 0
+	radical_socialist = 0
+	syndicalist = 2
+	social_democrat = 4
+	social_liberal = 6
+	market_liberal = 8
+	social_conservative = 41
+	authoritarian_democrat = 12
+	paternal_autocrat = 19
+	national_populist = 8
+}
+
+add_ideas = {
+	MYS_Mirza_Muhammad_Ismail_hog_sco
+	MYS_Albion_Rajkumar_Banerjee_for_sco
+	MYS_Mokshagundam_Visveswaraiah_eco_sco
+	MYS_Albion_Rajkumar_Banerjee_sec_sco
+}
+
+### Corps Commanders ###
+recruit_character = MYS_narasimharaja_wadiyar

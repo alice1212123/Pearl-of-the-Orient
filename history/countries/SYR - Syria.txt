@@ -1,0 +1,95 @@
+﻿capital = 554
+
+set_research_slots = 2
+set_technology = {
+	### MOD ###
+	### INF ###
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	camelry = 1
+}
+### Navy - MtG ###
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		basic_naval_mines = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+
+		## Modules##
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_secondary_battery = 1
+	}
+}
+
+### Navy - Non MtG ###
+
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		early_destroyer = 1
+		basic_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+	}
+}
+
+set_politics = {
+	ruling_party = social_conservative
+	last_election = "1935.12.31"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalist = 0
+	syndicalist = 3
+	radical_socialist = 4
+	social_democrat = 1
+	social_liberal = 15
+	market_liberal = 0
+	social_conservative = 39
+	authoritarian_democrat = 17
+	paternal_autocrat = 19
+	national_populist = 2
+}
+
+add_ideas = {
+	#medium_economy
+	syr_sunni_elite_control
+	syr_lebanese_unrest
+	syr_alawite_unrest
+	syr_mudafaa_hukuk
+	syr_ottoman_military
+	partial_economic_mobilisation
+
+	SYR_Bechara_El_Khoury_hog_sco
+	SYR_Abdul_Hamid_Karami_for_sco
+	SYR_Abd_al_Rahman_Shahbandar_eco_sco
+	SYR_Hashim_al_Atassi_sec_sco
+}
+
+### Country Leaders ###
+recruit_character = SYR_akram_al_hourani
+recruit_character = SYR_khalid_bakdash
+recruit_character = SYR_said_al_jazairi
+recruit_character = SYR_rushdi_al_kikhiya
+recruit_character = SYR_hashim_al_atassi
+recruit_character = SYR_shukri_al_quwatli
+recruit_character = SYR_sultan_al_atrash
+recruit_character = SYR_husni_al_zaim
+recruit_character = SYR_antun_saadeh
+
+### Generals ###
+recruit_character = SYR_sami_al_hinawi
+recruit_character = SYR_adib_bin_hassan
+recruit_character = SYR_aziz_ali_al_misri

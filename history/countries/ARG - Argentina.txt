@@ -1,0 +1,225 @@
+﻿capital = 278
+oob = "ARG"
+set_naval_oob = "ARG_naval"
+set_research_slots = 3
+set_convoys = 40
+starting_train_buffer = 1
+
+set_technology = {
+	### Infantry ###
+	infantry_weapons = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_mountaineers = 1
+	marines = 1
+	gw_artillery = 1
+
+	### Air ###
+	early_fighter = 1
+	CAS1 = 1
+
+	### Trains ###
+	basic_train = 1
+}
+
+### Tanks - NSB ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+	set_technology = {
+		gwtank_chassis = 1
+	}
+}
+
+### Tanks - non NSB ###
+if = {
+	limit = { NOT = { has_dlc = "No Step Back" } }
+	set_technology = {
+		gwtank = 1
+	}
+}
+
+### Navy - MtG ###
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+
+		## Modules##
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_secondary_battery = 1
+		basic_naval_mines = 1
+	}
+}
+
+### Navy - Non MtG ###
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		early_destroyer = 1
+		basic_destroyer = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+		basic_submarine = 1
+		early_heavy_cruiser = 1
+		early_battleship = 1
+	}
+}
+
+add_ideas = {
+	ARG_interservice_rivalry_navy_dominant
+	ARG_Military_Cliques
+	ARG_Military_Apparatus
+	partial_economic_mobilisation
+	limited_conscription
+}
+
+
+# Country events
+country_event = { id = argcar.1 days = 1 }          # Status of Argentina
+country_event = { id = argbla.8 days = 441 }        # Patriotic loan introduction
+country_event = { id = argbla.9 days = 596 }        # Creation of La Junta Nacional de Granos
+country_event = { id = argbla.11 days = 688 }       # La Viña dam construction start
+
+#Immigration
+country_event = { id = argim.10 days = 365 random_days = 20 } #1936
+country_event = { id = argim.20 days = 730 random_days = 20 } #1937
+country_event = { id = argim.30 days = 1095 random_days = 20 } #1938
+country_event = { id = argim.40 days = 1460 random_days = 20 } #1939
+country_event = { id = argim.50 days = 1825 random_days = 20 } #1940
+country_event = { id = argim.60 days = 2190 random_days = 20 } #1941
+country_event = { id = argim.70 days = 2555 random_days = 20 } #1942
+country_event = { id = argim.80 days = 2920 random_days = 20 } #1943
+country_event = { id = argim.90 days = 3285 random_days = 20 } #1944
+
+#Military events
+country_event = { id = argmil.24 days = 1460 random_days = 180 } #Officer Alberte joins the GOU
+country_event = { id = argfor.16 days = 730 random_days = 5 } #Coup to depose the hesitant player
+
+#ARG shared flavour events
+country_event = { id = arg_flavour.2 days = 415 }   # Horacio Quiroga suicide
+country_event = { id = arg_flavour.3 days = 779 }   # Leopoldo Lugones death
+country_event = { id = arg_flavour.9 days = 888 }   # Alfonsina Storni death
+country_event = { id = arg_flavour.10 days = 1001 } # Lisandro de la Torre death
+country_event = { id = arg_flavour.11 days = 1145 } # New metro line opening
+country_event = { id = arg_flavour.13 days = 1430 } # 'The Life of Carlos Gardel' movie
+country_event = { id = arg_flavour.14 days = 1606 } # Football stadium opening
+country_event = { id = arg_flavour.15 days = 1706 } # 'The Invention of Morel' novel published
+country_event = { id = arg_flavour.16 days = 2010 } # San Juan earthquake
+country_event = { id = arg_flavour.17 days = 2190 } # Augustin Justo death
+country_event = { id = arg_flavour.18 days = 2315 } # 'Gaucho Wars' movie
+
+#AGR unique flavour events
+country_event = { id = arg_flavour.1 days = 288 }   # Buenos Aires obelisk
+country_event = { id = arg_flavour.12 days = 1295 } # Bairoletto death
+country_event = { id = argcar.47 days = 3950 }      # Carles death
+
+
+set_stability = -0.10
+set_war_support = 0.25
+set_variable = { arg_im_factor = 100 }
+
+set_politics = {
+	ruling_party = national_populist
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalist = 0
+	radical_socialist = 4
+	syndicalist = 0
+	social_democrat = 7
+	social_liberal = 15
+	market_liberal = 12
+	social_conservative = 9
+	paternal_autocrat = 18
+	authoritarian_democrat = 8
+	national_populist = 27
+}
+
+###Starting country leaders
+
+recruit_character = ARG_manuel_carles
+recruit_character = ARG_juan_domingo_peron
+recruit_character = ARG_pedro_pablo_ramirez
+recruit_character = ARG_roberto_ortiz
+recruit_character = ARG_ramon_antonio_castillo
+recruit_character = ARG_hipolito_yrigoyen
+recruit_character = ARG_nicolas_repetto #also a radsoc
+recruit_character = ARG_angel_borlenghi
+recruit_character = ARG_jose_peter
+
+### Field Marshals ###
+
+recruit_character = ARG_augustin_justo
+# ramirez gets recruited as a country leader
+recruit_character = ARG_juan_pistarini
+recruit_character = ARG_pedro_eugenio_aramburu
+
+### Corps Commanders ###
+
+recruit_character = ARG_enrique_mosconi
+### Peron gets recruited as a country leader
+recruit_character = ARG_edelmiro_julian_farrell
+recruit_character = ARG_manuel_savio
+recruit_character = ARG_umberto_sosa_malina
+recruit_character = ARG_arturo_rawson
+recruit_character = ARG_manuel_domecq_garcia
+
+### Admirals ###
+recruit_character = ARG_elezar_videla
+recruit_character = ARG_isaac_francisco_rojas
+
+### Via event characters
+recruit_character = ARG_council
+recruit_character = ARG_miguel_de_andrea
+recruit_character = ARG_elpidio_gonzalez
+recruit_character = ARG_jose_tamborini
+recruit_character = ARG_robustiano_costas
+recruit_character = ARG_alicia_moreau
+recruit_character = ARG_arturo_frondizi
+recruit_character = ARG_marcelo_alvear
+recruit_character = ARG_ricardo_balbin
+recruit_character = ARG_parliament
+recruit_character = ARG_bernardo_alberte
+
+### Event Targets ###
+random_character = {
+	limit = { is_character = ARG_alicia_moreau }
+	save_global_event_target_as = ARG_alicia_moreau_target
+}
+random_character = {
+	limit = { is_character = ARG_nicolas_repetto }
+	save_global_event_target_as = ARG_nicolas_repetto_target
+}
+random_character = {
+	limit = { is_character = ARG_elpidio_gonzalez }
+	save_global_event_target_as = ARG_elpidio_gonzalez_target
+}
+random_character = {
+	limit = { is_character = ARG_robustiano_costas }
+	save_global_event_target_as = ARG_robustiano_costas_target
+}
+random_character = {
+	limit = { is_character = ARG_arturo_frondizi }
+	save_global_event_target_as = ARG_arturo_frondizi_target
+}
+random_character = {
+	limit = { is_character = ARG_ricardo_balbin }
+	save_global_event_target_as = ARG_ricardo_balbin_target
+}

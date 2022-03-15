@@ -1,0 +1,171 @@
+﻿capital = 202
+set_convoys = 30
+set_stability = 0.5
+set_war_support = 0.2
+oob = "UKR"
+set_naval_oob = "UKR_naval"
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+
+	### Air ###
+	early_fighter = 1
+	fighter1 = 1
+	CAS1 = 1
+	early_bomber = 1
+	tactical_bomber1 = 1
+
+	### Trains ###
+	basic_train = 1
+}
+
+### Tanks - NSB ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+	set_technology = {
+		gwtank_chassis = 1
+	}
+}
+
+### Tanks - non NSB ###
+if = {
+	limit = { NOT = { has_dlc = "No Step Back" } }
+	set_technology = {
+		gwtank = 1
+	}
+}
+
+### Navy - MtG ###
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_naval_mines = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+
+		## Modules##
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_secondary_battery = 1
+		improved_ship_torpedo_launcher = 1
+		basic_cruiser_armor_scheme = 1
+	}
+}
+
+### Navy - Non MtG ###
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		early_destroyer = 1
+		basic_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_submarine = 1
+		basic_submarine = 1
+		early_heavy_cruiser = 1
+		basic_heavy_cruiser = 1
+		early_battleship = 1
+		basic_battleship = 1
+	}
+}
+
+set_research_slots = 3
+
+country_event = { id = ukraine.1 days = 2 }
+country_event = { id = ukraine.76 days = 40 }
+country_event = { id = ukraine.77 days = 190 }
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalist = 0
+	radical_socialist = 0
+	syndicalist = 19
+	social_democrat = 1
+	social_liberal = 0
+	market_liberal = 1
+	social_conservative = 13
+	authoritarian_democrat = 36
+	paternal_autocrat = 15
+	national_populist = 15
+}
+
+add_ideas = {
+	Hetman_army
+	language_issue
+	UKR_Pavlo_Skoropadsky_hog_pau
+	UKR_Dmitri_Doroshenko_for_npo
+	UKR_Andrey_Livytskyi_eco_ade
+	UKR_Igor_Kistyakovsky_sec_ade
+}
+
+### Country Leaders ###
+recruit_character = UKR_wilhelm_franz_von_habsburg
+recruit_character = UKR_leo_stefan_von_habsburg
+recruit_character = UKR_danylo_skoropadskyi
+
+recruit_character = UKR_yurii_lapchynsky
+recruit_character = UKR_oleksander_shumsky
+recruit_character = UKR_volodymyr_vynnychenko
+recruit_character = UKR_symon_petliura
+recruit_character = UKR_dmitri_doroshenko
+recruit_character = UKR_boris_martos
+recruit_character = UKR_mikhail_bulgakov
+recruit_character = UKR_pavlo_skoropadskyi
+recruit_character = UKR_dmytro_dontsov
+
+### Field Marshals ###
+recruit_character = UKR_konstantin_prisovsky
+
+### Generals ###
+recruit_character = UKR_yevhen_konovalets
+recruit_character = UKR_hnat_stefaniv
+recruit_character = UKR_andriy_melnyk
+recruit_character = UKR_mykhailo_omelianovych_pavlenko
+recruit_character = UKR_mykola_kapustyanskyi
+recruit_character = UKR_ivan_poltavets_ostrianytsia
+
+### Admirals ###
+recruit_character = UKR_andriy_pokrovsky
+recruit_character = UKR_sviatoslav_shramchenko
+
+### Event Targets ###
+random_character = {
+	limit = { is_character = UKR_wilhelm_franz_von_habsburg }
+	save_global_event_target_as = UKR_wilhelm_franz_von_habsburg_target
+}
+random_character = {
+	limit = { is_character = UKR_leo_stefan_von_habsburg }
+	save_global_event_target_as = UKR_leo_stefan_von_habsburg_target
+}
+random_character = {
+	limit = { is_character = UKR_danylo_skoropadskyi }
+	save_global_event_target_as = UKR_danylo_skoropadskyi_target
+}

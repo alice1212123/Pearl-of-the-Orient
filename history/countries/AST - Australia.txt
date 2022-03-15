@@ -1,0 +1,237 @@
+﻿capital = 985
+oob = "AST"
+set_naval_oob = "AST_naval"
+set_research_slots = 3
+set_war_support = 0.3
+set_convoys = 60
+starting_train_buffer = 1
+set_country_flag = cannot_have_conscription
+
+set_technology = {
+	### General ###
+	electronic_mechanical_engineering = 1
+
+	### Infantry ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+
+	### Air ###
+	early_fighter = 1
+	early_bomber = 1
+	naval_bomber1 = 1
+	cv_early_fighter = 1
+	cv_CAS1 = 1
+	cv_naval_bomber1 = 1
+	fighter1 = 1
+	CAS1 = 1
+
+	### Trains ###
+	basic_train = 1
+}
+
+### Tanks - NSB ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+	}
+}
+
+### Tanks - non NSB ###
+if = {
+	limit = { NOT = { has_dlc = "No Step Back" } }
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+	}
+}
+
+### Navy - MtG ###
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_naval_mines = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_carrier = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+
+		## Modules##
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_secondary_battery = 1
+		improved_secondary_battery = 1
+		sonar = 1
+		improved_ship_torpedo_launcher = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
+		basic_medium_battery = 1
+		basic_heavy_battery = 1
+		submarine_mine_laying = 1
+
+		### Transport ###
+		mtg_transport = 1
+	}
+}
+
+### Navy - Non MtG ###
+if = {
+	limit = { NOT = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_destroyer = 1
+		basic_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_submarine = 1
+		basic_submarine = 1
+		early_heavy_cruiser = 1
+		basic_heavy_cruiser = 1
+		early_battlecruiser = 1
+		early_battleship = 1
+		basic_battleship = 1
+		early_carrier = 1
+
+		### Transport ###
+		transport = 1
+	}
+}
+
+add_ideas = {
+	AST_William_M_Hughes_hog_ade
+	AST_Vernon_AH_Sturdee_for_ade
+	AST_James_Mitchell_eco_ade
+	AST_Thomas_W_White_sec_ade
+
+	#starting modifiers
+	AST_oversized_fleet
+	AST_depression_1
+	AST_bled_dry
+	AST_anzac_spirit_1
+}
+
+country_event = { id = austral.1 days = 1 } # Intro event
+country_event = { id = austral.9 days = 12 } # Australasia Day
+country_event = { id = austral.6 days = 15 } # Victoria forest fires
+country_event = { id = austral.4 days = 45 } # Jack Lang readmitted to the Labour Party
+country_event = { id = austral.5 days = 53 } # New Guard intro
+country_event = { id = austral.8 days = 100 } # Ion Idriess' 'The Cattle King'
+country_event = { id = austral.40 days = 270 } # VFM Finals
+country_event = { id = austral.307 days = 631 random_days = 360 } #Death of David Murray Anderson
+country_event = { id = austral.254 days = 755 } # Day of Mourning
+country_event = { id = austral.255 days = 884 } # Farmers request emu culling
+country_event = { id = austral.39 days = 1821 } # 40k Horsemen
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1933.3.7"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+set_popularities = {
+	totalist = 3
+	radical_socialist = 0
+	syndicalist = 12
+	social_democrat = 1
+	social_liberal = 2
+	market_liberal = 12
+	social_conservative = 35
+	authoritarian_democrat = 25
+	paternal_autocrat = 4
+	national_populist = 6
+}
+
+### Country Leaders ###
+recruit_character = AST_william_birdwood
+recruit_character = AST_alexander_hore_ruthven
+
+recruit_character = AST_john_bramwell_miles
+recruit_character = AST_lance_sharkey
+recruit_character = AST_fred_paterson
+recruit_character = AST_elsie_farrely
+recruit_character = AST_john_anderson
+recruit_character = AST_john_garden
+recruit_character = AST_john_curtin
+recruit_character = AST_joseph_chifley
+recruit_character = NZL_peter_fraser
+recruit_character = AST_jack_lang
+recruit_character = AST_earle_page
+recruit_character = AST_arthur_fadden
+recruit_character = AST_stanley_bruce
+recruit_character = NZL_sidney_holland
+recruit_character = AST_robert_menzies
+recruit_character = AST_billy_hughes
+recruit_character = AST_percy_stephensen
+recruit_character = AST_eric_campbell
+recruit_character = AST_charles_vyner_brooke
+
+### Field Marshals ###
+recruit_character = AST_thomas_blamey
+recruit_character = AST_brudenell_white
+
+### Generals ###
+recruit_character = AST_john_lavarack
+recruit_character = AST_george_alan_vasey
+recruit_character = AST_horace_robertson
+recruit_character = AST_iven_mackay
+recruit_character = AST_john_northcott
+recruit_character = AST_leslie_morshead
+recruit_character = AST_frank_berryman
+recruit_character = AST_john_clarebrough
+recruit_character = AST_thomas_fannell
+
+recruit_character = NZL_bernard_freyberg
+recruit_character = NZL_william_george_stevens
+
+### Admirals ###
+recruit_character = AST_ragnar_colvin
+recruit_character = AST_harold_farncomb
+recruit_character = AST_john_collins
+recruit_character = AST_guy_royle
+recruit_character = AST_john_gregory_crace
+
+### Characters Recruited by Effect ###
+AST_john_clarebrough = { retire = yes }
+AST_thomas_fannell = { retire = yes }
+
+### Operatives ###
+if = {
+	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = "Nancy Wake"
+		GFX = GFX_portrait_kr_nancy_wake
+		traits = {
+			operative_escape_artist
+		}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NZL AST }
+	}
+	create_operative_leader = {
+		name = "Dick Ellis"
+		GFX = GFX_portrait_kr_dick_ellis
+		traits = {
+			operative_linguist
+		}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AST }
+	}
+}
+

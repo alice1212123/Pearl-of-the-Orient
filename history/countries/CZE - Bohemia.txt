@@ -1,0 +1,94 @@
+﻿capital = 9
+oob = "CZE"
+set_stability = 0.60
+set_research_slots = 3
+set_cosmetic_tag = CZE_habsburg
+starting_train_buffer = 1
+
+set_technology = {
+	### Infantry ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	motorised_infantry = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+
+	### Air ###
+	early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+
+	### Trains ###
+	basic_train = 1
+}
+
+### Tanks - NSB ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		improved_light_tank_chassis = 1
+	}
+}
+
+### Tanks - non NSB ###
+if = {
+	limit = { NOT = { has_dlc = "No Step Back" } }
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		improved_light_tank = 1
+	}
+}
+
+add_ideas = {
+	CZE_Jan_Garrigue_Masaryk_hog_sli
+	CZE_Frantisek_Josef_Kinsky_for_sli
+	CZE_Emil_Franke_eco_sli
+	CZE_Prokop_Drtina_sec_sli
+}
+
+set_politics = {
+	ruling_party = social_liberal
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalist = 0
+	syndicalist = 2
+	radical_socialist = 4
+	social_democrat = 12
+	social_liberal = 32
+	market_liberal = 22
+	social_conservative = 9
+	authoritarian_democrat = 6
+	paternal_autocrat = 11
+	national_populist = 2
+}
+
+recruit_character = CZE_stanislav_kostka_neumann
+recruit_character = CZE_zdenek_nejedly
+recruit_character = CZE_frantisek_soukup
+recruit_character = CZE_alois_podhajsky
+recruit_character = CZE_jan_masaryk
+recruit_character = CZE_jiri_stribrny
+recruit_character = CZE_jan_malypetr
+recruit_character = CZE_jan_syrovy
+recruit_character = CZE_emanuel_moravec
+
+### Corps Commanders ###
+recruit_character = CZE_josef_bily
+recruit_character = CZE_josef_votruba
+recruit_character = CZE_bohuslav_kohout
+recruit_character = CZE_eduard_horak
+recruit_character = CZE_viktor_hoppe
+
+random_character = {
+	limit = { is_character = CZE_alois_podhajsky }
+	save_global_event_target_as = CZE_alois_podhajsky_target
+}

@@ -1,0 +1,145 @@
+﻿capital = 113
+oob = "IRE"
+set_naval_oob = "IRE_naval"
+set_convoys = 30
+set_stability = 0.5
+set_war_support = 0.2
+
+set_technology = {
+	### General ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	early_fighter = 1
+	gw_artillery = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_military_police = 1
+
+	### Trains ###
+	basic_train = 1
+}
+
+### Tanks - NSB ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+	set_technology = {
+		gwtank_chassis = 1
+	}
+}
+
+### Tanks - non NSB ###
+if = {
+	limit = { NOT = { has_dlc = "No Step Back" } }
+	set_technology = {
+		gwtank = 1
+	}
+}
+
+### Navy - MtG ###
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_submarine = 1
+
+		## Modules##
+		basic_depth_charges = 1
+		basic_battery = 1
+		basic_torpedo = 1
+		basic_naval_mines = 1
+	}
+}
+
+### Navy - Non MtG ###
+
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+	}
+}
+
+set_research_slots = 3
+
+add_ideas = {
+	IRE_Eoin_O'Duffy_hog_pau
+	IRE_Kevin_O'Higgins_for_ade
+	IRE_Ernest_Blythe_eco_ade
+	IRE_Sean_Mac_Eoin_sec_ade
+	IRE_DEFENCE
+	limited_conscription
+}
+
+set_variable = { ire_loyalist_tensions = 0 }
+set_variable = { ire_loyalist_escalation = 0 }
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1932.12.5"
+	election_frequency = 60
+	elections_allowed = yes
+}
+
+set_popularities = {
+	totalist = 3
+	radical_socialist = 5
+	syndicalist = 10
+	social_democrat = 5
+	social_liberal = 3
+	market_liberal = 3
+	social_conservative = 13
+	authoritarian_democrat = 46
+	paternal_autocrat = 7
+	national_populist = 5
+}
+
+country_event = { id = ire.2 days = 1 } #Intro event
+country_event = { id = ire.53 days = 15 } #Problems Up North
+country_event = { id = ire.55 days = 113 } #Easter Rising Anniversary
+country_event = { id = ire.57 days = 1117 } #Death of W.B. Yeats
+country_event = { id = ire.240 days = 1461 random_days = 120 }  #Effects of Black Monday eventually end
+country_event = { id = ire.241 days = 37 random_days = 5 } #Aodh II dies
+country_event = { id = ire.3000 days = 350 random_days = 20 } #Ulster Tensions
+
+### Country Leaders ###
+recruit_character = IRE_sean_murray
+recruit_character = IRE_jim_larkin
+recruit_character = IRE_peadar_odonnell
+recruit_character = IRE_cathal_brugha
+recruit_character = IRE_eamon_de_valera
+recruit_character = IRE_sean_lemass
+recruit_character = IRE_frank_macdermot
+recruit_character = IRE_michael_collins
+recruit_character = IRE_gearoid_o_cuinneagain
+recruit_character = IRE_padraic_o_maille
+recruit_character = IRE_jorge_maria_oneill
+
+### Field Marshals ###
+recruit_character = IRE_liam_lynch
+
+### Generals ###
+recruit_character = IRE_eoin_oduffy
+recruit_character = IRE_richard_mulcahy
+recruit_character = IRE_hugo_macneill
+recruit_character = IRE_tom_barry
+recruit_character = IRE_jj_oconnell
+recruit_character = IRE_daniel_mckenna
+recruit_character = IRE_daniel_hogan
+
+### Admirals ###
+recruit_character = IRE_seamus_o_muiris
+
+random_character = {
+	limit = { is_character = IRE_frank_macdermot }
+	save_global_event_target_as = IRE_frank_macdermot_target
+}

@@ -1,0 +1,200 @@
+﻿capital = 10
+oob = "POL"
+set_research_slots = 3
+set_stability = 0.35
+set_war_support = 0.05
+starting_train_buffer = 1
+
+### Technologies ###
+set_technology = {
+	### Infantry ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	motorised_infantry = 1
+	tech_mountaineers = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_engineers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+
+	### Air ###
+	early_fighter = 1
+	fighter1 = 1
+	CAS1 = 1
+	early_bomber = 1
+	tactical_bomber1 = 1
+
+	### Trains ###
+	basic_train = 1
+}
+
+### Tanks - NSB ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+	}
+}
+
+### Tanks - non NSB ###
+if = {
+	limit = { NOT = { has_dlc = "No Step Back" } }
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+	}
+}
+
+### Government ###
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1933.1.18"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	totalist = 4
+	syndicalist = 15
+	radical_socialist = 8
+	social_democrat = 12
+	social_liberal = 14
+	market_liberal = 10
+	social_conservative = 10
+	authoritarian_democrat = 4
+	paternal_autocrat = 13
+	national_populist = 10
+}
+
+### Ideas ###
+add_ideas = {
+	#Laws
+	volunteer_only
+
+	#Ideas
+	POL_eternal_regency
+	POL_german_industry
+
+	#Ministers
+	POL_Zdzislaw_Lubomirski_hog_ade
+	POL_Jan_hr_Szembek_for_ade
+	POL_Andrzej_Wierzbicki_eco_ade
+	POL_Stanislaw_Bukowiecki_sec_ade
+}
+
+#give mil access to RP
+give_military_access = GER
+give_military_access = LIT
+give_military_access = BAT
+give_military_access = WHR
+give_military_access = UKR
+
+### Events
+country_event = { id = poland.165 hours = 2 } #State of Poland
+country_event = { id = poland.124 days = 10 random_days = 2 } #The Great Debate Begins
+country_event = { id = poland.9 days = 200 random_days = 2 } #Another attempt at a King of Poland
+country_event = { id = poland.215 days = 309 } #20th Anniversary of Poland
+country_event = { id = poland.222 days = 335 random_days = 25 } #Expansion of Polskie Radio S.A. - Raszyn
+country_event = { id = poland.193 days = 366 random = 2880 } #Death of Josef Pilsudski
+country_event = { id = poland.220 days = 425 random_days = 25 } #Renovating Modlin Fortress
+country_event = { id = poland.52 days = 475 } #Comrade Dzierzynski Passes Away
+country_event = { id = poland.42 days = 645 random_days = 2 } #Cabinet Crisis
+country_event = { id = poland.74 days = 933 } #Dzierzynski Dies
+country_event = { id = poland.73 days = 949 } #Rozwadowski Dies
+country_event = { id = poland.75 days = 1093 } #Kakowski Dies
+country_event = { id = poland.63 days = 1097 } #Dwomski Passes Away
+country_event = { id = poland.91 days = 1097 } #Dwomski Dies
+country_event = { id = poland.205 days = 1461 random_days = 150 } #Monarchist Coup
+
+### PLC-only events
+country_event = { id = plcommon.40 days = 182 } #Anniversary of the Lublin Union
+
+### Disable LIT ministers
+set_country_flag = Aleksandras_Guzevicius_dead
+set_country_flag = Jonas_Cernius_dead
+set_country_flag = Stasys_Rastikis_dead
+set_country_flag = Marian_Januszajtis_Zegota_dead
+set_country_flag = Kazys_Musteikis_dead
+set_country_flag = Jurgis_Terleckas_dead
+
+### Country Leaders ###
+recruit_character = POL_regency_council
+recruit_character = POL_augustyn_jozef_czartoryski
+recruit_character = POL_august_wilhelm_von_hohenzollern
+
+recruit_character = POL_feliks_dzierzynski
+recruit_character = POL_feliks_kon
+recruit_character = POL_roza_luksemburg
+recruit_character = POL_jakub_hanecki
+recruit_character = POL_norbert_barlicki
+recruit_character = POL_stanislaw_wojciechowski
+recruit_character = POL_mieczyslaw_michalowicz
+recruit_character = POL_adam_chadzynski
+recruit_character = POL_eustachy_sapieha
+recruit_character = POL_jozef_haller_von_hallenburg
+recruit_character = POL_roman_dmowski
+recruit_character = POL_adam_doboszynski
+recruit_character = POL_stanislaw_mikolajczyk
+
+### Field Marshals ###
+recruit_character = POL_jozef_pilsudski
+
+### Corps Commanders ###
+recruit_character = POL_konstanty_rokossowski
+recruit_character = POL_edward_rydz_smigly
+recruit_character = POL_walery_slawek
+recruit_character = POL_adam_koc
+recruit_character = POL_leon_berbecki
+recruit_character = POL_tadeusz_jordan_rozwadowski
+recruit_character = POL_zbigniew_antonowicz
+recruit_character = POL_jozef_dowbor_musnicki
+recruit_character = POL_stanislaw_sosabowski
+recruit_character = POL_mikolaj_boltuc
+recruit_character = POL_witold_pilecki
+recruit_character = POL_wladyslaw_anders
+recruit_character = POL_stanislaw_magnuszewski
+recruit_character = POL_artur_gorski
+recruit_character = POL_henryk_dobrzanski
+recruit_character = POL_kazimierz_sosnkowski
+recruit_character = POL_juliusz_rommel
+recruit_character = POL_waclaw_stachiewicz
+recruit_character = POL_antoni_szylling
+recruit_character = POL_boleslaw_wieniawa_dlugoszowski
+
+### Admirals ###
+recruit_character = POL_jozef_unrug
+recruit_character = POL_kazimierz_porebski
+recruit_character = POL_jerzy_swirski
+
+### Event Targets ###
+random_character = {
+	limit = { is_character = POL_augustyn_jozef_czartoryski }
+	save_global_event_target_as = POL_augustyn_jozef_czartoryski_target
+}
+random_character = {
+	limit = { is_character = POL_august_wilhelm_von_hohenzollern }
+	save_global_event_target_as = POL_august_wilhelm_von_hohenzollern_target
+}
+random_character = {
+	limit = { is_character = POL_konstanty_rokossowski }
+	save_global_event_target_as = POL_Konstanty_Rokossowski
+	set_nationality = FRA
+}
+
+### Operatives ###
+if = {
+	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = "Krystyna Skarbek"
+		GFX = GFX_portrait_kr_krystyna_skarbek
+		traits = {
+			operative_escape_artist
+			operative_infiltrator
+		}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POL }
+	}
+}

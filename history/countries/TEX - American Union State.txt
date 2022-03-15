@@ -1,0 +1,139 @@
+﻿capital = 371
+set_research_slots = 3
+set_convoys = 80
+set_stability = 0.5
+set_war_support = 0.5
+
+country_event = { id = unionstate.21 days = 5419 random_days = 180 } #Death of the King
+country_event = { id = unionstate.65 days = 5419 random_days = 600 } #Pelley's Death
+country_event = { id = unionstate.42 days = 5419 random_days = 720 } #Moseley's Death
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1936.11.08"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	totalist = 0
+	radical_socialist = 0
+	syndicalist = 0
+	social_democrat = 0
+	social_liberal = 0
+	market_liberal = 0
+	social_conservative = 5
+	authoritarian_democrat = 60
+	paternal_autocrat = 15
+	national_populist = 20
+}
+
+add_ideas = {
+	TEX_Charles_Edward_Coughlin_hog_ade
+	TEX_David_Ignatius_Walsh_for_ade
+	TEX_Francis_Everett_Townsend_eco_ade
+	TEX_Hugo_Lafayette_Black_sec_ade
+}
+
+add_ai_strategy = {
+	type = ignore_claim
+	id = "CSA"
+	value = 1
+}
+add_ai_strategy = {
+	type = ignore_claim
+	id = "USA"
+	value = 1
+}
+add_ai_strategy = {
+	type = ignore_claim
+	id = "PSA"
+	value = 1
+}
+add_ai_strategy = {
+	type = ignore_claim
+	id = "NEE"
+	value = 1
+}
+
+
+### Dummy Leaders ###
+create_country_leader = {
+	name = "Earl Browder"
+	picture = "gfx/leaders/CSA/Portrait_CSA_Earl_Bowder.png"
+	ideology = totalist_subtype
+}
+create_country_leader = {
+	name = "Jack Reed"
+	picture = "gfx/leaders/CSA/Portrait_CSA_Jack_Reed.png"
+	ideology = syndicalist_subtype
+}
+create_country_leader = {
+	name = "Arnold Petersen"
+	picture = "gfx/leaders/Generic/Portrait_Europe_Generic_new_12.png"
+	ideology = radical_socialist_subtype
+}
+create_country_leader = {
+	name = "Floyd Olson"
+	picture = "gfx/leaders/USA/Portrait_USA_Floyd_Olson.png"
+	ideology = social_democrat_subtype
+}
+create_country_leader = {
+	name = "Al Smith"
+	picture = "gfx/leaders/USA/Portrait_USA_Al_Smith.png"
+	ideology = social_liberal_subtype
+}
+create_country_leader = {
+	name = "Alf Landon"
+	picture = "gfx/leaders/USA/Portrait_USA_Alf_Landon_KR.png"
+	ideology = market_liberal_subtype
+}
+create_country_leader = {
+	name = "John Nance Garner"
+	picture = "gfx/leaders/USA/Portrait_USA_John_Nance_Garner.png"
+	ideology = social_conservative_subtype
+}
+
+### Country Leaders ###
+recruit_character = TEX_earl_kemp_long
+recruit_character = TEX_charles_lindbergh
+# all others moved from USA upon spawning
+
+### Field Marshals ###
+#TEX_fox_conner - transferred from USA
+
+### Generals ###
+#TEX_george_van_horn_moseley - transferred from USA
+#TEX_george_smith_patton - transferred from USA
+recruit_character = TEX_jacob_loucks_devers
+recruit_character = TEX_joseph_lawton_collins
+recruit_character = TEX_courtney_hicks_hodges
+recruit_character = TEX_william_hood_simpson
+recruit_character = TEX_claire_lee_chennault
+recruit_character = TEX_walton_harris_walker
+recruit_character = TEX_matthew_bunker_ridgway
+recruit_character = TEX_bruce_cooper_clarke
+recruit_character = TEX_henry_irving_hodes
+recruit_character = TEX_clifton_bledsoe_cates
+recruit_character = TEX_lewis_burwell_puller
+recruit_character = TEX_pedro_del_valle
+
+### Admirals ###
+#TEX_samuel_murray_robinson - transferred from USA
+#TEX_james_otto_richardson - transferred from USA
+#TEX_david_worth_bagley - transferred from USA
+#TEX_john_sidney_mccain_sr - transferred from USA
+
+### Characters Recruited by Effect ###
+recruit_character = TEX_willis_augustus_lee_jr
+recruit_character = TEX_jerauld_wright
+recruit_character = TEX_arthur_leroy_bristol_jr
+
+TEX_willis_augustus_lee_jr = { set_nationality = XXA }
+TEX_jerauld_wright = { set_nationality = XXA }
+TEX_arthur_leroy_bristol_jr = { set_nationality = XXA }
+
+random_character = {
+	limit = { is_character = TEX_charles_lindbergh }
+	save_global_event_target_as = TEX_charles_lindbergh_target
+}

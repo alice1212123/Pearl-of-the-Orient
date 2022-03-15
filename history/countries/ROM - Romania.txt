@@ -1,0 +1,185 @@
+﻿capital = 46
+oob = "ROM"
+set_naval_oob = "ROM_naval"
+set_research_slots = 3
+starting_train_buffer = 1
+
+add_ideas = {
+	ROM_great_game
+	ROM_incomplete_land_reform
+	ROM_unionist_zeal
+	ROM_german_control
+
+	free_trade
+	limited_conscription
+	ROM_Corneliu_Codreanu_hog_npo
+	ROM_Ion_Mota_for_npo
+	ROM_Gheorghe_Clime_eco_npo
+	ROM_Alexandru_Cantacuzino_sec_npo
+}
+
+# Starting tech
+set_technology = {
+	#industry
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	fuel_refining = 1
+
+	#army
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+
+	#air
+	early_fighter = 1
+	early_bomber = 1
+	naval_bomber1 = 1
+	tactical_bomber1 = 1
+	CAS1 = 1
+
+	### Trains ###
+	basic_train = 1
+}
+
+### Tanks - NSB ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+	set_technology = {
+		gwtank_chassis = 1
+	}
+}
+
+### Tanks - non NSB ###
+if = {
+	limit = { NOT = { has_dlc = "No Step Back" } }
+	set_technology = {
+		gwtank = 1
+	}
+}
+
+### Navy - MtG ###
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+
+		## Modules##
+		basic_torpedo = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_naval_mines = 1
+	}
+}
+
+### Navy - Non MtG ###
+
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+	}
+}
+
+country_event = { id = romania.0 hours = 2 } #intro
+country_event = { id = romania.134 days = 1006 } #Avarescu ded
+country_event = { id = romania.135 days = 2796 } #Prezan ded
+country_event = { id = romania.86 days = 1393 } #Michael turns 18
+country_event = { id = romania.142 days = 2080 } #Racovski retires
+country_event = { id = romania.6 days = 2 }
+country_event = { id = romania.73 days = 300 random = 100 }
+country_event = { id = romania.61 days = 250 random = 50 }
+country_event = { id = romania.154 days = 360 random = 50 }
+country_event = { id = romania.155 days = 660 random = 50 }
+country_event = { id = romania.158 days = 600 random = 50 }
+country_event = { id = romania.159 days = 200 random = 50 }
+country_event = { id = romania.161 days = 410 }
+country_event = { id = romania.185 days = 400 random = 50 }
+country_event = { id = romania.186 days = 500 random = 50 }
+country_event = { id = romania.194 days = 129 }
+country_event = { id = romania.195 days = 320 }
+country_event = { id = romania.198 days = 451 }
+
+set_convoys = 20
+
+add_opinion_modifier = { target = GER modifier = KR_disapproves_of_govt }
+add_opinion_modifier = { target = AUS modifier = KR_disapproves_of_govt }
+
+set_variable = { var = ROM.king_influence value = 3 }
+set_variable = { var = ROM.captain_influence value = 3 }
+
+set_war_support = 0.5
+set_stability = 0.3
+
+set_politics = {
+	ruling_party = national_populist
+	last_election = "1933.11.9"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	totalist = 0
+	radical_socialist = 0
+	syndicalist = 0
+	social_democrat = 8
+	social_liberal = 11
+	market_liberal = 16
+	social_conservative = 3
+	authoritarian_democrat = 0
+	paternal_autocrat = 18
+	national_populist = 44
+}
+
+recruit_character = ROM_carol_ii
+recruit_character = ROM_mihai_i
+recruit_character = ROM_nicolae_i
+
+recruit_character = ROM_cristian_racovski
+recruit_character = ROM_gheorghe_gheorghiu
+recruit_character = ROM_lucretiu_patrascanu
+recruit_character = ROM_barbu_lazareanu
+recruit_character = ROM_ion_mihalache
+recruit_character = ROM_dinu_bratianu
+recruit_character = ROM_alexandru_cantacuzino
+
+### Field Marshal
+recruit_character = ROM_petre_dumitrescu
+
+### Corps Commander
+recruit_character = ROM_ion_antonescu
+recruit_character = ROM_gheorghe_argeseanu
+recruit_character = ROM_gheorghe_avramescu
+recruit_character = ROM_ioan_racovita
+recruit_character = ROM_constantin_constantinescu_claps
+recruit_character = ROM_nicolae_macici
+recruit_character = ROM_constantin_pantazi
+recruit_character = ROM_nicolae_ciuperca
+recruit_character = ROM_ion_glogojanu
+recruit_character = ROM_leonard_mociulschi
+recruit_character = ROM_dumitru_popescu
+recruit_character = ROM_corneliu_dragalina
+recruit_character = ROM_florea_tenescu
+
+### Navy Leader
+recruit_character = ROM_horia_macellariu
+
+### Characters Recruited by Effect ###
+recruit_character = ROM_nicolae_radescu
+recruit_character = ROM_constantin_tobescu
+
+ROM_nicolae_radescu = { set_nationality = XXA }
+ROM_constantin_tobescu = { set_nationality = XXA }

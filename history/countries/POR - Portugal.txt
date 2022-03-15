@@ -1,0 +1,149 @@
+﻿capital = 112
+oob = "POR"
+set_naval_oob = "POR_naval"
+set_cosmetic_tag = POR_monarchy
+
+set_technology = {
+	### General ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	tech_support = 1
+	tech_engineers = 1
+
+	### Air ###
+	early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+
+	### Trains ###
+	basic_train = 1
+}
+
+### Navy - MtG ###
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_naval_mines = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_heavy = 1
+
+		## Modules##
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_secondary_battery = 1
+		improved_ship_torpedo_launcher = 1
+		basic_cruiser_armor_scheme = 1
+
+		### Transport ###
+		mtg_transport = 1
+	}
+}
+
+### Navy - Non MtG ###
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		early_destroyer = 1
+		basic_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_submarine = 1
+		basic_submarine = 1
+		early_heavy_cruiser = 1
+		basic_heavy_cruiser = 1
+		early_battleship = 1
+
+		### Transport ###
+		transport = 1
+	}
+}
+
+set_research_slots = 3
+set_convoys = 60
+country_event = { id = por.4 days = 1 }
+country_event = { id = por.300 days = 425 }
+
+set_war_support = 0.35
+
+set_politics = {
+	ruling_party = national_populist
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalist = 0
+	syndicalist = 0
+	radical_socialist = 1
+	social_democrat = 6
+	social_liberal = 4
+	market_liberal = 4
+	social_conservative = 12
+	authoritarian_democrat = 14
+	paternal_autocrat = 19
+	national_populist = 40
+}
+
+add_ideas = {
+	POR_Francisco_Rolao_Preto_hog_npo
+	POR_Afonso_Lopes_Vieira_for_npo
+	POR_Alberto_Monsaraz_eco_pau
+	POR_Jose_Hipolito_Vaz_Raposo_sec_pau
+	POR_integralist_ethos
+}
+
+### Country Leaders ###
+recruit_character = POR_duarte_braganca
+recruit_character = POR_maria_adelaide_braganca
+recruit_character = POR_maria_ana_braganca
+
+recruit_character = POR_jose_carlos_rates
+recruit_character = POR_manuel_joaquim_sousa
+recruit_character = POR_bento_antonio_goncalves
+recruit_character = POR_jose_domingues_santos
+recruit_character = POR_liberato_pinto
+recruit_character = POR_antonio_granjo
+recruit_character = POR_francisco_cunha_leal
+recruit_character = POR_antonio_oliveira_salazar
+recruit_character = POR_oscar_carmona
+recruit_character = POR_francisco_rolao_preto
+
+### Field Marshals ###
+recruit_character = POR_henrique_paiva_couceiro
+
+### Generals ###
+recruit_character = POR_jose_augusto_alves_rocadas
+recruit_character = POR_eugenio_bilstein_menezes
+recruit_character = POR_joao_estevao_aguas
+recruit_character = POR_joao_de_almeida
+recruit_character = POR_jose_vincente_freitas
+recruit_character = POR_artur_carlos_barros_basto
+recruit_character = POR_frederico_costa_lopes_silva
+
+### Admirals ###
+recruit_character = POR_manuel_ortins_bettencourt
+recruit_character = POR_guilherme_ivens_ferraz
+recruit_character = POR_manuel_sarmento_rodrigues
+recruit_character = POR_americo_thomaz
+
+### Event Targets ###
+random_character = {
+	limit = { is_character = POR_duarte_braganca }
+	save_global_event_target_as = POR_duarte_braganca_target
+}

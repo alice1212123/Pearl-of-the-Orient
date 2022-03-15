@@ -1,0 +1,62 @@
+﻿capital = 629
+set_research_slots = 2
+set_convoys = 40
+
+set_politics = {
+	ruling_party = paternal_autocrat
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalist = 0
+	syndicalist = 5
+	radical_socialist = 10
+	social_democrat = 15
+	social_liberal = 14
+	market_liberal = 26
+	social_conservative = 21
+	authoritarian_democrat = 3
+	paternal_autocrat = 6
+	national_populist = 0
+}
+
+add_ideas = {
+	### Ministers
+	HAW_Delos_Carleton_Emmons_hog_pau
+	HAW_James_Rudolph_Garfield_for_pau
+	HAW_Lorrin_Andrews_Thurston_eco_ade
+	HAW_Joseph_Boyd_Poindexter_sec_ade
+	### National Spirits
+	HAW_great_strike_idea
+	HAW_political_chaos_idea
+}
+
+### Country Leaders ###
+recruit_character = HAW_jack_denichi_kimoto
+recruit_character = HAW_jack_wayne_hall
+recruit_character = HAW_arthur_abraham_rutledge
+recruit_character = HAW_john_henry_wilson
+recruit_character = HAW_samuel_wilder_king
+recruit_character = HAW_lawrence_mccully_judd
+recruit_character = HAW_henry_alexander_baldwin
+recruit_character = HAW_james_dole
+
+recruit_character = HAW_lydia_liliuokalani_kawananakoa
+
+### Field Marshals ###
+recruit_character = HAW_walter_campbell_short
+recruit_character = HAW_charles_douglas_herron
+
+### Corps Commanders ###
+recruit_character = HAW_kendall_jordan_fielder
+recruit_character = HAW_delos_carleton_emmons
+recruit_character = HAW_robert_charlwood_richardson_jr
+recruit_character = HAW_joseph_taggart_mcnarney
+
+### Admirals ###
+recruit_character = HAW_husband_edward_kimmel
+recruit_character = HAW_luke_mcnamee
+recruit_character = HAW_gordon_paiea_chung_hoon
+recruit_character = HAW_benjamin_vaughan_mccandlish

@@ -1,0 +1,83 @@
+﻿capital = 330
+oob = "MON"
+set_research_slots = 2
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_mountaineers = 1
+	tech_engineers = 1
+	gw_artillery = 1
+}
+
+set_stability = 0.35
+set_war_support = 0.60
+
+diplomatic_relation = { country = RUS relation = non_aggression_pact }
+give_military_access = RUS
+RUS = { give_guarantee = MON }
+
+set_politics = {
+	ruling_party = paternal_autocrat
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalist = 0
+	radical_socialist = 0
+	syndicalist = 0
+	social_democrat = 17
+	social_liberal = 0
+	market_liberal = 0
+	social_conservative = 0
+	authoritarian_democrat = 23
+	paternal_autocrat = 48
+	national_populist = 12
+}
+
+
+country_event = { id = mon.1 days = 2 }
+country_event = { id = mon.103 days = 10 }
+
+add_ideas = {
+	MON_Boris_Rezukhin_hog_pau
+	MON_Ferdynand_Ossendowski_for_pau
+	MON_Rinchen_Sengge_eco_ade
+	MON_Sambadondogiin_Tserendorj_sec_npo
+	extensive_conscription
+	limited_exports
+	low_economic_mobilisation
+	MON_nomadic_society
+	MON_scourge_of_the_steppes_idea
+	MON_russian_eco_aid
+	MON_jebtsundamba_khutuktu_idea
+}
+
+recruit_character = MON_khorloogiin_choibalsan
+recruit_character = MON_peljidiin_genden
+recruit_character = MON_olziin_badrakh
+recruit_character = MON_davizavyn_losol
+recruit_character = MON_anandyn_amar
+recruit_character = MON_dansranbilegiin_dogsom
+recruit_character = MON_jamsrangiin_tseveen
+recruit_character = MON_dambyn_chagdarjav
+recruit_character = MON_unenbayan
+recruit_character = MON_demchugdongrub
+recruit_character = MON_roman_von_ungernsternberg
+recruit_character = MON_7th_changkya_khutukhtu
+recruit_character = MON_jodbajab
+
+
+### Field Marshals ###
+recruit_character = MON_manlaibaatar_damdinsuren
+
+### Corps Commanders ###
+recruit_character = MON_altanochir
+recruit_character = MON_khatanbaatar_magsarjav
+recruit_character = MON_mikhail_tornovsky
+recruit_character = MON_nikolay_kazagrandi
+recruit_character = MON_zhamyangiyn_lhagvasuren
+recruit_character = MON_boris_rezukhin
+recruit_character = MON_urzhin_garmaev

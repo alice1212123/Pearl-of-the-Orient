@@ -1,0 +1,79 @@
+﻿capital = 322
+oob = "TIB"
+set_research_slots = 2
+set_technology = {
+	### Infantry ###
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	tech_support = 1
+	tech_recon = 1
+}
+
+add_offsite_building = {
+	type = industrial_complex
+	level = 3
+}
+
+HND = { embargo_ROOT = yes }
+
+set_politics = {
+	ruling_party = paternal_autocrat
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalist = 0
+	radical_socialist = 0
+	syndicalist = 0
+	social_democrat = 5
+	social_liberal = 0
+	market_liberal = 0
+	social_conservative = 0
+	authoritarian_democrat = 30
+	paternal_autocrat = 65
+	national_populist = 0
+}
+
+add_ideas = {
+	TIB_Lonchhen_Yapshi_Langdun_Kung_hog_pau
+	TIB_Tashi_Dorje_Phunkhang_for_pau
+	TIB_Ngawang_Tobye_eco_pau
+	TIB_Dudjom_Jigdral_Yeshe_Dorje_sec_pau
+
+	limited_conscription
+	isolation
+	limited_exports
+
+	TIB_struggle_tibet
+	TIB_monastic_governance
+	TIB_dob_dobs_trad
+	TIB_serfdom
+}
+
+set_variable = { var = yushu_control value = 40 }
+set_variable = { var = yushu_tensions value = 5 }
+
+country_event = { id = tib.1 days = 1 }
+
+### Country Leaders ###
+recruit_character = TIB_nicholas_roerich
+recruit_character = TIB_thubten_kunphela
+recruit_character = TIB_the_9th_panchen_lama
+recruit_character = TIB_the_14th_dalai_lama
+recruit_character = TIB_tsipon_lungshar
+recruit_character = TIB_tsarong_dzasa
+recruit_character = TIB_the_5th_reting_rinpoche
+recruit_character = TIB_chao_kung
+
+### Field Marshals ###
+recruit_character = TIB_changra
+recruit_character = TIB_trimon
+recruit_character = TIB_huang_musong
+
+### Corps Commanders ###
+recruit_character = TIB_ngapoi_ngawang_jigme
+recruit_character = TIB_dingja
+recruit_character = TIB_bondong
+recruit_character = TIB_mondro

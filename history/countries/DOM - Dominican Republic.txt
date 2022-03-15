@@ -1,0 +1,99 @@
+﻿capital = 319
+oob = "DOM"
+set_naval_oob = "DOM_naval"
+
+set_technology = {
+	### General ###
+	### Infantry ###
+	infantry_weapons = 1
+	gw_artillery = 1
+}
+
+### Navy - MtG ###
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+
+		## Modules##
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		basic_battery = 1
+		basic_naval_mines = 1
+	}
+}
+
+### Navy - Non MtG ###
+
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		early_destroyer = 1
+		early_light_cruiser = 1
+	}
+}
+
+add_opinion_modifier = { target = HAI modifier = HAI_border_dispute }
+add_opinion_modifier = { target = HAI modifier = DOM_anti_haitian_1 }
+
+country_event = { id = domrep.0 days = 1 }
+country_event = { id = domrep.1 days = 20 }
+country_event = { id = domrep.3 days = 74 }
+
+set_stability = 0.2
+set_war_support = 0.20
+set_country_flag = cannot_have_conscription
+
+set_politics = {
+	ruling_party = social_conservative
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalist = 0
+	syndicalist = 2
+	radical_socialist = 0
+	social_democrat = 7
+	social_liberal = 3
+	market_liberal = 22
+	social_conservative = 41
+	authoritarian_democrat = 12
+	paternal_autocrat = 13
+	national_populist = 0
+}
+
+set_convoys = 20
+set_research_slots = 2
+
+add_ideas = {
+	volunteer_only
+	DOM_depression
+	DOM_angryrich
+	DOM_Virgilio_Martinez_Reyna_hog_sco
+	DOM_Emilio_de_los_Santos_for_sco
+	DOM_Joaquin_Balaguer_Ricardo_eco_sco
+	DOM_Rafael_Espaillat_Mota_sec_sco
+}
+
+activate_targeted_decision = { target = HAI decision = HAI_bribe_officials }
+
+### Country Leaders ###
+recruit_character = DOM_heinrich_goldberg
+recruit_character = DOM_pedro_henriquez_urena
+recruit_character = DOM_juan_jimenes_grullon
+recruit_character = DOM_rafael_estrella_urena
+recruit_character = DOM_virgilio_martinez_reyna
+recruit_character = DOM_manuel_troncoso_concha
+recruit_character = DOM_rafael_trujillo_molina
+recruit_character = DOM_ramon_vasquez_rivera
+recruit_character = DOM_pilindo_bonetti_burgos

@@ -1,0 +1,90 @@
+﻿capital = 553
+
+set_technology = {
+	### Infantry ###
+	infantry_weapons = 1
+}
+### Navy - MtG ###
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_naval_mines = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+
+		## Modules##
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_secondary_battery = 1
+	}
+}
+
+### Navy - Non MtG ###
+
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		early_destroyer = 1
+		basic_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+	}
+}
+
+set_research_slots = 2
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalist = 3
+	radical_socialist = 5
+	syndicalist = 3
+	social_democrat = 8
+	social_liberal = 13
+	market_liberal = 12
+	social_conservative = 15
+	authoritarian_democrat = 34
+	paternal_autocrat = 1
+	national_populist = 6
+}
+add_ideas = {
+	LEB_Bechara_El_Khoury_hog_sco
+	LEB_Emile_Edde_for_mli
+	LEB_Saeb_Salam_eco_sli
+	LEB_Pierre_Gemayel_sec_npo
+	LEB_economic_upheaval
+	LEB_legacy_of_the_mutasarrifate
+	LEB_ethnic_and_sectarian_divides
+}
+set_country_flag = Pierre_Gemayel_dead
+
+### Party Leaders
+recruit_character = LEB_farajallah_el_helou
+recruit_character = LEB_kamal_jumblatt
+recruit_character = LEB_saeb_salam
+recruit_character = LEB_emile_edde
+recruit_character = LEB_bechara_el_khoury
+recruit_character = LEB_fuad_chehab
+recruit_character = LEB_charles_helou
+recruit_character = LEB_provisional_parliament_of_lebanon
+recruit_character = LEB_patriarch_antoine_peter_arida
+recruit_character = LEB_pierre_gemayel
+
+### Corps Commanders ###
+recruit_character = LEB_emile_boustany
+
+### Admirals ###
+recruit_character = LEB_youssef_chmeit

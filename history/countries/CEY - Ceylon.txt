@@ -1,0 +1,44 @@
+﻿capital = 422
+
+set_research_slots = 2
+set_technology = {
+	### Infantry ###
+	infantry_weapons = 1
+}
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalist = 0
+	radical_socialist = 0
+	syndicalist = 2
+	social_democrat = 4
+	social_liberal = 6
+	market_liberal = 8
+	social_conservative = 12
+	authoritarian_democrat = 41
+	paternal_autocrat = 19
+	national_populist = 8
+}
+
+### Country Leaders ###
+recruit_character = CEY_sugiswara_abeywardena_wickramasinghe
+recruit_character = CEY_nanayakkarapathirage_martin_perera
+recruit_character = CEY_philip_gunawardena
+recruit_character = CEY_alexander_ekanayake_gunasinha
+recruit_character = CEY_solomon_west_ridgeway_dias_bandaranaike
+recruit_character = CEY_edward_walter_perera
+recruit_character = CEY_don_stephen_senanayake
+recruit_character = CEY_tikiri_banda_nugawela
+
+### Generals ###
+recruit_character = CEY_robert_burton_leslie
+recruit_character = CEY_john_lionel_kotelawala
+
+### Admirals ###
+recruit_character = CEY_willoughby_greaves_beauchamp

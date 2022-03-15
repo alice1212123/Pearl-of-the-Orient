@@ -1,0 +1,158 @@
+﻿capital = 41
+oob = "SPA"
+set_naval_oob = "SPA_naval"
+set_war_support = 0
+
+set_research_slots = 3
+set_convoys = 70
+starting_train_buffer = 1
+
+set_technology = {
+	### Infantry ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	gw_artillery = 1
+	tech_mountaineers = 1
+
+	### Air ###
+	early_fighter = 1
+	early_bomber = 1
+	naval_bomber1 = 1
+	strategic_bomber1 = 1
+
+	### Trains ###
+	basic_train = 1
+}
+
+### Tanks - NSB ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+	set_technology = {
+		gwtank_chassis = 1
+	}
+}
+
+### Tanks - non NSB ###
+if = {
+	limit = { NOT = { has_dlc = "No Step Back" } }
+	set_technology = {
+		gwtank = 1
+	}
+}
+
+### Navy - MtG ###
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_naval_mines = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_heavy = 1
+
+		## Modules##
+		basic_torpedo = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_secondary_battery = 1
+		improved_ship_torpedo_launcher = 1
+		basic_cruiser_armor_scheme = 1
+		basic_depth_charges = 1
+	}
+}
+
+### Navy - Non MtG ###
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		early_destroyer = 1
+		basic_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_submarine = 1
+		basic_submarine = 1
+		early_battleship = 1
+	}
+}
+
+SWF = {
+	embargo_ROOT = yes
+	SPR = { embargo_PREV = yes }
+}
+SPR = { embargo_ROOT = yes }
+
+country_event = { id = sprd.1 hours = 2 }
+country_event = { id = sprd.4 days = 13 }
+country_event = { id = sprd.8 days = 32 }
+country_event = { id = sprd.13 days = 57 }
+country_event = { id = sprd.21 days = 300 }
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalist = 0
+	radical_socialist = 2
+	syndicalist = 5
+	social_democrat = 9
+	social_liberal = 10
+	market_liberal = 12
+	social_conservative = 8
+	authoritarian_democrat = 47
+	paternal_autocrat = 5
+	national_populist = 2
+}
+
+add_ideas = {
+	limited_conscription
+	SPA_social_breakdown
+	SPA_memories_of_the_republic
+
+	# Ministers
+	SPA_JM_Gil_Robles_Quinones_hog_ade
+	SPA_Francisco_de_Asis_Serrat_y_Bonastre_for_pau
+	SPA_German_Gil_y_Yuste_eco_pau
+	SPA_Miguel_Ponte_Manso_de_Zuniga_sec_ade
+}
+
+recruit_character = SPA_alfonso_xiii
+recruit_character = SPA_juan_iii
+recruit_character = SPA_jaime_i
+
+recruit_character = SPA_camilo_alonso_vega
+recruit_character = SPA_miguel_cabanellas_ferrer
+recruit_character = SPA_gil_robles
+recruit_character = SPA_jose_calvo_sotelo
+recruit_character = SPA_ramon_otero_pedrayo
+recruit_character = SPA_manuel_azana
+recruit_character = SPA_augusto_barcia_trelles
+recruit_character = SPA_julian_besteiro_fernandez
+recruit_character = SPA_jose_diaz_ramos
+recruit_character = SPA_dolores_ibarruri_gomez
+
+recruit_character = SPA_jose_sanjurjo_sacanell
+recruit_character = SPA_francisco_franco_bahamonde
+recruit_character = SPA_carlos_asensio_cabanillas
+recruit_character = SPA_fidel_davila_arrondo
+recruit_character = SPA_francisco_de_borbon_y_de_la_torre
+recruit_character = SPA_manuel_goded_llopis
+recruit_character = SPA_severiano_martinez_anido
+recruit_character = SPA_rafael_estrada_arnais
+recruit_character = SPA_cervera_valderrama

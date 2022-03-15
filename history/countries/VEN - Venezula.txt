@@ -1,0 +1,117 @@
+﻿capital = 849
+oob = "VEN"
+set_naval_oob = "VEN_naval"
+set_convoys = 30
+set_research_slots = 3
+
+set_technology = {
+	### Infantry ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_mountaineers = 1
+	tech_support = 1
+	tech_recon = 1
+	gw_artillery = 1
+
+	### Air ###
+	early_fighter = 1
+	naval_bomber1 = 1
+
+	### Trains ###
+	basic_train = 1
+}
+
+### Navy - MtG ###
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+
+		## Modules##
+		basic_depth_charges = 1
+		basic_battery = 1
+		basic_secondary_battery = 1
+		basic_torpedo = 1
+	}
+}
+
+### Navy - Non MtG ###
+
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+	}
+}
+
+set_war_support = 0.2
+
+set_politics = {
+	ruling_party = social_democrat
+	last_election = "1934.5.15"
+	election_frequency = 60
+	elections_allowed = yes
+}
+
+set_popularities = {
+	totalist = 0
+	radical_socialist = 2
+	syndicalist = 8
+	social_democrat = 33
+	social_liberal = 24
+	market_liberal = 12
+	social_conservative = 9
+	authoritarian_democrat = 5
+	paternal_autocrat = 5
+	national_populist = 2
+}
+
+add_ideas = {
+	limited_conscription
+	VEN_oil_addiction
+	VEN_foreign_oil_companies
+	# Cabinet
+	VEN_Lisandro_Alvarado_hog_sde
+	VEN_Jose_Antonio_Ramos_Sucre_for_sde
+	VEN_Maria_Cruz_Salmeron_Acosta_eco_sde
+	VEN_Isaac_Jose_Pardo_Soublette_sec_sde
+}
+
+country_event = { id = ven.1 days = 2 }
+country_event = { id = ven.9 days = 75 }
+
+activate_targeted_decision = { target = USA decision = VEN_oil_USA_seize }
+activate_targeted_decision = { target = HOL decision = VEN_oil_HOL_seize }
+
+recruit_character = VEN_tomas_contreras_villalobos
+recruit_character = VEN_marcos_evangelista_perez_jimenez
+recruit_character = VEN_diogenes_escalante_ugarte
+recruit_character = VEN_jose_eleazar_lopez_contreras
+recruit_character = VEN_rafael_antonio_caldera_rodriguez
+recruit_character = VEN_isaias_medina_angarita
+recruit_character = VEN_elias_toro_ponce_de_leon
+recruit_character = VEN_romulo_ernesto_betancourt_bello
+recruit_character = VEN_juan_bautista_fuenmayor
+recruit_character = VEN_gustavo_machado_morales
+
+### Field Marshals ###
+recruit_character = VEN_carlos_roman_delgado_chalbaud_gomez
+
+### Corps Commanders ###
+recruit_character = VEN_elias_guiterrez
+recruit_character = VEN_lopez_marino
+recruit_character = VEN_reyes_chamorra
+recruit_character = VEN_mariano_henrique_lopez_mendez_y_ron
+
+### Admirals ###
+recruit_character = VEN_wolfgang_enrique_larrazabal_ugerto

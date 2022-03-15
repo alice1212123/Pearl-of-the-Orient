@@ -1,0 +1,24 @@
+﻿capital = 502
+set_research_slots = 3
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1836.6.15"
+	election_frequency = 100
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalist = 0
+	radical_socialist = 12
+	syndicalist = 5
+	social_democrat = 8
+	social_liberal = 10
+	market_liberal = 2
+	social_conservative = 17
+	authoritarian_democrat = 29
+	paternal_autocrat = 5
+	national_populist = 12
+}
+
+recruit_character = SPO_jose_bento_renato_monteiro_lobato

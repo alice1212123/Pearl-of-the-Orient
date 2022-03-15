@@ -1,0 +1,43 @@
+﻿capital = 525 #South Korea - Seoul or Busan
+
+set_technology = {
+	#### Infantry ####
+	infantry_weapons = 1
+	tech_support = 1
+	gw_artillery = 1
+	#### Air ####
+	early_fighter = 1
+}
+
+set_research_slots = 2
+set_politics = {
+	ruling_party = social_democrat
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalist = 3
+	radical_socialist = 10
+	syndicalist = 15
+	social_democrat = 47
+	social_liberal = 11
+	market_liberal = 6
+	social_conservative = 5
+	authoritarian_democrat = 2
+	paternal_autocrat = 1
+	national_populist = 0
+}
+
+### Heads of State ###
+recruit_character = KOR_yi_kang
+recruit_character = KOR_yi_un
+
+recruit_character = KOR_cho_bong_am
+recruit_character = KOR_kim_koo
+
+### Corps Commanders ###
+recruit_character = KOR_kim_hong_il
+recruit_character = KOR_lee_beom_seok
+recruit_character = KOR_ji_cheong_cheon

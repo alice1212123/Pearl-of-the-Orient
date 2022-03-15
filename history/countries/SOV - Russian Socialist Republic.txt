@@ -1,0 +1,223 @@
+﻿capital = 219
+set_research_slots = 4
+set_stability = 0.1
+set_war_support = 0.9
+
+set_politics = {
+	ruling_party = radical_socialist
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalist = 9
+	radical_socialist = 41
+	syndicalist = 23
+	social_democrat = 19
+	social_liberal = 5
+	market_liberal = 3
+	social_conservative = 0
+	authoritarian_democrat = 0
+	paternal_autocrat = 0
+	national_populist = 0
+}
+
+add_ideas = {
+	SOV_Karl_Radek_hog_tot
+	SOV_Mariya_Spiridonova_for_rso
+	SOV_Mikhail_Tomskiy_eco_syn
+	SOV_Pavel_Sudoplatov_sec_rso
+}
+
+### AI strategies ###
+add_ai_strategy = {
+	type = ignore_claim
+	id = "EST"
+	value = 1
+}
+add_ai_strategy = {
+	type = ignore_claim
+	id = "BAT"
+	value = 1
+}
+add_ai_strategy = {
+	type = ignore_claim
+	id = "LAT"
+	value = 1
+}
+add_ai_strategy = {
+	type = ignore_claim
+	id = "LIT"
+	value = 1
+}
+add_ai_strategy = {
+	type = ignore_claim
+	id = "WHR"
+	value = 1
+}
+add_ai_strategy = {
+	type = ignore_claim
+	id = "POL"
+	value = 1
+}
+add_ai_strategy = {
+	type = ignore_claim
+	id = "UKR"
+	value = 1
+}
+add_ai_strategy = {
+	type = ignore_claim
+	id = "DKB"
+	value = 1
+}
+add_ai_strategy = {
+	type = ignore_claim
+	id = "GEO"
+	value = 1
+}
+add_ai_strategy = {
+	type = ignore_claim
+	id = "AZR"
+	value = 1
+}
+add_ai_strategy = {
+	type = ignore_claim
+	id = "ARM"
+	value = 1
+}
+add_ai_strategy = {
+	type = ignore_claim
+	id = "MON"
+	value = 1
+}
+add_ai_strategy = {
+	type = ignore_claim
+	id = "TRM"
+	value = 1
+}
+add_ai_strategy = {
+	type = ignore_claim
+	id = "JAP"
+	value = 1
+}
+
+# SOV's actual country leaders start in RUS and are moved by effect - the rest below are placeholders
+
+create_country_leader = {
+	name = "Irakli Tsereteli"
+	picture = "gfx/leaders/RUS/Portrait_RUS_Irakli_Tsereteli.png"
+	ideology = social_democrat_subtype
+}
+
+create_country_leader = {
+	name = "Pavel Milyukov"
+	picture = "gfx/leaders/RUS/Portrait_RUS_Pavel_Milyukov.png"
+	ideology = market_liberal_subtype
+}
+
+create_country_leader = {
+	name = "Nikolay Trubetskoy"
+	picture = "gfx/leaders/RUS/Portrait_RUS_Nikolai_Trubetskoy.png"
+	ideology = social_conservative_subtype
+}
+
+create_country_leader = {
+	name = "Dmitry Romanov"
+	picture = "gfx/leaders/RUS/Portrait_RUS_Dmitri_Romanov.png"
+	ideology = authoritarian_democrat_subtype
+}
+
+create_country_leader = {
+	name = "Pyotr Wrangel"
+	picture = "gfx/leaders/RUS/Portrait_RUS_Pyotr_Wrangel.png"
+	ideology = paternal_autocrat_subtype
+}
+
+create_country_leader = {
+	name = "Boris Savinkov"
+	picture = "gfx/leaders/RUS/Portrait_RUS_Boris_Savinkov.png"
+	ideology = national_populist_subtype
+}
+
+### Field Marshals ###
+recruit_character = RUS_mikhail_tukhachevsky #FRA
+recruit_character = RUS_mikhail_frunze #ENG
+
+### Generals ###
+recruit_character = RUS_aleksandr_yegorov #FOP
+recruit_character = RUS_georgy_zhukov #FOP
+recruit_character = RUS_iosib_dzugashvili #FOP
+recruit_character = RUS_ivan_konev #ENG
+recruit_character = RUS_maksim_purkayev #ENG
+recruit_character = RUS_aleksandr_gorbatov #ENG
+recruit_character = RUS_kirill_meretskov
+recruit_character = RUS_vasily_kuznetsov
+recruit_character = RUS_andrey_vlasov
+recruit_character = RUS_nikolay_berzarin
+recruit_character = RUS_nikolay_krylov
+recruit_character = RUS_semyon_timoshenko
+
+### Admirals ###
+
+### Character Recruited by Effect ###
+RUS = {
+	recruit_character = RUS_aleksander_vasilevsky
+	recruit_character = RUS_boris_shaposhnikov
+	recruit_character = RUS_nikolay_vatutin
+	recruit_character = RUS_leonid_govorov
+	recruit_character = RUS_arseny_golovko
+	recruit_character = RUS_neon_antonov
+	recruit_character = RUS_filipp_ivanov
+	recruit_character = RUS_gordey_levchenko
+}
+
+### Event Targets ###
+random_character = {
+	limit = { is_character = RUS_aleksandr_yegorov }
+	save_global_event_target_as = RUS_aleksandr_yegorov_target
+	add_unit_leader_trait = INT_russian_exile_trait
+	set_nationality = FOP
+}
+random_character = {
+	limit = { is_character = RUS_georgy_zhukov }
+	save_global_event_target_as = RUS_georgy_zhukov_target
+	add_unit_leader_trait = INT_russian_exile_trait
+	set_nationality = FOP
+}
+random_character = {
+	limit = { is_character = RUS_iosib_dzugashvili }
+	save_global_event_target_as = RUS_iosib_dzugashvili_target
+	add_unit_leader_trait = INT_russian_exile_trait
+	set_nationality = FOP
+}
+random_character = {
+	limit = { is_character = RUS_mikhail_tukhachevsky }
+	save_global_event_target_as = RUS_mikhail_tukhachevsky_target
+	add_unit_leader_trait = INT_russian_exile_trait
+	set_nationality = FRA
+}
+random_character = {
+	limit = { is_character = RUS_mikhail_frunze }
+	save_global_event_target_as = RUS_mikhail_frunze_target
+	add_unit_leader_trait = INT_russian_exile_trait
+	set_nationality = ENG
+}
+random_character = {
+	limit = { is_character = RUS_ivan_konev }
+	save_global_event_target_as = RUS_ivan_konev_target
+	add_unit_leader_trait = INT_russian_exile_trait
+	set_nationality = ENG
+}
+random_character = {
+	limit = { is_character = RUS_maksim_purkayev }
+	save_global_event_target_as = RUS_maksim_purkayev_target
+	add_unit_leader_trait = INT_russian_exile_trait
+	set_nationality = ENG
+}
+random_character = {
+	limit = { is_character = RUS_aleksandr_gorbatov }
+	save_global_event_target_as = RUS_aleksandr_gorbatov_target
+	add_unit_leader_trait = INT_russian_exile_trait
+	set_nationality = ENG
+}
