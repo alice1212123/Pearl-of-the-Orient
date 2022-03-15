@@ -1,0 +1,27 @@
+
+state={
+	id=1040
+	name="STATE_1040"
+
+	history={
+		owner = URG
+		add_core_of = URG
+		victory_points = {
+			10362 20 
+		}
+		buildings = {
+			infrastructure = 3
+			10362 = {
+				naval_base = 3
+			}
+		}
+
+	}
+
+	provinces={
+		1641 1654 4457 10347 10362 12336 12481 12496 13528 13529 13558 13578 13589 13590 13687 13741 13753 13754 13757 13758 13759 13760 13884 13885 
+	}
+	manpower=1344678
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

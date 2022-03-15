@@ -1,0 +1,19 @@
+state={
+	id=1100
+	name="STATE_1100"
+	history={
+		owner = KAS
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = RAJ
+		add_core_of = KAS
+		add_core_of = AIG
+	}
+	provinces={
+		1129 2076 7106 
+	}
+	manpower=487432
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=1116
+	name="STATE_1116"
+
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = EGY
+
+	}
+
+	provinces={
+		13366 13401 13430
+	}
+	manpower=21100
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

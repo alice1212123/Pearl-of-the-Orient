@@ -1,0 +1,31 @@
+
+state={
+	id=947
+	name="STATE_947"
+	resources={
+		rubber=8.000
+		tungsten=6.000
+		steel=1.000
+	}
+
+	history={
+		owner = SIA
+		add_core_of = NSI
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			1488 5 
+		}
+		add_core_of = SIA
+
+	}
+
+	provinces={
+		1253 1488 1990 4496 7353 7492 7531 7675 8045 10371 
+	}
+	manpower=3422400
+	buildings_max_level_factor=1.000
+	state_category=town
+}

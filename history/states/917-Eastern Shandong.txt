@@ -1,0 +1,31 @@
+
+state={
+	id=917
+	name="STATE_917"
+
+	history={
+		owner = JAP
+		add_core_of = BEI
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = SHC
+		buildings = {
+			infrastructure = 1
+			4205 = {
+				naval_base = 2
+				coastal_bunker = 1
+				bunker = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1104 1184 1200 4157 4186 4205 7089 7105 10018 12074 
+	}
+	manpower=8373200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

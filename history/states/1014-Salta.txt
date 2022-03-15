@@ -1,0 +1,19 @@
+
+state={
+	id=1014
+	name="STATE_1014"
+
+	history={
+		owner = PBC
+		add_core_of = PBC
+		add_core_of = ARG
+
+	}
+
+	provinces={
+		2224 5146 10944 13890 13919 13930 13937 13965 13971 13984 14010 14036 14073 14117 14118 14159 14225 
+	}
+	manpower=654678
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

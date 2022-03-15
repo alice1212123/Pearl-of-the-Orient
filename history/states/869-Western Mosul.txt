@@ -1,0 +1,25 @@
+
+state={
+	id=869
+	name="STATE_869"
+	
+
+	history={
+		owner = TUR
+		add_core_of = TUR
+		set_demilitarized_zone = yes
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = IRQ
+
+	}
+
+	provinces={
+		1938 10804 12372
+	}
+	manpower=182741
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

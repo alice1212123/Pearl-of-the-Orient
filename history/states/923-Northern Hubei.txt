@@ -1,0 +1,26 @@
+state={
+	id=923
+	name="STATE_923"
+	
+
+	history={
+		owner = BEI
+		add_core_of = BEI
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+
+		}
+		
+		
+		
+
+	}
+	provinces={
+		4093 4208 7000 7109 10022 10053 
+	}
+	manpower=4434900
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=921
+	name="STATE_921"
+	resources={
+		steel=10.000
+	}
+
+	history={
+		owner = HUC
+		add_core_of = HUC
+		add_core_of = BEI
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = SHC
+		add_core_of = ANH
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1001 1121 1161 4079 7085 7094 7126 9937 9995 10040 10064 10079 11916 11973 12036 
+	}
+	manpower=10265400
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

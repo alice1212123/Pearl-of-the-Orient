@@ -1,0 +1,22 @@
+
+state={
+	id=973
+	name="STATE_973"
+
+	history={
+		owner = VEN
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = VEN
+
+	}
+
+	provinces={
+		1981 14086 14087 14088 14089 14090 
+	}
+	manpower=345789
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

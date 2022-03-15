@@ -1,0 +1,49 @@
+
+state={
+	id=497
+	name="STATE_497"
+	resources={
+		rubber=23.000
+	}
+
+	history={
+		owner = BRS
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			13500 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = BRA
+		add_core_of = BMJ
+		add_core_of = UBR
+		add_core_of = SRB
+		add_core_of = BRE
+		add_core_of = BRS
+		add_core_of = FLF
+		add_core_of = GEF
+		
+		victory_points = { 13500 3 }	
+		victory_points = { 13504 1 }	
+		victory_points = { 13471 1 }	
+		victory_points = { 13472 1 }	
+		victory_points = { 5220 1 }	
+		victory_points = { 13475 1 }	
+		victory_points = { 13489 1 }	
+		victory_points = { 2150 1 }	
+		victory_points = { 13491 1 }	
+		victory_points = { 13501 1 }	
+		victory_points = { 14499 1 }	
+
+	}
+
+	provinces={
+		2150 5220 12913 12933 12947 13471 13472 13473 13474 13475 13476 13477 13478 13479 13480 13481 13482 13483 13484 13485 13486 13487 13488 13489 13490 13491 13492 13493 13494 13495 13496 13498 13500 13501 13502 13503 13504 14494 14499 
+	}
+	manpower=950100
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

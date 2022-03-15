@@ -1,0 +1,30 @@
+state={
+	id=911
+	name="STATE_911"
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = BEI
+
+		buildings = {
+			infrastructure = 1
+
+			1055 = {
+				naval_base = 3
+				coastal_bunker = 1
+				bunker = 1
+
+			}
+
+		}
+
+
+	}
+	provinces={
+		1055 1195 4013 4099 7086 9944 9972 11920 11947
+	}
+	manpower=11230700
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=680
+	name="STATE_680"
+
+
+	history={
+		owner = TUR
+		add_core_of = TUR
+		victory_points = {
+			3942 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SYR
+
+	}
+
+	provinces={
+		3942 7513 12442 
+	}
+	manpower=324110
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

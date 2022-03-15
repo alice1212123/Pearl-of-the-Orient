@@ -1,0 +1,31 @@
+state={
+	id=1123
+	name="STATE_1123"
+	provinces={
+		9427 13205
+	}
+	history={
+		owner = AUS
+		#owner = KRW
+		victory_points = {
+			9427 20 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+			air_base = 3
+
+		}
+		#add_core_of = KRW
+		add_core_of = AUS
+		add_core_of = GLC
+		add_core_of = POL
+
+	}
+
+	manpower=242100
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

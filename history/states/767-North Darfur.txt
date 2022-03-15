@@ -1,0 +1,23 @@
+
+state={
+	id=767
+	name="STATE_767"
+
+	history={
+		add_core_of = SUD
+		owner = SUD
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		4961 8103 10900 13252 13285 14599 14600
+	}
+	manpower=26043
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+}

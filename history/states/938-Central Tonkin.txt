@@ -1,0 +1,32 @@
+state={
+	id=938
+	name="STATE_938"
+	resources={
+		chromium=6.000
+		tungsten=7.000
+		steel=11.00
+	}
+
+	history={
+		add_core_of = VIN
+		owner = VIN
+		
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			1185 = {
+				naval_base = 4
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1185 4397 7280 9988 10016 11909 11936 12297 
+	}
+	manpower=4528000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

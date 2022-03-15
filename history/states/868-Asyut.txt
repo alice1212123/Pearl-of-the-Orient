@@ -1,0 +1,31 @@
+state={
+	id=868
+	name="STATE_868"
+	resources={
+		oil=12.000
+	}
+
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 1
+			
+
+		}
+		victory_points = {
+			11974 1
+		}
+		victory_points = {
+			1151 1
+		}
+		
+		add_core_of = EGY
+
+	}
+	provinces={
+		1151 7030 7144 10028 11974 12044
+	}
+	manpower=1155780
+	buildings_max_level_factor=1.000
+    state_category=rural
+}

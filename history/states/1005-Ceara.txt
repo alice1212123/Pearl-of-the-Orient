@@ -1,0 +1,29 @@
+
+state={
+	id=1005
+	name="STATE_1005"
+
+	history={
+		owner = BRS
+		add_core_of = BRA
+		add_core_of = BMJ
+		add_core_of = UBR
+		add_core_of = SRB
+		add_core_of = BRE
+		add_core_of = BRS
+		add_core_of = FLF
+		add_core_of = GEF
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		2132 2164 2178 5107 8179 13560 13561 13562 13563 13564 13565 13566 13567 13579 13580 13581 13582 13583 
+	}
+	manpower=1678949
+	buildings_max_level_factor=1.000
+	state_category=town
+}

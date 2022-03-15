@@ -1,0 +1,27 @@
+
+state={
+	id=872
+	name="STATE_872"
+
+
+	history={
+		owner = SAU
+		buildings = {
+			infrastructure = 1
+			5024 = {
+				naval_base = 2
+				coastal_bunker = 1
+			}
+
+		}
+		add_core_of = SAU
+
+	}
+
+	provinces={
+		5024 5081 7995 
+	}
+	manpower=107800
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

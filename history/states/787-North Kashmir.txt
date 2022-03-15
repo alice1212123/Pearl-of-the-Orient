@@ -1,0 +1,29 @@
+
+state={
+	id=787
+	name="STATE_787"
+
+	history={
+		victory_points = {
+			1910 1 
+		}
+		owner = KAS
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = PAK
+		add_core_of = RAJ
+		add_core_of = AIG
+		add_core_of = KHA
+		add_core_of = KAS
+
+	}
+
+	provinces={
+		7273 10821 
+	}
+	manpower=1415800
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

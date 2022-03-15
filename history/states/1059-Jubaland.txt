@@ -1,0 +1,22 @@
+state={
+	id=1059
+	name="STATE_1059"
+	history={
+		owner = ORA
+		add_core_of = SOM
+		add_core_of = ORA
+		
+		add_claim_by = KEN
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	provinces={
+		11014 12941 
+	}
+	manpower=92310
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

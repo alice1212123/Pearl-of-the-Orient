@@ -1,0 +1,33 @@
+
+state={
+	id=495
+	name="STATE_495"
+	resources={
+		aluminium=4.000
+	}
+
+	history={
+		owner = FLF
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = BRA
+		add_core_of = BMJ
+		add_core_of = UBR
+		add_core_of = SRB
+		add_core_of = BRE
+		add_core_of = BRS
+		add_core_of = FLF
+		add_core_of = GEF
+
+	}
+
+	provinces={
+		12919 14235 14242 14264 
+	}
+	manpower=26900
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+}

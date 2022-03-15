@@ -1,0 +1,29 @@
+
+state={
+	id=510
+	name="STATE_510"
+	resources={
+		oil=8.000
+	}
+
+	history={
+		owner = ARG
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 4
+			air_base = 1
+			arms_factory = 1
+
+		}
+		
+		add_core_of = ARG
+
+	}
+
+	provinces={
+		1449 10515 10943 12453 14178 14179 14180 14181 14182 14183 14184 14185 14186 14187 14188 14189 14190 14191 14192 
+	}
+	manpower=3497169
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

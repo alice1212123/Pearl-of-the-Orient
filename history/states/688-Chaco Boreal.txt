@@ -1,0 +1,49 @@
+
+state={
+	id=688
+	name="STATE_688"
+	resources={
+		tungsten=3.000
+		steel=2.000
+	}
+
+	history={
+		owner = PAR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = PBC
+		add_core_of = PAR
+		
+		victory_points = {
+			10973 1 
+		}			
+		victory_points = {
+			14042 1 
+		}			
+		victory_points = {
+			14032 1 
+		}			
+		victory_points = {
+			14041 1 
+		}			
+		victory_points = {
+			14045 1 
+		}			
+		victory_points = {
+			14059 1 
+		}			
+		victory_points = {
+			14056 1 
+		}			
+		
+	}
+
+	provinces={
+		2195 2209 5165 8203 10973 14031 14032 14033 14034 14035 14037 14038 14039 14040 14041 14042 14043 14044 14045 14046 14047 14048 14049 14050 14051 14052 14053 14056 14057 14058 14059 14060 
+	}
+	manpower=95900
+	buildings_max_level_factor=1.000
+	state_category=town
+}

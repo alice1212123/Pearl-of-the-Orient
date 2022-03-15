@@ -1,0 +1,21 @@
+state={
+	id=1087
+	name="STATE_1087"
+
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			12764 1
+		}
+	}
+
+	provinces={
+		1143 12764
+	}
+	manpower = 23000
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+}

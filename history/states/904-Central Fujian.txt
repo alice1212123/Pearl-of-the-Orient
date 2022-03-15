@@ -1,0 +1,29 @@
+state={
+	id=904
+	name="STATE_904"
+	resources={
+		steel=9.000
+		tungsten=11
+	}
+
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = BEI
+		buildings = {
+			infrastructure = 2
+
+
+		}
+
+
+
+	}
+	provinces={
+		1166 1193 7027 7131 10084 11986 12057
+	}
+	manpower=4755600
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,26 @@
+state={
+	id=897
+	name="STATE_897"
+	resources={
+		steel=8.000
+	}
+	history={
+		owner = GZC
+		add_core_of = GZC
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = BEI
+		buildings = {
+			infrastructure = 2
+
+		}
+
+
+	}
+	provinces={
+	 4130 12467
+	}
+	manpower=2541600
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

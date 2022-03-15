@@ -1,0 +1,78 @@
+
+state={
+	id=280
+	name="STATE_280"
+
+	history={
+		owner = UBR
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = BRA
+		add_core_of = BMJ
+		add_core_of = UBR
+		add_core_of = SRB
+		add_core_of = BRE
+		add_core_of = BRS
+		add_core_of = FLF
+		add_core_of = GEF
+		victory_points = {
+			12770 1 
+		}
+		victory_points = {
+			13369 3 
+		}
+		victory_points = {
+			13660 1 
+		}
+		victory_points = {
+			11010 1 
+		}
+		victory_points = {
+			12729 1 
+		}
+		victory_points = {
+			13406 1 
+		}
+		victory_points = {
+			13396 1 
+		}
+		victory_points = {
+			13419 1 
+		}
+		victory_points = {
+			14479 1 
+		}
+		victory_points = {
+			13664 1 
+		}
+		victory_points = {
+			5148 1 
+		}
+		
+		BRE = {
+			set_province_controller = 13398
+            set_province_controller = 8189
+            set_province_controller = 13400
+            set_province_controller = 8224
+            set_province_controller = 13403
+            set_province_controller = 13416
+            set_province_controller = 13405
+            set_province_controller = 13409
+            set_province_controller = 13418
+            set_province_controller = 13417
+            set_province_controller = 13415
+            set_province_controller = 13425
+            set_province_controller = 13410
+			}
+
+	}
+
+	provinces={
+		2111 2142 2181 2204 5148 8175 8189 8224 10792 10959 12869 13328 13363 13364 13365 13367 13368 13369 13370 13371 13372 13373 13388 13389 13390 13391 13392 13393 13394 13395 13396 13397 13398 13399 13400 13402 13403 13404 13405 13406 13407 13408 13409 13410 13411 13412 13415 13416 13417 13418 13419 13425 13428 13429 13660 13661 13662 13663 13664 13665 13666 13667 14470 14478 14479 
+	}
+	manpower=520000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,24 @@
+
+state={
+	id=1039
+	name="STATE_1039"
+
+	history={
+		owner = ENG
+		victory_points = { 14074 3 }
+		buildings = {
+			14074 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = GYA
+
+	}
+
+	provinces={
+		12828 14074 
+	}
+	manpower=200554
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

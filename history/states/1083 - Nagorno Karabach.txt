@@ -1,0 +1,28 @@
+state={
+	id=1083
+	name="STATE_1083"
+	resources={
+		oil=70 # was: 126.000
+	}
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			fuel_silo = 1
+			air_base = 1
+		}
+		add_core_of = SOV
+		add_core_of = AZR
+		add_core_of = ARM
+
+	}
+
+	provinces={
+		1467 9715 
+	}
+	manpower=218210
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

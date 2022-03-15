@@ -1,0 +1,27 @@
+
+state={
+	id=920
+	name="STATE_920"
+
+	history={
+		owner = HUC
+		add_core_of = HUC
+		add_core_of = BEI
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = SHC
+		buildings = {
+			infrastructure = 1
+
+		}
+
+
+	}
+
+	provinces={
+		1154 4037 4071 4089 7055 10072 10102 12045 
+	}
+	manpower=18373200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

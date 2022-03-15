@@ -1,0 +1,24 @@
+
+state={
+	id=977
+	name="STATE_977"
+
+	history={
+		owner = PBC
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = BOL		
+		add_core_of = PBC
+
+	}
+
+	provinces={
+		2174 10952 13134 13939 13940 13952 13953 13978 13979 13996 13997 13998 14000 14011 
+	}
+	manpower=487654
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,28 @@
+
+state={
+	id=877
+	name="STATE_877"
+
+
+	history={
+		owner = HEJ
+		add_core_of = HEJ
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			2033 5 
+		}
+		add_core_of = SAU
+
+	}
+
+	provinces={
+		2033 4981 8092 10835 
+	}
+	manpower=827800
+	buildings_max_level_factor=1.000
+	state_category=town
+}

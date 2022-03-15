@@ -1,0 +1,27 @@
+
+state={
+	id=922
+	name="STATE_922"
+	resources={
+		steel=10.000
+	}
+
+	history={
+		owner = BEI
+		add_core_of = BEI
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		10003 11944 11996 
+	}
+	manpower=8434900
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

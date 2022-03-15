@@ -1,0 +1,40 @@
+
+state={
+	id=954
+	name="STATE_954"
+	resources={
+		aluminium=16.000
+		steel=8.000
+	}
+
+	history={
+		owner = BAD
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			3530 10 
+		}
+		victory_points = {
+			6542 2 
+		}
+		victory_points = {
+			6712 5 
+		}
+		victory_points = {
+			3679 1 
+		}
+		add_core_of = BAD
+
+	}
+
+	provinces={
+		3530 3679 3692 6542 6568 6581 6712 11640 
+	}
+	manpower=286854
+	buildings_max_level_factor=1.000
+	state_category=town
+}

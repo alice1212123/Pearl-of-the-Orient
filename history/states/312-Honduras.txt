@@ -1,0 +1,24 @@
+
+state={
+	id=312
+	name="STATE_312"
+	resources={
+		chromium=1.000
+	}
+
+	history={
+		owner = CEN
+		add_core_of = CEN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+
+	provinces={
+		2031 13240 
+	}
+	manpower=191600
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

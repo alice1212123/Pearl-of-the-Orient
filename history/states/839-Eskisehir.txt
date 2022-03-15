@@ -1,0 +1,26 @@
+state={
+	id=839
+	name="STATE_839"
+	history={
+		owner = TUR
+		
+		victory_points = {
+			3951 3
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 3
+
+		}
+		add_core_of = TUR
+
+	}
+	provinces={
+		3907 3951 6808 11831
+	}
+	manpower=170758
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,57 @@
+
+state={
+	id=505
+	name="STATE_505"
+
+	history={
+		owner = UBR
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = BRA
+		add_core_of = BMJ
+		add_core_of = UBR
+		add_core_of = SRB
+		add_core_of = BRE
+		add_core_of = BRS
+		add_core_of = FLF
+		add_core_of = GEF
+		victory_points = {
+			13466 1 
+		}
+		victory_points = {
+			13433 1 
+		}
+		victory_points = {
+			13448 1 
+		}
+		victory_points = {
+			13442 1 
+		}
+		victory_points = {
+			13441 1 
+		}
+		victory_points = {
+			13452 1 
+		}
+		BRS = {
+			set_province_controller = 13461
+			set_province_controller = 5208
+			set_province_controller = 13462
+			set_province_controller = 13458
+			set_province_controller = 13456
+			set_province_controller = 13374
+			set_province_controller = 13375
+
+		}
+
+	}
+
+	provinces={
+		2168 5083 5115 5151 5208 8140 12959 12987 13374 13375 13376 13377 13378 13379 13380 13381 13382 13383 13384 13385 13432 13433 13434 13435 13436 13437 13440 13441 13442 13443 13444 13445 13446 13447 13448 13449 13450 13451 13452 13453 13454 13455 13456 13457 13458 13459 13460 13461 13462 13463 13464 13465 13466 13467 13468 13469 13470 14471 14473 14476 
+	}
+	manpower=1062200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,25 @@
+state={
+	id=995
+	name="STATE_995"
+	resources={
+		steel=5
+		rubber=5
+	}
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = CAY
+
+	}
+
+	provinces={
+		4934
+	}
+	manpower=30872
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+}

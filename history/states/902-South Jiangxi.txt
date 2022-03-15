@@ -1,0 +1,23 @@
+state={
+	id=902
+	name="STATE_902"
+	history={
+		owner = GZC
+		add_core_of = GZC
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = BEI
+		buildings = {
+			infrastructure = 1
+
+		}
+
+
+	}
+	provinces={
+		1053 4081 4183 7004 7199 9942 10112 11945 12030
+	}
+	manpower=5820400
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

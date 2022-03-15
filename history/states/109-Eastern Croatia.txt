@@ -1,0 +1,31 @@
+
+state={
+	id=109
+	name="STATE_109"
+	resources={
+		steel=10.000
+	}
+
+	history={
+		owner = AUS
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+
+		}
+		victory_points = {
+			11581 3 
+		}
+		add_core_of = YUG
+		add_core_of = CRO
+		add_core_of = AUS
+
+	}
+
+	provinces={
+		624 3592 3596 11581 
+	}
+	manpower=1901100
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

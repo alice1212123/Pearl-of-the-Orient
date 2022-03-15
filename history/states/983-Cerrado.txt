@@ -1,0 +1,41 @@
+
+state={
+	id=983
+	name="STATE_983"
+
+	history={
+		owner = FLF
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = BRA
+		add_claim_by = FRA
+		add_core_of = BMJ
+		add_core_of = UBR
+		add_core_of = SRB
+		add_core_of = BRE
+		add_core_of = BRS
+		add_core_of = FLF
+		add_core_of = GEF
+		victory_points = {
+			10849 1 
+		}
+		victory_points = {
+			2035 1 
+		}
+		victory_points = {
+			13331 1 
+		}
+		add_extra_state_shared_building_slots = 1
+
+	}
+
+	provinces={
+		2035 2147 5008 5214 7915 8185 8254 10736 10849 10879 10934 12825 12965 13083 13331 13332 13333 13334 13335 13336 13337 13338 14068 14069 14273 14421 14422 14425 14513 14530 14557 14564 14565 14566 14567 14569 14570 14571 14572 14573 
+	}
+	manpower=389000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

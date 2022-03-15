@@ -1,0 +1,32 @@
+
+state={
+	id=612
+	name="STATE_612"
+
+	history={
+		owner = MON
+		add_core_of = MON
+		add_core_of = SIK
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = BEI
+		add_core_of = NRX
+		add_core_of = XSM
+		add_core_of = HUC
+		add_core_of = GUO
+		add_core_of = MUA
+		add_core_of = ZHC
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1489 1551 1608 1796 4222 4495 4612 7545 7648 7674 10372 11752 12348 12448 
+	}
+	manpower=566000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

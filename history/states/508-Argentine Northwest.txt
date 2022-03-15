@@ -1,0 +1,28 @@
+
+state={
+	id=508
+	name="STATE_508"
+
+	history={
+		owner = FLF
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		add_extra_state_shared_building_slots = 1
+		add_core_of = PBC
+		add_core_of = PRU
+		victory_points = {
+			8216 1 
+		}
+
+	}
+
+	provinces={
+		1979 5216 8172 13339 13895 13897 13898 14575 
+	}
+	manpower=781311
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

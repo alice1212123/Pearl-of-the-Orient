@@ -1,0 +1,28 @@
+
+state={
+	id=810
+	name="STATE_810"
+
+	history={
+		victory_points = {
+			11564 1 
+		}
+		owner = AUS
+		add_core_of = AUS
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = SLV
+		add_core_of = YUG
+
+	}
+
+	provinces={
+		596 665 3631 3654 6650 9596 9627 
+	}
+	manpower=181700
+	buildings_max_level_factor=1.000
+	state_category=town
+}

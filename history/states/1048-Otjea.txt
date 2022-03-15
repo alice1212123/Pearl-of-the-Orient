@@ -1,0 +1,24 @@
+
+state={
+	id=1048
+	name="STATE_1048"
+
+	history={
+		owner = LBA
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = LBA
+		add_claim_by = EGY
+
+	}
+
+	provinces={
+		1057 1140 1994 10104 10754 
+	}
+	manpower=21020
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+}

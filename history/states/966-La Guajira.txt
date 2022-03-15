@@ -1,0 +1,23 @@
+
+state={
+	id=966
+	name="STATE_966"
+
+	history={
+		add_core_of = SUR
+		owner = HOL
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		1928 
+	}
+	manpower=82000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes	
+}

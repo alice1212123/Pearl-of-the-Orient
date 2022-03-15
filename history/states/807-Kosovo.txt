@@ -1,0 +1,31 @@
+
+state={
+	id=807
+	name="STATE_807"
+	resources={
+		steel=6.000
+		tungsten=6.000
+	}
+
+	history={
+		owner = YUG
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			9890 5 
+		}
+		add_core_of = YUG
+		add_core_of = SER
+		add_core_of = ALB
+
+	}
+
+	provinces={
+		6940 9849 9874 9890 
+	}
+	manpower=143000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,34 @@
+
+state={
+	id=620
+	name="STATE_620"
+	resources={
+		steel=14.000
+	}
+
+	history={
+		owner = HSC
+		add_core_of = HSC
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = BEI
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			7609 5 
+		}
+		
+
+	}
+
+	provinces={
+		1612 7019 7596 7609 8072 10474 
+	}
+	manpower=20541600
+	buildings_max_level_factor=1.000
+	state_category=city
+}

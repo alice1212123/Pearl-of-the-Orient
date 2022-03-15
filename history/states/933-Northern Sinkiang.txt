@@ -1,0 +1,28 @@
+
+state={
+	id=933
+	name="STATE_933"
+
+	history={
+		owner = KUL
+		add_core_of = MON
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = BEI
+		add_core_of = KUL
+		add_core_of = NRX
+		add_core_of = ETR
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		4704 4843 10839 12598 12671 
+	}
+	manpower=1200000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

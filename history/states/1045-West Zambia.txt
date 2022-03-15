@@ -1,0 +1,22 @@
+
+state={
+	id=1045
+	name="STATE_1045"
+
+	history={
+		add_core_of = ZAM
+		owner = ENG
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		697 7872 12677 
+	}
+	manpower=129000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

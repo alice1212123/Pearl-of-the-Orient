@@ -1,0 +1,32 @@
+
+state={
+	id=88
+	name="STATE_88"
+	resources={
+		steel=15.000
+		oil=7.000
+	}
+
+	history={
+		owner = AUS
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 2
+
+		}
+		add_core_of = AUS
+		add_core_of = GLC
+		add_core_of = POL
+
+	}
+
+	provinces={
+		417 466 3410 3434 9412 11398 11413
+	}
+	manpower=3450700
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

@@ -1,0 +1,28 @@
+state={
+	id=840
+	name="STATE_840"
+
+	history={
+		owner = TUR
+		victory_points = {
+			904 2 
+		}
+		buildings = {
+			infrastructure = 2
+			904 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = TUR
+
+	}
+
+	provinces={
+		904 979 3919 6920 11866 11883 
+	}
+	manpower=218901
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

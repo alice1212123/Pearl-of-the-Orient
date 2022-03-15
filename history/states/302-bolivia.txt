@@ -1,0 +1,33 @@
+
+state={
+	id=302
+	name="STATE_302"
+	resources={
+		tungsten=60.000
+		steel=2.000
+	}
+
+	history={
+		owner = PBC
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 2
+
+		}
+		add_core_of = PBC
+		add_core_of = BOL
+		victory_points = {
+			5230 15 
+		}
+
+	}
+
+	provinces={
+		5188 5230 8157 8225 13174 13175 13195 13938 13973 13974 13977 13999 14472 
+	}
+	manpower=1044500
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

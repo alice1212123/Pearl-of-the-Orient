@@ -1,0 +1,30 @@
+
+state={
+	id=918
+	name="STATE_918"
+
+	history={
+		owner = HUC
+		add_core_of = HUC
+		add_core_of = BEI
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = SHC
+		
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			air_base = 3
+
+		}
+
+
+	}
+
+	provinces={
+		1084 7160 7189 9987 10119 11962 11980 12093 
+	}
+	manpower=5373200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

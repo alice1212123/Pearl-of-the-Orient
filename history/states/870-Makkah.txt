@@ -1,0 +1,27 @@
+
+state={
+	id=870
+	name="STATE_870"
+
+
+	history={
+		owner = BTA
+		add_core_of = BTA
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			7934 10
+		}
+
+	}
+
+	provinces={
+		5027 5099 7934 7970 10892 12758 
+	}
+	manpower=640000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

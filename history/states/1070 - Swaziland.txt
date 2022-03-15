@@ -1,0 +1,30 @@
+state={
+	id=1070
+	name="STATE_1070" # Swaziland
+	manpower = 200000
+	resources={
+		chromium=5 # was: 116
+	}
+	
+	state_category = rural
+
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			air_base = 1
+			}
+		
+		victory_points = {
+			7900 1 
+		}
+		
+		add_core_of = SAF
+	}
+
+	provinces={
+		7900
+	}
+}

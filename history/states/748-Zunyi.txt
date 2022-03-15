@@ -1,0 +1,30 @@
+
+state={
+	id=748
+	name="STATE_748"
+
+	history={
+		owner = GZC
+		add_core_of = GZC
+		add_core_of = SIC
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = BEI
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			1010 3 
+		}
+		
+
+	}
+
+	provinces={
+		1010 4325 9939 10763 
+	}
+	manpower=1500000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

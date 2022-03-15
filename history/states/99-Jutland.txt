@@ -1,0 +1,52 @@
+
+state={
+	id=99
+	name="STATE_99"
+	resources={
+		aluminium=6.000
+	}
+
+	history={
+		owner = DEN
+		victory_points = {
+			6364 10 
+		}
+		victory_points = {
+			399 3
+		}
+		victory_points = {
+			3277 2
+		}
+		victory_points = {
+			6235 5
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			air_base = 2
+			394 = {
+				naval_base = 3
+
+			}
+			399 = {
+				naval_base = 1
+
+			}
+			6364 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = DEN
+		add_claim_by = ICE
+
+	}
+
+	provinces={
+		316 394 399 3206 3277 3341 6235 6364 
+	}
+	manpower=1672235
+	buildings_max_level_factor=1.000
+	state_category=town
+}

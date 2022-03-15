@@ -1,0 +1,30 @@
+state={
+	id=828
+	name="STATE_828"
+	history={
+		victory_points = {
+			11965 1 
+		}
+		owner = ATH
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+			11965 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = ATH
+		add_core_of = GRE
+		add_core_of = THS
+
+	}
+	provinces={
+		4178 11965 
+	}
+	manpower=215000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

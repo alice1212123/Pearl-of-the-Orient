@@ -1,0 +1,14 @@
+state={
+	id=1027
+	name="STATE_1027"
+	history = {
+		owner = ARG
+		add_core_of = ARG
+	}
+	provinces={
+		11009 
+	}
+	manpower=5789
+	buildings_max_level_factor=1.000
+	state_category = wasteland
+}

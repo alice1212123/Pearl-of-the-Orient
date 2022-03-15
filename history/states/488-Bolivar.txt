@@ -1,0 +1,23 @@
+
+state={
+	id=488
+	name="STATE_488"
+
+	history={
+		owner = VEN
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = VEN
+
+	}
+
+	provinces={
+		5317 14248 
+	}
+	manpower=94564
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+}

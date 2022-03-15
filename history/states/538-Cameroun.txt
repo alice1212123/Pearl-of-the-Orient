@@ -1,0 +1,26 @@
+
+state={
+	id=538
+	name="STATE_538"
+	resources={
+		rubber=5.000
+	}
+
+	history={
+		owner = FEA
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = COG
+		add_core_of = FEA
+
+	}
+
+	provinces={
+		7219 8016 8048 10951 
+	}
+	manpower=1693974
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

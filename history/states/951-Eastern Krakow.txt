@@ -1,0 +1,30 @@
+
+state={
+	id=951
+	name="STATE_951"
+	
+
+	history={
+		owner = AUS
+		victory_points = {
+			442 10 
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 4
+
+		}
+		add_core_of = AUS
+		add_core_of = SOV
+		add_core_of = POL
+		add_core_of = GLC
+
+	}
+
+	provinces={
+		442 6499 6522 9494 11507 14549 14550 
+	}
+	manpower=692800
+	buildings_max_level_factor=1.000
+	state_category=town
+}

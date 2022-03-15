@@ -1,0 +1,18 @@
+
+state={
+	id=1015
+	name="STATE_1015"
+
+	history={
+		owner = ARG
+		add_core_of = ARG
+
+	}
+
+	provinces={
+		11007 14162 14163 14164 14165 14166 
+	}
+	manpower=98765
+	buildings_max_level_factor=1.000
+	state_category=town
+}

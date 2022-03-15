@@ -1,0 +1,22 @@
+
+state={
+	id=1081
+	name="STATE_1081"
+	manpower = 94293
+	
+	state_category = wasteland
+	
+	
+	history={
+		owner = SUD
+		add_core_of = SUD
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces={
+		4033 10764 10857 13312 13313 13314
+	}
+}

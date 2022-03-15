@@ -1,0 +1,23 @@
+
+state={
+	id=975
+	name="STATE_975"
+
+	history={
+		owner = PBC
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = PBC
+		add_core_of = PRU
+
+	}
+
+	provinces={
+		8213 13889 13891 13892 14407 14440 14492 
+	}
+	manpower=129000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

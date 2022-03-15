@@ -1,0 +1,25 @@
+
+state={
+	id=797
+	name="STATE_797"
+
+	history={
+		owner = ETH
+		add_core_of = ETH
+		add_core_of = SOM
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		1905 4995 12757 12812 
+	}
+	manpower=2500000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=969
+	name="STATE_969"
+
+	history={
+		owner = COL
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = COL
+
+	}
+
+	provinces={
+		8050 14296 14375 14409 
+	}
+	manpower=34259
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes	
+}

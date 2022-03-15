@@ -1,0 +1,26 @@
+
+state={
+	id=860
+	name="STATE_860"
+
+	history={
+		owner = ZHC
+		add_core_of = BEI
+		add_core_of = CHI
+		add_core_of = MAN
+		add_core_of = PRC
+		add_core_of = ZHC
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		846 916 934 987 3828 3934 4514 6852 6893 6951 7633 9781 9788 9831 9927 10426 11771 11815 11836 11855 
+	}
+	manpower=6000000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

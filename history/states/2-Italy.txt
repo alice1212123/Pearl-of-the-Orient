@@ -1,0 +1,42 @@
+
+state={
+	id=2
+	name="STATE_2"
+
+	history={
+		owner = PAP
+		add_core_of = PAP
+		
+		victory_points = {
+			9904 50 
+		}
+		buildings = {
+			infrastructure = 4
+			air_base = 8
+			arms_factory = 1
+			industrial_complex = 4
+			9904 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = ITA
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 2
+				industrial_complex = 5
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		9904 
+	}
+	manpower=2781971
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

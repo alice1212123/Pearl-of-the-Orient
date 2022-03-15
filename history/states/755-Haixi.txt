@@ -1,0 +1,27 @@
+
+state={
+	id=755
+	name="STATE_755"
+
+	history={
+		owner = GUO
+		add_core_of = XSM
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = BEI
+		add_core_of = GUO
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		1778 2028 2053 2099 5076 5100 7971 12596 12820 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

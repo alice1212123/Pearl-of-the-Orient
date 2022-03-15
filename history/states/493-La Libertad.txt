@@ -1,0 +1,27 @@
+
+state={
+	id=493
+	name="STATE_493"
+	resources={
+		oil=25.000
+	}
+
+	history={
+		owner = COL
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			air_base = 2
+
+		}
+		add_core_of = COL
+
+	}
+
+	provinces={
+		2085 
+	}
+	manpower=343890
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

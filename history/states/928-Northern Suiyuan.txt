@@ -1,0 +1,27 @@
+
+state={
+	id=928
+	name="STATE_928"
+
+	history={
+		owner = MON
+		add_core_of = MON
+		add_core_of = SHX
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = BEI
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		2087 4525 7631 10629 12331 12609 12880 
+	}
+	manpower=583700
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

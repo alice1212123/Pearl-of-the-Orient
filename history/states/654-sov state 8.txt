@@ -1,0 +1,22 @@
+
+state={
+	id=654
+	name="STATE_654"
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = SOV
+
+	}
+
+	provinces={
+		1749 1818 1864 4781 4800 10531 10713 12427 12509 
+	}
+	manpower=153510
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

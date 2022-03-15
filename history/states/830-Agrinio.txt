@@ -1,0 +1,30 @@
+state={
+	id=830
+	name="STATE_830"
+	resources={
+		chromium=4.000
+		steel=4.000
+	}
+
+	history={
+		victory_points = {
+			1205 2 
+		}
+		owner = ATH
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = ATH
+		add_core_of = GRE
+		add_core_of = THS
+
+	}
+
+	provinces={
+		1205 11895 12001 
+	}
+	manpower=175900
+	buildings_max_level_factor=1.000
+	state_category=town
+}

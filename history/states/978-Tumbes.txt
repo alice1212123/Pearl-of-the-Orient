@@ -1,0 +1,25 @@
+
+state={
+	id=978
+	name="STATE_978"
+
+	history={
+		owner = PBC
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+
+		}
+		add_core_of = PRU
+		add_core_of = PBC
+
+	}
+
+	provinces={
+		2156 5190 8199 13920 13921 13922 13923 13985 13986 14493 
+	}
+	manpower=1040000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,38 @@
+state={
+	id=913
+	name="STATE_913"
+
+	history={
+		owner = SMC
+		add_core_of = SMC
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = BEI
+		set_demilitarized_zone = yes
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			dockyard = 1
+			arms_factory = 1
+			7014 = {
+				naval_base = 6
+				coastal_bunker = 2
+				bunker = 2
+
+			}
+
+		}
+		victory_points = {
+			7014 20
+		}
+
+
+	}
+
+	provinces={
+		7014 12076
+	}
+	manpower=3305100
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

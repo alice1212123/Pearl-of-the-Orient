@@ -1,0 +1,30 @@
+
+state={
+	id=980
+	name="STATE_980"
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 1
+			dockyard = 2
+			air_base = 3
+			13238 = {
+				naval_base = 7
+
+			}
+
+		}
+		add_extra_state_shared_building_slots = 2
+		add_claim_by = NIC
+		add_core_of = NIC
+
+	}
+
+	provinces={
+		13236 13237 13238 
+	}
+	manpower=64913
+	buildings_max_level_factor=1.000
+	state_category=town
+}

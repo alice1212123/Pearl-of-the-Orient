@@ -1,0 +1,31 @@
+
+state={
+	id=959
+	name="STATE_959"
+
+	history={
+		add_core_of = HAN
+		owner = FGD
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			6444 11
+		}
+		victory_points = {
+			3524 3 
+		}
+		add_core_of = FGD
+
+	}
+
+	provinces={
+		3524 6444 9486 9547 
+	}
+	manpower=798235
+	buildings_max_level_factor=1.000
+	state_category=town
+}

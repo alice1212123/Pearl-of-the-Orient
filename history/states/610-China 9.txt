@@ -1,0 +1,31 @@
+
+state={
+	id=610
+	name="STATE_610"
+
+	history={
+		owner = BEI
+		add_core_of = SIK
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = BEI
+		add_core_of = NRX
+		add_core_of = XSM
+		add_core_of = HUC
+		add_core_of = GUO
+		add_core_of = MUA
+		add_core_of = ZHC
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		814 3814 3881 6837 6898 9905 11886 
+	}
+	manpower=1975377
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=967
+	name="STATE_967"
+
+	history={
+		owner = FLF
+		add_core_of = BRA
+		add_core_of = BMJ
+		add_core_of = UBR
+		add_core_of = SRB
+		add_core_of = BRE
+		add_core_of = BRS
+		add_core_of = FLF
+		add_core_of = GEF
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		5232 7993 14062 14381 
+	}
+	manpower=75872
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+}

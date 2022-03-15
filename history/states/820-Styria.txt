@@ -1,0 +1,36 @@
+
+state={
+	id=820
+	name="STATE_820"
+	resources={
+		oil=2.000
+		aluminium=1.000
+		steel=3.000
+	}
+
+	history={
+		owner = AUS
+		add_core_of = AUS
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 1
+			air_base = 4
+
+		}
+		victory_points = {
+			9648 15 
+		}
+		victory_points = {
+			6672 4 
+		}
+
+	}
+
+	provinces={
+		653 6687 6691 9646 9648 9650 9679 13246 
+	}
+	manpower=1476932
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=504
+	name="STATE_504"
+
+	history={
+		owner = BRE
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = BRA
+		add_core_of = BMJ
+		add_core_of = UBR
+		add_core_of = SRB
+		add_core_of = BRE
+		add_core_of = BRS
+		add_core_of = FLF
+		add_core_of = GEF
+		
+		victory_points = {
+			14466 1 
+		}		
+		victory_points = {
+			14085 2
+		}		
+
+	}
+
+	provinces={
+		5200 12951 13420 13421 13422 13423 13424 13426 13427 14083 14084 14085 14466 
+	}
+	manpower=229900
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=883
+	name="STATE_883"
+	
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = SAU
+
+	}
+
+	provinces={
+		10791 12702 
+	}
+	manpower=233611
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

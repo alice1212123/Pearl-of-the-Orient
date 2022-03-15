@@ -1,0 +1,25 @@
+
+state={
+	id=1063
+	name="STATE_1063"
+	resources={
+		rubber=2.000
+	}
+
+	history={
+		owner = ENG
+		add_core_of = TZN
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		2176 2281 2308 4171 5180 8144 10932 10988 12911 
+	}
+	manpower=1556711
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

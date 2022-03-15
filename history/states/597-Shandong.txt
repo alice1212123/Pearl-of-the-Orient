@@ -1,0 +1,34 @@
+
+state={
+	id=597
+	name="STATE_597"
+
+	history={
+		owner = HUC
+		add_core_of = HUC
+		add_core_of = BEI
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = SHC
+		victory_points = {
+			1069 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 2
+
+			
+
+		}
+		
+
+	}
+
+	provinces={
+		1069 
+	}
+	manpower=3373200
+	buildings_max_level_factor=1.000
+	state_category=town
+}

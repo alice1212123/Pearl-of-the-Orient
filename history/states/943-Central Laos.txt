@@ -1,0 +1,25 @@
+state={
+	id=943
+	name="STATE_943"
+	resources={
+		rubber=7.000
+		steel=7.00
+	}
+    history={
+		owner = VIN
+		add_core_of = LAO
+		add_core_of = VIN
+		
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	provinces={
+		1520 4260 4539 10195 10238 10326 12210 
+	}
+	manpower=1184000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

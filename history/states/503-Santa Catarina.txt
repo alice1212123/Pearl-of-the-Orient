@@ -1,0 +1,71 @@
+
+state={
+	id=503
+	name="STATE_503"
+
+	history={
+		owner = BRE
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+
+		}
+		add_core_of = BRA
+		add_core_of = BMJ
+		add_core_of = UBR
+		add_core_of = SRB
+		add_core_of = BRE
+		add_core_of = BRS
+		add_core_of = FLF
+		add_core_of = GEF
+		victory_points = {
+			13814 3 
+		}
+		victory_points = {
+			10405 2 
+		}
+		victory_points = {
+			10405 2 
+		}
+		victory_points = {
+			13826 2 
+		}
+		victory_points = {
+			13826 2 
+		}
+		victory_points = {
+			13827 1 
+		}
+		victory_points = {
+			13824 1 
+		}
+		victory_points = {
+			13828 1 
+		}
+		victory_points = {
+			13816 1 
+		}
+		victory_points = {
+			13810 1 
+		}
+		victory_points = {
+			13820 1 
+		}
+		
+		GEF ={
+		set_province_controller = 13816
+            set_province_controller = 13868
+            set_province_controller = 4548
+			}
+
+	}
+
+
+
+	provinces={
+		1529 4533 4548 10405 13810 13811 13812 13813 13814 13815 13816 13817 13818 13819 13820 13821 13822 13823 13828 13829 13868 
+	}
+	manpower=1122700
+	buildings_max_level_factor=1.000
+	state_category=town
+}

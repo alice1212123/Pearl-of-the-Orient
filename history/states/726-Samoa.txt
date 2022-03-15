@@ -1,0 +1,26 @@
+state={
+	id=726
+	name="STATE_726"
+	manpower=123214
+	state_category = small_island
+
+	history={
+		owner = ANC
+		add_core_of = SAM
+		#add_core_of = ANC
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			7290 = {
+				naval_base = 1
+			}
+		}
+		add_extra_state_shared_building_slots = 1
+		victory_points = {
+			7290 1
+		}
+	}
+	provinces={
+		7290 13080 
+	}
+}

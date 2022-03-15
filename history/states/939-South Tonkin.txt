@@ -1,0 +1,29 @@
+state={
+	id=939
+	name="STATE_939"
+	resources={
+		chromium=16.000
+		tungsten=7.000
+	}
+
+	history={
+		add_core_of = VIN
+		owner = VIN
+	
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		
+
+		}
+
+	}
+
+	provinces={
+		1248 1302 4255 4379 7229 10137 10180 10309 
+	}
+	manpower=1528000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

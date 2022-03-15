@@ -1,0 +1,22 @@
+state={
+	id=822
+	name="STATE_822"
+	history={
+		owner = AUS
+		add_core_of = AUS
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			688 8
+		}
+
+	}
+	provinces={
+		671 668 688 3674 3675 
+	}
+	manpower=251637
+	buildings_max_level_factor=1.000
+	state_category=city
+}

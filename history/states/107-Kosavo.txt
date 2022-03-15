@@ -1,0 +1,33 @@
+
+state={
+	id=107
+	name="STATE_107"
+	resources={
+		steel=4.000
+	}
+
+	history={
+		owner = YUG
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 5
+
+		}
+		victory_points = {
+			11586 15 
+		}
+		add_core_of = YUG
+		add_core_of = SER
+		add_claim_by = AUS
+
+	}
+
+	provinces={
+		11586 
+	}
+	manpower=879121
+	buildings_max_level_factor=1.000
+	state_category=city
+}

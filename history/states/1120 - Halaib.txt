@@ -1,0 +1,25 @@
+
+state={
+	id=1120
+	name="STATE_1120"
+	resources={
+	oil=3.000
+	}
+
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = EGY
+
+	}
+
+	provinces={
+		1977 4068 5069 12889
+	}
+	manpower=6100
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

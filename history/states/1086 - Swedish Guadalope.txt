@@ -1,0 +1,29 @@
+state={
+	id=1086
+	name="STATE_1086"
+
+	history={
+		owner = SWE
+		victory_points = {
+			9377 1
+		}
+		buildings = {
+			infrastructure = 1
+		air_base = 1
+		9377 = {
+			naval_base = 1
+			}
+		}
+		add_core_of = SWE
+		add_core_of = FRA
+		add_core_of = GDL
+		
+	}
+
+	provinces={
+		9377
+	}
+	manpower=168210
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}
