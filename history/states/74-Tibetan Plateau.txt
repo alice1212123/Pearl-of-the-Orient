@@ -4,6 +4,10 @@ state={
 	provinces={
 		2010 
 	}
+	history={
+		owner = TIB
+		add_core_of = TIB
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

@@ -1,0 +1,15 @@
+
+state={
+	id=91
+	name="STATE_91"
+	provinces={
+		1766 1928 1970 2015 5062 5087 7949 8185 10870 12119 12370 12768 13323 13730 
+	}
+	history={
+		owner = ETS
+		add_core_of = ETS
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

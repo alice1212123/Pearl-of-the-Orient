@@ -1,0 +1,15 @@
+
+state={
+	id=89
+	name="STATE_89"
+	provinces={
+		1143 1698 2064 2972 4709 4947 5736 7792 7858 8086 8103 10127 10545 10614 10869 10900 12524 12864 13581 13729 
+	}
+	history={
+		owner = SIK
+		add_core_of = SIK
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

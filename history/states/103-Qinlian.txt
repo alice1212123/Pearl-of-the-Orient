@@ -1,12 +1,12 @@
 state={
-	id=84
-	name="STATE_84"
+	id=103
+	name="STATE_103"
 	provinces={
-		1991 2093 4900 8121 12807 
+		1018 4023 10004 10105 11926 
 	}
 	history={
-		owner = TIB
-		add_core_of = TIB
+		owner = GXC
+		add_core_of = GXC
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

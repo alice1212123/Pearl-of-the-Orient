@@ -1,0 +1,14 @@
+state={
+	id=96
+	name="STATE_96"
+	provinces={
+		1091 1175 4096 7186 7214 9955 11914 11959 12027 12068 
+	}
+	history={
+		owner = GXC
+		add_core_of = GXC
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

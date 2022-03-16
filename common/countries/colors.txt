@@ -27,6 +27,22 @@ TIB = {
 	color_ui = rgb {204 219 218}
 }
 SIK = {
-	color = rgb {204 219 218}
-	color_ui = rgb {204 219 218}
+	color = rgb {153 192 123}
+	color_ui = rgb {153 192 123}
+}
+BHU = {
+	color = rgb {242 236 208}
+	color_ui = rgb {242 236 208}
+}
+NEP = {
+	color = rgb {243 243 243}
+	color_ui = rgb {243 243 243}
+}
+ETS = {
+	color = rgb {158 232 229}
+	color_ui = rgb {158 232 229}
+}
+YUN = {
+	color = rgb {223 215 139}
+	color_ui = rgb {223 215 139}
 }
