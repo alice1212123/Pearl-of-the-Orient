@@ -4,8 +4,10 @@ state={
 	provinces={
 		1458 1959 3427 4939 4960 4986 7314 7659 10451 10854 10880 12356 12706 
 	}
-	owner = MAN
-	add_core_of = MAN
+	history={
+		owner = MAN
+		add_core_of = MAN
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

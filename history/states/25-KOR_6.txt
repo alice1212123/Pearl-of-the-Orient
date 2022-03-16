@@ -5,8 +5,10 @@ state={
 	provinces={
 		7523 7591 7652 7670 9782 9913 10376 10433 10503 11864 12355 12412 
 	}
-	owner = KOR
-	add_core_of = KOR
+	history={
+		owner = KOR
+		add_core_of = KOR
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

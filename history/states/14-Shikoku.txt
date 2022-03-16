@@ -5,8 +5,10 @@ state={
 	provinces={
 		4094 4179 7046 7197 9965 11997 12028 
 	}
-	owner = JPN
-	add_core_of = JPN
+	history={
+		owner = JPN
+		add_core_of = JPN
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

@@ -1,11 +1,14 @@
+
 state={
 	id=43
 	name="STATE_43"
 	provinces={
-		1551 1796 4612 7048 7158 7545 11752 12331 12403 12448 
+		4612 7048 7158 7545 11752 12331 12403 12448 
 	}
-	owner = MAN
-	add_core_of = MAN
+	history={
+		owner = MAN
+		add_core_of = MAN
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
