@@ -1,16 +1,12 @@
-
 state={
-	id=91
-	name="STATE_91"
-
+	id=113
+	name="STATE_113"
+	provinces={
+		1483 1675 1825 1840 4316 4768 10408 12511 13147 
+	}
 	history={
 		owner = ETS
 		add_core_of = ETS
-
-	}
-
-	provinces={
-		1766 1928 2015 5062 5087 7949 10870 12119 12370 12768 13323 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

@@ -1,12 +1,16 @@
+
 state={
 	id=87
 	name="STATE_87"
-	provinces={
-		2198 2947 4973 5083 5216 8112 10911 13374 13386 13390 13408 13531 13731 13732 
-	}
+
 	history={
 		owner = TIB
 		add_core_of = TIB
+
+	}
+
+	provinces={
+		1970 2198 2947 4973 5083 5216 8112 8185 10911 13374 13386 13390 13408 13531 13730 13731 13732 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
