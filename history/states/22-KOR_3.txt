@@ -1,0 +1,12 @@
+state={
+	id=22
+	name="STATE_22"
+	provinces={
+		836 892 964 1150 3783 6851 6918 9781 9854 11764 
+	}
+	owner = KOR
+	add_core_of = KOR
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,13 @@
+
+state={
+	id=29
+	name="STATE_29"
+	provinces={
+		664 681 837 3695 3811 6686 6715 6833 9639 9641 11624 11626 11629 11643 11745 11765 11777 11904 
+	}
+	owner = KOR
+	add_core_of = KOR
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,12 @@
+state={
+	id=46
+	name="STATE_46"
+	provinces={
+		900 1052 6969 9843 10068 11761 11822 12043 
+	}
+	owner = MAN
+	add_core_of = MAN
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,12 @@
+state={
+	id=38
+	name="STATE_38"
+	provinces={
+		1672 4677 4719 4792 7725 7743 7786 10559 10612 10683 10708 12622 12665 12690 
+	}
+	owner = MAN
+	add_core_of = MAN
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

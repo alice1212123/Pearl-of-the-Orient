@@ -1,0 +1,12 @@
+state={
+	id=5
+	name="STATE_5"
+	provinces={
+		1512 1642 3962 4576 4646 7532 7595 10444 10512 12352 12421 12493 13037 
+	}
+	owner = JPN
+	add_core_of = JPN
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

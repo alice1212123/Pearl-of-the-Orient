@@ -1,0 +1,12 @@
+state={
+	id=16
+	name="STATE_16"
+	provinces={
+		1148 4004 4103 7021 9936 9981 11912 11958 12011 
+	}
+	owner = KOR
+	add_core_of = KOR
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

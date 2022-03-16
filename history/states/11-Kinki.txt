@@ -1,0 +1,12 @@
+state={
+	id=11
+	name="STATE_11"
+	provinces={
+		1051 1067 1133 1136 4054 4142 7072 7113 9985 11960 12031 
+	}
+	owner = JPN
+	add_core_of = JPN
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
