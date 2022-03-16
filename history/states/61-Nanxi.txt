@@ -1,16 +1,12 @@
-
 state={
-	id=41
-	name="STATE_41"
-
+	id=61
+	name="STATE_61"
+	provinces={
+		1115 1139 1180 1519 1575 1962 4058 4538 4606 4634 7074 7571 10421 12062 12078 12344 
+	}
 	history={
 		owner = MAN
 		add_core_of = MAN
-
-	}
-
-	provinces={
-		1868 4801 4862 7749 7752 7823 7860 7885 10575 10578 10647 12507 12533 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

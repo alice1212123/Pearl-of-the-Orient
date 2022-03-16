@@ -1,16 +1,16 @@
 
 state={
-	id=42
-	name="STATE_42"
+	id=68
+	name="STATE_68"
 
 	history={
-		owner = MAN
-		add_core_of = MAN
+		owner = XSM
+		add_core_of = XSM
 
 	}
 
 	provinces={
-		1723 1787 1853 4655 4856 10632 12539 12612 12669 
+		1838 2028 4843 5031 5100 7971 12327 12776 12820 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

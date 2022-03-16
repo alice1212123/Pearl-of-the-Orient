@@ -10,3 +10,23 @@ MAN = {
 	color = rgb {232 175 42}
 	color_ui = rgb {232 175 42}
 }
+GXC = {
+	color = rgb {128 56 42}
+	color_ui = rgb {128 56 42}
+}
+XSM = {
+	color = rgb {131 86 145}
+	color_ui = rgb {131 86 145}
+}
+MON = {
+	color = rgb {129 90 90}
+	color_ui = rgb {129 90 90}
+}
+TIB = {
+	color = rgb {204 219 218}
+	color_ui = rgb {204 219 218}
+}
+SIK = {
+	color = rgb {204 219 218}
+	color_ui = rgb {204 219 218}
+}

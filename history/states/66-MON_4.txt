@@ -1,12 +1,16 @@
+
 state={
-	id=57
-	name="STATE_57"
-	provinces={
-		1762 1791 1859 4766 4837 7676 7717 7816 10528 10543 10554 12605 
-	}
+	id=66
+	name="STATE_66"
+
 	history={
 		owner = MON
 		add_core_of = MON
+
+	}
+
+	provinces={
+		1774 1855 4751 4823 4849 7737 7808 7843 7870 10539 10563 10695 12520 12695 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

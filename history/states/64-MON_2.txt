@@ -1,12 +1,12 @@
 state={
-	id=56
-	name="STATE_56"
+	id=64
+	name="STATE_64"
 	provinces={
-		4042 7014 7120 10034 10076 12052 12076 13142 
+		1781 4786 4858 7864 10560 10634 10689 12541 
 	}
 	history={
-		owner = GXC
-		add_core_of = GXC
+		owner = MON
+		add_core_of = MON
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
