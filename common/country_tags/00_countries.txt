@@ -1,3 +1,8 @@
 JPN="countries/Japan.txt"
 KOR="countries/Joseon.txt"
 MAN="countries/Manchuria.txt"
+GXC="countries/Guangzhou.txt"
+XSM="countries/Qinghai.txt"
+MON="countries/Mongolia.txt"
+TIB="countries/Tibet.txt"
+SIK="countries/Xinjiang.txt"
