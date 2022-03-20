@@ -1,0 +1,14 @@
+state={
+	id=203
+	name="STATE_203"
+	provinces={
+		1667 1759 1773 1861 2130 2146 2155 4673 4763 4776 4791 5161 7755 7798 7811 7859 10553 10581 10622 10637 12532 12560 12576 12918 12924 12932 
+	}
+	history={
+		owner = GSU
+		add_core_of = GSU
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

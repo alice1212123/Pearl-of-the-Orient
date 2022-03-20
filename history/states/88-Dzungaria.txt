@@ -4,13 +4,13 @@ state={
 	name="STATE_88"
 
 	history={
-		owner = MON
-		add_core_of = MON
+		owner = SIK
+		add_core_of = SIK
 
 	}
 
 	provinces={
-		1783 1844 4714 4788 10674 10691 12590 12737 
+		1783 1844 4714 4788 7737 10674 10691 12590 12737 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

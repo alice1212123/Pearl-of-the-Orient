@@ -1,0 +1,14 @@
+state={
+	id=187
+	name="STATE_187"
+	provinces={
+		1652 2157 4630 5175 7453 8130 8228 8243 10983 
+	}
+	history={
+		owner = AST
+		add_core_of = AST
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

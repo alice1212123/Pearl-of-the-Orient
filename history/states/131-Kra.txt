@@ -5,6 +5,10 @@ state={
 	provinces={
 		1281 1308 1337 1366 1394 4312 4371 4388 7236 10156 10158 12131 12201 12230 12286 
 	}
+	history={
+		owner = SIA
+		add_core_of = SIA
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

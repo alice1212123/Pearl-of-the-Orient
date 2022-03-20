@@ -1,0 +1,14 @@
+state={
+	id=200
+	name="STATE_200"
+	provinces={
+		2116 2163 10977 
+	}
+	history={
+		owner = GSU
+		add_core_of = GSU
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

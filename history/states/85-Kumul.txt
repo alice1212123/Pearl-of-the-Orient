@@ -1,12 +1,16 @@
+
 state={
 	id=85
 	name="STATE_85"
+
+	history={
+		owner = SIK
+		add_core_of = SIK
+
+	}
+
 	provinces={
 		4704 7732 10839 12598 12671 13726 13727 13728 
-	}
-	history={
-		owner = MON
-		add_core_of = MON
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

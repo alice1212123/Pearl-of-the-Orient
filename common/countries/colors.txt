@@ -46,3 +46,23 @@ YUN = {
 	color = rgb {223 215 139}
 	color_ui = rgb {223 215 139}
 }
+VIN = {
+	color = rgb {255 255 51}
+	color_ui = rgb {255 255 51}
+}
+AST = {
+	color = rgb {177 166 71}
+	color_ui = rgb {177 166 71}
+}
+GSU = {
+	color = rgb {156 104 80}
+	color_ui = rgb {156 104 80}
+}
+SIA = {
+	color = rgb {63 104 80}
+	color_ui = rgb {63 104 80}
+}
+MLY = {
+	color = rgb {97 104 80}
+	color_ui = rgb {97 104 80}
+}

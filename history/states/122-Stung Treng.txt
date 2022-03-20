@@ -4,6 +4,10 @@ state={
 	provinces={
 		1620 4330 7645 10204 12260 
 	}
+	history={
+		owner = VIN
+		add_core_of = VIN
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
