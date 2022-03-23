@@ -1,0 +1,11 @@
+
+state={
+	id=320
+	name="STATE_320"
+	provinces={
+		652 1636 4583 6935 7470 9858 11880 13121 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
