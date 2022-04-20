@@ -1,0 +1,30 @@
+state = {
+	id =700
+	name = "STATE_700"
+	manpower = 217496
+
+	local_supplies=0.0 
+	
+	state_category = town
+	
+	history =
+	{
+		owner = ENG
+		victory_points = {
+			2038 1 
+		}
+		buildings = {
+			infrastructure = 1
+			2038 = {
+				naval_base = 1
+				bunker = 1
+			}
+		}
+		add_claim_by = KOY
+
+	}
+	
+	provinces = {
+		2038 2094 13224 13223
+	}
+}

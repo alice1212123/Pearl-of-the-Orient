@@ -1,0 +1,31 @@
+state = {
+	id = 1227
+	name = "STATE_1227"
+
+
+	local_supplies=0.0 
+	state_category = rural
+	resources = {
+		wood = 2
+		iron = 2
+		cotton = 2
+	}
+
+
+	provinces = {
+		8096 13289
+	}
+	manpower =82100
+
+	history = {
+				victory_points = {
+						8096 1
+				}
+			buildings = {
+			infrastructure = 1
+		}
+		add_core_of = MOS
+		owner = MOS
+		afr_state_setup_scripted_effect = yes
+	}
+}

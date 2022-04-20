@@ -1,0 +1,32 @@
+state = {
+	id = 1117
+	name = "STATE_1117" #Samegrelo
+
+
+	local_supplies=0.0 
+	resources = {
+	}
+
+	history = {
+		owner = GEO
+		victory_points = {
+			11599 5 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = GEO
+		add_claim_by = RUS
+		1870.1.1= {
+			owner = RUS
+			add_core_of = RUS
+		}
+	}
+
+	provinces = {
+		11599 672 772
+	}
+	manpower = 192835
+	
+	state_category =town
+}

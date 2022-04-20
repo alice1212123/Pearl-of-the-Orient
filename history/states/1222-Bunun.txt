@@ -1,0 +1,22 @@
+state = {
+	id = 1222
+	name = "STATE_1222" #Qingyang
+
+
+	local_supplies=0.0 
+	state_category = rural
+
+	history = {
+		buildings = {
+			infrastructure = 2
+		}
+			add_core_of = QNG
+			owner = QNG
+	}
+
+	provinces = {
+		517 4939
+	}
+	manpower = 1375222
+	
+}

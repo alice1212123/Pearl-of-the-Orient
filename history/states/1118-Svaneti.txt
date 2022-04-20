@@ -1,0 +1,29 @@
+state = {
+	id = 1118
+	name = "STATE_1118" #Svaneti
+
+
+	local_supplies=0.0 
+	resources = {
+	}
+
+	history = {
+		owner = GEO
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = GEO
+		add_claim_by = RUS
+		1870.1.1= {
+			owner = RUS
+			add_core_of = RUS
+		}
+	}
+
+	provinces = {
+		6674
+	}
+	manpower =73442
+	
+	state_category =town
+}
