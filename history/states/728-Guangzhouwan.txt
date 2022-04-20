@@ -1,42 +1,75 @@
-state = {
-	id =728
-	name = "STATE_728"
-	manpower = 117924
 
-	local_supplies=0.0 
+state={
+	id=728
+	name="STATE_728"
 
-	state_category = rural
-
-	history = {
+	history={
 		owner = QNG
 		add_core_of = QNG
 		buildings = {
 			infrastructure = 2
 			11981 = {
 				naval_base = 1
+
 			}
+
+		}
+		add_to_array = {
+			state_culture_array = 250
+
+		}
+		add_to_array = {
+			state_culture_array = 251
+
+		}
+		add_to_array = {
+			state_culture_array = 262
+
+		}
+		add_to_array = {
+			state_culture_array_num = 0.85
+
+		}
+		add_to_array = {
+			state_culture_array_num = 0.14
+
+		}
+		add_to_array = {
+			state_culture_array_num = 0.01
+
+		}
+		add_to_array = {
+			state_religion_array = 14
+
+		}
+		add_to_array = {
+			state_religion_array = 16
+
+		}
+		add_to_array = {
+			state_religion_array = 6
+
+		}
+		add_to_array = {
+			state_religion_array_num = 0.72
+
+		}
+		add_to_array = {
+			state_religion_array_num = 0.27
+
+		}
+		add_to_array = {
+			state_religion_array_num = 0.01
+
 		}
 
-		add_to_array = { state_culture_array = 250 }
-		add_to_array = { state_culture_array = 251 }
-		add_to_array = { state_culture_array = 262 }
-
-
-		add_to_array = { state_culture_array_num = 0.85 }
-		add_to_array = { state_culture_array_num = 0.14 }
-		add_to_array = { state_culture_array_num = 0.01 }
-
-		add_to_array = {state_religion_array = 14 }
-		add_to_array = {state_religion_array = 16 }
-		add_to_array = {state_religion_array = 6 }
-	
-		add_to_array = { state_religion_array_num = 0.72 }
-		add_to_array = { state_religion_array_num = 0.27 }
-		add_to_array = { state_religion_array_num = 0.01 }
-
 	}
 
-	provinces = {
-		11981
+	provinces={
+		1018 4023 4160 7135 10004 11981 
 	}
+	manpower=117924
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }
