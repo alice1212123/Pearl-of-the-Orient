@@ -13,7 +13,7 @@ state = {
 	state_category = town
 
 	history = {
-		owner = QNG
+		owner = KOR
 		victory_points = {
 			957 2
 		}
@@ -26,13 +26,7 @@ state = {
 				coastal_bunker = 3
 			}
 		}
-		add_core_of = QNG
-		# Blood and Iron
-		1870.1.1= {
-			owner = RUS
-			add_core_of = RUS
-			remove_core_of = QNG
-		}
+		add_core_of = KOR
 	}
 
 	provinces = {
