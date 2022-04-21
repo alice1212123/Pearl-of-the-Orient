@@ -7,17 +7,11 @@ state = {
 	}
 	
 	history = {
-		owner = QNG
+		owner = MAN
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = QNG
-		# Blood and Iron
-		1870.1.1= {
-			owner = RUS
-			add_core_of = RUS
-			remove_core_of = QNG
-		}
+		add_core_of = MAN
 	}
 	
 	manpower = 59800

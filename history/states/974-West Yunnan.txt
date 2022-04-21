@@ -9,10 +9,8 @@ state = {
 	}
 
 	history = {
-		owner = PTH
-		add_core_of = PTH
-		add_core_of = SHN
-		add_core_of = QNG
+		owner = YUN
+		add_core_of = YUN
 		victory_points = {
 			7965 3 
 		}
@@ -20,47 +18,6 @@ state = {
 			infrastructure = 1
 
 		}
-		
-		QNG = {
-			set_province_controller = 12898
-			set_province_controller = 12789
-			set_province_controller = 8126
-			set_province_controller = 4937
-			set_province_controller = 10863
-			set_province_controller = 5009
-			set_province_controller = 4210
-			set_province_controller = 5009
-			set_province_controller = 10413
-			set_province_controller = 10776
-			set_province_controller = 12262
-			set_province_controller = 12898
-		}
-		1870.1.1= {
-			owner = QNG
-		}
-		
-		add_to_array = { state_culture_array = 219 }
-		add_to_array = { state_culture_array = 268 }
-		add_to_array = { state_culture_array = 258 }
-		add_to_array = { state_culture_array = 262 }
-
-		add_to_array = { state_culture_array_num = 0.49 }
-		add_to_array = { state_culture_array_num = 0.21 }
-		add_to_array = { state_culture_array_num = 0.19 }
-		add_to_array = { state_culture_array_num = 0.11 }
-
-		add_to_array = { state_religion_array = 14 }
-		add_to_array = { state_religion_array = 11 }
-		add_to_array = { state_religion_array = 16 }
-		add_to_array = { state_religion_array = 20 }
-		add_to_array = { state_religion_array = 8 }
-
-		add_to_array = { state_religion_array_num = 0.60 }
-		add_to_array = { state_religion_array_num = 0.16 }
-		add_to_array = { state_religion_array_num = 0.10 }
-		add_to_array = { state_religion_array_num = 0.09 }
-		add_to_array = { state_religion_array_num = 0.05 }
-
 	}
 
 	provinces = {

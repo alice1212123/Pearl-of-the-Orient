@@ -13,8 +13,8 @@ state = {
 		victory_points = {
 			7418 1
 		}
-			add_core_of = QNG
-			owner = QNG
+			add_core_of = GXC
+			owner = GXC
 	}
 
 	provinces = {

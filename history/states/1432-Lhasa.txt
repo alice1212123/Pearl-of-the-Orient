@@ -1,6 +1,10 @@
 state={
 	id=1432
 	name="STATE_1432"
+	history={
+		owner=TIB
+		add_core_of=TIB
+	}
 	provinces={
 		2014 2098 4994 5033 7926 
 	}

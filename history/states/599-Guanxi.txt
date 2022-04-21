@@ -6,7 +6,6 @@ state={
 	history={
 		owner = GXC
 		add_core_of = GXC
-		add_core_of = QNG
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -27,35 +26,6 @@ state={
 		victory_points = {
 			1597 2 
 		}
-		QNG = {
-			set_province_controller = 10431
-			set_province_controller = 12436
-			set_province_controller = 4134
-			set_province_controller = 4085
-			set_province_controller = 4628
-			set_province_controller = 1625
-			set_province_controller = 10459
-			set_province_controller = 4656
-			set_province_controller = 1469
-			set_province_controller = 7650
-			set_province_controller = 10404
-			set_province_controller = 7168
-			set_province_controller = 1023
-			set_province_controller = 7128
-			set_province_controller = 7210
-			set_province_controller = 4152
-			set_province_controller = 4077
-
-		}
-		YAL = {
-			set_province_controller = 1469
-
-		}
-		1870.1.1 = {
-			owner = QNG
-
-		}
-
 	}
 
 	provinces={

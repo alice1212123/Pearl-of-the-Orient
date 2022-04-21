@@ -8,8 +8,8 @@ state={
 	}
 
 	history={
-		owner = QNG
-		add_core_of = QNG
+		owner = GXC
+		add_core_of = GXC
 		buildings = {
 			infrastructure = 2
 			cotton_farm = 2
@@ -17,57 +17,6 @@ state={
 				naval_base = 2
 
 			}
-
-		}
-		victory_points = {
-			1047 5 
-		}
-		add_to_array = {
-			state_culture_array = 251
-
-		}
-		add_to_array = {
-			state_culture_array = 250
-
-		}
-		add_to_array = {
-			state_culture_array_num = 0.94
-
-		}
-		add_to_array = {
-			state_culture_array_num = 0.06
-
-		}
-		add_to_array = {
-			state_religion_array = 14
-
-		}
-		add_to_array = {
-			state_religion_array = 16
-
-		}
-		add_to_array = {
-			state_religion_array = 11
-
-		}
-		add_to_array = {
-			state_religion_array = 6
-
-		}
-		add_to_array = {
-			state_religion_array_num = 0.66
-
-		}
-		add_to_array = {
-			state_religion_array_num = 0.17
-
-		}
-		add_to_array = {
-			state_religion_array_num = 0.15
-
-		}
-		add_to_array = {
-			state_religion_array_num = 0.02
 
 		}
 

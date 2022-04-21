@@ -8,9 +8,8 @@ state = {
 	state_category = city
 	history =
 	{
-		owner = QNG
-		add_core_of = QNG
-		add_claim_by = TAI
+		owner = GXC
+		add_core_of = GXC
 		buildings = {
 			infrastructure = 2
 			cotton_farm = 2

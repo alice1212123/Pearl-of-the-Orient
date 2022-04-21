@@ -4,8 +4,8 @@ state={
 	name="STATE_607"
 
 	history={
-		owner = GXC
-		add_core_of = GXC
+		owner = MAN
+		add_core_of = MAN
 		buildings = {
 			infrastructure = 3
 
@@ -16,6 +16,11 @@ state={
 		victory_points = {
 			7129 5 
 		}
+		1870.1.1 = {
+			owner = QNG
+
+		}
+
 	}
 
 	provinces={

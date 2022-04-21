@@ -9,9 +9,8 @@ state = {
 	state_category = large_city
 
 	history = {
-		owner = QNG
-		add_core_of = TAI
-		add_core_of = QNG
+		owner = GXC
+		add_core_of = GXC
 		buildings = {
 			infrastructure = 3
 			dockyard = 1

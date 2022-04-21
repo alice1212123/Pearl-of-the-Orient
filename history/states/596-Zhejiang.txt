@@ -6,9 +6,8 @@ state = {
 	local_supplies=0.0 
 	state_category = city
 	history = {
-		owner = QNG
-		add_core_of = QNG
-		add_core_of = TAI
+		owner = GXC
+		add_core_of = GXC
 
 		victory_points = {
 			10058 3

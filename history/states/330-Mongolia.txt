@@ -4,7 +4,7 @@ state={
 	name="STATE_330"
 
 	history={
-		owner = QNG
+		owner = MON
 		victory_points = {
 			4801 5 
 		}
@@ -12,7 +12,6 @@ state={
 			infrastructure = 2
 
 		}
-		add_core_of = QNG
 		add_core_of = MON
 
 	}

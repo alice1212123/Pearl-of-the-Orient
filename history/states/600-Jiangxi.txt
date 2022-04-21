@@ -7,9 +7,8 @@ state = {
 	state_category = town
 	history =
 	{
-		owner = TAI
-		add_core_of = QNG
-		add_core_of = TAI
+		owner = GXC
+		add_core_of = GXC
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
@@ -35,23 +34,6 @@ state = {
 		}
 		victory_points = {
 			10501 3
-		}
-		
-		QNG= {
-			set_province_controller = 11945
-			set_province_controller = 4081
-			set_province_controller = 10112
-			set_province_controller = 9942
-			set_province_controller = 7004
-			set_province_controller = 4183
-			set_province_controller = 12030
-			set_province_controller = 7199
-		}
-		GXC= {
-			set_province_controller = 1053
-		}
-		1870.1.1= {
-			owner = QNG
 		}
 	}
 	

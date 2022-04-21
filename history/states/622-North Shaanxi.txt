@@ -11,7 +11,8 @@ state = {
 		iron=2
 	}
 	history = {
-		owner = QNG
+		owner = XSM
+		add_core_of = XSM
 		buildings = {
 			infrastructure = 1
 			1458 = {

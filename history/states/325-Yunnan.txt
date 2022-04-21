@@ -9,9 +9,8 @@ state = {
 	}
 
 	history = {
-		owner = QNG
-		add_core_of = QNG
-		add_core_of = PTH
+		owner = YUN
+		add_core_of = YUN
 		victory_points = {
 			1319 10
 		}
@@ -29,24 +28,6 @@ state = {
 				set_province_controller = 12841
 			}
 		}
-
-		add_to_array = { state_culture_array = 267}
-		add_to_array = { state_culture_array = 258}
-		add_to_array = { state_culture_array = 264}
-		add_to_array = { state_culture_array = 265}
-
-		add_to_array = { state_culture_array_num = 0.52}
-		add_to_array = { state_culture_array_num = 0.21}
-		add_to_array = { state_culture_array_num = 0.19}
-		add_to_array = { state_culture_array_num = 0.08}
-
-		add_to_array = { state_religion_array = 11}
-		add_to_array = { state_religion_array = 14}
-		add_to_array = { state_religion_array = 16}
-		
-		add_to_array = { state_religion_array_num = 0.82}
-		add_to_array = { state_religion_array_num = 0.09}
-		add_to_array = { state_religion_array_num = 0.09}
 
 	}
 

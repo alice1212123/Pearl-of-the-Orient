@@ -10,9 +10,8 @@ state = {
 	}
 
 	history = {
-		owner = QNG
-		add_core_of = QNG
-		add_core_of = TAI
+		owner = GXC
+		add_core_of = GXC
 		buildings = {
 			infrastructure = 2
 			cotton_farm = 2
@@ -20,34 +19,6 @@ state = {
 				naval_base = 1
 			}
 		}
-		if = {
-			limit = { date < 1858.1.1 }
-			GXC= {
-				set_province_controller = 12095
-				set_province_controller = 9997
-			}
-		}
-
-		add_to_array = { state_culture_array = 249 } #Hakka
-		add_to_array = { state_culture_array = 251 } #Yue
-		add_to_array = { state_culture_array = 250 } #Min
-
-	
-		add_to_array = { state_culture_array_num = 0.45 }
-		add_to_array = { state_culture_array_num = 0.35 }
-		add_to_array = { state_culture_array_num = 0.20 }
-
-
-		add_to_array = { state_religion_array = 14 }
-		add_to_array = { state_religion_array = 16 }
-		add_to_array = { state_religion_array = 11 }
-		add_to_array = { state_religion_array = 6 }
-
-
-		add_to_array = { state_religion_array_num = 0.45 }
-		add_to_array = { state_religion_array_num = 0.34 }
-		add_to_array = { state_religion_array_num = 0.20 }
-		add_to_array = { state_religion_array_num = 0.01	}
 
 	}
 	provinces = {

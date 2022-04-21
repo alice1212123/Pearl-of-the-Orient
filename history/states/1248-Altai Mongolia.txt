@@ -4,8 +4,7 @@ state={
 	name="STATE_1248"
 
 	history={
-		owner = QNG
-		add_core_of = QNG
+		owner = MON
 		add_core_of = MON
 		buildings = {
 			infrastructure = 1

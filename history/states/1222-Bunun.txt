@@ -7,11 +7,11 @@ state = {
 	state_category = rural
 
 	history = {
+		owner = XSM
+		add_core_of = XSM
 		buildings = {
 			infrastructure = 2
 		}
-			add_core_of = QNG
-			owner = QNG
 	}
 
 	provinces = {
