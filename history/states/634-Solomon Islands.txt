@@ -1,33 +1,30 @@
 state = {
-	id =634
+	id = 634
 	name = "STATE_634"
+	manpower = 150000
+	state_category = one_island
 
-
-	local_supplies=0.0 
 	history = {
-		victory_points = {
-			1269 3
-		}
-		victory_points = {
-			4226 1
-		}
-		owner = UCT
-		add_core_of = UCT
-		buildings = {
-			infrastructure = 1 
-		}
-		
-		add_to_array = { state_culture_array = 399 } # Melanesian
-		add_to_array = { state_culture_array_num = 1 }
+		owner = GEA
+		add_core_of = GEA
+		add_core_of = PNG
 
-		add_to_array = { state_religion_array = 20 } # Animist
-		add_to_array = { state_religion_array_num = 1 }
+		buildings = {
+			infrastructure = 1
+			1269 = {
+				naval_base = 2
+			}
+			4378 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			1269 1
+		}
 	}
 
 	provinces = {
-		1042 1085 1269 1358 1370 4226 4252 4292 4378 7437 10234 10291 10319 12265
+		1042 1085 1269 4252 4378 10319 12265
 	}
-	manpower =72056
-	buildings_max_level_factor = 1
-	state_category = "small_island"
 }
+

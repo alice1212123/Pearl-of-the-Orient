@@ -1,33 +1,23 @@
 state = {
-	id =709
+	id = 709
 	name = "STATE_709"
-	manpower = 16703
+	manpower = 126703
 
-	local_supplies=0.0 
-	
-	state_category = small_island
-	
+	state_category = one_island
+
 	history = {
-		owner = ENG
+		owner = GER
+
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 			2188 = {
 				naval_base = 1
 			}
 		}
-
-		add_to_array = { state_culture_array = 514 } # Sechellois
-		add_to_array = { state_culture_array_num = 0.89 }
-		add_to_array = { state_culture_array = 16 } # English
-		add_to_array = { state_culture_array_num = 0.11 }
-
-		add_to_array = { state_religion_array = 8 } # Sunni
-		add_to_array = { state_religion_array_num = 0.85 }
-		add_to_array = { state_religion_array = 25 } # Anglican
-		add_to_array = { state_religion_array_num = 0.15 }
 	}
-	
+
 	provinces = {
-		2188 
+		2188
 	}
 }
+

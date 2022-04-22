@@ -1,35 +1,25 @@
 state = {
 	id = 40
-	name = "STATE_40" # Barnaul
-	manpower = 1290918
-	state_category = large_town
+	name = "STATE_40"
+	manpower = 1001764
+	state_category = four
+	local_supplies = 5.0
 
-	resources = {
-		iron = 1
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		add_claim_by = TRM
+		victory_points = {
+			1794 1
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
 	}
 
 	provinces = {
-		1297 1794 1797 4803 10537 10546 11410 12515 12613
+		1297 1779 1794 1797 4803 7680 10537 10546 11410 12515 12528 12613
 	}
-	history = {
-	# End of a New Beginning
-		owner = RUS
-		1857.1.1 = {
-			add_core_of = RUS
-
-			buildings = {
-				infrastructure = 3
-				industrial_complex = 1
-			}
-		}
-		
-		add_to_array = { state_culture_array = 180 } # Altai (its Altais not tatars my dear russian researcher)
-		add_to_array = { state_culture_array_num = 0.78 }
-		add_to_array = { state_culture_array = 89 } # russian
-		add_to_array = { state_culture_array_num = 0.20 }
-		add_to_array = { state_culture_array = 116 } # kazakhs
-		add_to_array = { state_culture_array_num = 0.17 }
-		
-	}
-	local_supplies=0.0
 }
+

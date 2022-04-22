@@ -1,32 +1,32 @@
+state = {
+	id = 594
+	name = "STATE_594"
+	manpower = 3850000
+	state_category = four
+	local_supplies = 1.0
 
-state={
-	id=594
-	name="STATE_594"
+	resources = {
+		chromium = 3
+	}
 
-	history={
-		owner = GXC
+	history = {
+		owner = LEP
 		add_core_of = GXC
+		add_claim_by = LEP
+		add_core_of = GXC
+		add_claim_by = QIE
+		add_claim_by = FNG
 		buildings = {
-			infrastructure = 2
-
+			infrastructure = 1
+			arms_factory = 1
 		}
 		victory_points = {
-			7137 10 
+			7137 10
 		}
-		victory_points = {
-			12023 2 
-		}
-		victory_points = {
-			4177 2 
-		}
-
 	}
 
-	provinces={
-		1469 4028 4077 4121 4177 7044 7137 7192 7650 10050 10105 11926 11983 12023 
+	provinces = {
+		4028 4177 7044 7137 7192 7650 10050 10105 11926 11983 12023
 	}
-	manpower=3550000
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
 }
+

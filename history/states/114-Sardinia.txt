@@ -1,61 +1,28 @@
 state = {
 	id = 114
 	name = "STATE_114"
-	manpower = 573243
+	manpower = 507200
 
-	state_category = town
-
-	resources = {
-	 	wood = 6
-		coal = 4
-		iron = 2
-	}
+	state_category = three
 
 	history = {
-		owner = PIE
-		victory_points = {
-			11773 5
-		}
-		victory_points = {
-			11755 3
-		}
-		victory_points = {
-			9772 3
-		}
+		owner = SRD
+		add_core_of = SRD
+		add_claim_by = SRI
+		add_claim_by = ITA
+		victory_points = { 11773 5 } #Cagliari
 		buildings = {
-			infrastructure = 4
-
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 5
 			11773 = {
-				naval_base = 3
-			}
-			6891 = {
-				naval_base = 2
-			}
-			11755 = {
-				naval_base = 3
+				naval_base = 1
 			}
 		}
-		add_core_of = PIE
-		
-		add_to_array = { state_culture_array = 45 }
-		add_to_array = { state_culture_array = 547 }
-		add_to_array = { state_culture_array = 42 }
-		add_to_array = { state_culture_array = 46 }
-		add_to_array = { state_culture_array = 48 }
-				
-       	add_to_array = { state_culture_array_num = 0.85 }
-		add_to_array = { state_culture_array_num = 0.08 }
-		add_to_array = { state_culture_array_num = 0.05 }
-		add_to_array = { state_culture_array_num = 0.014 }
-		add_to_array = { state_culture_array_num = 0.006 }
-
-		add_to_array = { state_religion_array = 2 }
-		
-		add_to_array = { state_religion_array_num = 1 }
-
 	}
-	provinces = { 
-		902 6891 9772 9863 11755 11773 11824 11874 	
+	provinces = {
+		902 11773 11824 11874
 	}
-	local_supplies=0.0 
 }
+

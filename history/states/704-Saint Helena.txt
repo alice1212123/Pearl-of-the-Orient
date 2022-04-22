@@ -1,13 +1,12 @@
 state = {
-	id =704
+	id = 704
 	name = "STATE_704"
-	manpower = 1485	
+	manpower = 2485
+	state_category = zero_island
 
-	local_supplies=0.0 
-	state_category = tiny_island
-	
 	history = {
-		owner = ENG
+		owner = GER
+
 		buildings = {
 			infrastructure = 1
 			13016 = {
@@ -15,8 +14,9 @@ state = {
 			}
 		}
 	}
-	
+
 	provinces = {
-		13016 
+		13016
 	}
 }
+

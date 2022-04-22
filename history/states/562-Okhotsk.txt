@@ -1,28 +1,23 @@
-
 state = {
-	id =562
+	id = 562
 	name = "STATE_562" # Okhotsk
-
-	local_supplies=0.0 
-	manpower = 38261
+	manpower = 126961
 	state_category = wasteland
 
 	history = {
 		owner = RUS
+		victory_points = {
+			12518 2
+		}
 		buildings = {
-			infrastructure = 1 
+			infrastructure = 1
 		}
 		add_core_of = RUS
-		
-			add_to_array = { state_culture_array = 182 } # evenks
-			add_to_array = { state_culture_array_num = 0.688 }
-			add_to_array = { state_culture_array = 184 } # Chukotko-Kamchatkan
-			add_to_array = { state_culture_array_num = 0.25 }
-			add_to_array = { state_culture_array = 89 } # russians
-			add_to_array = { state_culture_array_num = 0.062 }
+		add_core_of = TRM
 	}
 
 	provinces = {
-		1714 1805 4810 4881 7772 10572 10598 12518 12650 12591 1772
+		1714 1805 1865 4810 4881 7772 10540 10572 10598 12518 12551 12650 12683
 	}
 }
+

@@ -1,47 +1,25 @@
-
 state = {
-	id =677
+	id = 677
 	name = "STATE_677"
+	manpower = 995075
+	state_category = four
+	local_supplies = 4.0
 
-	local_supplies=0.0 
-	manpower = 545219
-	
-	state_category = town
-	
 	history = {
-		owner = OTO
+		owner = TUR
+		add_core_of = TUR
+		add_core_of = SYR
 		victory_points = {
-			12473 3
+			12473 8
 		}
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 1
 		}
-		add_core_of = OTO 
-		
-		add_to_array = { state_culture_array = 159 }
-		add_to_array = { state_culture_array_num = 0.76 }
-		add_to_array = { state_culture_array = 172 }
-		add_to_array = { state_culture_array_num = 0.10 }
-		add_to_array = { state_culture_array = 141 }
-		add_to_array = { state_culture_array_num = 0.08 }
-		add_to_array = { state_culture_array = 136 }
-		add_to_array = { state_culture_array_num = 0.03 }
-		add_to_array = { state_culture_array = 108 }
-		add_to_array = { state_culture_array_num = 0.02 }
-		add_to_array = { state_culture_array = 122 }
-		add_to_array = { state_culture_array_num = 0.02 }
-
-		add_to_array = { state_religion_array = 8 }
-		add_to_array = { state_religion_array_num = 0.95 }
-		add_to_array = { state_religion_array = 2 }
-		add_to_array = { state_religion_array_num = 0.03 }
-		add_to_array = { state_religion_array = 7 }
-		add_to_array = { state_religion_array_num = 0.02 }
-
 	}
 
-	
 	provinces = {
-		1056 1072 1088 7140 7671 10087 12473 
+		901 1606 1634 2013 3942 6883 7140 7671 9823 10882 11871 12473 13741 13743
 	}
 }
+

@@ -1,33 +1,23 @@
 state = {
-	id =708
+	id = 708
 	name = "STATE_708"
-	manpower = 56703
+	manpower = 126703
 
-	local_supplies=0.0 
-
-	state_category = small_island
+	state_category = one_island
 
 	history = {
-		owner = FRA
+		owner = GER
+
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 			13072 = {
 				naval_base = 1
 			}
 		}
-
-		add_to_array = { state_culture_array = 330 } # Comorian
-		add_to_array = { state_culture_array_num = 0.83 }
-		add_to_array = { state_culture_array = 32 } # French
-		add_to_array = { state_culture_array_num = 0.17 }
-
-		add_to_array = { state_religion_array = 8 } # Sunni
-		add_to_array = { state_religion_array_num = 0.78 }
-		add_to_array = { state_religion_array = 2 } # Catholic
-		add_to_array = { state_religion_array_num = 0.22 }
 	}
 
 	provinces = {
-		13072 
+		13072
 	}
 }
+

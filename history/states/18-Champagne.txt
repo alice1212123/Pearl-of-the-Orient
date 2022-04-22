@@ -1,41 +1,28 @@
 state = {
 	id = 18
-	name = "STATE_18" # Champagne
-	manpower = 1286005
-	state_category = city
+	name = "STATE_18"
+	manpower = 840086
+	state_category = five
 
-	resources = {
-		wood = 2
+	history = {
+		owner = FRA
+		add_core_of = FRA
+		add_claim_by = NFA
+		victory_points = {
+			13011 3 #Reims
+		}
+		victory_points = {
+			9490 1 #Troyes
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 8
+			industrial_complex = 1
+		}
 	}
 
 	provinces = {
-		551 3533 3546 3560 6531 6545 9472 9490 9505 11732 13011
+		551 680 3533 6531 9490 9505 11732 13011 13665
 	}
-
-	history = {
-		# End of a New Beginning
-		owner = FRA
-		1857.1.1 = {
-			add_core_of = FRA
-
-			buildings = {
-				infrastructure = 6
-			}
-
-			victory_points = { 9490 5 } # Troyes
-			victory_points = { 13011 5 } # Reims
-			victory_points = { 11488 5 } # Saint-Dizier
-			victory_points = { 5291 5 } # Verdun
-			victory_points = { 9472 1 } # Sedan
-
-			add_to_array = { state_culture_array = 32 } # French
-			add_to_array = { state_culture_array_num = 1.0 }
-		
-			add_to_array = { state_religion_array = 2 } # Catholic
-			add_to_array = { state_religion_array_num = 0.992 }
-			add_to_array = { state_religion_array = 3 } # Protestant
-			add_to_array = { state_religion_array_num = 0.008 }
-		}
-	}
-	local_supplies=0.0 
 }
+

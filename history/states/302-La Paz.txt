@@ -1,36 +1,29 @@
 state = {
-	id =302
+	id = 302
 	name = "STATE_302"
+	manpower = 521500
+	state_category = three
+
 	resources = {
-		iron=2
+		tungsten = 21
 	}
-	
-	state_category = town
 
 	history = {
 		owner = BOL
-		buildings = {
-			infrastructure = 3
-			arms_factory = 1
-			industrial_complex = 1
-
-		}
 		add_core_of = BOL
 		victory_points = {
-			5230 5 
+			5230 15
 		}
-		
-		add_to_array = { state_culture_array = 426 } #Bolivian
-		add_to_array = { state_culture_array_num = 1 }
-		
-		add_to_array = { state_religion_array = 2 } #Catholic
-		add_to_array = { state_religion_array_num = 1 }
-
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 2
+		}
 	}
 
 	provinces = {
-		 5230 8157 8225 13174 13195 5188 14008 
+		13195 5230 8225 5188 13174
 	}
-	manpower = 1173480
-	local_supplies=0.0 
 }
+

@@ -1,55 +1,29 @@
-
 state = {
-	id =681
+	id = 681
 	name = "STATE_681"
-
-	local_supplies=0.0 
+	manpower = 1799558
+	state_category = five
 
 	history = {
 		owner = SAF
+		add_core_of = SAF
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			cotton_farm = 1
-			
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 1
+			dockyard = 1
 			12589 = {
-				naval_base = 2
+				naval_base = 4
 			}
-
 		}
 		victory_points = {
-			12589 10 
+			12589 20 #Cape Town
 		}
-		add_core_of = SAF
-		
-		add_to_array = { state_culture_array = 344 }
-		add_to_array = { state_culture_array_num = 0.47 }
-		add_to_array = { state_culture_array = 408 }
-		add_to_array = { state_culture_array_num = 0.28 }
-		add_to_array = { state_culture_array = 345 }
-		add_to_array = { state_culture_array_num = 0.15 }
-		add_to_array = { state_culture_array = 305 }
-		add_to_array = { state_culture_array_num = 0.12 }
-		add_to_array = { state_culture_array = 22 }
-		add_to_array = { state_culture_array_num = 0.08 }
-
-		add_to_array = { state_religion_array = 20 }
-		add_to_array = { state_religion_array_num = 0.60 }
-		add_to_array = { state_religion_array = 25 }
-		add_to_array = { state_religion_array_num = 0.28 }
-		add_to_array = { state_religion_array = 3 }
-		add_to_array = { state_religion_array_num = 0.08 }
-
 	}
 
 	provinces = {
-		4528 10415 10442 12419 12589 12692
+		1358 1370 4226 4292 7437 10234 10291 12547 12589 12692 13760
 	}
-	manpower = 737178
-
-	resources = {
-		cotton = 3
-	}
-	
-	state_category = town
 }
+

@@ -1,16 +1,20 @@
-
 state = {
-	id =325
+	id = 325
 	name = "STATE_325"
+	manpower = 7329631
+	state_category = four
 
-	local_supplies=0.0 
 	resources = {
-		iron=5.000
+		tungsten = 11
+		aluminium = 5
 	}
 
 	history = {
 		owner = YUN
 		add_core_of = YUN
+		add_claim_by = QIE
+		add_claim_by = FNG
+
 		victory_points = {
 			1319 10
 		}
@@ -18,23 +22,11 @@ state = {
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1
-			industrial_complex = 1
-
 		}
-		if = {
-			limit = { date < 1858.1.1 }
-			PTH= {
-				set_province_controller = 7446
-				set_province_controller = 12841
-			}
-		}
-
 	}
 
 	provinces = {
-		1114 1172 1196 1319 1383 1522 1653 4501 5072 7446 7606 10346 10819 12282 12841
+		1114 1172 1196 1319 1383 1522 1653 4501 5072 7446 7606 8023 10346 10776 10819 12262 12282 12841
 	}
-	manpower =3958185
-	
-	state_category =town
 }
+

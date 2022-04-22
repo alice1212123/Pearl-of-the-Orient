@@ -1,29 +1,26 @@
-
 state = {
-	id =629
+	id = 629
 	name = "STATE_629"
-
-	local_supplies=0.0 
-	manpower = 268336
-	state_category = town
-	
-
-	provinces = {
-		4180 7112 7195 10048 12021 
-	}
+	manpower = 393000
+	state_category = four
 	history = {
-		owner = HAW
-		add_core_of = HAW
+		owner = USA
 		buildings = {
-			infrastructure = 2
-			farm = 1
+			infrastructure = 1
+			air_base = 5
+			industrial_complex = 2
 			4180 = {
-				naval_base = 4
+				naval_base = 10
 			}
 		}
+		add_core_of = USA
 		victory_points = {
 			4180 15
-		 }
-		 afr_state_setup_scripted_effect = yes
+		}
+	}
+
+	provinces = {
+		4180 7112 7195 10048 12021
 	}
 }
+

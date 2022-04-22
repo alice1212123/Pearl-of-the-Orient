@@ -1,90 +1,28 @@
+state = {
+	id = 291
+	name = "STATE_291"
+	manpower = 1949760
+	state_category = five
+	local_supplies = 6.0
 
-state={
-	id=291
-	name="STATE_291"
-
-	history={
-		owner = OTO
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		add_core_of = IRQ
 		victory_points = {
-			2097 5 
+			2097 20
 		}
 		buildings = {
-			infrastructure = 3
-
-		}
-		add_core_of = OTO
-		add_to_array = {
-			state_culture_array = 157
-
-		}
-		add_to_array = {
-			state_culture_array_num = 0.69
-
-		}
-		add_to_array = {
-			state_culture_array = 163
-
-		}
-		add_to_array = {
-			state_culture_array_num = 0.12
-
-		}
-		add_to_array = {
-			state_culture_array = 142
-
-		}
-		add_to_array = {
-			state_culture_array_num = 0.08
-
-		}
-		add_to_array = {
-			state_culture_array = 172
-
-		}
-		add_to_array = {
-			state_culture_array_num = 0.07
-
-		}
-		add_to_array = {
-			state_culture_array = 122
-
-		}
-		add_to_array = {
-			state_culture_array_num = 0.04
-
-		}
-		add_to_array = {
-			state_religion_array = 9
-
-		}
-		add_to_array = {
-			state_religion_array_num = 0.60
-
-		}
-		add_to_array = {
-			state_religion_array = 8
-
-		}
-		add_to_array = {
-			state_religion_array_num = 0.36
-
-		}
-		add_to_array = {
-			state_religion_array = 7
-
-		}
-		add_to_array = {
-			state_religion_array_num = 0.04
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
 
 		}
 
 	}
 
-	provinces={
-		2097 12855 
+	provinces = {
+		78 2004 2097 5095 7977 7994 8001 10876 12855 13747
 	}
-	manpower=491065
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
 }
+

@@ -1,32 +1,24 @@
-
 state = {
-	id =555
-	name = "STATE_555"
+	id = 555
+	name = "STATE_555" #Kuril Islands
+	manpower = 15000
 
-	local_supplies=0.0 
+	state_category = zero_island
 
 	history = {
-		owner = UCT
-		add_claim_by = TSH
-		add_claim_by = RUS
+		owner = JAP
+		add_core_of = JAP
+		#add_claim_by = SOV # Removed because of too much aggression
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 			1399 = {
-				naval_base = 1
-
+				naval_base = 3
 			}
-
 		}
-		add_to_array = { state_culture_array = 183 }
-		add_to_array = { state_culture_array_num = 0.93 }
-		add_to_array = { state_culture_array = 285 }
-		add_to_array = { state_culture_array_num = 0.07 }
 	}
 
 	provinces = {
-		1399 1515
+		1399 1515 13037
 	}
-	manpower =6782
-	
-	state_category =tiny_island
 }
+

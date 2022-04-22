@@ -1,49 +1,44 @@
 
-state = {
-	id =344
-	name = "STATE_344"
+state={
+	id=344
+	name="STATE_344"
 
-	local_supplies=0.0 
-	manpower = 479950
-
-	resources = {
-		iron= 10
-	}
-	
-	state_category = town
-
-	history = {
-		owner = OTO
+	history={
+		owner = TUR
 		victory_points = {
-			9893 3 
+			11746 8
 		}
 		victory_points = {
-			11746 1 
+			9893 3
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
 			11746 = {
-				naval_base = 3
+				naval_base = 2
+				bunker = 1
+				coastal_bunker = 1
+
 			}
+			806 = {
+				bunker = 1
+
+			}
+			12029 = {
+				naval_base = 3
+
+			}
+
 		}
-		add_core_of = OTO
-		
-		add_to_array = { state_culture_array = 104 }
-		add_to_array = { state_culture_array_num = 0.75 }
-		add_to_array = { state_culture_array = 136 }
-		add_to_array = { state_culture_array_num = 0.14 }
-		add_to_array = { state_culture_array = 140 }
-		add_to_array = { state_culture_array_num = 0.10 }
-		add_to_array = { state_culture_array = 58 }
-		add_to_array = { state_culture_array_num = 0.01 }
+		add_core_of = TUR
 
-		add_to_array = { state_religion_array = 8 }
-		add_to_array = { state_religion_array_num = 0.85 }
-		add_to_array = { state_religion_array = 1 }
-		add_to_array = { state_religion_array_num = 0.15 }
 	}
 
-	provinces = {
-		806 886 3889 3921 6813 6956 9893 11746 11810 
+	provinces={
+		806 3889 6956 9893 9912 11746 12029 13740
 	}
+	manpower=732695
+	state_category=four
 }
+

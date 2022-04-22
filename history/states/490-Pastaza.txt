@@ -1,37 +1,25 @@
 state = {
-	id =490
+	id = 490
 	name = "STATE_490"
-	manpower = 70020
-
-	local_supplies=0.0 
-
-	resources = {
-		coal = 10
-		wood = 13
-	}
-	
-	state_category = wasteland
 
 	history = {
 		owner = ECU
 		buildings = {
 			infrastructure = 1
-			
+			industrial_complex = 1
+			air_base = 1
 		}
 		add_core_of = ECU
-		add_claim_by = PRU
+		add_core_of = PRU
 		victory_points = {
-			10942 2
+			8149 1
 		}
-		
-		add_to_array = { state_culture_array = 467 } #Amazonic
-		add_to_array = { state_culture_array_num = 1 }
-		
-		add_to_array = { state_religion_array = 2 } #Catholic
-		add_to_array = { state_religion_array_num = 1 }
 	}
 
 	provinces = {
-		8149 10942 14011 
+		8149 10942 12869 13347 13360 13362 13371 13540
 	}
+	manpower = 70020
+	state_category = one
 }
+

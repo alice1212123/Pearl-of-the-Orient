@@ -1,24 +1,17 @@
-
 state = {
-	id =313
+	id = 313
 	name = "STATE_313"
-
-	local_supplies=0.0 
-	manpower = 507880
 	resources = {
-		chromium =4
-		wood = 10
+		chromium = 5
 	}
-	
-	state_category = rural
 
 	history = {
 		owner = GUA
 		buildings = {
-			infrastructure = 3
-			arms_factory = 1
-			industrial_complex = 1
-			
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 2
+			air_base = 1
 			10886 = {
 				naval_base = 1
 			}
@@ -26,28 +19,19 @@ state = {
 				naval_base = 1
 			}
 		}
-
-		add_extra_state_shared_building_slots = 1
-		
 		add_core_of = GUA
 		victory_points = {
-			10886 3 
+			10886 6
 		}
-		
-		add_to_array = { state_culture_array = 424 }
-		add_to_array = { state_culture_array = 439 }
-					
-		add_to_array = { state_culture_array_num = 0.53 }
-		add_to_array = { state_culture_array_num = 0.47 }
-
-		add_to_array = { state_religion_array = 2 }
-			
-		add_to_array = { state_religion_array_num = 1.00 }
-
+		victory_points = {
+			10842 1
+		}
 	}
 
 	provinces = {
-		4991 10842 10886 13085 
+		4991 10842 10886 13085 13441 13444 13446 13701 13702 13703 13704
 	}
-	
+	manpower = 2046000
+	state_category = five
 }
+

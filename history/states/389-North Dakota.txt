@@ -1,43 +1,27 @@
-
 state = {
-	id =389
+	id = 389
 	name = "STATE_389"
-	manpower = 10808
-	state_category = pastoral
+	manpower = 664000
+	state_category = three
+	local_supplies = 9.0
+
 	resources = {
-		iron = 4
-		wood = 4
+		steel = 20
 	}
 
-history = {
+	history = {
 		owner = USA
-		remove_core_of = USA
-		buildings = {
-			infrastructure = 1
-		}
+		add_core_of = USA
 		victory_points = {
 			1836 1
 		}
-
-		add_to_array = { state_culture_array = 452 } #Sioux
-		add_to_array = { state_culture_array_num = 0.52 }
-		add_to_array = { state_culture_array = 448 } #Midwesterner
-		add_to_array = { state_culture_array_num = 0.48 }
-		add_to_array = { state_religion_array = 22 } #Shamanism
-		add_to_array = { state_religion_array_num = 0.51 }
-		add_to_array = { state_religion_array = 3 } #Protestant
-		add_to_array = { state_religion_array_num = 0.49 }
-
-		#1857.1.1 = {
-		#	remove_core_of = USA
-		#}
-		#1870.1.1 = {
-		#	add_core_of = USA
-		#}
+		buildings = {
+			infrastructure = 2
+		}
 	}
 
 	provinces = {
-		1752 1836 1870 3719 4759 4772 10685 10709 12685
+		1752 1836 1870 3719 4759 4772 6722 7877 10685 10709 12566 12685 13395
 	}
-	local_supplies=0.0
 }
+

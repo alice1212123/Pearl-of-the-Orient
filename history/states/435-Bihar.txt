@@ -1,152 +1,25 @@
+state = {
+	id = 435
+	name = "STATE_435"
+	manpower = 33923400
 
-state={
-	id=435
-	name="STATE_435"
+	state_category = six
 
-	history={
-		owner = RAJ
-		1857.1.1 = {
-			add_core_of = RAJ
-			buildings = {
-				infrastructure = 3
-				cotton_farm = 1
-
-			}
-			victory_points = {
-				4459 3 
-			}
-			victory_points = {
-				4516 10 
-			}
-			victory_points = {
-				7537 3 
-			}
-			SRS = {
-				set_province_controller = 1569
-				set_province_controller = 4571
-
-			}
-			OUD = {
-				set_province_controller = 1541
-				set_province_controller = 4459
-
-			}
-			add_to_array = {
-				state_culture_array = 496
-
-			}
-			add_to_array = {
-				state_culture_array_num = 0.34
-
-			}
-			add_to_array = {
-				state_culture_array = 195
-
-			}
-			add_to_array = {
-				state_culture_array_num = 0.29
-
-			}
-			add_to_array = {
-				state_culture_array = 192
-
-			}
-			add_to_array = {
-				state_culture_array_num = 0.17
-
-			}
-			add_to_array = {
-				state_culture_array = 188
-
-			}
-			add_to_array = {
-				state_culture_array_num = 0.12
-
-			}
-			add_to_array = {
-				state_culture_array = 205
-
-			}
-			add_to_array = {
-				state_culture_array_num = 0.05
-
-			}
-			add_to_array = {
-				state_culture_array = 495
-
-			}
-			add_to_array = {
-				state_culture_array_num = 0.03
-
-			}
-			add_to_array = {
-				state_religion_array = 18
-
-			}
-			add_to_array = {
-				state_religion_array_num = 0.57
-
-			}
-			add_to_array = {
-				state_religion_array = 45
-
-			}
-			add_to_array = {
-				state_religion_array_num = 0.16
-
-			}
-			add_to_array = {
-				state_religion_array = 8
-
-			}
-			add_to_array = {
-				state_religion_array_num = 0.11
-
-			}
-			add_to_array = {
-				state_religion_array = 12
-
-			}
-			add_to_array = {
-				state_religion_array_num = 0.10
-
-			}
-			add_to_array = {
-				state_religion_array = 40
-
-			}
-			add_to_array = {
-				state_religion_array_num = 0.04
-
-			}
-			add_to_array = {
-				state_religion_array = 9
-
-			}
-			add_to_array = {
-				state_religion_array_num = 0.02
-
-			}
-
+	history = {
+		owner = HND
+		add_core_of = HND
+		add_claim_by = PRF
+		add_claim_by = RAJ
+		victory_points = { 4516 5 } #Patna
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 4
 		}
-		1870.1.1 = {
-			RAJ = {
-				set_province_controller = 1569
-				set_province_controller = 4571
-				set_province_controller = 1541
-				set_province_controller = 4459
-
-			}
-
-		}
-
 	}
 
-	provinces={
-		1569 4516 4544 4571 7537 
+	provinces = {
+		1444 1569 1637 1656 4516 4544 4571 7475 7537 7593 10358 10361 10471 10878 12035 12307 12452
 	}
-	manpower=14020170
-	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=0.000
 }
+

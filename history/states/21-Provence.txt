@@ -1,50 +1,48 @@
 state = {
 	id = 21
-	name = "STATE_21" # Provence
-	manpower = 1279864
-	state_category = city
+	name = "STATE_21"
+	manpower = 2488272
+	state_category = nine
 
 	resources = {
-		wood = 6
-	}
-
-	provinces = {
-		911 956 958 3928 3961 11849 11875 11834
+		aluminium = 89
 	}
 
 	history = {
-		# End of a New Beginning
 		owner = FRA
-		1857.1.1 = {
-			add_core_of = FRA
-
-			buildings = {
-				infrastructure = 6
-				dockyard = 1
-				industrial_complex = 2
-				911 = {
-					naval_base = 6
-				}
-				11834 = {
-					naval_base = 2
-				}
+		add_core_of = FRA
+		add_claim_by = NFA
+		victory_points = {
+			11834 20 #Marseille
+		}
+		victory_points = {
+			911 5 #Toulon
+		}
+		victory_points = {
+			11877 3 #Nimes
+		}
+		victory_points = {
+			958 1 #Avignon
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 2
+			dockyard = 3
+			air_base = 10
+			911 = {
+				naval_base = 7
+				coastal_bunker = 1
 			}
-
-			victory_points = { 911 7 } # Toulon
-			victory_points = { 11834 20 } #Marsaille
-
-			add_to_array = { state_culture_array = 33 } # Occitan
-			add_to_array = { state_culture_array_num = 0.58 }
-			add_to_array = { state_culture_array = 32 } # French
-			add_to_array = { state_culture_array_num = 0.40 }
-			add_to_array = { state_culture_array = 42 } # Piedmontese
-			add_to_array = { state_culture_array_num = 0.02 }
-		
-			add_to_array = { state_religion_array = 2 } # Catholic
-			add_to_array = { state_religion_array_num = 0.995 }
-			add_to_array = { state_religion_array = 3 } # Protestant
-			add_to_array = { state_religion_array_num = 0.005 }
+			11834 = {
+				naval_base = 4
+				coastal_bunker = 1
+			}
 		}
 	}
-	local_supplies=0.0 
+
+	provinces = {
+		911 956 958 3928 3961 6975 11711 11834 11849 11875 11877 13497
+	}
 }
+

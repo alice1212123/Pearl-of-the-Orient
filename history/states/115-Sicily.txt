@@ -1,69 +1,39 @@
-
 state = {
 	id = 115
 	name = "STATE_115"
-	manpower = 2409000
+	manpower = 4000100
 
-	resources = {
-		coal = 12
-		wood = 4
-	}
-
-	state_category = city
+	state_category = six
 	history = {
-		owner = NSC
-		victory_points = {
-			10074 15
-		}
-		victory_points = {
-			4159 6
-		}
-		victory_points = {
-			4014 8
-		}
+		owner = SIC
+		add_core_of = SIC
+		add_claim_by = SRI
+		add_claim_by = ITA
+		victory_points = { 10074 15 } #Palermo
+		victory_points = { 4159 4 } #Messina
+		victory_points = { 4014 1 } #Catania
 		buildings = {
-			infrastructure = 5
+			infrastructure = 2
 			industrial_complex = 1
-			dockyard = 1
-			farm = 2
+			arms_factory = 1
+			air_base = 10
 			10074 = {
 				naval_base = 2
 			}
+			7059 = {
+				naval_base = 5
+			}
 			4159 = {
-				naval_base = 4
+				naval_base = 8
+			}
+			4014 = {
+				naval_base = 3
 			}
 		}
-		add_core_of = NSC
-		
-		add_to_array = { state_culture_array = 41 }
-		add_to_array = { state_culture_array = 40 }
-		add_to_array = { state_culture_array = 65 }
-		add_to_array = { state_culture_array = 121 }
-		
-		add_to_array = { state_culture_array_num = 0.93 }
-		add_to_array = { state_culture_array_num = 0.05 }
-		add_to_array = { state_culture_array_num = 0.01 }
-		add_to_array = { state_culture_array_num = 0.01 }
-
-
-		add_to_array = { state_religion_array = 2 }
-		add_to_array = { state_religion_array = 8 }
-		add_to_array = { state_religion_array = 7 }
-		
-		add_to_array = { state_religion_array_num = 0.97 }
-		add_to_array = { state_religion_array_num = 0.02 }
-		add_to_array = { state_religion_array_num = 0.01 }
-	
-		
-		1870.1.1= {
-			owner = PIE
-			add_core_of = PIE
-		}
-		add_extra_state_shared_building_slots = 1
 	}
 
 	provinces = {
-		1009 1156 3857 4014 4159 7147 10074 12047 14150 14151 14289
+		1009 1156 3857 4014 4159 7059 7147 10074 12047
 	}
-	local_supplies=0.0 
 }
+

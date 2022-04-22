@@ -1,115 +1,28 @@
+state = {
+	id = 323
+	name = "STATE_323"
+	manpower = 5573791
 
-state={
-	id=323
-	name="STATE_323"
+	state_category = four
+	resources = {
 
-	history={
+		chromium = 2
+	}
+	history = {
 		owner = NEP
-		1857.1.1 = {
-			add_core_of = NEP
-			buildings = {
-				infrastructure = 3
-				arms_factory = 1
-				industrial_complex = 1
-
-			}
-			add_extra_state_shared_building_slots = 1
-			victory_points = {
-				4987 3 
-			}
-			victory_points = {
-				10825 1 
-			}
-			add_to_array = {
-				state_culture_array = 205
-
-			}
-			add_to_array = {
-				state_culture_array_num = 0.71
-
-			}
-			add_to_array = {
-				state_culture_array = 493
-
-			}
-			add_to_array = {
-				state_culture_array_num = 0.13
-
-			}
-			add_to_array = {
-				state_culture_array = 267
-
-			}
-			add_to_array = {
-				state_culture_array_num = 0.06
-
-			}
-			add_to_array = {
-				state_culture_array = 490
-
-			}
-			add_to_array = {
-				state_culture_array_num = 0.04
-
-			}
-			add_to_array = {
-				state_culture_array = 192
-
-			}
-			add_to_array = {
-				state_culture_array_num = 0.03
-
-			}
-			add_to_array = {
-				state_culture_array = 206
-
-			}
-			add_to_array = {
-				state_culture_array_num = 0.02
-
-			}
-			add_to_array = {
-				state_culture_array = 195
-
-			}
-			add_to_array = {
-				state_culture_array_num = 0.01
-
-			}
-			add_to_array = {
-				state_religion_array = 12
-
-			}
-			add_to_array = {
-				state_religion_array_num = 0.81
-
-			}
-			add_to_array = {
-				state_religion_array = 18
-
-			}
-			add_to_array = {
-				state_religion_array_num = 0.15
-
-			}
-			add_to_array = {
-				state_religion_array = 20
-
-			}
-			add_to_array = {
-				state_religion_array_num = 0.04
-
-			}
-
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 3
 		}
-
+		victory_points = {
+			4987 3
+		}
+		add_core_of = NEP
 	}
 
-	provinces={
-		4386 7374 10825 10910 14078 14079 14080 14081 
+	provinces = {
+		4386 4987 5310 7374 10825 10910 12892
 	}
-	manpower=3678702
-	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=0.000
 }
+

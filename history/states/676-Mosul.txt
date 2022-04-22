@@ -4,71 +4,24 @@ state={
 	name="STATE_676"
 
 	history={
-		owner = OTO
+		owner = TUR
+		add_core_of = IRQ
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
+			industrial_complex = 1
 
 		}
 		victory_points = {
-			10106 1 
+			10106 5
 		}
-		add_core_of = OTO
-		add_to_array = {
-			state_culture_array = 172
-
-		}
-		add_to_array = {
-			state_culture_array_num = 0.42
-
-		}
-		add_to_array = {
-			state_culture_array = 141
-
-		}
-		add_to_array = {
-			state_culture_array_num = 0.35
-
-		}
-		add_to_array = {
-			state_culture_array = 157
-
-		}
-		add_to_array = {
-			state_culture_array_num = 0.19
-
-		}
-		add_to_array = {
-			state_culture_array = 107
-
-		}
-		add_to_array = {
-			state_culture_array_num = 0.04
-
-		}
-		add_to_array = {
-			state_religion_array = 8
-
-		}
-		add_to_array = {
-			state_religion_array_num = 0.81
-
-		}
-		add_to_array = {
-			state_religion_array = 9
-
-		}
-		add_to_array = {
-			state_religion_array_num = 0.19
-
-		}
+		add_core_of = TUR
 
 	}
 
 	provinces={
-		1600 1938 3795 10106 10804 12372 
+		1600 1938 3795 10106 12046 12372 12413 12839 13746
 	}
-	manpower=312741
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+	manpower=413987
+	state_category=two
 }
+

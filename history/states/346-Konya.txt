@@ -1,39 +1,39 @@
-
 state = {
-	id =346
+	id = 346
 	name = "STATE_346"
-
-	local_supplies=0.0 
-	manpower = 284001
-	
-	state_category = rural
+	manpower = 1427903
+	state_category = four
+	local_supplies = 7.0
 
 	history = {
-		owner = OTO
+		owner = TUR
+		add_core_of = TUR
 		buildings = {
-			infrastructure = 3
-			
+			infrastructure = 2
+			arms_factory = 1
+			1005 = {
+				naval_base = 2
+			}
+			4127 = {
+				bunker = 1
+			}
+			4124 = {
+				bunker = 1
+			}
 		}
-		
 		victory_points = {
-			940 1 
+			940 5
 		}
-		add_core_of = OTO
-		
-		add_to_array = { state_culture_array = 104 }
-		add_to_array = { state_culture_array_num = 0.88 }
-		add_to_array = { state_culture_array = 58 }
-		add_to_array = { state_culture_array_num = 0.09 }
-		add_to_array = { state_culture_array = 136 }
-		add_to_array = { state_culture_array_num = 0.03 }
-
-		add_to_array = { state_religion_array = 8 }
-		add_to_array = { state_religion_array_num = 0.88 }
-		add_to_array = { state_religion_array = 1 }
-		add_to_array = { state_religion_array_num = 0.12 }
+		victory_points = {
+			1005 3
+		}
+		victory_points = {
+			10056 3
+		}
 	}
 
 	provinces = {
-		940 3788 6807 6894 9755 9763 9811 11792 11860 13122 
+		784 869 940 961 1005 1119 1122 3788 3876 4008 4124 4127 4962 6807 6894 7026 7143 9755 9763 9830 9861 10056 11792 11810 11860 12013 12016 13122
 	}
 }
+

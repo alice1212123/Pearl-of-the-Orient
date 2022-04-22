@@ -1,34 +1,25 @@
-
 state = {
-	id =571
-	name = "STATE_571" # Omsk
+	id = 571
+	name = "STATE_571"
+	manpower = 1617157
+	state_category = four
+	local_supplies = 8.0
 
-	local_supplies=0.0 
-	manpower = 617157
-	
-	state_category = town
 	history = {
 		owner = RUS
+		add_core_of = RUS
+		add_claim_by = TRM
+		victory_points = {
+			10696 3 #Omsk
+		}
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 1
 		}
-		victory_points = {
-			10696 3 
-		}
-		add_core_of = RUS
-		
-		add_to_array = { state_culture_array = 116} #Kazakh
-		add_to_array = { state_culture_array_num = 0.80 }
-		add_to_array = { state_culture_array = 555} #Siberian Tatar
-		add_to_array = { state_culture_array_num = 0.80 }
-		add_to_array = { state_culture_array = 89} #russians
-		add_to_array = { state_culture_array_num = 0.21 }
-		add_to_array = { state_culture_array = 553} #Ugrian
-		add_to_array = { state_culture_array_num = 0.03 }
-		
 	}
 
 	provinces = {
-		1709 1800 1835 4700 7800 10568 10626 10696 12546 12580 12652 
+		1709 1800 1835 4700 7800 10626 10696 12546 12580 12652
 	}
 }
+

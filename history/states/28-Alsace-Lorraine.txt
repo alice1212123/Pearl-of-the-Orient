@@ -1,48 +1,62 @@
 state = {
 	id = 28
-	name = "STATE_28" # Alsace-Lorraine
-	manpower = 1614298
-	state_category = city
+	name = "STATE_28"
+	manpower = 2165600
+	state_category = seven
+	local_supplies = 14.0
 
 	resources = {
-		iron = 8
-		wood = 4
-	}
-
-	provinces = {
-		549 678 1346 3629 6529 9503 9559 11502
+		steel = 133
+		oil = 1
 	}
 
 	history = {
-		# End of a New Beginning
-		owner = FRA
-		1857.1.1 = {
-			add_core_of = FRA
-
-			buildings = {
-				infrastructure = 6
-				fabric_weavery = 2
-				arms_factory = 1
+		owner = GER
+		add_core_of = GER
+		add_claim_by = FRA
+		add_claim_by = NFA
+		victory_points = {
+			9503 15 #Strasbourg
+		}
+		victory_points = {
+			11502 3 #Metz
+		}
+		victory_points = {
+			678 1 #Mulhouse
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			air_base = 5
+			678 = {
+				bunker = 2
 			}
-
-			victory_points = { 678 3 } # Mulhouse
-			victory_points = { 9503 8 } # Strasbourg
-			victory_points = { 9559 6 } # Metz
-
-			add_to_array = { state_culture_array = 6 } # Alsatian
-			add_to_array = { state_culture_array_num = 0.807 }
-			add_to_array = { state_culture_array = 32 } # French
-			add_to_array = { state_culture_array_num = 0.175 }
-			add_to_array = { state_culture_array = 121 } # Jewish
-			add_to_array = { state_culture_array_num = 0.018 }
-
-			add_to_array = { state_religion_array = 2 } # Catholic
-			add_to_array = { state_religion_array_num = 0.77 }
-			add_to_array = { state_religion_array = 3 } # Protestant
-			add_to_array = { state_religion_array_num = 0.212 }
-			add_to_array = { state_religion_array = 7 } # Jewish
-			add_to_array = { state_religion_array_num = 0.018 }
+			6529 = {
+				bunker = 1
+			}
+			9559 = {
+				bunker = 3
+			}
+			1346 = {
+				bunker = 1
+			}
+			9503 = {
+				bunker = 4
+			}
+			3629 = {
+				bunker = 2
+			}
+			11502 = {
+				bunker = 2
+			}
+			10779 = {
+				bunker = 1
+			}
 		}
 	}
-	local_supplies=0.0
+
+	provinces = {
+		549 678 1346 3629 6529 9503 9559 10779 11502
+	}
 }
+

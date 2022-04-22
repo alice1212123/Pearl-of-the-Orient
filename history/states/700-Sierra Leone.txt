@@ -1,30 +1,33 @@
 state = {
-	id =700
+	id = 700
 	name = "STATE_700"
-	manpower = 217496
+	manpower = 1768500
+	state_category = one
 
-	local_supplies=0.0 
-	
-	state_category = town
-	
-	history =
-	{
-		owner = ENG
+	resources = {
+		steel = 7
+	}
+
+	history = {
+		owner = NFA
+		add_core_of = SIE
 		victory_points = {
-			2038 1 
+			2038 1 #Freistadt/Freetown
 		}
 		buildings = {
 			infrastructure = 1
+			air_base = 4
 			2038 = {
-				naval_base = 1
-				bunker = 1
+				naval_base = 3
 			}
 		}
-		add_claim_by = KOY
-
+		start_resistance = yes
+		set_resistance = 18
+		set_compliance = 15
 	}
-	
+
 	provinces = {
-		2038 2094 13224 13223
+		2038 2094
 	}
 }
+

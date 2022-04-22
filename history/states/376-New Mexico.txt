@@ -1,48 +1,27 @@
-
 state = {
-	id =376
+	id = 376
 	name = "STATE_376"
+	manpower = 485000
+	state_category = two
 
-	local_supplies=0.0 
-	
-	provinces = {
-		2102 10642 12684
+	resources = {
+		oil = 23
+		aluminium = 43
 	}
+
 	history = {
-		owner = APA
-		buildings = {
-			infrastructure = 1
-
-		}
-		add_core_of = APA
-		#add_claim_by = USA
-
+		owner = USA
+		add_core_of = USA
 		victory_points = {
-			2102 1
+			4975 2
 		}
-		
-		add_to_array = { state_culture_array = 472 } #North Mexican
-		add_to_array = { state_culture_array_num = 0.37 }
-		add_to_array = { state_culture_array = 435 } #Pueblo
-		add_to_array = { state_culture_array_num = 0.23 }
-		add_to_array = { state_culture_array = 453 } #Anthapaskan
-		add_to_array = { state_culture_array_num = 0.3 }
-		add_to_array = { state_culture_array = 410 } #Dixie
-		add_to_array = { state_culture_array_num = 0.04 }
-		add_to_array = { state_culture_array = 417 } #Afro-American
-		add_to_array = { state_culture_array_num = 0.03 }
-		add_to_array = { state_culture_array = 412 } #Texan
-		add_to_array = { state_culture_array_num = 0.02 }
-		add_to_array = { state_culture_array = 413 } #Yankee
-		add_to_array = { state_culture_array_num = 0.01 }
-		add_to_array = { state_religion_array = 2 } #Catholic
-		add_to_array = { state_religion_array_num = 0.82 }
-		add_to_array = { state_religion_array = 3 } #Protestant
-		add_to_array = { state_religion_array_num = 0.1 }
-		add_to_array = { state_religion_array = 22 } #Shamanism
-		add_to_array = { state_religion_array_num = 0.08 }
+		buildings = {
+			infrastructure = 2
+		}
 	}
-	manpower = 24620
-	state_category = pastoral
-	
+
+	provinces = {
+		1972 2102 3867 3883 4975 5044 8070 10642 10645 10867 10914 12552 12684 12720 12791
+	}
 }
+

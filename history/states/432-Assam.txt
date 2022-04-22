@@ -1,105 +1,30 @@
+state = {
+	id = 432
+	name = "STATE_432"
+	manpower = 7217100
+	state_category = two
 
-state={
-	id=432
-	name="STATE_432"
+	resources = {
+		oil = 3
+		tungsten = 30
+	}
 
-	history={
-		owner = RAJ
-		1857.1.1 = {
-			buildings = {
-				infrastructure = 3
-
-			}
-			add_to_array = {
-				state_culture_array = 187
-
-			}
-			add_to_array = {
-				state_culture_array_num = 0.72
-
-			}
-			add_to_array = {
-				state_culture_array = 188
-
-			}
-			add_to_array = {
-				state_culture_array_num = 0.11
-
-			}
-			add_to_array = {
-				state_culture_array = 502
-
-			}
-			add_to_array = {
-				state_culture_array_num = 0.10
-
-			}
-			add_to_array = {
-				state_culture_array = 269
-
-			}
-			add_to_array = {
-				state_culture_array_num = 0.07
-
-			}
-			add_to_array = {
-				state_religion_array = 18
-
-			}
-			add_to_array = {
-				state_religion_array_num = 0.37
-
-			}
-			add_to_array = {
-				state_religion_array = 13
-
-			}
-			add_to_array = {
-				state_religion_array_num = 0.27
-
-			}
-			add_to_array = {
-				state_religion_array = 20
-
-			}
-			add_to_array = {
-				state_religion_array_num = 0.11
-
-			}
-			add_to_array = {
-				state_religion_array = 12
-
-			}
-			add_to_array = {
-				state_religion_array_num = 0.10
-
-			}
-			add_to_array = {
-				state_religion_array = 8
-
-			}
-			add_to_array = {
-				state_religion_array_num = 0.09
-
-			}
-			add_to_array = {
-				state_religion_array = 9
-
-			}
-			add_to_array = {
-				state_religion_array_num = 0.06
-
-			}
-
+	history = {
+		owner = HND
+		add_core_of = HND
+		add_claim_by = PRF
+		add_claim_by = RAJ
+		victory_points = {
+			12366 1
 		}
-
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
 	}
 
-	provinces={
-		1116 1497 1525 7455 10349 10389 12366 12395 14077 14104 14105 14106 
+	provinces = {
+		1116 1497 1525 7455 10349 12322 12366 12395
 	}
-	manpower=3124886
-	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=0.000
 }
+

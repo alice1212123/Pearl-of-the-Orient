@@ -1,49 +1,42 @@
 state = {
 	id = 19
-	name = "STATE_19" # Aquitain
-	manpower = 1026587
-	state_category = city
+	name = "STATE_19"
+	manpower = 1643215
+	state_category = nine
 
 	resources = {
-		iron = 16
-		wood = 4
-	}
-
-	provinces = {
-		743 6621 6762 6777 9710 9737 11565
+		steel = 30
+		aluminium = 13
 	}
 
 	history = {
-		# End of a New Beginning
 		owner = FRA
-		1857.1.1 = {
-			add_core_of = FRA
-
-			buildings = {
-				infrastructure = 5
-				arms_factory = 4
-				fabric_weavery = 1
-				dockyard = 1
-				9737 = {
-					naval_base = 1
-				}
+		add_core_of = FRA
+		add_claim_by = NFA
+		victory_points = {
+			9737 20 #Bordeaux
+		}
+		victory_points = {
+			743 3 #Bayonne
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 3
+			air_base = 3
+			9737 = {
+				naval_base = 2
+				coastal_bunker = 1
 			}
-
-			victory_points = { 9737 13 } # Bordeaux
-			victory_points = { 743 3 } # Bayonne
-
-			add_to_array = { state_culture_array = 33 } # Occitan
-			add_to_array = { state_culture_array_num = 0.65 }
-			add_to_array = { state_culture_array = 32 } # French
-			add_to_array = { state_culture_array_num = 0.26 }
-			add_to_array = { state_culture_array = 51 } # Basque
-			add_to_array = { state_culture_array_num = 0.09 }
-		
-			add_to_array = { state_religion_array = 2 } # Catholic
-			add_to_array = { state_religion_array_num = 0.98 }
-			add_to_array = { state_religion_array = 3 } # Protestant
-			add_to_array = { state_religion_array_num = 0.02 }
+			743 = {
+				naval_base = 2
+				coastal_bunker = 1
+			}
 		}
 	}
-	local_supplies=0.0 
+
+	provinces = {
+		743 929 3740 6621 6759 6762 6775 6777 9710 9717 9737 11565 11720
+	}
 }
+

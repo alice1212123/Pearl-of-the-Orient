@@ -1,16 +1,15 @@
-state = {
-	id =690
-	name = "STATE_690"
-	manpower = 18500
 
-	local_supplies=0.0 
-	
-	state_category = tiny_island
+state={
+	id=690
+	name="STATE_690"
 
-	history = {
-		owner = ENG
+	history={
+		owner = WIF
+		victory_points = {
+			13607 3
+		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 			10254 = {
 				naval_base = 1
 			}
@@ -20,11 +19,21 @@ state = {
 			7245 = {
 				naval_base = 1
 			}
+			1513 = {
+				naval_base = 1
+			}
+			10440 = {
+				naval_base = 1
+			}
+
 		}
+		add_core_of = WIF
 	}
 
-	provinces = {
-		4647 7245 10254 
+	provinces={
+		1513 4647 7245 10254 10440 13607 13621
 	}
-	
+	manpower=62160
+	state_category=zero_island
 }
+

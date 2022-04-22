@@ -1,40 +1,30 @@
 state = {
 	id = 136
-	name = "STATE_136" # Aberdeenshire
-	manpower = 360960
-	state_category = rural
+	name = "STATE_136"
+	manpower = 803563
+	state_category = five
 
 	resources = {
-		coal = 8
+		tungsten = 5
+		aluminium = 3
+	}
+
+	history = {
+		owner = ENG
+		add_core_of = ENG
+		add_claim_by = CAN
+		victory_points = { 3150 5 }
+		victory_points = { 9161 1 }
+		victory_points = { 11136 3 }
+		buildings = {
+			infrastructure = 3
+			dockyard = 2
+			industrial_complex = 1
+		}
 	}
 
 	provinces = {
 		200 3150 9161 11055 11136 11207 11306
 	}
-
-	history = {
-		# End of a New Beginning
-		owner = ENG
-		1857.1.1 = {
-			add_core_of = ENG
-
-			buildings = {
-				infrastructure = 5
-			}
-
-			victory_points = { 3150 1 } # Dundee
-			victory_points = { 11136 1 } # Aberdeen
-
-			add_to_array = { state_culture_array = 94 } # Highland-Scottish
-			add_to_array = { state_culture_array_num = 0.54 }
-			add_to_array = { state_culture_array = 17 } # Lowland-Scottish
-			add_to_array = { state_culture_array_num = 0.46 }
-
-			add_to_array = { state_religion_array = 25 } # Protestant
-			add_to_array = { state_religion_array_num = 0.59 }
-			add_to_array = { state_religion_array = 2 } # Catholic
-			add_to_array = { state_religion_array_num = 0.41 }
-		}
-	}
-	local_supplies=0.0 
 }
+

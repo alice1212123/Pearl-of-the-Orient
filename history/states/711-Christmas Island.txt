@@ -1,34 +1,25 @@
 state = {
-	id =711
+	id = 711
 	name = "STATE_711"
-	manpower = 1	
+	manpower = 1667
+	state_category = zero_island
 
-	local_supplies=0.0 
-	state_category = tiny_island
-	
-	history =
-	{
-		owner = UCT
-		add_core_of = UCT
+	history = {
+		owner = AST
+		add_core_of = AST
 		buildings = {
-			infrastructure = 0
+			infrastructure = 1
 			13005 = {
-				naval_base = 0
+				naval_base = 1
+			}
+			13002 = {
+				naval_base = 1
 			}
 		}
-
-		add_to_array = { state_culture_array = 233 } # Minangkabau
-		add_to_array = { state_culture_array_num = 0.97 }
-		add_to_array = { state_culture_array = 16 } # English
-		add_to_array = { state_culture_array_num = 0.03 }
-
-		add_to_array = { state_religion_array = 8 } # Sunni
-		add_to_array = { state_religion_array_num = 0.97 }
-		add_to_array = { state_religion_array = 25 } # Anglican
-		add_to_array = { state_religion_array_num = 0.03 }
 	}
-	
+
 	provinces = {
-		13005 
+		13002 13005
 	}
 }
+

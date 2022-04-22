@@ -1,39 +1,27 @@
 state = {
-	id =268
+	id = 268
 	name = "STATE_268"
-	manpower = 35232
-
-	local_supplies=0.0 
+	manpower = 85232
 
 
-	state_category = rural
+	state_category = one
 
-	
-	provinces = {
-		4985 8124
- 	}
 	history = {
-		owner = EGY
-		add_core_of = EGY
-#culture
-		add_to_array = { state_culture_array = 387 }
-		add_to_array = { state_culture_array = 458 }
-		add_to_array = { state_culture_array = 155 }
-		add_to_array = { state_culture_array_num = 0.597 }
-		add_to_array = { state_culture_array_num = 0.343 }
-		add_to_array = { state_culture_array_num = 0.06 }
-#religion
-		add_to_array = { state_religion_array = 8 }
-		add_to_array = { state_religion_array = 9 }
-		add_to_array = { state_religion_array = 10 }
-		add_to_array = { state_religion_array = 4 }		
-			 	add_to_array = { state_religion_array_num = 0.966 } 
-			 	add_to_array = { state_religion_array_num = 0.021 } 
-			 	add_to_array = { state_religion_array_num = 0.007 }
-		add_to_array = { state_religion_array_num = 0.006 }
+		owner = GER
+		add_core_of = SOM
+		victory_points = {
+			8124 1 #Djibouti
+		}
 		buildings = {
 			infrastructure = 1
+			air_base = 2
+			8124 = {
+				naval_base = 2
+			}
 		}
-		afr_state_setup_scripted_effect = yes
+	}
+	provinces = {
+		4985 8124
 	}
 }
+

@@ -1,52 +1,26 @@
 state = {
 	id = 433
-	name = "STATE_433"
-	manpower = 6078070
+	name = "STATE_433" # Rajasthan
+	manpower = 4935700
+	state_category = two
 
-	local_supplies=0.0 
-	state_category = town
-
-	provinces = {
-		1908 4149 4984 10847 10866 12718 12876 12886 14116 14120 14121
+	resources = {
+		tungsten = 37
 	}
 
 	history = {
-		# End of a New Beginning
-		owner = RJP
-		1857.1.1 = {
-			add_core_of = RJP
-			add_core_of = RAJ
-
-			buildings = {
-				infrastructure = 3
-			}
-
-			victory_points = { 4984 2 } # Sindh
-			victory_points = { 1908 3 } # Ajmere
-
-			add_to_array = { state_culture_array = 194 } # Rajasthani
-			add_to_array = { state_culture_array_num = 0.43 }
-			add_to_array = { state_culture_array = 487 } # Marwari
-			add_to_array = { state_culture_array_num = 0.33 }
-			add_to_array = { state_culture_array = 190 } # Punjabi
-			add_to_array = { state_culture_array_num = 0.10 }
-			add_to_array = { state_culture_array = 193 } # Sindhi
-			add_to_array = { state_culture_array_num = 0.07 }
-			add_to_array = { state_culture_array = 486 } # Jaipuri
-			add_to_array = { state_culture_array_num = 0.05 }
-			add_to_array = { state_culture_array = 189 } # Gujarati
-			add_to_array = { state_culture_array_num = 0.02 }
-	
-			add_to_array = { state_religion_array = 18 } # Hindu
-			add_to_array = { state_religion_array_num = 0.47 }
-			add_to_array = { state_religion_array = 8 } # Sunni	
-			add_to_array = { state_religion_array_num = 0.33 }
-			add_to_array = { state_religion_array = 40 } # Jain
-			add_to_array = { state_religion_array_num = 0.13 }
-			add_to_array = { state_religion_array = 47 } # Bahai
-			add_to_array = { state_religion_array_num = 0.04 }
-			add_to_array = { state_religion_array = 9 } # Shia
-			add_to_array = { state_religion_array_num = 0.03 }
+		owner = RAJ
+		add_core_of = RAJ
+		add_claim_by = HND
+		add_claim_by = PRF
+		victory_points = { 12876 1 } #Bikaner
+		buildings = {
+			infrastructure = 1
 		}
 	}
+
+	provinces = {
+		1908 4149 4984 7998 10847 10866 12041 12718 12844 12876 12886
+	}
 }
+

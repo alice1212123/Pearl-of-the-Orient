@@ -1,39 +1,30 @@
-
 state = {
-	id =485
+	id = 485
 	name = "STATE_485"
+	manpower = 1598311
+	state_category = two
 
-	local_supplies=0.0 
-	manpower = 1054885
-	
-	state_category = pastoral
+	resources = {
+		steel = 4
+	}
 
 	history = {
 		owner = MEX
+		add_core_of = MEX
+		victory_points = {
+			10832 3
+		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
 			industrial_complex = 1
-			10730 = {
+			8032 = {
 				naval_base = 3
 			}
 		}
-		add_core_of = MEX
-		
-		add_to_array = { state_culture_array = 427 } #Mexican
-		add_to_array = { state_culture_array_num = 0.562 }
-		# add_to_array = { state_culture_array = 427 } #Mesito?
-		# add_to_array = { state_culture_array_num = 0.54 }
-		# add_to_array = { state_culture_array = 47 } #Spainish/white?
-		# add_to_array = { state_culture_array_num = 0.02 }
-		add_to_array = { state_culture_array = 441 } #Nahua?
-		add_to_array = { state_culture_array_num = 0.438 }
-		
-		add_to_array = { state_religion_array = 2 } #Catholic
-		add_to_array = { state_religion_array_num = 1 }
 	}
 
 	provinces = {
-		4887 5066 10730 10832 
+		4887 5066 8032 10730 10832 13449
 	}
-	
 }
+

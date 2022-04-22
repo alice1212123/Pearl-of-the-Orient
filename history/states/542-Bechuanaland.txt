@@ -1,54 +1,28 @@
-
-state={
-	id=542
-	name="STATE_542"
-
-	local_supplies=0.0 
-	manpower = 478356
-
-	state_category = rural
+state = {
+	id = 542
+	name = "STATE_542"
+	manpower = 234000
+	state_category = one
+	local_supplies = 2.0
 
 	resources = {
-		cotton = 4
-		fabric = 2
+		chromium = 160
 	}
 
-	
+	history = {
+		owner = SAF
+		add_claim_by = SAF
+		add_core_of = BOT
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			8214 1 #Gaborone
+		}
+	}
 
 	provinces = {
-		10758 10805
-	}
-	history = {
-                victory_points = {
-			10758 1
-		}
-		owner = DMG
-		add_core_of = DMG
-
-            add_to_array = { state_culture_array = 365 } 
-         	add_to_array = { state_culture_array_num = 0.63 }
-
-           add_to_array = { state_culture_array = 360 } 
-         	add_to_array = { state_culture_array_num = 0.18 }
-
-            add_to_array = { state_culture_array = 356 } 
-         	add_to_array = { state_culture_array_num = 0.09 }
- 
-            add_to_array = { state_culture_array = 352 } 
-         	add_to_array = { state_culture_array_num = 0.06 }
-         
-            add_to_array = { state_culture_array = 359 } 
-         	add_to_array = { state_culture_array_num = 0.02 }
- 
-            add_to_array = { state_culture_array = 378 } 
-         	add_to_array = { state_culture_array_num = 0.02 }
-
-			add_to_array = { state_religion_array = 8 } 
-			add_to_array = { state_religion_array_num = 0.63}
-
-			add_to_array = { state_religion_array = 20 } 
-			add_to_array = { state_religion_array_num = 0.37}
-
-		afr_state_setup_scripted_effect = yes
+		1580 8214 10525 12940 12963 13084 13205 13636
 	}
 }
+

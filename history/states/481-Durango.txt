@@ -1,39 +1,31 @@
-
 state = {
-	id =481
-	name = "STATE_481" # Durango
+	id = 481
+	name = "STATE_481"
+	manpower = 1255094
+	state_category = two
+	local_supplies = 6.0
 
-	local_supplies=0.0 
-	manpower = 828362
-	
-	state_category = pastoral
-	
 	resources = {
-		iron=4
-		coal =5
+		steel = 3
 	}
 
 	history = {
 		owner = MEX
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-		}
 		add_core_of = MEX
-		
-		add_to_array = { state_culture_array = 427 } #Mexican
-		add_to_array = { state_culture_array_num = 0.901 }
-		# add_to_array = { state_culture_array = 427 } #Mesito?
-		# add_to_array = { state_culture_array_num = 0.898 }
-		add_to_array = { state_culture_array = 441 } #Nahua?
-		add_to_array = { state_culture_array_num = 0.099 }
-		
-		add_to_array = { state_religion_array = 2 } #Catholic
-		add_to_array = { state_religion_array_num = 1 }
+		victory_points = {
+			12804 3
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			8057 = {
+				naval_base = 3
+			}
+		}
 	}
 
 	provinces = {
-		4946 7921 8003 10853 10871
+		1945 4946 7921 8003 8057 10853 10871 10895 12804 13468 13470 13473 13475 13478
 	}
-	
 }
+

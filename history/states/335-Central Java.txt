@@ -1,43 +1,36 @@
-
 state = {
-	id =335
-	name = "STATE_335" # Java
+	id = 335
+	name = "STATE_335"
+	manpower = 29197530
+	state_category = one
+	local_supplies = 5.0
 
-	local_supplies=0.0 
-	manpower = 4034012
-	
-	state_category = town
-	
 	resources = {
-		rubber =20
-		coal = 13
+		rubber = 107
+		oil = 13
 	}
 
 	history = {
-		owner = INS
-		add_claim_by = INS
-
+		owner = DEI
+		add_core_of = DEI
+		add_core_of = INS
+		victory_points = {
+			7421 5
+		}
+		victory_points = {
+			1413 5
+		}
+		victory_points = {
+			10135 15
+		}
 		buildings = {
 			infrastructure = 2
-			cotton_farm = 1
+			air_base = 3
 		}
-
-		add_extra_state_shared_building_slots = 1 
-
-		add_to_array = { state_culture_array = 234 } # Javanese
-		add_to_array = { state_culture_array_num = 0.72 }
-		add_to_array = { state_culture_array = 235 } # Sundaese
-		add_to_array = { state_culture_array_num = 0.22 }
-		add_to_array = { state_culture_array = 237 } # Madurese
-		add_to_array = { state_culture_array_num = 0.06 }
-
-		add_to_array = { state_religion_array = 8 } # Sunni
-		add_to_array = { state_religion_array_num = 0.89 }
-		add_to_array = { state_religion_array = 18 } # Hindu
-		add_to_array = { state_religion_array_num = 0.11 }
 	}
 
 	provinces = {
-		1386 1413 4434 4621 7223 7642 12277 12293
+		1386 1398 1413 1425 4390 4434 4621 7223 7421 7642 10135 10279 10307 12277 12293
 	}
 }
+
