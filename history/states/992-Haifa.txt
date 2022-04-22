@@ -2,22 +2,17 @@
 state={
 	id=992
 	name="STATE_992"
-
 	history={
 		
 		
 		
 		buildings = {
 			infrastructure = 1
-
 		}
-
 	}
-
 	provinces={
 		1065 7107
 	}
 	manpower=400030
 	state_category=two
 }
-

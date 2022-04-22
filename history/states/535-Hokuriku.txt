@@ -3,30 +3,24 @@ state = {
 	name = "STATE_535" # Koshinetsu
 	manpower = 3871000
 	state_category = eight
-
 	resources = {
 		steel = 30
 		tungsten = 9
 	}
-
 	history = {
 		
 		
 		buildings = {
-
 			arms_factory = 1
 			industrial_complex = 2
 			infrastructure = 1
 			dockyard = 1
 		}
-
 		victory_points = {
 			10032 10
 		}
 	}
-
 	provinces = {
 		998 7102 7217 10015 10032
 	}
 }
-

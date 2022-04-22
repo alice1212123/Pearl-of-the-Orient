@@ -3,12 +3,10 @@ state = {
 	name = "STATE_425" # Mysore
 	manpower = 6841620
 	state_category = five
-
 	resources = {
 		chromium = 13
 		tungsten = 70
 	}
-
 	history = {
 		
 		
@@ -21,9 +19,7 @@ state = {
 			industrial_complex = 3
 		}
 	}
-
 	provinces = {
 		1412 4344 7395 8011 8100 10208 12146 12734
 	}
 }
-

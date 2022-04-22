@@ -5,16 +5,12 @@ state = {
 		480
 	}
 	manpower = 95247
-
 	state_category = two
-
 	history = {
 		
 		
-
 		buildings = {
 			infrastructure = 2
 		}
 	}
 }
-

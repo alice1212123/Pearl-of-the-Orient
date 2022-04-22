@@ -3,7 +3,6 @@ state = {
 	name = "STATE_107" # Serbia
 	manpower = 1248300
 	local_supplies = 4.0
-
 	state_category = six
 	history = {
 		
@@ -18,9 +17,7 @@ state = {
 		}
 		
 	}
-
 	provinces = {
 		797 3609 3956 3984 9599 11583 11586
 	}
 }
-

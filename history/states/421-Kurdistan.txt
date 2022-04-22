@@ -1,7 +1,6 @@
 state = {
 	id = 421
 	name = "STATE_421"
-
 	history = {
 		
 		
@@ -13,11 +12,9 @@ state = {
 			12773 5
 		}
 	}
-
 	provinces = {
 		1043 4943 5050 5098 7985 8040 8125 9816 12773 12861
 	}
 	manpower = 1749528
 	state_category = three
 }
-

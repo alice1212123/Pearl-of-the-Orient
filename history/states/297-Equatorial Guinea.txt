@@ -3,7 +3,6 @@ state = {
 	name = "STATE_297" # Equatorial Guinea
 	manpower = 185000
 	state_category = one
-
 	history = {
 		
 		
@@ -25,4 +24,3 @@ state = {
 		1903 8244
 	}
 }
-

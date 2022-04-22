@@ -3,16 +3,13 @@ state = { # Wenzhou
 	name = "STATE_803"
 	manpower = 500000
 	state_category = two
-
 	history = {
 		
 		
 		
-
 		victory_points = {
 			4013 3
 		}
-
 		buildings = {
 			infrastructure = 2
 			4013 = {
@@ -24,4 +21,3 @@ state = { # Wenzhou
 		4013
 	}
 }
-

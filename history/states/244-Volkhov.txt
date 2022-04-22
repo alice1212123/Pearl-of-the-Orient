@@ -2,9 +2,7 @@ state = {
 	id = 244
 	name = "STATE_244" # Volkhov
 	manpower = 195325
-
 	state_category = two
-
 	history = {
 		
 		buildings = {
@@ -16,9 +14,7 @@ state = {
 			6095 1
 		}
 	}
-
 	provinces = {
 		70 3072 3110 6035 6095 9164 9197 11174
 	}
 }
-

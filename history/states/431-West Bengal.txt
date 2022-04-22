@@ -3,12 +3,10 @@ state = {
 	name = "STATE_431" # West Bengal
 	manpower = 18127900
 	state_category = eight
-
 	resources = {
 		steel = 16
 		tungsten = 13
 	}
-
 	history = {
 		
 		
@@ -25,9 +23,7 @@ state = {
 			}
 		}
 	}
-
 	provinces = {
 		1159 1609 4062 4204 4245 4644 7220 7565 7662 10077 12050
 	}
 }
-

@@ -3,11 +3,9 @@ state = {
 	name = "STATE_849" # Caracas
 	manpower = 1148021
 	state_category = five
-
 	resources = {
 		oil = 35
 	}
-
 	history = {
 		
 		buildings = {
@@ -27,9 +25,7 @@ state = {
 			10855 5
 		}
 	}
-
 	provinces = {
 		8113 4942 10855 4526
 	}
 }
-

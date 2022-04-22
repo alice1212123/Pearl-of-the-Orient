@@ -3,12 +3,10 @@ state = {
 	name = "STATE_113" # Leinster
 	manpower = 1402355
 	state_category = five
-
 	resources = {
 		aluminium = 2
 		steel = 2
 	}
-
 	history = {
 		
 		victory_points = {
@@ -19,16 +17,13 @@ state = {
 			arms_factory = 1
 			industrial_complex = 4
 			air_base = 3
-
 			11293 = {
 				naval_base = 6
 			}
 		}
 		
 	}
-
 	provinces = {
 		285 303 369 3342 3359 7377 11293 11303
 	}
 }
-

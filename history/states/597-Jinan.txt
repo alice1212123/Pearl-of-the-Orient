@@ -4,11 +4,9 @@ state = { #Jinan
 	manpower = 11869376
 	state_category = four
 	local_supplies = 2.0
-
 	resources = {
 		steel = 3
 	}
-
 	history = {
 		
 		
@@ -26,9 +24,7 @@ state = { #Jinan
 			10043 1
 		}
 	}
-
 	provinces = {
 		1069 4037 4089 10072 10043 10102 12045 12069
 	}
 }
-

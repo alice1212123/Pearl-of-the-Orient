@@ -3,14 +3,10 @@ state = {
 	name = "STATE_772" # Dobrudzha
 	manpower = 559910
 
-
 	state_category = four
-
 	history = {
 		
-
 		victory_points = { 9635 5 }
-
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
@@ -20,16 +16,13 @@ state = {
 				naval_base = 1
 			}
 		}
-
 		
 		
 		start_resistance = yes
 		set_resistance = 7
 		set_compliance = 45
 	}
-
 	provinces = {
 		657 687 3076 9635
 	}
 }
-

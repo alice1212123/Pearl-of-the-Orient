@@ -2,7 +2,6 @@
 state={
 	id=690
 	name="STATE_690"
-
 	history={
 		
 		victory_points = {
@@ -25,15 +24,12 @@ state={
 			10440 = {
 				naval_base = 1
 			}
-
 		}
 		
 	}
-
 	provinces={
 		1513 4647 7245 10254 10440 13607 13621
 	}
 	manpower=62160
 	state_category=zero_island
 }
-

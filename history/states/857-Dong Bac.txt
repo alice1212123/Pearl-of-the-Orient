@@ -2,7 +2,6 @@
 state={
 	id=857
 	name="STATE_857"
-
 	history={
 		
 		
@@ -12,11 +11,8 @@ state={
 		}
 		buildings = {
 			infrastructure = 1
-
 		}
-
 	}
-
 	provinces={
 		1073 1157 4119 7015 7093 7518 9948 12008 12048 12065 
 	}

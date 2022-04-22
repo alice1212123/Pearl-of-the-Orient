@@ -4,7 +4,6 @@ state = {
 	resources = {
 		rubber = 67
 	}
-
 	history = {
 		
 		buildings = {
@@ -16,11 +15,9 @@ state = {
 			10960 1
 		}
 	}
-
 	provinces = {
 		10960 13524
 	}
 	manpower = 80000
 	state_category = wasteland
 }
-

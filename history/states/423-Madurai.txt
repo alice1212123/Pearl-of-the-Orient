@@ -2,13 +2,10 @@ state = {
 	id = 423
 	name = "STATE_423" # Madurai
 	manpower = 10587500
-
 	state_category = two
-
 	resources = {
 		rubber = 9
 	}
-
 	history = {
 		
 		
@@ -21,9 +18,7 @@ state = {
 			air_base = 1
 		}
 	}
-
 	provinces = {
 		1381 1409 4315 4327 4416 7265 7288 7363 10274 12247 12275
 	}
 }
-

@@ -3,7 +3,6 @@ state = { #Dairen
 	name = "STATE_745"
 	manpower = 352123
 	state_category = four
-
 	history = {
 		
 		
@@ -25,4 +24,3 @@ state = { #Dairen
 		1150
 	}
 }
-

@@ -1,7 +1,6 @@
 state = {
 	id = 101
 	name = "STATE_101"
-
 	history = {
 		
 		victory_points = {
@@ -14,11 +13,9 @@ state = {
 			}
 		}
 	}
-
 	provinces = {
 		13593 13601
 	}
 	manpower = 17000
 	state_category = wasteland
 }
-

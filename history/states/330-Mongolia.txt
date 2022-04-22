@@ -6,7 +6,6 @@ state={
 		steel=2.000
 		chromium=3.000
 	}
-
 	history={
 		
 		victory_points = {
@@ -23,12 +22,9 @@ state={
 			arms_factory = 1
 			industrial_complex = 2
 			air_base = 1
-
 		}
 		
-
 	}
-
 	provinces={
 		1723 1787 1853 4655 4856 7749 10632 12539 12612 
 	}

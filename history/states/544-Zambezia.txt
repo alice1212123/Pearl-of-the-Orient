@@ -3,7 +3,6 @@ state = {
 	name = "STATE_544" #Mozambique
 	manpower = 2767300
 	state_category = three
-
 	history = {
 		
 		
@@ -18,9 +17,7 @@ state = {
 			}
 		}
 	}
-
 	provinces = {
 		2123 2159 2180 2202 2217 5164 10972 12971
 	}
 }
-

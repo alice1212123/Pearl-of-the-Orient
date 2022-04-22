@@ -2,14 +2,12 @@
 state={
 	id=525
 	name="STATE_525"
-
 	history={
 		
 		
 		
 		add_dynamic_modifier = {
 			modifier = JAP_korean_military_administration
-
 		}
 		buildings = {
 			infrastructure = 2
@@ -17,9 +15,7 @@ state={
 			arms_factory = 1
 			4056 = {
 				naval_base = 3
-
 			}
-
 		}
 		victory_points = {
 			4056 5 
@@ -27,9 +23,7 @@ state={
 		victory_points = {
 			7125 10 
 		}
-
 	}
-
 	provinces={
 		1148 4004 4103 7021 9936 9981 11912 11958 12011 
 	}

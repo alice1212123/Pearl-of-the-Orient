@@ -1,7 +1,6 @@
 state = {
 	id = 831
 	name = "STATE_831"
-
 	history = {
 		
 		
@@ -15,17 +14,13 @@ state = {
 		victory_points = {
 			1403 3 #Mawlaymein/Morlamaeng
 		}
-
 		set_state_flag = SIA_municipal_reform_implemented
 		#set_state_flag = SIA_legal_reform_implemented
 		#set_state_flag = SIA_civil_service_expansion_implemented
 	}
-
 	provinces = {
 		1403 4408 12125 12238
 	}
-
 	manpower = 921600
 	state_category = three
 }
-

@@ -3,7 +3,6 @@ state = {
 	name = "STATE_236"
 	manpower = 357962
 	state_category = four
-
 	history = {
 		
 		
@@ -16,9 +15,7 @@ state = {
 			air_base = 1
 		}
 	}
-
 	provinces = {
 		618 757 3435 6486 6516 6620 9455 9592 9753 11429 11736
 	}
 }
-

@@ -2,12 +2,9 @@ state = {
 	id = 706
 	name = "STATE_706"
 	manpower = 186637
-
 	state_category = one_island
-
 	history = {
 		
-
 		buildings = {
 			infrastructure = 1
 			13017 = {
@@ -15,9 +12,7 @@ state = {
 			}
 		}
 	}
-
 	provinces = {
 		13017
 	}
 }
-

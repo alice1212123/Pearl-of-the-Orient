@@ -6,7 +6,6 @@ state = { #Jinxi #Western Shanxi
 		
 		
 		
-
 		buildings = {
 			infrastructure = 1
 		}
@@ -16,4 +15,3 @@ state = { #Jinxi #Western Shanxi
 	}
 	manpower = 3480000
 }
-

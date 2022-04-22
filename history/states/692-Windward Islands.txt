@@ -4,7 +4,6 @@ state = {
 	manpower = 365120
 	state_category = one_island
 	local_supplies = 4.0
-
 	history = {
 		
 		
@@ -15,9 +14,7 @@ state = {
 			}
 		}
 	}
-
 	provinces = {
 		379 11106 11350 13009
 	}
 }
-

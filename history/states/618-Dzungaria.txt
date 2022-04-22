@@ -2,12 +2,9 @@ state = {
 	id = 618
 	name = "STATE_618" # Dzungaria
 	manpower = 670800
-
 	state_category = one
-
 	history = {
 		
-
 		
 		
 		
@@ -15,9 +12,7 @@ state = {
 			infrastructure = 1
 		}
 	}
-
 	provinces = {
 		1708 1783 1844 4714 4788 4823 4849 7693 7737 7866 10674 10691 12590 12737
 	}
 }
-

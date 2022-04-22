@@ -3,11 +3,9 @@ state = {
 	name = "STATE_640" # Mandalay
 	manpower = 1730000
 	state_category = four
-
 	resources = {
 		oil = 3
 	}
-
 	history = {
 		
 		
@@ -23,9 +21,7 @@ state = {
 #			10386 1 # Sagaing
 #		}
 	}
-
 	provinces = {
 		1492 1650 4019 4059 4541 4585 4626 7034 7163 7190 4202 7469 7534 10386 12404 12449
 	}
 }
-

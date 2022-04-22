@@ -2,12 +2,10 @@ state = {
 	id = 566
 	name = "STATE_566" #Irkutsk
 	state_category = four
-
 	resources = {
 		steel = 23
 		aluminium = 8
 	}
-
 	history = {
 		
 		
@@ -20,10 +18,8 @@ state = {
 			industrial_complex = 1
 		}
 	}
-
 	provinces = {
 		1707 1727 1810 1829 4797 4815 7838 10524 10543 10596 10661 12525 12540 12647 13152
 	}
 	manpower = 755237
 }
-

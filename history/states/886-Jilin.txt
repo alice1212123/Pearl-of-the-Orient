@@ -2,7 +2,6 @@
 state={
 	id=886
 	name="STATE_886"
-
 	history={
 		
 		
@@ -11,7 +10,6 @@ state={
 			infrastructure = 2
 			industrial_complex = 1
 			arms_factory = 1
-
 		}
 		victory_points = {
 			4572 3 
@@ -19,9 +17,7 @@ state={
 		victory_points = {
 			7663 1 
 		}
-
 	}
-
 	provinces={
 		887 916 1567 3849 3913 3932 4572 4642 6947 7663 9866 11744 11808 
 	}

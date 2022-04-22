@@ -3,7 +3,6 @@ state = {
 	name = "STATE_58" #Holstein
 	manpower = 2496730
 	state_category = nine
-
 	history = {
 		
 		
@@ -31,9 +30,7 @@ state = {
 			}
 		}
 	}
-
 	provinces = {
 		317 3231 3368 6257 6389 9320 9347 11331
 	}
 }
-

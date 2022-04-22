@@ -6,7 +6,6 @@ state={
 		tungsten=27.000
 		steel=2.000
 	}
-
 	history={
 		
 		
@@ -17,14 +16,11 @@ state={
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
-
 		}
 		victory_points = {
 			4050 2 
 		}
-
 	}
-
 	provinces={
 		1078 1162 1202 4050 4165 4207 7067 7108 7141 7182 9978 
 	}

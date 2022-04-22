@@ -2,13 +2,11 @@
 state={
 	id=884
 	name="STATE_884"
-
 	history={
 		
 		
 		buildings = {
 			infrastructure = 1
-
 		}
 		victory_points = {
 			4745 1 
@@ -16,9 +14,7 @@ state={
 		victory_points = {
 			1847 1 
 		}
-
 	}
-
 	provinces={
 		1502 1776 1847 4809 4876 7697 7848 7873 7894 10541 10567 10675 12537 13150 
 	}

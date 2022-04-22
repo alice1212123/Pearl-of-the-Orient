@@ -3,7 +3,6 @@ state = {
 	name = "STATE_1035"
 	manpower = 41753
 	state_category = wasteland
-
 	history = {
 		
 		
@@ -15,4 +14,3 @@ state = {
 		4562 4951 5058 5099 10744 12316 12879
 	}
 }
-

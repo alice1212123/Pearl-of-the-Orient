@@ -4,7 +4,6 @@ state = {
 	manpower = 2821635
 	state_category = two
 	local_supplies = 1.0
-
 	history = {
 		
 		
@@ -23,9 +22,7 @@ state = {
 		set_resistance = 29
 		set_compliance = 8
 	}
-
 	provinces = {
 		1909 12858 12802 4957 8008 5039
 	}
 }
-

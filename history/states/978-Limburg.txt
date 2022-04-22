@@ -5,19 +5,14 @@ state = {
 		6500 11562 13662
 	}
 	manpower = 589473
-
 	state_category = four
-
 	history = {
 		
 		
-
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 		}
-
 		victory_points = { 11562 1 }
 	}
 }
-

@@ -5,9 +5,7 @@ state = {
 	resources = {
 		chromium = 1
 	}
-
 	state_category = four
-
 	history = {
 		
 		buildings = {
@@ -31,4 +29,3 @@ state = {
 		12823 13093 13697 13698 13699 13700
 	}
 }
-

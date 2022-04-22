@@ -1,7 +1,6 @@
 state={
 	id=553
 	name="STATE_553"
-
 	history={
 		
 		
@@ -16,17 +15,12 @@ state={
 			air_base = 1
 			792 = {
 				naval_base = 2
-
 			}
-
 		}
-
 	}
-
 	provinces={
 		792
 	}
 	manpower=860132
 	state_category=four
 }
-

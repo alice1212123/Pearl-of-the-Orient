@@ -1,7 +1,6 @@
 state = { #Khasab
 	id = 347
 	name = "STATE_347"
-
 	history = {
 		
 		buildings = {
@@ -13,11 +12,9 @@ state = { #Khasab
 		
 		
 	}
-
 	provinces = {
 		7960
 	}
 	manpower = 3873
 	state_category = wasteland
 }
-

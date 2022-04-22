@@ -8,12 +8,10 @@ state = {
 		rubber = 85
 	}
 	manpower = 15792996
-
 	history = {
 		
 		
 		
-
 		victory_points = {
 			4608 3
 		}
@@ -24,7 +22,5 @@ state = {
 			}
 		}
 	}
-
 	state_category = four
 }
-

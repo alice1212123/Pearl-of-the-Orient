@@ -5,7 +5,6 @@ state = {
 	state_category = zero_island
 	history = {
 		
-
 		buildings = {
 			infrastructure = 1
 			13013 = {
@@ -13,9 +12,7 @@ state = {
 			}
 		}
 	}
-
 	provinces = {
 		13013
 	}
 }
-

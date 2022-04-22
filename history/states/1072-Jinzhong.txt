@@ -23,4 +23,3 @@ state = { #Central Shanxi
 		1115 1962 4174 10838
 	}
 }
-

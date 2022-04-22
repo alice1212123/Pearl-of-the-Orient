@@ -2,9 +2,7 @@ state = { # Fuzhou
 	id = 747
 	name = "STATE_747"
 	manpower = 343510
-
 	state_category = five
-
 	history = {
 		
 		
@@ -21,9 +19,7 @@ state = { # Fuzhou
 			4196 1
 		}
 	}
-
 	provinces = {
 		4196
 	}
 }
-

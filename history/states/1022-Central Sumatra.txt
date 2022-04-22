@@ -8,7 +8,6 @@ state = {
 		rubber = 77
 	}
 	manpower = 2533700
-
 	history = {
 		
 		
@@ -20,7 +19,5 @@ state = {
 			infrastructure = 1
 		}
 	}
-
 	state_category = one
 }
-

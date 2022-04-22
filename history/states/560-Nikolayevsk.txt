@@ -5,25 +5,20 @@ state={
 	resources={
 		steel=21.000
 	}
-
 	history={
 		
 		buildings = {
 			infrastructure = 2
 			12559 = {
 				naval_base = 3
-
 			}
-
 		}
 		victory_points = {
 			12559 1 
 		}
 		
 		
-
 	}
-
 	provinces={
 		1724 1739 1772 1807 1842 3664 4290 4731 4844 4847 7748 7754 7871 9659 10571 10577 10590 12559 12569 12591 12638 
 	}

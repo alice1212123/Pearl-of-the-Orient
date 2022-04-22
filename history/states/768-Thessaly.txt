@@ -5,12 +5,9 @@ state = {
 	resources = {
 		aluminium = 46
 	}
-
 	state_category = three
-
 	history = {
 		
-
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -20,9 +17,7 @@ state = {
 		}
 		
 	}
-
 	provinces = {
 		863 3864 3973 6930 11786
 	}
 }
-

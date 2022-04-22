@@ -4,11 +4,9 @@ state = {
 	manpower = 342872
 	state_category = four
 	local_supplies = 2.0
-
 	resources = {
 		aluminium = 1
 	}
-
 	history = {
 		
 		
@@ -21,9 +19,7 @@ state = {
 			arms_factory = 1
 		}
 	}
-
 	provinces = {
 		3583 6485
 	}
 }
-

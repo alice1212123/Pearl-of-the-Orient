@@ -4,7 +4,6 @@ state = {
 	manpower = 42633
 	state_category = wasteland
 	impassable = yes
-
 	history = {
 		
 		
@@ -14,9 +13,7 @@ state = {
 			infrastructure = 1
 		}
 	}
-
 	provinces = {
 		12022
 	}
 }
-

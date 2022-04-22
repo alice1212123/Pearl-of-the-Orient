@@ -5,7 +5,6 @@ state = {
 		4406 7381 12249
 	}
 	manpower = 626137
-
 	history = {
 		
 		
@@ -23,7 +22,5 @@ state = {
 			dockyard = 1
 		}
 	}
-
 	state_category = five
 }
-

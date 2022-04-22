@@ -4,11 +4,9 @@ state = {
 	manpower = 664000
 	state_category = three
 	local_supplies = 9.0
-
 	resources = {
 		steel = 20
 	}
-
 	history = {
 		
 		
@@ -19,9 +17,7 @@ state = {
 			infrastructure = 2
 		}
 	}
-
 	provinces = {
 		1752 1836 1870 3719 4759 4772 6722 7877 10685 10709 12566 12685 13395
 	}
 }
-

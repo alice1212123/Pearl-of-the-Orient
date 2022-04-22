@@ -3,7 +3,6 @@ state = {
 	name = "STATE_711"
 	manpower = 1667
 	state_category = zero_island
-
 	history = {
 		
 		
@@ -17,9 +16,7 @@ state = {
 			}
 		}
 	}
-
 	provinces = {
 		13002 13005
 	}
 }
-

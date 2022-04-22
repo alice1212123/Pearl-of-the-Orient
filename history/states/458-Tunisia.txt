@@ -6,7 +6,6 @@ state = {
 	resources = {
 		steel = 6
 	}
-
 	history = {
 		
 		
@@ -39,9 +38,7 @@ state = {
 		set_resistance = 18
 		set_compliance = 30
 	}
-
 	provinces = {
 		1037 1046 4061 4129 4163 7077 7162 7180 9994 10091 11921 11969
 	}
 }
-

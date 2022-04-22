@@ -2,9 +2,7 @@ state = {
 	id = 2
 	name = "STATE_2" # Latium
 	manpower = 2418200
-
 	state_category = nine
-
 	history = {
 		
 		
@@ -26,9 +24,7 @@ state = {
 			}
 		}
 	}
-
 	provinces = {
 		5042 9904 11751 11846
 	}
 }
-

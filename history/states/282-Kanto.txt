@@ -2,13 +2,10 @@ state = {
 	id = 282
 	name = "STATE_282" # Kanto
 	manpower = 13773000
-
 	state_category = twelve
-
 	resources = {
 		aluminium = 2
 	}
-
 	history = {
 		
 		
@@ -29,9 +26,7 @@ state = {
 			9998 10
 		}
 	}
-
 	provinces = {
 		993 1097 1113 1182 4000 4100 4184 4188 7016 9998 11908
 	}
 }
-

@@ -3,7 +3,6 @@ state = {
 	name = "STATE_370"
 	manpower = 2072000
 	state_category = four
-
 	history = {
 		
 		buildings = {
@@ -22,9 +21,7 @@ state = {
 			4464 2 #Biloxi
 		}
 	}
-
 	provinces = {
 		1615 4464 4510 4565 4650 7464 7668 8110 10410 10449 10753 11717 12328 12429
 	}
 }
-

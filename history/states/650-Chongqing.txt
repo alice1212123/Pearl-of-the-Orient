@@ -3,7 +3,6 @@ state = { #Chongqing
 	name = "STATE_650"
 	manpower = 18228256
 	state_category = four
-
 	history = {
 		
 		
@@ -23,4 +22,3 @@ state = { #Chongqing
 		1893 4141 4431 6999 9939
 	}
 }
-

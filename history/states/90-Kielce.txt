@@ -3,11 +3,9 @@ state = {
 	name = "STATE_90" # Kielce
 	manpower = 2811957
 	state_category = five
-
 	resources = {
 		steel = 9
 	}
-
 	history = {
 		
 		
@@ -26,9 +24,7 @@ state = {
 			3497 4 #Kielce
 		}
 	}
-
 	provinces = {
 		562 3458 3497 3586 6416 11430 11532 13611
 	}
 }
-

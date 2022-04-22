@@ -3,11 +3,9 @@ state = {
 	name = "STATE_155" # Transdanubia
 	manpower = 2197605
 	state_category = six
-
 	resources = {
 		oil = 1
 	}
-
 	history = {
 		
 		
@@ -27,9 +25,7 @@ state = {
 			air_base = 3
 		}
 	}
-
 	provinces = {
 		682 686 701 3670 3680 3683 6685 6703 6720 9624 9643 9676 11610 11627 11663 6672 13125
 	}
 }
-

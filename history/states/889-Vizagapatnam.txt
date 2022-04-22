@@ -3,11 +3,9 @@ state = {
 	name = "STATE_889" # Vizagapatnam
 	manpower = 3105500
 	state_category = two
-
 	resources = {
 		chromium = 14
 	}
-
 	history = {
 		
 		
@@ -18,9 +16,7 @@ state = {
 			infrastructure = 1
 		}
 	}
-
 	provinces = {
 		4237 10001 10255 11978
 	}
 }
-

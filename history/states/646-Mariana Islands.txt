@@ -6,7 +6,6 @@ state = {
 	history = {
 		
 		
-
 		buildings = {
 			infrastructure = 1
 			air_base = 3
@@ -25,4 +24,3 @@ state = {
 		3995 13023 13024
 	}
 }
-

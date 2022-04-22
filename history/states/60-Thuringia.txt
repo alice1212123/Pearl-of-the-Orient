@@ -3,13 +3,11 @@ state = {
 	name = "STATE_60"
 	manpower = 1505214
 	state_category = nine
-
 	resources = {
 		steel = 15
 		chromium = 3
 		tungsten = 3
 	}
-
 	history = {
 		
 		
@@ -22,9 +20,7 @@ state = {
 			industrial_complex = 4
 		}
 	}
-
 	provinces = {
 		482 538 3500 3561 6524 9497 13116
 	}
 }
-

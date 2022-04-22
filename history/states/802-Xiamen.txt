@@ -3,7 +3,6 @@ state = { # Xiamen
 	name = "STATE_802"
 	manpower = 177000
 	state_category = two
-
 	history = {
 		
 		
@@ -11,7 +10,6 @@ state = { # Xiamen
 		victory_points = {
 			7071 1
 		}
-
 		buildings = {
 			infrastructure = 2
 			dockyard = 1 #actually it doesn't exist - the Fujian naval yard is supposed in Fuzhou
@@ -24,4 +22,3 @@ state = { # Xiamen
 		7071
 	}
 }
-

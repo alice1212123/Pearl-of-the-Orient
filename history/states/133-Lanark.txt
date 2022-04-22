@@ -3,12 +3,10 @@ state = {
 	name = "STATE_133" # Lanark
 	manpower = 2488648
 	state_category = seven
-
 	resources = {
 		steel = 27
 		oil = 6
 	}
-
 	history = {
 		
 		
@@ -30,9 +28,7 @@ state = {
 			}
 		}
 	}
-
 	provinces = {
 		3311 3273 6320 6350 6385 6395 9237 9350 11218
 	}
 }
-

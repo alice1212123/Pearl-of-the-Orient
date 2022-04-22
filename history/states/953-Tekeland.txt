@@ -3,7 +3,6 @@ state = {
 	name = "STATE_953"
 	manpower = 89400
 	state_category = one #This state shoulnd't have a slot but it has one for balance reasons
-
 	history = {
 		
 		
@@ -15,9 +14,7 @@ state = {
 			3109 1
 		}
 	}
-
 	provinces = {
 		2192 3109
 	}
 }
-

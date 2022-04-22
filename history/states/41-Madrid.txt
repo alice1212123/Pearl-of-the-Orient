@@ -3,11 +3,9 @@ state = {
 	name = "STATE_41" # Madrid
 	manpower = 2064659
 	state_category = six
-
 	resources = {
 		aluminium = 2
 	}
-
 	history = {
 		
 		
@@ -24,9 +22,7 @@ state = {
 			air_base = 6
 		}
 	}
-
 	provinces = {
 		858 896 939 977 3794 3845 3938 3986 6914 9767 9800 11820 13558
 	}
 }
-

@@ -1,11 +1,9 @@
 state = {
 	id = 931
 	name = "STATE_931"
-
 	history = {
 		
 		
-
 		buildings = {
 			infrastructure = 4
 			dockyard = 2
@@ -16,12 +14,9 @@ state = {
 			9850 2
 		}
 	}
-
 	provinces = {
 		6909 9847 9850 11830
 	}
-
 	manpower = 1672000
 	state_category = nine
 }
-

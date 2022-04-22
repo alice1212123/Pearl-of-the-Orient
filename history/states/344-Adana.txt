@@ -2,7 +2,6 @@
 state={
 	id=344
 	name="STATE_344"
-
 	history={
 		
 		victory_points = {
@@ -20,18 +19,13 @@ state={
 			}
 			12029 = {
 				naval_base = 3
-
 			}
-
 		}
 		
-
 	}
-
 	provinces={
 		806 3889 6956 9893 9912 11746 12029 13740
 	}
 	manpower=732695
 	state_category=four
 }
-

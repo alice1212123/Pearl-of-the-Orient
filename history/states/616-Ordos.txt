@@ -1,7 +1,6 @@
 state = { #Ordos
 	id = 616
 	name = "STATE_616"
-
 	history = {
 		
 		
@@ -15,11 +14,9 @@ state = { #Ordos
 			infrastructure = 1
 		}
 	}
-
 	provinces = {
 		1959 3427 4960 4986 8081 10451 10854 12706
 	}
 	manpower = 1342290
 	state_category = one
 }
-

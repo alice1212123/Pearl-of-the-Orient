@@ -3,11 +3,9 @@ state = {
 	name = "STATE_733"
 	manpower = 31739
 	state_category = zero_island
-
 	history = {
 		
 		
-
 		buildings = {
 			infrastructure = 1
 			12251 = {
@@ -19,4 +17,3 @@ state = {
 		10321 12251
 	}
 }
-

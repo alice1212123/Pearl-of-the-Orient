@@ -3,7 +3,6 @@ state = {
 	name = "STATE_840" #"Uusimaa" #Nyland
 	manpower = 674160
 	state_category = five
-
 	history = {
 		
 		
@@ -20,9 +19,7 @@ state = {
 			}
 		}
 	}
-
 	provinces = {
 		67 204 3061 3161 6009 6108 6144 6186 9073 9129 9183 11066 11105 11211
 	}
 }
-

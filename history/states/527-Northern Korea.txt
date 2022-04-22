@@ -6,30 +6,24 @@ state={
 		steel=26.000
 		tungsten=45.000
 	}
-
 	history={
 		
 		
 		
 		add_dynamic_modifier = {
 			modifier = JAP_korean_military_administration
-
 		}
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
 			4052 = {
 				naval_base = 3
-
 			}
-
 		}
 		victory_points = {
 			4052 15 
 		}
-
 	}
-
 	provinces={
 		848 852 898 906 959 3803 3852 3860 3904 3981 6822 6922 6928 6944 9899 10083 11878 
 	}

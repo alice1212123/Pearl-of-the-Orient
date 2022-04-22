@@ -3,7 +3,6 @@ state = { #Eastern Sichuan
 	name = "STATE_661"
 	manpower = 13101559
 	state_category = two
-
 	history = {
 		
 		
@@ -17,9 +16,7 @@ state = { #Eastern Sichuan
 			11865 3
 		}
 	}
-
 	provinces = {
 		2030 2091 5048 7256 10144 11865 12274
 	}
 }
-

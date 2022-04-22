@@ -4,7 +4,6 @@ state = {
 	manpower = 2863400
 	state_category = five
 	local_supplies = 4.0
-
 	history = {
 		
 		victory_points = { 3707 10 }
@@ -19,9 +18,7 @@ state = {
 		}
 		
 	}
-
 	provinces = {
 		414 565 3407 3577 3701 3704 3707 3724 6600 6727 6743 9683 11686 11705 13600
 	}
 }
-

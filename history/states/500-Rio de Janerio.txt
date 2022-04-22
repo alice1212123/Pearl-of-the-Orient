@@ -2,9 +2,7 @@ state = {
 	id = 500
 	name = "STATE_500"
 	manpower = 3612000
-
 	state_category = six
-
 	history = {
 		
 		buildings = {
@@ -25,9 +23,7 @@ state = {
 			8190 1
 		}
 	}
-
 	provinces = {
 		5172 8190 10980 12996
 	}
 }
-

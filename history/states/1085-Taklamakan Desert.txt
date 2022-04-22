@@ -1,7 +1,6 @@
 state = {
 	id = 1085
 	name = "STATE_1085"
-
 	history = {
 		
 		
@@ -11,7 +10,6 @@ state = {
 			infrastructure = 1
 		}
 	}
-
 	provinces = {
 		10885
 	}
@@ -19,4 +17,3 @@ state = {
 	state_category = wasteland
 	impassable = yes
 }
-

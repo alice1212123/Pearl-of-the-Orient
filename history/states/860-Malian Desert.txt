@@ -1,7 +1,6 @@
 state = {
 	id = 860
 	name = "STATE_860" #Desert Malien
-
 	history = {
 		
 		
@@ -10,7 +9,6 @@ state = {
 			infrastructure = 1
 		}
 	}
-
 	provinces = {
 		10725
 	}
@@ -18,4 +16,3 @@ state = {
 	state_category = wasteland
 	impassable = yes
 }
-

@@ -6,7 +6,6 @@ state = {
 	resources = {
 		oil = 11
 	}
-
 	history = {
 		
 		
@@ -27,9 +26,7 @@ state = {
 			}
 		}
 	}
-
 	provinces = {
 		1889 4959 4966 5089 7982 8117 10797 10881 12832
 	}
 }
-

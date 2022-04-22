@@ -4,7 +4,6 @@ state = {
 	manpower = 1122780
 	state_category = six
 	local_supplies = 14.0
-
 	history = {
 		
 		
@@ -19,9 +18,7 @@ state = {
 			air_base = 6
 		}
 	}
-
 	provinces = {
 		520 3503 3517 3529 3555 6479 6541 6575 9504 9530 11395 11474 11484
 	}
 }
-

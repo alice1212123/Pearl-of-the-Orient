@@ -3,13 +3,11 @@ state = {
 	name = "STATE_47" # Thessaly
 	manpower = 1712500
 	state_category = six
-
 	resources = {
 		steel = 3
 		chromium = 18
 		tungsten = 16
 	}
-
 	history = {
 		
 		victory_points = {
@@ -30,9 +28,7 @@ state = {
 		}
 		
 	}
-
 	provinces = {
 		976 1109 1205 3988 4109 7127 11895 12001
 	}
 }
-

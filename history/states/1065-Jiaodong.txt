@@ -4,7 +4,6 @@ state = {
 	manpower = 8364821
 	state_category = two
 	local_supplies = 1.0
-
 	history = {
 		
 		
@@ -25,4 +24,3 @@ state = {
 		1104 1184 1200 4071 4157 4186 7089 7105 10018 12074
 	}
 }
-

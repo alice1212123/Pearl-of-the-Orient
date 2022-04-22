@@ -2,10 +2,8 @@ state = {
 	id = 471
 	name = "STATE_471" # Northwestern Canada
 	manpower = 4600
-
 	state_category = one
 	impassable = yes
-
 	history = {
 		
 		buildings = {
@@ -13,9 +11,7 @@ state = {
 		}
 		
 	}
-
 	provinces = {
 		1872 3606 5403
 	}
 }
-

@@ -5,7 +5,6 @@ state = {
 		1339 1355 4358
 	}
 	manpower = 187500
-
 	history = {
 		
 		
@@ -17,7 +16,5 @@ state = {
 			}
 		}
 	}
-
 	state_category = one
 }
-

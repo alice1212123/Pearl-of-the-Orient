@@ -3,7 +3,6 @@ state = {
 	name = "STATE_1074"
 	manpower = 179723
 	state_category = one
-
 	history = {
 		
 		
@@ -16,9 +15,7 @@ state = {
 			11007 3
 		}
 	}
-
 	provinces = {
 		11007 13242
 	}
 }
-

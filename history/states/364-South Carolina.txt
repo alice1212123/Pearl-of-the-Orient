@@ -2,9 +2,7 @@ state = {
 	id = 364
 	name = "STATE_364"
 	manpower = 1781000
-
 	state_category = five
-
 	history = {
 		
 		buildings = {
@@ -24,9 +22,7 @@ state = {
 			7527 3 #Columbia
 		}
 	}
-
 	provinces = {
 		1485 1547 3994 4491 4653 7012 7134 7202 7527 10029 10047 11927
 	}
 }
-

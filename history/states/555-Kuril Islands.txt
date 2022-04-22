@@ -2,9 +2,7 @@ state = {
 	id = 555
 	name = "STATE_555" #Kuril Islands
 	manpower = 15000
-
 	state_category = zero_island
-
 	history = {
 		
 		
@@ -16,9 +14,7 @@ state = {
 			}
 		}
 	}
-
 	provinces = {
 		1399 1515 13037
 	}
 }
-

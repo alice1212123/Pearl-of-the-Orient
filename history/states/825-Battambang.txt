@@ -1,7 +1,6 @@
 state = {
 	id = 825 # Battambong
 	name = "STATE_825"
-
 	history = {
 		
 		
@@ -12,7 +11,6 @@ state = {
 		buildings = {
 			infrastructure = 1
 		}
-
 		set_state_flag = SIA_municipal_reform_implemented
 		set_state_flag = SIA_legal_reform_implemented
 		set_state_flag = SIA_civil_service_expansion_implemented
@@ -23,4 +21,3 @@ state = {
 	manpower = 1500000
 	state_category = two
 }
-

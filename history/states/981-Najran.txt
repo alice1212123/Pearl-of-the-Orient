@@ -5,9 +5,7 @@ state = {
 		5006
 	}
 	manpower = 45336
-
 	state_category = wasteland
-
 	history = {
 		buildings = {
 			infrastructure = 1
@@ -17,4 +15,3 @@ state = {
 	}
 	impassable = yes
 }
-

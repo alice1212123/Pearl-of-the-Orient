@@ -5,7 +5,6 @@ state={
 	resources={
 		steel=5.000
 	}
-
 	history={
 		
 		
@@ -17,13 +16,9 @@ state={
 			air_base = 1
 			994 = {
 				naval_base = 2
-
 			}
-
 		}
-
 	}
-
 	provinces={
 		994 1038 1070 11963 11990 
 	}

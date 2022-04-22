@@ -3,11 +3,9 @@ state = {
 	name = "STATE_635"
 	manpower = 51876
 	state_category = one_island
-
 	resources = {
 		chromium = 66
 	}
-
 	history = {
 		
 		
@@ -27,9 +25,7 @@ state = {
 			}
 		}
 	}
-
 	provinces = {
 		1237 1263 4231 4247 4268 7264 10160 12120 12132
 	}
 }
-
