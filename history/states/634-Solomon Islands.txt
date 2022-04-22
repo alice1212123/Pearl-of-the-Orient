@@ -5,9 +5,9 @@ state = {
 	state_category = one_island
 
 	history = {
-		owner = GEA
-		add_core_of = GEA
-		add_core_of = PNG
+		
+		
+		
 
 		buildings = {
 			infrastructure = 1

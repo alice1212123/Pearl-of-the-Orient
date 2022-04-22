@@ -6,10 +6,10 @@ state = {
 	local_supplies = 1.0
 
 	history = {
-		owner = SQI
-		add_core_of = SQI
-		add_claim_by = QIE
-		add_claim_by = FNG
+		
+		
+		
+		
 		buildings = {
 			infrastructure = 1
 			1104 = { naval_base = 2 }

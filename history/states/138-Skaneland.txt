@@ -6,7 +6,7 @@ state = {
 	state_category = six
 
 	history = {
-		owner = SWE
+		
 		victory_points = {
 			9279 4
 		}
@@ -19,14 +19,12 @@ state = {
 			dockyard = 1
 			11215 = {
 				naval_base = 5
-				coastal_bunker = 3
 			}
 			9279 = {
 				naval_base = 5
-				coastal_bunker = 1
 			}
 		}
-		add_core_of = SWE
+		
 	}
 
 	provinces = {

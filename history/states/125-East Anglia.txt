@@ -5,9 +5,9 @@ state = {
 	state_category = nine
 
 	history = {
-		owner = ENG
-		add_core_of = ENG
-		add_claim_by = CAN
+		
+		
+		
 		victory_points = {
 			11253 5
 		}

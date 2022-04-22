@@ -10,8 +10,8 @@ state = {
 	}
 
 	history = {
-		owner = CAN
-		add_core_of = CAN
+		
+		
 		victory_points = {
 			1408 15
 		}
@@ -26,7 +26,6 @@ state = {
 			air_base = 2
 			1408 = {
 				naval_base = 2
-				coastal_bunker = 1
 			}
 			10548 = {
 				naval_base = 1

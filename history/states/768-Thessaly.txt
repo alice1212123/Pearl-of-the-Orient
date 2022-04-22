@@ -9,7 +9,7 @@ state = {
 	state_category = three
 
 	history = {
-		owner = GRE
+		
 
 		buildings = {
 			infrastructure = 2
@@ -18,7 +18,7 @@ state = {
 		victory_points = {
 			863 3
 		}
-		add_core_of = GRE
+		
 	}
 
 	provinces = {

@@ -5,9 +5,9 @@ state = {
 	state_category = nine
 
 	history = {
-		owner = ITA
-		add_core_of = ITA
-		add_claim_by = SRI
+		
+		
+		
 		victory_points = {
 			3780 30
 		}
@@ -19,9 +19,6 @@ state = {
 			arms_factory = 2
 			industrial_complex = 3
 			air_base = 7
-			3780 = {
-				bunker = 1
-			}
 		}
 	}
 

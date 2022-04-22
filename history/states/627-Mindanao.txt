@@ -6,7 +6,7 @@ state = {
 	state_category = two
 
 	history = {
-		owner = PHI
+		
 		buildings = {
 			infrastructure = 1
 			4241 = {
@@ -16,7 +16,7 @@ state = {
 		victory_points = {
 			4241 15
 		}
-		add_core_of = PHI
+		
 	}
 
 	provinces = {

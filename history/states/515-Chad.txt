@@ -6,9 +6,9 @@ state = {
 	local_supplies = 3.0
 
 	history = {
-		owner = NFA
-		add_claim_by = NFA
-		add_core_of = CHA
+		
+		
+		
 		buildings = {
 			infrastructure = 1
 		}

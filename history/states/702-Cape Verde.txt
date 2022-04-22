@@ -6,8 +6,8 @@ state = {
 	state_category = one_island
 
 	history = {
-		owner = POR
-		add_core_of = CVG
+		
+		
 		victory_points = {
 			13014 1 # Praia
 		}
@@ -17,7 +17,7 @@ state = {
 				naval_base = 1
 			}
 		}
-		add_core_of = POR
+		
 	}
 
 	provinces = {

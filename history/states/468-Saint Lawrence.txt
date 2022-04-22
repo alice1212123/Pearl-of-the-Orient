@@ -9,9 +9,9 @@ state = {
 	}
 
 	history = {
-		owner = CAN
-		add_core_of = CAN
-		add_core_of = QUE
+		
+		
+		
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1

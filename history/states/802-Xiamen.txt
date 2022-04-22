@@ -5,9 +5,9 @@ state = { # Xiamen
 	state_category = two
 
 	history = {
-		owner = LEP
-		add_claim_by = QIE
-		add_claim_by = FNG
+		
+		
+		
 		victory_points = {
 			7071 1
 		}

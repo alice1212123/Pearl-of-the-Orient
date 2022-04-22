@@ -5,8 +5,8 @@ state = {
 	state_category = six
 
 	history = {
-		owner = SWI
-		add_core_of = SWI
+		
+		
 		victory_points = {
 			6666 15
 		}
@@ -17,15 +17,6 @@ state = {
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 2
-			6666 = {
-				bunker = 3
-			}
-			9622 = {
-				bunker = 2
-			}
-			6683 = {
-				bunker = 2
-			}
 		}
 	}
 

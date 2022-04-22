@@ -5,9 +5,9 @@ state = {
 	state_category = one
 
 	history = {
-		owner = NFA
-		add_claim_by = NFA
-		add_core_of = MRT
+		
+		
+		
 		victory_points = {
 			5034 1 #Nouakchott
 		}

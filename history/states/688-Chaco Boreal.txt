@@ -10,9 +10,9 @@ state = {
 	}
 
 	history = {
-		owner = PAR
-		add_core_of = PAR
-		add_core_of = BOL
+		
+		
+		
 		victory_points = {
 			2195 1
 		}

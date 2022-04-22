@@ -6,17 +6,15 @@ state = {
 	state_category = two
 
 	history = {
-		owner = GEA
-		add_core_of = GEA
-		add_claim_by = QIE
-		add_claim_by = FNG
+		
+		
+		
+		
 		buildings = {
 			dockyard = 2
 			infrastructure = 2
 			13670 = {
 				naval_base = 3
-				bunker = 2
-				coastal_bunker = 2
 			}
 		}
 		victory_points = {

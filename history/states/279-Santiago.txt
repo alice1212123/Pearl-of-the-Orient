@@ -9,8 +9,8 @@ state = {
 	}
 
 	history = {
-		owner = CHL
-		add_core_of = CHL
+		
+		
 		buildings = {
 			infrastructure = 2
 			arms_factory = 2
@@ -19,9 +19,6 @@ state = {
 			air_base = 3
 			8222 = {
 				naval_base = 5
-			}
-			650 = {
-				bunker = 1
 			}
 		}
 		victory_points = {

@@ -4,19 +4,11 @@ state={
 	name="STATE_611"
 
 	history={
-		owner = QIE
-		add_core_of = QIE
-		add_claim_by = FNG
+		
+		
+		
 		buildings = {
 			infrastructure = 1
-			952 = {
-				bunker = 1
-
-			}
-			3955 = {
-				bunker = 1
-
-			}
 
 		}
 		victory_points = {

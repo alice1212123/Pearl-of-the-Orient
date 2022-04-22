@@ -6,11 +6,11 @@ state = {
 	local_supplies = 5.0
 
 	history = {
-		owner = AFG
-		add_core_of = AFG
-		add_core_of = RAJ
-		add_claim_by = HND
-		add_claim_by = PRF
+		
+		
+		
+		
+		
 		victory_points = { 12717 1 } #Peshawar
 		buildings = {
 			industrial_complex = 1

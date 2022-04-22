@@ -4,9 +4,9 @@ state = {
 	manpower = 6964050
 	state_category = two
 	history = {
-		owner = QIE
-		add_core_of = QIE
-		add_claim_by = FNG
+		
+		
+		
 		buildings = {
 			infrastructure = 1
 		}

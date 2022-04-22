@@ -6,8 +6,8 @@ state = {
 	local_supplies = 3.0
 
 	history = {
-		owner = GER
-		add_core_of = GER
+		
+		
 		victory_points = {
 			321 1
 		}

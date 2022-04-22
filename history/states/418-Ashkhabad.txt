@@ -5,8 +5,8 @@ state = {
 	state_category = one
 
 	history = {
-		owner = PER
-		add_core_of = PER
+		
+		
 		victory_points = {
 			12333 3 #Ashkabad
 		}

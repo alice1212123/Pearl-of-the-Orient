@@ -6,9 +6,9 @@ state = {
 	state_category = two
 
 	history = {
-		owner = FNG
-		add_core_of = FNG
-		add_claim_by = QIE
+		
+		
+		
 
 		buildings = {
 			infrastructure = 2

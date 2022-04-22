@@ -9,9 +9,9 @@ state = {
 	}
 
 	history = {
-		owner = AST
-		add_core_of = AST
-		add_core_of = NZL
+		
+		
+		
 		victory_points = {
 			2197 1 #Christchurch
 		}

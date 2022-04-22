@@ -5,8 +5,8 @@ state = {
 	state_category = wasteland
 
 	history = {
-		owner = COL
-		add_core_of = COL
+		
+		
 		buildings = {
 			infrastructure = 1
 		}

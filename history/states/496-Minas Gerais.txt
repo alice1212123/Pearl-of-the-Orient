@@ -9,13 +9,13 @@ state = {
 	}
 
 	history = {
-		owner = BRA
+		
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1
 			industrial_complex = 3
 		}
-		add_core_of = BRA
+		
 		victory_points = {
 			8210 1
 		}

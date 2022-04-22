@@ -11,7 +11,7 @@ state = {
 	}
 
 	history = {
-		owner = GRE
+		
 		victory_points = {
 			4109 25
 		}
@@ -28,7 +28,7 @@ state = {
 				naval_base = 9
 			}
 		}
-		add_core_of = GRE
+		
 	}
 
 	provinces = {

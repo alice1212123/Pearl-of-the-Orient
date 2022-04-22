@@ -9,9 +9,9 @@ state = {
 	}
 
 	history = {
-		owner = SPA
-		add_core_of = SPA
-		add_core_of = BAS
+		
+		
+		
 		victory_points = {
 			740 10
 		}

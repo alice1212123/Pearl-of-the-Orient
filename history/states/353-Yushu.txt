@@ -6,12 +6,12 @@ state = {
 	local_supplies = 1.0
 
 	history = {
-		owner = XSM
-		add_core_of = XSM
-		add_core_of = TIB
-		add_claim_by = QIE
-		add_claim_by = FNG
-		set_demilitarized_zone = yes
+		
+		
+		
+		
+		
+		
 		victory_points = {
 			1882 1
 		}

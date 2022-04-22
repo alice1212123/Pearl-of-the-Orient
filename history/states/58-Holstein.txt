@@ -5,8 +5,8 @@ state = {
 	state_category = nine
 
 	history = {
-		owner = GER
-		add_core_of = GER
+		
+		
 		victory_points = {
 			9347 40
 		}
@@ -22,11 +22,9 @@ state = {
 			air_base = 5
 			6389 = {
 				naval_base = 8
-				coastal_bunker = 3
 			}
 			9347 = {
 				naval_base = 2
-				coastal_bunker = 1
 			}
 			11331 = {
 				naval_base = 1

@@ -5,8 +5,8 @@ state = {
 	state_category = one
 
 	history = {
-		owner = AST
-		add_core_of = AST
+		
+		
 		victory_points = {
 			7566 2 #Townsville
 		}

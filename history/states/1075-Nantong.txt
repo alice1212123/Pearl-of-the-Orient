@@ -5,9 +5,9 @@ state = {
 	state_category = three
 
 	history = {
-		owner = LEP
-		add_claim_by = QIE
-		add_claim_by = FNG
+		
+		
+		
 		buildings = {
 			infrastructure = 2
 			dockyard = 1

@@ -10,9 +10,9 @@ state = {
 	}
 
 	history = {
-		owner = ENG
-		add_core_of = ENG
-		add_claim_by = CAN
+		
+		
+		
 		victory_points = { 377 5 }
 		victory_points = { 407 3 }
 		buildings = {

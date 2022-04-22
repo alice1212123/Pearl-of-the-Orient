@@ -6,9 +6,9 @@ state = {
 	state_category = one
 
 	history = {
-		owner = NEP
-		add_core_of = NEP
-		add_claim_by = BHU
+		
+		
+		
 		buildings = {
 			infrastructure = 1
 		}

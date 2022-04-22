@@ -9,10 +9,10 @@ state = { # Shantou
 	}
 
 	history = {
-		owner = LEC
-		add_core_of = LEC
-		add_claim_by = QIE
-		add_claim_by = FNG
+		
+		
+		
+		
 		victory_points = {
 			9938 1
 		}

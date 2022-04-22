@@ -6,10 +6,10 @@ state = {
 	state_category = six
 
 	history = {
-		owner = SRI
-		add_core_of = SRI
-		add_claim_by = ITA
-		add_claim_by = SRD
+		
+		
+		
+		
 		victory_points = {
 			6788 15
 		}
@@ -22,7 +22,6 @@ state = {
 			air_base = 8
 			6788 = {
 				naval_base = 8
-				coastal_bunker = 1
 			}
 		}
 	}

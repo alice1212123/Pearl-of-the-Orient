@@ -3,10 +3,10 @@ state = {
 	name = "STATE_1084"
 
 	history = {
-		owner = MON
-		add_core_of = MON
-		add_claim_by = QIE
-		add_claim_by = FNG
+		
+		
+		
+		
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1

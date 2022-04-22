@@ -6,10 +6,10 @@ state = {
 	state_category = zero
 
 	history = {
-		owner = TUR
-		add_core_of = TUR
-		add_core_of = TRU
-		add_claim_by = SAU
+		
+		
+		
+		
 		buildings = {
 			infrastructure = 1
 			8051 = {

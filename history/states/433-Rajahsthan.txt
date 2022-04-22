@@ -9,10 +9,10 @@ state = {
 	}
 
 	history = {
-		owner = RAJ
-		add_core_of = RAJ
-		add_claim_by = HND
-		add_claim_by = PRF
+		
+		
+		
+		
 		victory_points = { 12876 1 } #Bikaner
 		buildings = {
 			infrastructure = 1

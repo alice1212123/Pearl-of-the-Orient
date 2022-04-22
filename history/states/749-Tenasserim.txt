@@ -3,9 +3,9 @@ state = {
 	name = "STATE_749"
 
 	history = {
-		owner = SIA
-		add_claim_by = SIA
-		add_core_of = BRM
+		
+		
+		
 		victory_points = {
 			1315 1 # Dawei/Thawai - 3
 		}

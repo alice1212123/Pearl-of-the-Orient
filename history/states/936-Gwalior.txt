@@ -5,10 +5,10 @@ state = {
 	state_category = two
 
 	history = {
-		owner = RAJ
-		add_core_of = RAJ
-		add_claim_by = HND
-		add_claim_by = PRF
+		
+		
+		
+		
 		victory_points = { 10807 2 } #Gwalior
 		buildings = {
 			infrastructure = 2

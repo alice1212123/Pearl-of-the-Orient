@@ -3,8 +3,8 @@ state = {
 	name = "STATE_898"
 
 	history = {
-		owner = BRA
-		add_core_of = BRA
+		
+		
 		buildings = {
 			infrastructure = 1
 			12853 = {

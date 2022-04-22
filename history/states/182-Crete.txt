@@ -5,8 +5,8 @@ state = {
 
 	state_category = two
 	history = {
-		owner = GRE
-		add_core_of = GRE
+		
+		
 		victory_points = {
 			9940 1
 		}
@@ -19,9 +19,6 @@ state = {
 			}
 			9940 = {
 				naval_base = 3
-			}
-			1164 = {
-				bunker = 1
 			}
 		}
 	}

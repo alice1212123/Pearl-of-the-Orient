@@ -6,8 +6,8 @@ state = {
 	local_supplies = 3.0
 
 	history = {
-		owner = GER
-		add_core_of = GER
+		
+		
 		victory_points = {
 			6282 4
 		}
@@ -17,7 +17,6 @@ state = {
 			dockyard = 2
 			6282 = {
 				naval_base = 5
-				coastal_bunker = 2
 			}
 		}
 	}

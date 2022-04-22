@@ -5,10 +5,10 @@ state = { #Eastern Sichuan
 	state_category = two
 
 	history = {
-		owner = SZC
-		add_core_of = SZC
-		add_claim_by = QIE
-		add_claim_by = FNG
+		
+		
+		
+		
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1

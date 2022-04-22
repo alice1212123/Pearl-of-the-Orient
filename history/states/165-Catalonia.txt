@@ -3,9 +3,9 @@ state = {
 	name = "STATE_165"
 
 	history = {
-		owner = SPA
-		add_core_of = SPA
-		add_core_of = CAT
+		
+		
+		
 		victory_points = {
 			9764 30
 		}
@@ -22,14 +22,6 @@ state = {
 			air_base = 2
 			9764 = {
 				naval_base = 4
-				bunker = 1
-				coastal_bunker = 1
-			}
-			6927 = {
-				bunker = 1
-			}
-			854 = {
-				bunker = 1
 			}
 		}
 	}

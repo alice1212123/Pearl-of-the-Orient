@@ -5,10 +5,10 @@ state = {
 	state_category = five
 
 	history = {
-		owner = BEL
-		add_core_of = BEL
-		add_core_of = FRA
-		add_claim_by = NFA
+		
+		
+		
+		
 		victory_points = {
 			575 1 #Dunkirk
 		}
@@ -18,7 +18,6 @@ state = {
 			arms_factory = 1
 			575 = {
 				naval_base = 2
-				bunker = 2
 			}
 		}
 	}

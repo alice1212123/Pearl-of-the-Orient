@@ -9,9 +9,9 @@ state = {
 	}
 
 	history = {
-		owner = BRM
-		add_core_of = KAC
-		add_claim_by = BRM
+		
+		
+		
 		buildings = {
 			infrastructure = 1
 		}

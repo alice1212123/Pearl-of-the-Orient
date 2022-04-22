@@ -12,8 +12,8 @@ state = {
 		buildings = {
 			infrastructure = 1
 		}
-		owner = YEM
-		add_core_of = YEM
+		
+		
 	}
 }
 

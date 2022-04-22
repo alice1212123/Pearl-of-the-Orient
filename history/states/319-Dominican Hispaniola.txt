@@ -10,7 +10,7 @@ state = {
 		chromium = 1
 	}
 	history = {
-		owner = DOM
+		
 		buildings = {
 			infrastructure = 1
 			arms_factory = 2
@@ -20,7 +20,7 @@ state = {
 				naval_base = 2
 			}
 		}
-		add_core_of = DOM
+		
 		victory_points = {
 			7660 5
 		}

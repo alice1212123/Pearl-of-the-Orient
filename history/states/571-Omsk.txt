@@ -6,9 +6,9 @@ state = {
 	local_supplies = 8.0
 
 	history = {
-		owner = RUS
-		add_core_of = RUS
-		add_claim_by = TRM
+		
+		
+		
 		victory_points = {
 			10696 3 #Omsk
 		}

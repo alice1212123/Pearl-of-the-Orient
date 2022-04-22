@@ -6,16 +6,13 @@ state = {
 	local_supplies = 9.0
 
 	history = {
-		owner = TUR
-		add_core_of = TUR
+		
+		
 		victory_points = {
 			11797 1
 		}
 		buildings = {
 			infrastructure = 1
-			11853 = {
-				bunker = 2
-			}
 		}
 	}
 

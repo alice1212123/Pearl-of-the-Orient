@@ -5,17 +5,14 @@ state = {
 	state_category = two
 
 	history = {
-		owner = AST
-		add_core_of = AST
+		
+		
 		victory_points = {
 			7859 10 #Canberra
 		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-			7859 = {
-				bunker = 1
-			}
 		}
 	}
 

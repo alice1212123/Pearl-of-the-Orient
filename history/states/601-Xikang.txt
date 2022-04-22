@@ -11,11 +11,11 @@ state = {
 	}
 
 	history = {
-		owner = SZC
-		add_core_of = SZC
-		add_claim_by = QIE
-		add_claim_by = FNG
-		add_claim_by = TIB
+		
+		
+		
+		
+		
 		buildings = {
 			infrastructure = 1
 		}

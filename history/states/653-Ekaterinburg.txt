@@ -5,9 +5,9 @@ state = {
 	state_category = six
 
 	history = {
-		owner = RUS
-		add_core_of = RUS
-		add_claim_by = TRM
+		
+		
+		
 		victory_points = {
 			1821 25
 		}

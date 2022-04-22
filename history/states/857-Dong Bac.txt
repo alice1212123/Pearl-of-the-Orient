@@ -1,23 +1,26 @@
-state = {
-	id = 857 # Dong Bac
-	name = "STATE_857"
 
-	history = {
-		owner = GEA
-		add_core_of = GEA
-		add_core_of = VIN
+state={
+	id=857
+	name="STATE_857"
+
+	history={
+		
+		
+		
 		victory_points = {
-			9948 1 # Lang Son
+			9948 1 
 		}
 		buildings = {
 			infrastructure = 1
+
 		}
+
 	}
 
-	provinces = {
-		1073 1157 7015 7093 7518 9948 12008 12048 12065
+	provinces={
+		1073 1157 4119 7015 7093 7518 9948 12008 12048 12065 
 	}
-	manpower = 2528000
-	state_category = two
+	manpower=2528000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
 }
-

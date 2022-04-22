@@ -6,8 +6,8 @@ state = {
 	}
 
 	history = {
-		owner = BRA
-		add_core_of = BRA
+		
+		
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1

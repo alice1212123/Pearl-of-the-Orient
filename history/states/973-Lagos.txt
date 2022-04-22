@@ -5,9 +5,9 @@ state = {
 	state_category = three
 
 	history = {
-		owner = MAF
-		add_claim_by = MAF
-		add_core_of = NGA
+		
+		
+		
 		buildings = {
 			infrastructure = 1
 			2050 = {

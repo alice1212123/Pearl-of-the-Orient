@@ -6,7 +6,7 @@ state = {
 	state_category = eight
 
 	history = {
-		owner = ARG
+		
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2
@@ -15,8 +15,6 @@ state = {
 			industrial_complex = 4
 			12364 = {
 				naval_base = 7
-				bunker = 1
-				coastal_bunker = 1
 			}
 			7621 = {
 				naval_base = 2
@@ -25,8 +23,8 @@ state = {
 				naval_base = 1
 			}
 		}
-		add_core_of = ARG
-		add_core_of = FOP
+		
+		
 		victory_points = {
 			12351 1
 		}

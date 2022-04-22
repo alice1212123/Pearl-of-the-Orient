@@ -6,10 +6,10 @@ state = {
 	local_supplies = 9.0
 
 	history = {
-		owner = BUL
-		add_core_of = BUL
-		add_core_of = TUR
-		add_claim_by = GRE
+		
+		
+		
+		
 		victory_points = {
 			11905 1
 		}
@@ -17,10 +17,6 @@ state = {
 			infrastructure = 2
 			11905 = {
 				naval_base = 3
-				bunker = 1
-			}
-			13633 = {
-				bunker = 1
 			}
 		}
 	}

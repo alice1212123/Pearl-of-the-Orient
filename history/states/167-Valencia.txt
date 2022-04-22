@@ -5,7 +5,7 @@ state = {
 	state_category = five
 
 	history = {
-		owner = SPA
+		
 		victory_points = {
 			6906 10
 		}
@@ -24,8 +24,8 @@ state = {
 				naval_base = 2
 			}
 		}
-		add_core_of = SPA
-		add_core_of = CAT
+		
+		
 	}
 
 	provinces = {

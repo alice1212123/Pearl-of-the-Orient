@@ -6,8 +6,8 @@ state = {
 	state_category = two
 
 	history = {
-		owner = NEP
-		add_core_of = NEP
+		
+		
 		victory_points = { 5157 1 } #Dehradun
 		buildings = {
 			infrastructure = 1

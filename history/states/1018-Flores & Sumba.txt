@@ -6,9 +6,9 @@ state = {
 	local_supplies = 1.0
 
 	history = {
-		owner = DEI
-		add_core_of = DEI
-		add_core_of = INS
+		
+		
+		
 		buildings = {
 			infrastructure = 1
 			12234 = {

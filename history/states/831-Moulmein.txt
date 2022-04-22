@@ -3,9 +3,9 @@ state = {
 	name = "STATE_831"
 
 	history = {
-		owner = SIA
-		add_claim_by = SIA
-		add_core_of = BRM
+		
+		
+		
 		buildings = {
 			infrastructure = 1
 			1403 = { # Moulmein Estuary

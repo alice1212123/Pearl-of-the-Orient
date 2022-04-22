@@ -3,14 +3,14 @@ state={
 	name="STATE_89"
 
 	history={
-		owner = GAL
+		
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 			air_base = 3
 
 		}
-		add_core_of = GAL
+		
 		victory_points = {
 			11411 5
 		}

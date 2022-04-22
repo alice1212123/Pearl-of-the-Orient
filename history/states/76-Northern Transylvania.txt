@@ -6,10 +6,10 @@ state = {
 	local_supplies = 5.0
 
 	history = {
-		owner = HUN
-		add_core_of = HUN
-		add_core_of = TRS
-		add_claim_by = ROM
+		
+		
+		
+		
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1

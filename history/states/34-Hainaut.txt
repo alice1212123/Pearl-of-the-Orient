@@ -6,8 +6,8 @@ state = {
 	local_supplies = 7.0
 
 	history = {
-		owner = BEL
-		add_core_of = BEL
+		
+		
 		victory_points = {
 			13661 10 #Namur
 		}
@@ -19,15 +19,6 @@ state = {
 			arms_factory = 1
 			industrial_complex = 3
 			air_base = 1
-			13081 = {
-				bunker = 2
-			}
-			9536 = {
-				bunker = 1
-			}
-			3516 = {
-				bunker = 1
-			}
 		}
 	}
 

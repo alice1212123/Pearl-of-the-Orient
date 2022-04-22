@@ -5,9 +5,9 @@ state = {
 	state_category = three
 
 	history = {
-		owner = POR
-		add_claim_by = QIE
-		add_claim_by = FNG
+		
+		
+		
 		victory_points = {
 			4189 1
 		}

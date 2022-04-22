@@ -9,10 +9,10 @@ state = {
 	}
 
 	history = {
-		owner = BRM
-		add_claim_by = SIA
-		add_claim_by = BRM
-		add_core_of = SHA
+		
+		
+		
+		
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1

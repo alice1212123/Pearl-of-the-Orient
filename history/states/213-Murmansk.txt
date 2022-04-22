@@ -11,10 +11,10 @@ state = {
 	}
 
 	history = {
-		owner = RUS
-		add_core_of = RUS
-		add_claim_by = TRM
-		add_claim_by = FIN
+		
+		
+		
+		
 		victory_points = {
 			3134 5
 		}
@@ -26,7 +26,6 @@ state = {
 			air_base = 2
 			3134 = {
 				naval_base = 4
-				coastal_bunker = 1
 			}
 		}
 	}

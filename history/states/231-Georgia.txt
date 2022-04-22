@@ -5,8 +5,8 @@ state = {
 	state_category = six
 
 	history = {
-		owner = GEO
-		add_core_of = GEO
+		
+		
 		victory_points = {
 			1599 10
 		}
@@ -23,7 +23,6 @@ state = {
 			air_base = 3
 			11599 = {
 				naval_base = 2
-				coastal_bunker = 1
 			}
 		}
 	}

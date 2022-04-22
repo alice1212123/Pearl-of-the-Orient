@@ -3,8 +3,8 @@ state = {
 	name = "STATE_934"
 
 	history = {
-		owner = USA
-		add_core_of = USA
+		
+		
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

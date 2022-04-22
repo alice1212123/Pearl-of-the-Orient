@@ -9,11 +9,11 @@ state = {
 	}
 
 	history = {
-		owner = TUR
-		add_core_of = TUR
-		add_core_of = TRU
-		add_claim_by = PER
-		add_claim_by = SAU
+		
+		
+		
+		
+		
 		buildings = {
 			infrastructure = 1
 			13552 = {

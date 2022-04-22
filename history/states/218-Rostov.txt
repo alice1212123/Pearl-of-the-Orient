@@ -6,10 +6,10 @@ state = {
 	local_supplies = 3.0
 
 	history = {
-		owner = DKB
-		add_core_of = DKB
-		add_core_of = RUS
-		add_claim_by = TRM
+		
+		
+		
+		
 		victory_points = {
 			9417 15 #Rostov
 		}
@@ -20,7 +20,6 @@ state = {
 			air_base = 3
 			9417 = {
 				naval_base = 3
-				bunker = 2
 			}
 		}
 	}

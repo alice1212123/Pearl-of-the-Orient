@@ -6,13 +6,13 @@ state = {
 	local_supplies = 1.0
 
 	history = {
-		owner = BUL
+		
 		victory_points = { 11597 1 }
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = BUL
-		add_claim_by = ROM
+		
+		
 	}
 
 	provinces = {

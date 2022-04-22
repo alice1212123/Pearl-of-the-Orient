@@ -6,9 +6,9 @@ state = {
 	local_supplies = 1.0
 
 	history = {
-		owner = MAF
-		add_claim_by = MAF
-		add_core_of = KEN
+		
+		
+		
 		buildings = {
 			infrastructure = 1
 			5210 = {

@@ -5,8 +5,8 @@ state = {
 	state_category = three
 
 	history = {
-		owner = POR
-		add_core_of = MZB
+		
+		
 		victory_points = {
 			12971 1 #Quelimane
 		}

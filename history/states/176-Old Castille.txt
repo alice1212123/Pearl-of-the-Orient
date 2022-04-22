@@ -6,8 +6,8 @@ state = {
 	local_supplies = 9.0
 
 	history = {
-		owner = SPA
-		add_core_of = SPA
+		
+		
 		victory_points = {
 			885 3
 		}

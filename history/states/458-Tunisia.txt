@@ -8,9 +8,9 @@ state = {
 	}
 
 	history = {
-		owner = NFA
-		add_claim_by = NFA
-		add_core_of = TUN
+		
+		
+		
 		victory_points = {	#Tunis
 			11969 20
 		}
@@ -33,8 +33,6 @@ state = {
 			air_base = 8
 			9994 = {
 				naval_base = 8
-				coastal_bunker = 1
-				bunker = 1
 			}
 		}
 		start_resistance = yes

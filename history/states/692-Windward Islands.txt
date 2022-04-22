@@ -6,8 +6,8 @@ state = {
 	local_supplies = 4.0
 
 	history = {
-		owner = WIF
-		add_core_of = WIF
+		
+		
 		buildings = {
 			infrastructure = 1
 			11350 = {

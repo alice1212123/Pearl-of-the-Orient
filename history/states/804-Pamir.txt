@@ -10,8 +10,8 @@ state = {
 	}
 
 	history = {
-		owner = BUK
-		add_core_of = BUK
+		
+		
 		victory_points = {
 			1384 1 #Dushambe
 		}

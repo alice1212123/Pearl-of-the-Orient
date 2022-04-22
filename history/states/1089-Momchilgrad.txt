@@ -6,15 +6,12 @@ state = {
 	state_category = two
 
 	history = {
-		owner = BUL
-		add_core_of = BUL
-		add_core_of = TUR
+		
+		
+		
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-			9862 = {
-				bunker = 1
-			}
 		}
 	}
 

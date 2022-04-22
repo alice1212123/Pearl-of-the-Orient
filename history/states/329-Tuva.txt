@@ -9,11 +9,11 @@ state = {
 	}
 
 	history = {
-		owner = MON
-		add_core_of = MON
-		add_claim_by = TRM
-		add_claim_by = QIE
-		add_claim_by = FNG
+		
+		
+		
+		
+		
 		victory_points = {
 			10627 1
 		}

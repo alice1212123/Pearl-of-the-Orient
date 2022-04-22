@@ -5,18 +5,16 @@ state = {
 
 	state_category = zero
 	history = {
-		owner = SPA
+		
 		victory_points = { 4135 5 }
 		buildings = {
 			infrastructure = 3
 			air_base = 2
 			4135 = {
 				naval_base = 2
-				bunker = 1
-				coastal_bunker = 2
 			}
 		}
-		add_core_of = SPA
+		
 	}
 	provinces = {
 		4135

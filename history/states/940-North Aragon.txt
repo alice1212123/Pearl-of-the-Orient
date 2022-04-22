@@ -5,17 +5,14 @@ state = {
 	state_category = one
 
 	history = {
-		owner = SPA
-		add_core_of = SPA
+		
+		
 		victory_points = {
 			3954 1
 		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-			915 = {
-				bunker = 1
-			}
 		}
 	}
 

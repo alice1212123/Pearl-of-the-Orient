@@ -5,10 +5,10 @@ state = { #Central Sichuan
 	state_category = three
 
 	history = {
-		owner = SZC
-		add_core_of = SZC
-		add_claim_by = QIE
-		add_claim_by = FNG
+		
+		
+		
+		
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1 # Chengdu Arsenal

@@ -5,16 +5,10 @@ state = {
 	state_category = one
 
 	history = {
-		owner = GRE
-		add_core_of = GRE
+		
+		
 		buildings = {
 			infrastructure = 2
-			3844 = {
-				bunker = 2
-			}
-			3980 = {
-				bunker = 2
-			}
 		}
 	}
 

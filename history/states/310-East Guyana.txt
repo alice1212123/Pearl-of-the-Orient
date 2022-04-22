@@ -9,7 +9,7 @@ state = {
 	}
 
 	history = {
-		owner = WIF
+		
 		buildings = {
 			infrastructure = 1
 			12885 = {
@@ -19,7 +19,7 @@ state = {
 		victory_points = {
 			12885 1
 		}
-		add_core_of = WIF
+		
 	}
 
 	provinces = {

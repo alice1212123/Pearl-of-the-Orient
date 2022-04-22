@@ -5,9 +5,9 @@ state = {
 	state_category = five
 
 	history = {
-		owner = AST
-		add_core_of = AST
-		add_core_of = NZL
+		
+		
+		
 		victory_points = {
 			1814 15 #Wellington
 		}

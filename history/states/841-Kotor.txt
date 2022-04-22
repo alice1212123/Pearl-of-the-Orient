@@ -5,9 +5,9 @@ state = {
 	state_category = one
 
 	history = {
-		owner = CRO
-		add_core_of = CRO
-		add_core_of = MNT
+		
+		
+		
 		victory_points = {
 			7623 2
 		}
@@ -15,7 +15,6 @@ state = {
 			infrastructure = 2
 			7623 = {
 				naval_base = 1
-				bunker = 1
 			}
 		}
 	}

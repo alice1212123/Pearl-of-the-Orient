@@ -3,9 +3,9 @@ state = { #Jinxi #Western Shanxi
 	name = "STATE_1015"
 	state_category = two
 	history = {
-		owner = SHX
-		add_claim_by = QIE
-		add_claim_by = FNG
+		
+		
+		
 
 		buildings = {
 			infrastructure = 1

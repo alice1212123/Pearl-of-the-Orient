@@ -9,8 +9,8 @@ state = {
 	}
 
 	history = {
-		owner = PAN
-		add_core_of = PAN
+		
+		
 		victory_points = {
 			13681 5 #Ciudad de Panamá
 		}

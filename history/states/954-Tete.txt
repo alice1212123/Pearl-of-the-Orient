@@ -5,8 +5,8 @@ state = {
 	state_category = one
 
 	history = {
-		owner = POR
-		add_core_of = MZB
+		
+		
 		buildings = {
 			infrastructure = 1
 		}

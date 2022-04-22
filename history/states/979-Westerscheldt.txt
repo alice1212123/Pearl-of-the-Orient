@@ -9,14 +9,11 @@ state = {
 	state_category = two
 
 	history = {
-		owner = HOL
-		add_core_of = HOL
+		
+		
 
 		buildings = {
 			infrastructure = 2
-			480 = {
-				bunker = 1
-			}
 		}
 	}
 }

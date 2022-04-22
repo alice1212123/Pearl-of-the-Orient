@@ -5,9 +5,9 @@ state = {
 	state_category = two
 
 	history = {
-		owner = HUN
-		add_core_of = HUN
-		add_core_of = SLO
+		
+		
+		
 		victory_points = {
 			3581 2 # Eperjes
 		}

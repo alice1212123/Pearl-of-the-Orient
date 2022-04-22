@@ -6,8 +6,8 @@ state = {
 	}
 	manpower = 150123
 	history = {
-		owner = BOL
-		add_core_of = BOL
+		
+		
 		buildings = {
 			infrastructure = 1
 		}

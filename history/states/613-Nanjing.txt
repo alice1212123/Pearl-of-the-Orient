@@ -9,18 +9,15 @@ state = {
 	}
 
 	history = {
-		owner = LEP
-		add_core_of = LEP
-		add_claim_by = QIE
-		add_claim_by = FNG
+		
+		
+		
+		
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2
 			arms_factory = 1
 			air_base = 3
-			11913 = {
-				bunker = 2
-			}
 		}
 		victory_points = {
 			11913 30

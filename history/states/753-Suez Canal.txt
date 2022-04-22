@@ -5,27 +5,21 @@ state = {
 	state_category = zero
 
 	history = {
-		owner = PAL
-		add_core_of = EGY
-		add_claim_by = TUR
+		
+		
+		
 		buildings = {
 			air_base = 3
 			infrastructure = 1
 			9947 = {
 				naval_base = 4
-				bunker = 1
-				coastal_bunker = 2
-			}
-			4073 = {
-				bunker = 1
-				coastal_bunker = 2
 			}
 			12049 = {
 				naval_base = 2
 			}
 		}
-		add_core_of = PAL
-		set_demilitarized_zone = yes
+		
+		
 		victory_points = {
 			4073 1
 		}

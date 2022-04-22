@@ -5,8 +5,8 @@ state = {
 	state_category = eight
 
 	history = {
-		owner = AST
-		add_core_of = AST
+		
+		
 		victory_points = {
 			12406 20 #Sydney
 		}
@@ -21,10 +21,6 @@ state = {
 			air_base = 5
 			12406 = {
 				naval_base = 6
-				coastal_bunker = 2
-			}
-			7520 = {
-				coastal_bunker = 1
 			}
 		}
 	}

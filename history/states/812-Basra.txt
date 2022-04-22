@@ -9,9 +9,9 @@ state = {
 	}
 
 	history = {
-		owner = TUR
-		add_core_of = TUR
-		add_core_of = IRQ
+		
+		
+		
 		buildings = {
 			infrastructure = 1
 			2089 = {
@@ -19,9 +19,6 @@ state = {
 			}
 			8085 = {
 				naval_base = 3
-			}
-			12726 = {
-				bunker = 2
 			}
 		}
 		victory_points = {

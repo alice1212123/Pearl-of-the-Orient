@@ -10,8 +10,8 @@ state = {
 	}
 
 	history = {
-		owner = BEL
-		add_core_of = BEL
+		
+		
 		victory_points = {
 			11519 5 #Liège
 		}
@@ -19,9 +19,6 @@ state = {
 			infrastructure = 2
 			industrial_complex = 3
 			air_base = 2
-			9444 = {
-				bunker = 1
-			}
 		}
 	}
 

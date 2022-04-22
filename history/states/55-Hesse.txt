@@ -6,21 +6,12 @@ state = {
 	local_supplies = 15.0
 
 	history = {
-		owner = GER
-		add_core_of = GER
+		
+		
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2
 			industrial_complex = 3
-			589 = {
-				bunker = 1
-			}
-			6444 = {
-				bunker = 1
-			}
-			6488 = {
-				bunker = 1
-			}
 		}
 		victory_points = {
 			6488 20

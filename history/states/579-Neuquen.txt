@@ -9,10 +9,10 @@ state = {
 	}
 
 	history = {
-		owner = ARG
-		add_core_of = ARG
-		add_claim_by = FOP
-		set_demilitarized_zone = yes
+		
+		
+		
+		
 		buildings = {
 			infrastructure = 1
 		}

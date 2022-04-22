@@ -5,10 +5,10 @@ state = {
 	state_category = two
 
 	history = {
-		owner = LEP
-		add_core_of = LEP
-		add_claim_by = QIE
-		add_claim_by = FNG
+		
+		
+		
+		
 		buildings = {
 			infrastructure = 1
 		}

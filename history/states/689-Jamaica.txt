@@ -6,7 +6,7 @@ state = {
 	state_category = four
 
 	history = {
-		owner = WIF
+		
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2
@@ -19,8 +19,8 @@ state = {
 		victory_points = {
 			12304 8
 		}
-		add_core_of = WIF
-		add_core_of = JAM
+		
+		
 	}
 
 	provinces = { 12304 12477 }

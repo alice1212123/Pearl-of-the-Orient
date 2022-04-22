@@ -6,10 +6,10 @@ state = {
 	local_supplies = 9.0
 
 	history = {
-		owner = RAJ
-		add_core_of = RAJ
-		add_claim_by = HND
-		add_claim_by = PRF
+		
+		
+		
+		
 		victory_points = { 2054 1 } #Jaipur
 		buildings = {
 			infrastructure = 2

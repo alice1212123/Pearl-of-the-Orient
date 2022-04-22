@@ -9,10 +9,10 @@ state = { #Jindong/Eastern Shanxi
 	}
 
 	history = {
-		owner = QIE
-		add_core_of = SHX
-		add_claim_by = QIE
-		add_claim_by = FNG
+		
+		
+		
+		
 		buildings = {
 			infrastructure = 1
 		}

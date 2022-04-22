@@ -3,11 +3,11 @@ state = { #Qinghai
 	name = "STATE_604"
 
 	history = {
-		owner = XSM
-		add_core_of = XSM
-		add_claim_by = QIE
-		add_claim_by = FNG
-		add_claim_by = TIB
+		
+		
+		
+		
+		
 		victory_points = {
 			4888 5
 		}

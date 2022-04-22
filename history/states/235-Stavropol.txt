@@ -9,10 +9,10 @@ state = {
 	}
 
 	history = {
-		owner = DKB
-		add_core_of = DKB
-		add_core_of = RUS
-		add_claim_by = TRM
+		
+		
+		
+		
 		victory_points = {
 			748 2 #Stavropol
 		}

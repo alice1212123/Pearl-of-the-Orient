@@ -9,12 +9,12 @@ state = {
 	}
 
 	history = {
-		owner = RUS
+		
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = RUS
-		add_claim_by = TRM
+		
+		
 		victory_points = {
 			6124 1
 		}

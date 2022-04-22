@@ -6,24 +6,18 @@ state = {
 	state_category = four
 
 	history = {
-		owner = BUL
+		
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 1
 			air_base = 2
-			10163 = {
-				bunker = 2
-			}
-			9837 = {
-				bunker = 1
-			}
 		}
 		victory_points = {
 			9837 1 #Florina
 		}
-		add_core_of = GRE
-		add_claim_by = BUL
+		
+		
 		start_resistance = yes
 		set_resistance = 11
 		set_compliance = 31

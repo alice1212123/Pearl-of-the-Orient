@@ -5,8 +5,8 @@ state = {
 	state_category = one
 
 	history = {
-		owner = TUR
-		add_core_of = TUR
+		
+		
 		victory_points = {
 			10472 2
 		}
@@ -15,24 +15,6 @@ state = {
 		}
 		buildings = {
 			infrastructure = 1
-			789 = {
-				bunker = 1
-			}
-			6991 = {
-				bunker = 1
-			}
-			10472 = {
-				bunker = 3
-			}
-			12376 = {
-				bunker = 1
-			}
-			13671 = {
-				bunker = 2
-			}
-			13672 = {
-				bunker = 1
-			}
 		}
 	}
 

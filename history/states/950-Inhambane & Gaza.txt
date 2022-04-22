@@ -5,8 +5,8 @@ state = {
 	state_category = four
 
 	history = {
-		owner = POR
-		add_core_of = MZB
+		
+		
 		buildings = {
 			infrastructure = 1
 			air_base = 1

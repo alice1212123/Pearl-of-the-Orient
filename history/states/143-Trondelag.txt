@@ -6,20 +6,19 @@ state = {
 	state_category = one
 
 	history = {
-		owner = NOR
+		
 		buildings = {
 			infrastructure = 2
 			arms_factory = 0
 			industrial_complex = 1
 			3022 = {
 				naval_base = 3
-				coastal_bunker = 2
 			}
 		}
 		victory_points = {
 			3022 3 #Trondheim
 		}
-		add_core_of = NOR
+		
 	}
 
 	resources = {

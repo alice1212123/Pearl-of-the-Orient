@@ -6,7 +6,7 @@ state = {
 	state_category = four
 
 	history = {
-		owner = GRE
+		
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
@@ -17,14 +17,11 @@ state = {
 			4193 = {
 				naval_base = 2
 			}
-			7096 = {
-				bunker = 1
-			}
 		}
 		victory_points = {
 			7211 5
 		}
-		add_core_of = GRE
+		
 	}
 
 	provinces = {

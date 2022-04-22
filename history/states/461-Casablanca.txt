@@ -6,8 +6,8 @@ state = {
 	state_category = four
 
 	history = {
-		owner = MOR
-		add_core_of = MOR
+		
+		
 		victory_points = {
 			989 1
 		}
@@ -28,9 +28,6 @@ state = {
 			air_base = 4
 			7069 = {
 				naval_base = 4
-			}
-			11987 = {
-				bunker = 1
 			}
 		}
 	}

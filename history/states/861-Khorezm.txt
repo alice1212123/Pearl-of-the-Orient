@@ -6,8 +6,8 @@ state = {
 	local_supplies = 2.0
 
 	history = {
-		owner = KHI
-		add_core_of = KHI
+		
+		
 		victory_points = {
 			12465 3 #Khiva
 		}

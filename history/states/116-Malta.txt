@@ -5,8 +5,8 @@ state = {
 	state_category = one_island
 
 	history = {
-		owner = NFA
-		add_core_of = MLT
+		
+		
 
 		victory_points = {
 			12003 1
@@ -17,7 +17,6 @@ state = {
 			air_base = 3
 			12003 = {
 				naval_base = 5
-				coastal_bunker = 2
 			}
 		}
 	}

@@ -10,10 +10,10 @@ state = {
 	}
 
 	history = {
-		owner = MDR
-		add_core_of = MDR
-		add_claim_by = HND
-		add_claim_by = RAJ
+		
+		
+		
+		
 		victory_points = { 10278 3 } #Madras
 		buildings = {
 			infrastructure = 2

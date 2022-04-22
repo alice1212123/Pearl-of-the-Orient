@@ -9,8 +9,8 @@ state = {
 	}
 
 	history = {
-		owner = SIA
-		add_core_of = SIA
+		
+		
 		victory_points = {
 			7408 15 # Bangkok - 30
 		}
@@ -25,10 +25,6 @@ state = {
 			dockyard = 1
 			7408 = { # Port of Bangkok & Samut Prakarn Forts
 				naval_base = 4
-				coastal_bunker = 1
-			}
-			1427 = { # Samut Prakarn Forts
-				coastal_bunker = 1
 			}
 			12220 = { # Ao Manao Landing Zone
 				naval_base = 1

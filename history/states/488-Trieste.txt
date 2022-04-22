@@ -5,8 +5,8 @@ state = {
 	state_category = six
 
 	history = {
-		owner = AUS
-		add_core_of = AUS
+		
+		
 		victory_points = {
 			6626 15
 		}
@@ -15,8 +15,6 @@ state = {
 			dockyard = 4
 			6626 = {
 				naval_base = 6
-				bunker = 1
-				coastal_bunker = 3
 			}
 		}
 	}

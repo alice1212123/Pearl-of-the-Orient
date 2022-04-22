@@ -3,9 +3,9 @@ state = {
 	name = "STATE_523"
 
 	history = {
-		owner = AST
-		add_claim_by = AST
-		add_core_of = PNG
+		
+		
+		
 		buildings = {
 			infrastructure = 1
 			air_base = 3

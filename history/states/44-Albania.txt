@@ -11,7 +11,7 @@ state = {
 	}
 
 	history = {
-		owner = ALB
+		
 		victory_points = {
 			9914 5 #Tirana
 		}
@@ -26,11 +26,7 @@ state = {
 			9914 = {
 				naval_base = 4
 			}
-			11767 = {
-				bunker = 1
-			}
-		}
-		add_core_of = ALB
+		
 	}
 
 	provinces = {

@@ -5,17 +5,14 @@ state = {
 	state_category = four
 
 	history = {
-		owner = BUL
-		add_core_of = BUL
+		
+		
 		victory_points = {
 			9771 1
 		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-			9771 = {
-				bunker = 1
-			}
 		}
 	}
 

@@ -9,7 +9,7 @@ state = {
 	}
 
 	history = {
-		owner = TUR
+		
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
@@ -17,7 +17,7 @@ state = {
 				naval_base = 1
 			}
 		}
-		add_core_of = TUR
+		
 		victory_points = {
 			11866 1
 		}

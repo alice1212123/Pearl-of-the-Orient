@@ -6,10 +6,10 @@ state = { #Tianjin
 	state_category = eight
 
 	history = {
-		owner = LEC
-		add_core_of = LEC
-		add_claim_by = QIE
-		add_claim_by = FNG
+		
+		
+		
+		
 		victory_points = {
 			10068 20
 		}

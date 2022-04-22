@@ -6,8 +6,8 @@ state = {
 	state_category = one
 
 	history = {
-		owner = NFA
-		add_core_of = SEN
+		
+		
 		buildings = {
 			infrastructure = 1
 			4989 = {

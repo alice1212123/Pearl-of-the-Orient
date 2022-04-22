@@ -5,8 +5,8 @@ state = {
 	state_category = five
 
 	history = {
-		owner = UKR
-		add_core_of = UKR
+		
+		
 		victory_points = {
 			9481 5 #Vinnitsa
 		}
