@@ -1,23 +1,26 @@
-state = {
-	id = 701
-	name = "STATE_701"
-	manpower = 1244600
-	state_category = two
-	resources = {
-		steel = 4
+
+state={
+	id=701
+	name="STATE_701"
+	resources={
+		steel=4.000
 	}
-	history = {
-		
-		
-		
+
+	history={
 		buildings = {
 			infrastructure = 1
+
 		}
 		victory_points = {
-			8063 2 #Myitkina
+			8063 2 
 		}
+
 	}
-	provinces = {
-		1082 1197 1934 4087 4318 4425 4588 4996 8063 10486 10920 12335 12464 12492
+
+	provinces={
+		1082 1197 1934 4087 4318 4588 8063 10486 12335 12464 12492 
 	}
+	manpower=1244600
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
 }

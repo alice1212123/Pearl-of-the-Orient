@@ -1,17 +1,20 @@
-state = {
-	id = 717
-	name = "STATE_717" # Hejiang
-	state_category = one
-	history = {
-		
-		
-		
+
+state={
+	id=717
+	name="STATE_717"
+
+	history={
 		buildings = {
 			infrastructure = 1
+
 		}
+
 	}
-	provinces = {
-		1545 1571 1732 3815 4551 6863 7569 9623 9798 10215 10368 10379 10463 10519 10521 12342 12443 12500
+
+	provinces={
+		1571 3815 4551 6863 7569 9623 9798 10215 10463 10519 10521 12342 12443 12500 
 	}
-	manpower = 1375000
+	manpower=1375000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
 }

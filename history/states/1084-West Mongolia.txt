@@ -1,25 +1,27 @@
-state = {
-	id = 1084
-	name = "STATE_1084"
-	history = {
-		
-		
-		
-		
+
+state={
+	id=1084
+	name="STATE_1084"
+
+	history={
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
+
 		}
 		victory_points = {
-			7799 1
+			7799 1 
 		}
 		victory_points = {
-			12520 1
+			12520 1 
 		}
+
 	}
-	provinces = {
-		1689 1774 1781 1855 4697 4751 4777 4858 7773 7799 7808 7843 7864 7870 10539 10560 10563 10634 10669 10695 12520 12544 12614 12675 12695
+
+	provinces={
+		1689 1774 1855 4751 4777 7773 7799 7808 7843 7870 10539 10563 10634 10669 10695 12520 12544 12695 
 	}
-	manpower = 192870
-	state_category = one
+	manpower=192870
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
 }

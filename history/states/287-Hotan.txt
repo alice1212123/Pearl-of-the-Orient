@@ -1,26 +1,27 @@
-state = {
-	id = 287
-	name = "STATE_287"
-	manpower = 444200
-	state_category = one
-	local_supplies = 4.0
-	history = {
-		
-		
-		
-		
+
+state={
+	id=287
+	name="STATE_287"
+
+	history={
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
+
 		}
 		victory_points = {
-			4973 2 #Hotan
+			4973 2 
 		}
 		victory_points = {
-			1943 1 #Bayingolin
+			1943 1 
 		}
+
 	}
-	provinces = {
-		1095 1698 1943 2064 2068 2074 2198 2947 4947 4973 5083 5736 7696 7830 7858 8103 8118 10315 10900 10911 10917 12740 13374 13386 13390 13408 13531
+
+	provinces={
+		1095 1698 1943 2068 2074 2947 5083 7696 7830 8103 8118 10315 10911 10917 12740 13374 13386 13390 13408 13531 
 	}
+	manpower=444200
+	buildings_max_level_factor=1.000
+	local_supplies=4.000
 }

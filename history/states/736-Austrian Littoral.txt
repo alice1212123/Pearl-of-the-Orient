@@ -1,13 +1,11 @@
-state = {
+
+state={
 	id=736
 	name="STATE_736"
-	manpower = 557500
-	state_category = four
-	history = {
-		
-		
+
+	history={
 		victory_points = {
-			11735 5
+			11735 5 
 		}
 		buildings = {
 			infrastructure = 3
@@ -15,10 +13,17 @@ state = {
 			dockyard = 1
 			11735 = {
 				naval_base = 8
+
 			}
+
 		}
+
 	}
-	provinces = {
-		599 11595 11735
+
+	provinces={
+		599 11595 
 	}
+	manpower=557500
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
 }

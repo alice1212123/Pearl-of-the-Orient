@@ -1,19 +1,24 @@
-state = {
-	id = 712
-	name = "STATE_712"
-	manpower = 573160
-	state_category = wasteland
-	history = {
-		
-		
+
+state={
+	id=712
+	name="STATE_712"
+
+	history={
 		victory_points = {
-			10353 1 #Kyzylorda
+			10353 1 
 		}
 		buildings = {
 			infrastructure = 1
+
 		}
+
 	}
-	provinces = {
-		1554 4499 4578 4581 4636 4638 7486 7501 7507 7777 10353 10366 10420 13206
+
+	provinces={
+		1554 4578 4581 4636 4638 7486 7501 7507 7777 10353 10366 10420 13206 
 	}
+	manpower=573160
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
 }

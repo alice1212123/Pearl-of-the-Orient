@@ -1,26 +1,30 @@
-state = {
-	id = 584
-	name = "STATE_584"
-	manpower = 645186
-	state_category = wasteland
-	local_supplies = 4.0
-	resources = {
-		oil = 8
+
+state={
+	id=584
+	name="STATE_584"
+	resources={
+		oil=8.000
 	}
-	history = {
-		
-		
+
+	history={
 		victory_points = {
-			7477 1 #Kyzyl-Su
+			7477 1 
 		}
 		victory_points = {
-			10742 1 #Chardzhuy
+			10742 1 
 		}
 		buildings = {
 			infrastructure = 1
+
 		}
+
 	}
-	provinces = {
-		1493 1593 1649 4482 4549 4563 4599 4958 5003 7477 7560 7563 7618 7635 7924 8099 10348 10357 10359 10406 10414 10485 10742 12491
+
+	provinces={
+		1493 1593 1649 4482 4563 4599 7477 7560 7563 7618 7635 7924 8099 10348 10357 10359 10406 10414 10485 10742 12491 
 	}
+	manpower=645186
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=4.000
 }

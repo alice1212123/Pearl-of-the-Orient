@@ -1,13 +1,11 @@
-state = {
-	id = 840
-	name = "STATE_840" #"Uusimaa" #Nyland
-	manpower = 674160
-	state_category = five
-	history = {
-		
-		
+
+state={
+	id=840
+	name="STATE_840"
+
+	history={
 		victory_points = {
-			11105 15
+			11105 15 
 		}
 		buildings = {
 			infrastructure = 3
@@ -16,10 +14,17 @@ state = {
 			industrial_complex = 1
 			11105 = {
 				naval_base = 5
+
 			}
+
 		}
+
 	}
-	provinces = {
-		67 204 3061 3161 6009 6108 6144 6186 9073 9129 9183 11066 11105 11211
+
+	provinces={
+		67 204 3061 3161 6009 6082 6108 6144 6186 9073 9129 9183 11056 11066 11105 11211 
 	}
+	manpower=674160
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
 }
