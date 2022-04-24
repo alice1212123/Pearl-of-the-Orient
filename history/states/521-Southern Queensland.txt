@@ -7,6 +7,8 @@ state = {
 		tungsten = 29
 	}
 	history = {
+		owner=GSU
+		add_core_of=GSU
 		
 		
 		victory_points = {

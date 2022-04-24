@@ -8,6 +8,8 @@ state = {
 		chromium = 5
 	}
 	history = {
+		owner=GSU
+		add_core_of=GSU
 		
 		
 		victory_points = {

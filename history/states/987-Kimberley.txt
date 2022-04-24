@@ -4,6 +4,8 @@ state = {
 	manpower = 6700
 	state_category = wasteland
 	history = {
+		owner=AST
+		add_core_of=AST
 		
 		
 		buildings = {

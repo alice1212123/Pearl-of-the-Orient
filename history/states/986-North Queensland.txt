@@ -4,6 +4,8 @@ state = {
 	manpower = 154931
 	state_category = one
 	history = {
+		owner=GSU
+		add_core_of=GSU
 		
 		
 		victory_points = {
