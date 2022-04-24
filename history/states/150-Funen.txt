@@ -1,23 +1,27 @@
-state = {
-	id = 150
-	name = "STATE_150"
-	manpower = 1250060
-	state_category = four
-	history = {
-		
-		
+
+state={
+	id=150
+	name="STATE_150"
+
+	history={
 		victory_points = {
-			12401 3 #Shreveport
+			12401 3 
 		}
 		victory_points = {
-			4507 1 #Lafayette
+			4507 1 
 		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
+
 		}
+
 	}
-	provinces = {
-		1528 1559 1643 4507 4522 7555 7599 12313 12401
+
+	provinces={
+		1503 1559 4522 7485 7543 7555 7599 10355 12458 12489 12778 
 	}
+	manpower=1250060
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
 }

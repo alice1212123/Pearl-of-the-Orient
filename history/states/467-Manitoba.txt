@@ -1,21 +1,24 @@
-state = {
-	id = 467
-	name = "STATE_467"
-	manpower = 754942
-	state_category = three
-	local_supplies = 9.0
-	history = {
-		
+
+state={
+	id=467
+	name="STATE_467"
+
+	history={
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2
+
 		}
 		victory_points = {
-			4872 5
+			4872 5 
 		}
-		
+
 	}
-	provinces = {
-		1848 1873 3721 4218 4426 4790 4872 5119 5239 6728 7185 7782 9615 10585 10605 12145 12636 12688 13163 13182
+
+	provinces={
+		761 763 1769 3736 4426 4753 4775 4872 4875 5119 6728 7794 7899 9615 10605 11571 13094 13161 13163 13182 13200 
 	}
+	manpower=754942
+	buildings_max_level_factor=1.000
+	local_supplies=9.000
 }

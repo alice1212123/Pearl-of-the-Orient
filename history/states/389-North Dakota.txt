@@ -1,23 +1,26 @@
-state = {
-	id = 389
-	name = "STATE_389"
-	manpower = 664000
-	state_category = three
-	local_supplies = 9.0
-	resources = {
-		steel = 20
+
+state={
+	id=389
+	name="STATE_389"
+	resources={
+		steel=20.000
 	}
-	history = {
-		
-		
+
+	history={
 		victory_points = {
-			1836 1
+			1836 1 
 		}
 		buildings = {
 			infrastructure = 2
+
 		}
+
 	}
-	provinces = {
-		1752 1836 1870 3719 4759 4772 6722 7877 10685 10709 12566 12685 13395
+
+	provinces={
+		1752 1788 1836 1848 1870 3719 4759 4772 4790 7883 10685 10709 12145 12603 12685 13395 
 	}
+	manpower=664000
+	buildings_max_level_factor=1.000
+	local_supplies=9.000
 }

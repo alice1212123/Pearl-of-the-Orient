@@ -1,20 +1,17 @@
-state = {
-	id = 473
-	name = "STATE_473"
-	manpower = 697276
-	state_category = five
-	local_supplies = 4.0
-	resources = {
-		oil = 3
+
+state={
+	id=473
+	name="STATE_473"
+	resources={
+		oil=3.000
 	}
-	history = {
-		
-		
+
+	history={
 		victory_points = {
-			1408 15
+			1408 15 
 		}
 		victory_points = {
-			1323 1
+			1323 1 
 		}
 		buildings = {
 			infrastructure = 2
@@ -24,13 +21,21 @@ state = {
 			air_base = 2
 			1408 = {
 				naval_base = 2
+
 			}
 			10548 = {
 				naval_base = 1
+
 			}
+
 		}
+
 	}
-	provinces = {
-		917 1323 1393 1408 1411 1737 1799 1858 1869 4343 4385 4413 4428 4870 4877 7677 7753 7761 7820 7853 10228 10258 10273 10548 10644 12231 12508 12571 12578
+
+	provinces={
+		917 1323 1393 1408 1411 1737 1799 1858 1869 4343 4385 4413 4870 4877 7761 7853 10228 10258 10273 10548 10644 12231 12508 12571 
 	}
+	manpower=697276
+	buildings_max_level_factor=1.000
+	local_supplies=4.000
 }
