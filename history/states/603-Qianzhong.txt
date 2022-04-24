@@ -8,8 +8,6 @@ state = {
 		tungsten = 5
 	}
 	history = {
-		owner=GXC
-		add_core_of=GXC
 		
 		
 		

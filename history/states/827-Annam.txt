@@ -8,8 +8,6 @@ state = {
 		rubber = 10
 	}
 	history = {
-		owner=VIN
-		add_core_of=VIN
 		
 		
 		

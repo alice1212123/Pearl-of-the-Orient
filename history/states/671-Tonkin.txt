@@ -6,8 +6,6 @@ state={
 		tungsten=32.000
 	}
 	history={
-		owner=VIN
-		add_core_of=VIN
 		
 		
 		
