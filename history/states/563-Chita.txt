@@ -8,8 +8,8 @@ state={
 	}
 
 	history={
-		owner=MAN
-		add_core_of=MAN
+		owner = MAN
+		add_core_of = MAN
 		buildings = {
 			infrastructure = 2
 			air_base = 2
@@ -22,7 +22,7 @@ state={
 	}
 
 	provinces={
-		1672 4862 7786 7823 7860 7885 10683 10708 12507 12533 12665 
+		1672 4862 7823 7860 7885 10683 10708 12507 12533 12665 
 	}
 	manpower=1044310
 	buildings_max_level_factor=1.000
