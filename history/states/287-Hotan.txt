@@ -4,6 +4,8 @@ state={
 	name="STATE_287"
 
 	history={
+		owner = TIB
+		add_core_of = TIB
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
@@ -19,7 +21,7 @@ state={
 	}
 
 	provinces={
-		1095 1698 1943 2068 2074 2947 5083 7696 7830 8103 8118 10315 10911 10917 12740 13374 13386 13390 13408 13531 
+		1943 2198 2947 4973 5083 5216 8112 10911 13374 13386 13390 13408 13531 13731 13732 
 	}
 	manpower=444200
 	buildings_max_level_factor=1.000

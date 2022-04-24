@@ -5,6 +5,8 @@ state = { #Gansu
 		tungsten = 1
 	}
 	history = {
+		owner=XSM
+		add_core_of=XSM
 		
 		
 		

@@ -8,6 +8,8 @@ state = {
 		tungsten = 2
 	}
 	history = {
+		owner=TIB
+		add_core_of=TIB
 		
 		
 		

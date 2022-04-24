@@ -5,6 +5,10 @@ state={
 	provinces={
 		1728 1798 1859 4697 4732 4801 7752 7881 10554 10623 10704 12605 12675 12686 
 	}
+	history={
+		owner=MON
+		add_core_of=MON
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

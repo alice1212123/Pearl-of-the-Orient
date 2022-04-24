@@ -5,6 +5,8 @@ state={
 		4745 4852 7743 10638 12690 
 	}
 	history={
+		owner=MAN
+		add_core_of=MAN
 		
 		
 	}

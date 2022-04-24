@@ -4,6 +4,8 @@ state = { #Central Shanxi
 	manpower = 3518000
 	state_category = four
 	history = {
+		owner=MAN
+		add_core_of=MAN
 		
 		
 		

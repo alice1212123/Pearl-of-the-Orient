@@ -1,18 +1,21 @@
-state = {
-	id = 897
-	name = "STATE_897"
-	history = {
-		
-		
-		
-		
+
+state={
+	id=897
+	name="STATE_897"
+
+	history={
 		buildings = {
 			infrastructure = 1
+
 		}
+
 	}
-	provinces = {
-		13730 13731 13732
+
+	provinces={
+		7273 10821 13730 
 	}
-	manpower = 19800
-	state_category = wasteland
+	manpower=19800
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
 }

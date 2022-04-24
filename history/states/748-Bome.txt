@@ -5,6 +5,8 @@ state={
 	state_category = one
 	local_supplies = 0.5
 	history={
+		owner=TIB
+		add_core_of=TIB
 		
 		
 		

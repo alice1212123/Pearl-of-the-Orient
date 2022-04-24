@@ -3,6 +3,8 @@ state = { #Jinxi #Western Shanxi
 	name = "STATE_1015"
 	state_category = two
 	history = {
+		owner=MAN
+		add_core_of=MAN
 		
 		
 		

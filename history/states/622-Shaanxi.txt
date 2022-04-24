@@ -8,6 +8,8 @@ state = { #Shaanxi
 		tungsten = 3
 	}
 	history = {
+		owner=XSM
+		add_core_of=XSM
 		
 		
 		

@@ -1,19 +1,23 @@
-state = {
-	id = 441
-	name = "STATE_441"
-	manpower = 3539500
-	state_category = two
-	history = {
-		
-		
-		
-		
-		victory_points = { 10905 1 } #Srinagar
+
+state={
+	id=441
+	name="STATE_441"
+
+	history={
+		victory_points = {
+			10905 1 
+		}
 		buildings = {
 			infrastructure = 1
+
 		}
+
 	}
-	provinces = {
-		1910 2041 2084 7273 7316 8005 10821 10905 12754 12884
+
+	provinces={
+		1910 2041 2084 7316 8005 10905 12754 12884 
 	}
+	manpower=3539500
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
 }

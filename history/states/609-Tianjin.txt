@@ -4,6 +4,8 @@ state = { #Tianjin
 	manpower = 2000000
 	state_category = eight
 	history = {
+		owner=MAN
+		add_core_of=MAN
 		
 		
 		

@@ -3,6 +3,8 @@ state={
 	id=1090
 	name="STATE_1090"
 	history={
+		owner=MAN
+		add_core_of=MAN
 		
 		
 	}
