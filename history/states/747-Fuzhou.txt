@@ -4,6 +4,8 @@ state = { # Fuzhou
 	manpower = 343510
 	state_category = five
 	history = {
+		owner=GXC
+		add_core_of=GXC
 		
 		
 		
