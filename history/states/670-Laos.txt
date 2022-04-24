@@ -2,8 +2,6 @@ state = {
 	id = 670
 	name = "STATE_670"
 	history = {
-		owner=VIN
-		add_core_of=VIN
 		
 		
 		

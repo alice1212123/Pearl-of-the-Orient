@@ -4,8 +4,6 @@ state={
 	name="STATE_728"
 
 	history={
-		owner=GXC
-		add_core_of=GXC
 		buildings = {
 			infrastructure = 1
 			11981 = {

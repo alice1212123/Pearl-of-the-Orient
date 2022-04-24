@@ -7,8 +7,6 @@ state = {
 		steel = 19
 	}
 	history = {
-		owner=GXC
-		add_core_of=GXC
 		
 		
 		

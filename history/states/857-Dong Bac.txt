@@ -3,8 +3,6 @@ state={
 	id=857
 	name="STATE_857"
 	history={
-		owner=GXC
-		add_core_of=GXC
 		
 		
 		
