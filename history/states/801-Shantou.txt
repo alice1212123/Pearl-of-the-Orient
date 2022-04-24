@@ -7,8 +7,6 @@ state = { # Shantou
 		steel = 2
 	}
 	history = {
-		owner=GXC
-		add_core_of=GXC
 		
 		
 		

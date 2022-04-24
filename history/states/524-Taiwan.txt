@@ -3,8 +3,11 @@ state={
 	id=524
 	name="STATE_524"
 	history={
-		owner=GXC
-		add_core_of=GXC
+		
+		
+		
+		add_dynamic_modifier = {
+			modifier = JAP_model_colony
 		}
 		buildings = {
 			infrastructure = 2
