@@ -8,6 +8,8 @@ state = {
 		steel = 17
 	}
 	history = {
+		owner=MON
+		add_core_of=MON
 		
 		
 		

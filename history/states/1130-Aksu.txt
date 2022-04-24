@@ -1,12 +1,13 @@
+
 state={
-	id=1112
-	name="STATE_1112"
+	id=1130
+	name="STATE_1130"
 	provinces={
-		4425 4996 10863 10920 
+		4682 4828 5016 7949 10754 
 	}
 	history={
-		owner=YUN
-		add_core_of=YUN
+		owner=ETS
+		add_core_of=ETS
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

@@ -5,20 +5,18 @@ state={
 	resources={
 		tungsten=15.000
 	}
+
 	history={
-		
-		
-		
-		
-		
-		
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
+
 		}
+
 	}
+
 	provinces={
-		1087 1131 1187 4092 7152 9963 11938 11941 12077 
+		1087 1131 1187 4092 7039 7152 9963 11938 11941 12077 
 	}
 	manpower=16730000
 	buildings_max_level_factor=1.000

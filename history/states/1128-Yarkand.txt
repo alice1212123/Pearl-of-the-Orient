@@ -1,12 +1,12 @@
 state={
-	id=1112
-	name="STATE_1112"
+	id=1128
+	name="STATE_1128"
 	provinces={
-		4425 4996 10863 10920 
+		1970 8185 
 	}
 	history={
-		owner=YUN
-		add_core_of=YUN
+		owner=TIB
+		add_core_of=TIB
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

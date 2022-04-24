@@ -4,6 +4,10 @@ state={
 	provinces={
 		1095 2068 7696 7830 8118 10315 10865 10917 12740 
 	}
+	history={
+		owner=TIB
+		add_core_of=TIB
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

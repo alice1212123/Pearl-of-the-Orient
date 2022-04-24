@@ -9,6 +9,8 @@ state = {
 		chromium = 24
 	}
 	history = {
+		owner=ETS
+		add_core_of=ETS
 		
 		
 		victory_points = {

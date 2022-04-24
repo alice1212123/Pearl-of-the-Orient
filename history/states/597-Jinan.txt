@@ -8,6 +8,8 @@ state = { #Jinan
 		steel = 3
 	}
 	history = {
+		owner=GXC
+		add_core_of=GXC
 		
 		
 		

@@ -8,6 +8,8 @@ state={
 	}
 
 	history={
+		owner=YUN
+		add_core_of=YUN
 		buildings = {
 			infrastructure = 1
 

@@ -2,23 +2,24 @@
 state={
 	id=728
 	name="STATE_728"
+
 	history={
-		
-		
-		
-		
 		buildings = {
 			infrastructure = 1
 			11981 = {
 				naval_base = 1
+
 			}
+
 		}
 		victory_points = {
 			11981 1 
 		}
+
 	}
+
 	provinces={
-		4160 7039 7135 11981 
+		4160 7135 11981 
 	}
 	manpower=209000
 	buildings_max_level_factor=1.000

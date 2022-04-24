@@ -8,6 +8,8 @@ state={
 	}
 
 	history={
+		owner=ETS
+		add_core_of=ETS
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
@@ -20,7 +22,7 @@ state={
 	}
 
 	provinces={
-		1766 1928 1970 2015 4828 5016 5087 7949 8185 10754 10870 12119 12768 13323 
+		1766 1928 2015 5087 10870 12119 12768 13323 
 	}
 	manpower=1424700
 	buildings_max_level_factor=1.000

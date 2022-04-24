@@ -2,6 +2,8 @@ state = { #Chenyuan
 	id = 1013
 	name = "STATE_1013"
 	history = {
+		owner=GXC
+		add_core_of=GXC
 		
 		
 		

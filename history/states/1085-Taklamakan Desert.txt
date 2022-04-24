@@ -2,6 +2,8 @@ state = {
 	id = 1085
 	name = "STATE_1085"
 	history = {
+		owner=TIB
+		add_core_of=TIB
 		
 		
 		

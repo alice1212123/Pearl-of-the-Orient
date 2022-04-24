@@ -4,6 +4,8 @@ state = {
 	manpower = 544800 #Added 30k as an estimate of surrounding areas within concession zone.
 	state_category = four
 	history = {
+		owner=GXC
+		add_core_of=GXC
 		
 		
 		

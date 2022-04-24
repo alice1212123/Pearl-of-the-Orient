@@ -4,6 +4,8 @@ state={
 	name="STATE_617"
 
 	history={
+		owner=SIK
+		add_core_of=SIK
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1
@@ -23,7 +25,7 @@ state={
 	}
 
 	provinces={
-		1143 1703 2064 2074 2972 4682 4709 4770 5736 7148 7216 7702 7792 7850 8042 8086 8103 10127 10545 10614 10869 10900 10907 12099 12526 12601 12656 12733 12864 
+		1143 2064 2074 2972 4709 5736 7148 7792 8103 10127 10545 10614 10869 10900 12656 12864 
 	}
 	manpower=1668446
 	buildings_max_level_factor=1.000

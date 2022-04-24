@@ -1,12 +1,12 @@
 state={
-	id=1112
-	name="STATE_1112"
+	id=1131
+	name="STATE_1131"
 	provinces={
-		4425 4996 10863 10920 
+		1749 1818 1864 4823 7693 12427 
 	}
 	history={
-		owner=YUN
-		add_core_of=YUN
+		owner=MON
+		add_core_of=MON
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

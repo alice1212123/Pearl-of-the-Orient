@@ -5,6 +5,8 @@ state = { #Jianghan
 	state_category = four
 	local_supplies = 2.0
 	history = {
+		owner=GXC
+		add_core_of=GXC
 		
 		
 		

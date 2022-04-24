@@ -8,6 +8,8 @@ state={
 	}
 
 	history={
+		owner=MAN
+		add_core_of=MAN
 		buildings = {
 			infrastructure = 2
 			air_base = 2
