@@ -4,6 +4,8 @@ state = {
 	manpower = 5565500
 	state_category = four
 	history = {
+		owner=GXC
+		add_core_of=GXC
 		
 		
 		

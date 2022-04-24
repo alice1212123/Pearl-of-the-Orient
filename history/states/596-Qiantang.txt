@@ -4,6 +4,8 @@ state = { #Qiantang
 	manpower = 9625000
 	state_category = four
 	history = {
+		owner=GXC
+		add_core_of=GXC
 		
 		
 		
