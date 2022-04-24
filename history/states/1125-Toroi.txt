@@ -1,14 +1,9 @@
+
 state={
-	id=1110
-	name="STATE_1110"
+	id=1125
+	name="STATE_1125"
 	provinces={
-		7763 12657 
-	}
-	history={
-		owner=MAN
-		add_core_of=MAN
-		
-		
+		4677 4719 4792 7725 7786 10559 10612 12622 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

@@ -6,9 +6,8 @@ state={
 		chromium=23.000
 	}
 	history={
-		
-		
-		
+		owner=KOR
+		add_core_of=KOR
 		victory_points = {
 			957 10 
 		}

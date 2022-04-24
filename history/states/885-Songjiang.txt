@@ -3,9 +3,8 @@ state={
 	id=885
 	name="STATE_885"
 	history={
-		
-		
-		
+		owner=KOR
+		add_core_of=KOR
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

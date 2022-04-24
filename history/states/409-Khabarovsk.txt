@@ -7,9 +7,8 @@ state = {
 		chromium = 10
 	}
 	history = {
-		
-		
-		
+		owner=KOR
+		add_core_of=KOR
 		victory_points = {
 			12189 5
 		}
