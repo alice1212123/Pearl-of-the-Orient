@@ -1,25 +1,28 @@
-state = {
-	id = 826
-	name = "STATE_826"
-	resources = {
-		rubber = 32
+
+state={
+	id=826
+	name="STATE_826"
+	resources={
+		rubber=32.000
 	}
-	history = {
-		owner=VIN
-		add_core_of=VIN
-		
-		
-		
+
+	history={
+		owner = VIN
+		add_core_of = VIN
 		victory_points = {
-			7645 1 # Stung Treng
+			7645 1 
 		}
 		buildings = {
 			infrastructure = 1
+
 		}
+
 	}
-	provinces = {
-		1620 4330 4596 7645 10204 12167 12260 12288
+
+	provinces={
+		1620 4330 4596 7645 10204 12150 12167 12260 
 	}
-	manpower = 2000000
-	state_category = two
+	manpower=2000000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
 }
