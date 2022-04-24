@@ -4,6 +4,8 @@ state = {
 	state_category = zero_island
 	manpower = 12100
 	history = {
+		owner=JPN
+		add_core_of=JPN
 		
 		
 		buildings = {

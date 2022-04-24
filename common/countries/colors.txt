@@ -54,7 +54,7 @@ AST = {
 	color = rgb {177 166 71}
 	color_ui = rgb {177 166 71}
 }
-GSU = {
+KAN = {
 	color = rgb {156 104 80}
 	color_ui = rgb {156 104 80}
 }

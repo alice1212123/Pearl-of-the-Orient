@@ -4,6 +4,9 @@ state = {
 	manpower = 1018036
 	state_category = five
 	history = {
+		owner=JPN
+		add_core_of=JPN
+		
 		
 		
 		

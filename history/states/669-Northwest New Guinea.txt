@@ -5,6 +5,8 @@ state = {
 	state_category = one
 	local_supplies = 1.0
 	history = {
+		owner=JPN
+		add_core_of=JPN
 		
 		
 		
