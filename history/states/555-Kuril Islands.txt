@@ -4,6 +4,8 @@ state = {
 	manpower = 15000
 	state_category = zero_island
 	history = {
+		owner=JPN
+		add_core_of=JPN
 		
 		
 		# # Removed because of too much aggression

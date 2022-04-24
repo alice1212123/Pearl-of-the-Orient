@@ -3,12 +3,8 @@ state={
 	id=525
 	name="STATE_525"
 	history={
-		
-		
-		
-		add_dynamic_modifier = {
-			modifier = JAP_korean_military_administration
-		}
+		owner=KOR
+		add_core_of=KOR
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

@@ -1,6 +1,10 @@
 state={
 	id=1102
 	name="STATE_1102"
+	history={
+		owner=KOR
+		add_core_of=KOR
+	}
 	provinces={
 		783 957 3944 3977 6806 6961 6989 9895 9926 11879 
 	}

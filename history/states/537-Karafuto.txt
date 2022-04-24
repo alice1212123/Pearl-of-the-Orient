@@ -7,6 +7,8 @@ state = {
 		oil = 6
 	}
 	history = {
+		owner=JPN
+		add_core_of=JPN
 		
 		
 		buildings = {

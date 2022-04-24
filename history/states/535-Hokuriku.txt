@@ -8,6 +8,8 @@ state = {
 		tungsten = 9
 	}
 	history = {
+		owner=JPN
+		add_core_of=JPN
 		
 		
 		buildings = {

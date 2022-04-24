@@ -4,6 +4,8 @@ state = {
 	manpower = 5341000
 	state_category = eleven
 	history = {
+		owner=JPN
+		add_core_of=JPN
 		
 		
 		buildings = {

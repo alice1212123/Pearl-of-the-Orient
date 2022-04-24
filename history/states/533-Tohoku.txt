@@ -8,6 +8,8 @@ state = {
 		steel = 30
 	}
 	history = {
+		owner=JPN
+		add_core_of=JPN
 		
 		
 		buildings = {

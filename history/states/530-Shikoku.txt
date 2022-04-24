@@ -4,6 +4,8 @@ state = {
 	manpower = 3310000
 	state_category = ten
 	history = {
+		owner=JPN
+		add_core_of=JPN
 		
 		
 		buildings = {

@@ -8,6 +8,8 @@ state = {
 		chromium = 65
 	}
 	history = {
+		owner=JPN
+		add_core_of=JPN
 		
 		
 		buildings = {

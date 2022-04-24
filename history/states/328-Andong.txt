@@ -4,6 +4,8 @@ state={
 	name="STATE_328"
 
 	history={
+		owner=KOR
+		add_core_of=KOR
 		
 		
 		
