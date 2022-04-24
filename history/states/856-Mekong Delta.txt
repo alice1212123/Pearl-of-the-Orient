@@ -2,6 +2,8 @@ state = {
 	id = 856 #Mekong Delta - South of Saigon
 	name = "STATE_856"
 	history = {
+		owner=SIA
+		add_core_of=SIA
 		
 		
 		

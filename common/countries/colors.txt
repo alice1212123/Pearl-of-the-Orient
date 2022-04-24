@@ -63,6 +63,10 @@ SIA = {
 	color_ui = rgb {63 104 80}
 }
 MLY = {
-	color = rgb {97 104 80}
-	color_ui = rgb {97 104 80}
+	color = rgb {179 175 132}
+	color_ui = rgb {179 175 132}
+}
+LUZ = {
+	color = rgb {54 50 148}
+	color_ui = rgb {54 50 148}
 }

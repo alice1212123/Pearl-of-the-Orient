@@ -5,6 +5,8 @@ state = {
 		rubber = 13
 	}
 	history = {
+		owner=SIA
+		add_core_of=SIA
 		
 		
 		

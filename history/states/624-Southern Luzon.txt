@@ -4,6 +4,8 @@ state = {
 	manpower = 1290672
 	state_category = four
 	history = {
+		owner=LUZ
+		add_core_of=LUZ
 		
 		buildings = {
 			infrastructure = 1

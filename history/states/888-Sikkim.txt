@@ -4,6 +4,8 @@ state = {
 	manpower = 112950
 	state_category = one
 	history = {
+		owner=TIB
+		add_core_of=TIB
 		
 		
 		

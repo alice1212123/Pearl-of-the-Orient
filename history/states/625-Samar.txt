@@ -7,6 +7,8 @@ state = {
 		chromium = 66
 	}
 	history = {
+		owner=LUZ
+		add_core_of=LUZ
 		
 		buildings = {
 			infrastructure = 1

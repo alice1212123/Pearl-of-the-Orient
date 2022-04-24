@@ -4,6 +4,8 @@ state = {
 	manpower = 3814368
 	state_category = two
 	history = {
+		owner=NEP
+		add_core_of=NEP
 		
 		
 		victory_points = { 5157 1 } #Dehradun

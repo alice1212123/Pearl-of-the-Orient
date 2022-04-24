@@ -9,6 +9,8 @@ state = {
 		tungsten = 100
 	}
 	history = {
+		owner=MLY
+		add_core_of=MLY
 		
 		
 		

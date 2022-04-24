@@ -5,6 +5,8 @@ state = {
 	state_category = two
 	local_supplies = 6.0
 	history = {
+		owner=LUZ
+		add_core_of=LUZ
 		
 		buildings = {
 			infrastructure = 1

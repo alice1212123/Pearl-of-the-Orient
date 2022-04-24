@@ -7,6 +7,8 @@ state = {
 		steel = 10
 	}
 	history = {
+		owner=SIA
+		add_core_of=SIA
 		
 		
 		victory_points = {

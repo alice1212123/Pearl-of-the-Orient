@@ -7,6 +7,8 @@ state = {
 		rubber = 2
 	}
 	history = {
+		owner=LUZ
+		add_core_of=LUZ
 		
 		buildings = {
 			infrastructure = 2

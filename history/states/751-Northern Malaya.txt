@@ -9,6 +9,8 @@ state = {
 		tungsten = 50
 	}
 	history = {
+		owner=SIA
+		add_core_of=SIA
 		
 		
 		
