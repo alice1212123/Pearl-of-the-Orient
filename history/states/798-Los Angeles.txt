@@ -3,7 +3,8 @@ state = {
 	name = "STATE_798"
 	state_category = twelve
 	history = {
-		
+		owner = USM
+		add_core_of = USM	
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1

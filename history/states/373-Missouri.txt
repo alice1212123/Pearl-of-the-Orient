@@ -7,6 +7,9 @@ state={
 	}
 
 	history={
+		owner = USM
+		add_core_of = USM
+
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 6

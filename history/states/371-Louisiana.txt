@@ -7,7 +7,8 @@ state = {
 		oil = 65
 	}
 	history = {
-		
+		owner = USM
+		add_core_of = USM	
 		
 		victory_points = {
 			7552 20 #New Orleans

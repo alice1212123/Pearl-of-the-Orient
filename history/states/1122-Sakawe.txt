@@ -1,4 +1,8 @@
 state={
+	history = {
+		owner = USM
+		add_core_of = USM
+	}
 	id=1122
 	name="STATE_1122"
 	provinces={

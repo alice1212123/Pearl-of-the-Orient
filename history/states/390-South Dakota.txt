@@ -4,6 +4,8 @@ state={
 	name="STATE_390"
 
 	history={
+		owner = USM
+		add_core_of = USM
 		buildings = {
 			infrastructure = 2
 

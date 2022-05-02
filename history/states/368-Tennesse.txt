@@ -7,7 +7,8 @@ state = {
 		steel = 90
 	}
 	history = {
-		
+		owner = CHE
+		add_core_of = CHE		
 		
 		victory_points = {
 			12501 8 #Nashville
