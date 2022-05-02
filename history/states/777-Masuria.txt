@@ -4,7 +4,8 @@ state = {
 	manpower = 1382300
 	state_category = five
 	history = {
-		
+		owner = POL
+		add_core_of = POL	
 		
 		victory_points = {
 			3380 3 #Elbing

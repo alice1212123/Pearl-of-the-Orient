@@ -8,9 +8,9 @@ state = {
 		steel = 21
 	}
 	history = {
-		
-		
-		
+		owner = RUS
+		add_core_of = RUS
+
 		victory_points = {
 			6380 50
 		}
