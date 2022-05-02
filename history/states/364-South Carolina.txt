@@ -4,7 +4,8 @@ state = {
 	manpower = 1781000
 	state_category = five
 	history = {
-		
+		owner = VIR
+		add_core_of = VIR	
 		buildings = {
 			infrastructure = 2
 			dockyard = 1
