@@ -1,7 +1,7 @@
 ﻿l_english:
  JPN:0 "Empire of Japan"
  KOR:0 "Joseon Empire"
- MAN:0 "Jurchen Empire"
+ MAN:0 "Great Qing"
  GXC:0 "Republic of China"
  MON:0 "State of Mongolia"
  XSM:0 "Qinghai Government"
@@ -22,3 +22,6 @@
  CHE:0 "Chrokee"
  VIR:0 "Federal Republic of Virginia"
  ALQ:0 "Alogonquin"
+ RUS:0 "Russian Republic"
+ PRU:0 "Prussian Republic"
+ POL:0 "Polish–Lithuanian Commonwealth"
