@@ -10,7 +10,8 @@ state = {
 		oil = 3
 	}
 	history = {
-		
+		owner = FRE
+		add_core_of = FRE	
 		
 		victory_points = {
 			6890 20 #Cleveland
