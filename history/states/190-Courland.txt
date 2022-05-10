@@ -5,8 +5,8 @@ state = {
 	state_category = three
 	local_supplies = 5.0
 	history = {
-		
-		
+		owner = BAT
+		add_core_of = BAT		
 		
 		victory_points = {
 			6342 1

@@ -7,7 +7,8 @@ state = {
 		steel = 67
 	}
 	history = {
-		
+		owner = PRU
+		add_core_of = PRU	
 		
 		victory_points = {
 			3535 30

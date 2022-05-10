@@ -4,8 +4,8 @@ state = {
 	manpower = 1680086
 	state_category = five
 	history = {
-		
-		
+		owner = RUS
+		add_core_of = RUS		
 		
 		victory_points = {
 			3580 5

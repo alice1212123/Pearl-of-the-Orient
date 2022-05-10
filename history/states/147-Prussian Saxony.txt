@@ -4,7 +4,8 @@ state = {
 	manpower = 3632515
 	state_category = nine
 	history = {
-		
+		owner = PRU
+		add_core_of = PRU	
 		
 		victory_points = {
 			3522 10

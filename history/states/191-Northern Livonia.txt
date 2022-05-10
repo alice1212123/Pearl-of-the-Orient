@@ -4,7 +4,8 @@ state = {
 	manpower = 548300
 	state_category = three
 	history = {
-		
+		owner = BAT
+		add_core_of = BAT	
 		
 		
 		victory_points = {
