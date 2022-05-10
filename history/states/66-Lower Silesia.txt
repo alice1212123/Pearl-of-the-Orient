@@ -9,7 +9,8 @@ state = {
 		aluminium = 29
 	}
 	history = {
-		
+		owner = PRU
+		add_core_of = PRU		
 		
 		victory_points = {
 			9570 25

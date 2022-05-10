@@ -9,8 +9,8 @@ state = {
 		aluminium = 15
 	}
 	history = {
-		
-		
+		owner = PRU
+		add_core_of = PRU		
 		buildings = {
 			infrastructure = 3
 			arms_factory = 3

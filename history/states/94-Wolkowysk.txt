@@ -5,7 +5,8 @@ state={
 	state_category = two
 	local_supplies = 1.0
 	history={
-		
+		owner = POL
+		add_core_of = POL		
 		
 		
 		buildings = {
