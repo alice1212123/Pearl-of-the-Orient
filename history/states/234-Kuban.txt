@@ -9,7 +9,9 @@ state = {
 		oil = 4
 	}
 	history = {
-		
+		owner = RUS
+		add_core_of = RUS	
+
 		
 		
 		

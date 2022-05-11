@@ -7,7 +7,8 @@ state = {
 		chromium = 17
 	}
 	history = {
-		
+		owner = RUS
+		add_core_of = RUS		
 		
 		
 		

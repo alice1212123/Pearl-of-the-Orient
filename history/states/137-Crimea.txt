@@ -5,7 +5,8 @@ state = {
 	state_category = six
 	local_supplies = 10.0
 	history = {
-		
+		owner = RUS
+		add_core_of = RUS		
 		victory_points = {
 			3686 20 #Sevastopol
 		}

@@ -5,7 +5,8 @@ state = {
 	state_category = six
 	local_supplies = 10.0
 	history = {
-		
+		owner = RUS
+		add_core_of = RUS		
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
