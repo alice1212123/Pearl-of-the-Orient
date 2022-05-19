@@ -2,8 +2,6 @@ state = {
 	id = 935
 	name = "STATE_935"
 	history = {
-		owner=USA
-		add_core_of=USA
 		
 		
 		buildings = {

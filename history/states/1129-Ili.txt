@@ -6,8 +6,8 @@ state={
 		1703 4770 7216 7702 7850 8042 8086 10907 12099 12526 12601 12733 
 	}
 	history={
-		owner=SIK
-		add_core_of=SIK
+		owner=ETS
+		add_core_of=ETS
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

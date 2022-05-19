@@ -4,8 +4,6 @@ state = {
 	manpower = 2469700
 	state_category = eleven
 	history = {
-		owner = NEE
-		add_core_of = NEE
 		
 		
 		victory_points = {

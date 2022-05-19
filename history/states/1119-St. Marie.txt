@@ -4,10 +4,6 @@ state={
 	provinces={
 		1764 7875 10249 12205 12276 
 	}
-	history={
-		owner=QUE
-		add_core_of=QUE
-	}
 	manpower=0
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
