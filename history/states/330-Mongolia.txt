@@ -7,8 +7,8 @@ state={
 		chromium=3.000
 	}
 	history={
-		owner=MON
-		add_core_of=MON
+		owner=MAN
+		add_core_of=MAN
 		
 		victory_points = {
 			1834 1 
