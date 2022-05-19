@@ -5,6 +5,8 @@ state = {
 	state_category = eleven
 	local_supplies = 15.0
 	history = {
+		owner=USA
+		add_core_of=USA
 		
 		
 		victory_points = {
