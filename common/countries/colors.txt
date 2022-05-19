@@ -70,35 +70,3 @@ LUZ = {
 	color = rgb {54 50 148}
 	color_ui = rgb {54 50 148}
 }
-USM = {
-	color = rgb {43 43 128}
-	color_ui = rgb {43 43 128}
-}
-NEE = {
-	color = rgb {204 73 86}
-	color_ui = rgb {204 73 86}
-}
-ENG = {
-	color = rgb {171 48 60}
-	color_ui = rgb {171 48 60}
-}
-RUS = {
-	color = rgb {41 110 56}
-	color_ui = rgb {41 110 56}
-}
-POL = {
-	color = rgb {214 146 172}
-	color_ui = rgb {214 146 172}
-}
-PRU = {
-	color = rgb {93 173 227}
-	color_ui = rgb {93 173 227}
-}
-BAT = {
-	color = rgb {143 158 168}
-	color_ui = rgb {143 158 168}
-}
-FRE = {
-	color = rgb {71 140 214}
-	color_ui = rgb {71 140 214}
-}
