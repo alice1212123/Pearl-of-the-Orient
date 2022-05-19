@@ -7,8 +7,6 @@ state = {
 		aluminium = 3
 	}
 	history = {
-		owner=USA
-		add_core_of=USA
 		
 		
 		

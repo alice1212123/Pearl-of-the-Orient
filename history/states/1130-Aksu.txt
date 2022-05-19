@@ -2,15 +2,12 @@
 state={
 	id=1130
 	name="STATE_1130"
-
-	history={
-		owner = ETS
-		add_core_of = ETS
-
-	}
-
 	provinces={
-		4828 5016 7949 10754 
+		4682 4828 5016 7949 10754 
+	}
+	history={
+		owner=ETS
+		add_core_of=ETS
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

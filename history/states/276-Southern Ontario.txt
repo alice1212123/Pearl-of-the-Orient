@@ -4,8 +4,6 @@ state={
 	name="STATE_276"
 
 	history={
-		owner=QUE
-		add_core_of=QUE
 		buildings = {
 			infrastructure = 3
 			arms_factory = 4
