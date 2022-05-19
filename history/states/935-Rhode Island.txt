@@ -2,7 +2,8 @@ state = {
 	id = 935
 	name = "STATE_935"
 	history = {
-		
+		owner = VIR
+		add_core_of = VIR	
 		
 		buildings = {
 			infrastructure = 4
