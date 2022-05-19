@@ -8,6 +8,8 @@ state = {
 		oil = 12
 	}
 	history = {
+		owner = NEE
+		add_core_of = NEE
 		
 		
 		buildings = {

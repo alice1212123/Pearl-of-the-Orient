@@ -7,8 +7,8 @@ state = {
 		steel = 90
 	}
 	history = {
-		owner = CHE
-		add_core_of = CHE		
+		owner = NEE
+		add_core_of = NEE		
 		
 		victory_points = {
 			12501 8 #Nashville

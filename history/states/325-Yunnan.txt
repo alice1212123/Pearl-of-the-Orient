@@ -8,8 +8,8 @@ state = {
 		aluminium = 5
 	}
 	history = {
-		owner=YUN
-		add_core_of=YUN
+		owner=GXC
+		add_core_of=GXC
 		
 		
 		
