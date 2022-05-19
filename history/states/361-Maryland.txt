@@ -4,7 +4,8 @@ state = {
 	manpower = 2469700
 	state_category = eleven
 	history = {
-		
+		owner = VIR
+		add_core_of = VIR	
 		
 		victory_points = {
 			3957 40 #Washington

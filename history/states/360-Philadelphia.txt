@@ -7,7 +7,8 @@ state = {
 		steel = 43
 	}
 	history = {
-		
+		owner = VIR
+		add_core_of = VIR	
 		
 		victory_points = {
 			11785 10 #Harrisburg

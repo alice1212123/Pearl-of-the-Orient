@@ -7,8 +7,8 @@ state = {
 		oil = 4
 	}
 	history = {
-		owner = CHE
-		add_core_of = CHE	
+		owner = VIR
+		add_core_of = VIR
 		
 		victory_points = {
 			1445 1

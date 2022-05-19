@@ -70,15 +70,11 @@ LUZ = {
 	color = rgb {54 50 148}
 	color_ui = rgb {54 50 148}
 }
-LUZ = {
-    color = rgb {54 50 148}
-    color_ui = rgb {54 50 148}
-}
 USM = {
     color = rgb {43 43 128}
     color_ui = rgb {43 43 128}
 }
-NEE = {
+VIR = {
     color = rgb {204 73 86}
     color_ui = rgb {204 73 86}
 }
