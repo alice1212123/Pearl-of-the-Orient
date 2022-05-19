@@ -4,6 +4,8 @@ state = {
 	manpower = 302573
 	state_category = two
 	history = {
+		owner=QUE
+		add_core_of=QUE
 		
 		buildings = {
 			infrastructure = 1

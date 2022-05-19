@@ -8,6 +8,8 @@ state = {
 		aluminium = 3
 	}
 	history = {
+		owner=ENG
+		add_core_of=ENG
 		
 		
 		
